@@ -6,28 +6,42 @@
   <style>
     body { font-family: Arial, sans-serif; background:#f4f4f4; padding:20px; }
     h1 { color:#333; }
-    .link-box { background:#fff; padding:15px; margin:10px 0; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
-    a { text-decoration:none; font-size:18px; color:#0066cc; }
-    a:hover { text-decoration:underline; }
+    .pdf-box {
+      background:#fff;
+      margin:20px 0;
+      border-radius:8px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
+      padding:10px;
+    }
+    iframe {
+      width:100%;
+      height:600px; /* istediğin yüksekliği ayarlayabilirsin */
+      border:none;
+    }
+    h2 {
+      font-size:20px;
+      color:#0066cc;
+      margin-bottom:10px;
+    }
   </style>
 </head>
 <body>
   <h1>📘 Ehliyet PDF Notları</h1>
 
-  <div class="link-box">
-    <a href="docs/gecis_ustunlugu1.pdf" target="_blank" type="application/pdf">🚑 Geçiş Üstünlüğü 1</a>
+  <div class="pdf-box">
+    <h2>🚑 Geçiş Üstünlüğü 1</h2>
+    <iframe src="docs/gecis_ustunlugu1.pdf"></iframe>
   </div>
 
-  <div class="link-box">
-    <a href="docs/gecis_ustunlugu2.pdf" target="_blank" type="application/pdf">🚦 Geçiş Üstünlüğü 2</a>
+  <div class="pdf-box">
+    <h2>🚦 Geçiş Üstünlüğü 2</h2>
+    <iframe src="docs/gecis_ustunlugu2.pdf"></iframe>
   </div>
 
-  <div class="link-box">
-    <a href="docs/arac-teknigi.pdf" target="_blank" type="application/pdf">🚗 Araç ve Motor Tekniği</a>
+  <div class="pdf-box">
+    <h2>🚗 Kanamalar</h2>
+    <iframe src="docs/kanamalar1.pdf"></iframe>
   </div>
-
-  <div class="link-box">
-    <a href="docs/trafik-cevre.pdf" target="_blank" type="application/pdf">🌍 Trafik ve Çevre</a>
-  </div>
+  
 </body>
 </html>
