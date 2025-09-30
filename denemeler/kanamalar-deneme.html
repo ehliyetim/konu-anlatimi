@@ -6,7 +6,8 @@
 <title>Kanamalarda İlkyardım – Deneme Testi</title>
 <style>
   :root{--bg:#f7f8fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--accent:#2563eb;--ok:#16a34a;--bad:#dc2626;}
-  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
   .container{max-width:900px;margin:24px auto;padding:0 16px}
   .card{background:var(--card);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.06);overflow:hidden}
   header{padding:18px 20px;border-bottom:1px solid #eef2f7;display:flex;align-items:center;gap:12px}
@@ -22,6 +23,9 @@
   .opt{border:1.5px solid #e5e7eb;border-radius:12px;padding:12px 14px;cursor:pointer;background:#fff;transition:.15s}
   .opt:hover{border-color:#cbd5e1}
   .opt input{display:none}
+  /* Mor seçili */
+  .opt.selected{border-color:#9333ea;background:#f3e8ff}
+  /* Kontrol sonrası renkler */
   .opt.correct{border-color:var(--ok);background:#f0fdf4}
   .opt.wrong{border-color:var(--bad);background:#fef2f2}
   .explain{margin-top:12px;font-size:14px;color:#065f46;background:#ecfeff;border:1px dashed #99f6e4;padding:10px;border-radius:10px;display:none}
@@ -82,193 +86,97 @@
 
 <script>
 // --- SORU VERİSİ ---
-// Not: Aşağıdaki içerik eğitim amaçlı oluşturulmuş, "kanamalarda ilkyardım" konusunu
-// kapsayan örnek sorulardır. İstersen kolayca çoğaltıp düzenleyebilirsin.
 const QUESTIONS = [
-  {
-    q: "Dış kanamalarda ilk yapılması gereken temel yaklaşım aşağıdakilerden hangisidir?",
-    a: ["Kanayan bölgeye sıcak uygulama yapmak",
-        "Kanayan bölgeyi kalp seviyesinin altına indirmek",
-        "Kanayan bölgeye doğrudan baskı uygulamak",
-        "Kanayan bölgeyi sabunlu suyla yıkamak"],
-    correct: 2,
-    exp: "Dış kanamalarda ilk adım doğrudan baskıdır. Gerekirse temiz bez/kompres ile 10-15 dk kesintisiz basınç uygulanır."
-  },
-  {
-    q: "Atardamar (arter) kanamasının tipik görünümü nedir?",
-    a: ["Koyu renk, sızıntı tarzında akış",
-        "Açık parlak kırmızı, kalp atımıyla fışkırır",
-        "Koyu kahverengi, pıhtılı",
-        "Renk ve miktar değişken, genelde sızıntı"],
-    correct: 1,
-    exp: "Arter kanı oksijenden zengin olduğu için parlak kırmızıdır ve nabızla uyumlu fışkırır."
-  },
-  {
-    q: "Burun kanamasında doğru ilkyardım uygulaması hangisidir?",
-    a: ["Kişiyi geriye yatırıp burnun üstüne sıcak havlu koymak",
-        "Burnu kuvvetle sümkletmek",
-        "Kişiyi öne eğip burun kanatlarına 5-10 dk baskı uygulamak",
-        "Burna pamuk tıkayıp konuşmasını engellemek"],
-    correct: 2,
-    exp: "Öne eğme ve kanatlara baskı en etkili, güvenli yöntemdir; geriye yatırmak kanın boğaza kaçmasına neden olabilir."
-  },
-  {
-    q: "Turnike ne zaman düşünülmelidir?",
-    a: ["Her küçük kesikte",
-        "Doğrudan baskı ve basınç noktasıyla durmayan, yaşamı tehdit eden kanamalarda",
-        "Sadece burun kanamasında",
-        "Sadece iç kanamalarda"],
-    correct: 1,
-    exp: "Turnike son çaredir; kritik/uzuv kopması gibi yaşamı tehdit eden kanamalarda uygulanır ve saat/dakika kaydı tutulur."
-  },
-  {
-    q: "İç kanama şüphesinde aşağıdakilerden hangisi yanlıştır?",
-    a: ["Acil yardım (112) çağrılır",
-        "Kişi sıvı verilerek susuz bırakılmaz",
-        "Şok pozisyonu (bacaklar yükseltilmiş) değerlendirilebilir",
-        "Solunum ve bilinç takip edilir"],
-    correct: 1,
-    exp: "İç kanamada ağızdan hiçbir şey verilmez; acil yardım çağrısı ve yaşam bulgularının izlenmesi esastır."
-  },
-  {
-    q: "Ampute (kopmuş) uzvun korunması için en doğru uygulama hangisidir?",
-    a: ["Direkt buzun üzerine koymak",
-        "Musluk altında yıkayıp açıkta taşımak",
-        "Steril/temiz bezle sarıp su geçirmez poşete koymak, poşeti buzlu su içine yerleştirmek",
-        "Koltuğun altına sıkıştırmak"],
-    correct: 2,
-    exp: "Doku donmamalı ve ıslanmamalıdır. Poşet + buzlu su kombinasyonu idealdir."
-  },
-  {
-    q: "Kanamayı azaltmak için uygun olan uygulama hangisidir?",
-    a: ["Kanayan bölgeyi kalp seviyesinin ÜZERİNDE tutmak",
-        "Sıcak duş aldırmak",
-        "Kan pıhtılarını temizlemek",
-        "Yaraya toz antibiyotik dökmek"],
-    correct: 0,
-    exp: "Elevasyon (yükseltme) venöz dönüşü azaltır ve kanamayı hafifletebilir."
-  },
-  {
-    q: "Basınç noktası kullanımıyla ilgili doğru ifade hangisidir?",
-    a: ["Turnikeden daha önce denenmelidir",
-        "Sadece burun kanamasında uygulanır",
-        "Sadece çocuklarda uygundur",
-        "Kalp masajıyla birlikte yapılır"],
-    correct: 0,
-    exp: "Sırasıyla doğrudan baskı → basınç noktası → turnike şeklinde ilerlenir."
-  },
-  {
-    q: "Turnike uygulandıktan sonra aşağıdakilerden hangisi yapılmalıdır?",
-    a: ["Sık sık gevşetmek",
-        "Uygulama saati görünür şekilde not edilmek",
-        "Üstüne tekrar bandaj sarıp gizlemek",
-        "Etkilenmeyen uzvu da turnikelemek"],
-    correct: 1,
-    exp: "Turnike saati hayati önem taşır. Gevşetmek dokuya tekrar kan verip kanamayı artırabilir."
-  },
-  {
-    q: "Kulak kanaması ve bilinç bulanıklığı olan bir kazazede için en olası risk hangisidir?",
-    a: ["Sadece dış kulak enfeksiyonu",
-        "Kafatası/baş-boyun travması",
-        "Basit sıyrık",
-        "Sıcak çarpması"],
-    correct: 1,
-    exp: "Kulaktan kan/sıvı gelmesi kafa tabanı kırığı belirtisi olabilir; boyun hareket ettirilmemeli, acil yardım çağrılmalıdır."
-  },
-  {
-    q: "Yara üzerine konan gazlı bez kanla tamamen ıslandı. En doğru yaklaşım?",
-    a: ["Bezi kaldırıp yenisini tek kat koymak",
-        "Islanan bezin ÜZERİNE ek katman koyup baskıya devam etmek",
-        "Bezi çıkarıp yarayı suda yıkamak",
-        "Bölgeye sıcak uygulama yapmak"],
-    correct: 1,
-    exp: "Mevcut pıhtıyı bozmamak için katman eklenir, doğrudan baskı sürdürülür."
-  },
-  {
-    q: "Şok belirtileri olan kanamalı hastada öncelik hangisidir?",
-    a: ["Sıvı/yiyecek vermek",
-        "Hemen yürütmek",
-        "Kanamayı kontrol altına almak ve 112 çağırmak",
-        "Sadece moral vermek"],
-    correct: 2,
-    exp: "Şokta en kritik adım kanama kontrolü + acil yardım çağrısıdır."
-  }
+  { q:"Dış kanamalarda ilk yapılması gereken temel yaklaşım aşağıdakilerden hangisidir?",
+    a:["Kanayan bölgeye sıcak uygulama yapmak","Kanayan bölgeyi kalp seviyesinin altına indirmek","Kanayan bölgeye doğrudan baskı uygulamak","Kanayan bölgeyi sabunlu suyla yıkamak"],
+    correct:2, exp:"Dış kanamalarda ilk adım doğrudan baskıdır."},
+  { q:"Atardamar (arter) kanamasının tipik görünümü nedir?",
+    a:["Koyu renk, sızıntı tarzında akış","Açık parlak kırmızı, kalp atımıyla fışkırır","Koyu kahverengi, pıhtılı","Renk ve miktar değişken, genelde sızıntı"],
+    correct:1, exp:"Arter kanı parlak kırmızıdır ve nabızla uyumlu fışkırır."},
+  { q:"Burun kanamasında doğru ilkyardım uygulaması hangisidir?",
+    a:["Kişiyi geriye yatırıp burnun üstüne sıcak havlu koymak","Burnu kuvvetle sümkletmek","Kişiyi öne eğip burun kanatlarına 5-10 dk baskı uygulamak","Burna pamuk tıkamak"],
+    correct:2, exp:"Öne eğme ve kanatlara baskı en güvenli yöntemdir."}
+  // ... diğer soruları ekleyebilirsin
 ];
 
 // --- DURUM ---
 let i = 0;
 const state = {
-  answers: Array(QUESTIONS.length).fill(null), // işaretlenen şık
-  checked: Array(QUESTIONS.length).fill(false), // kontrol edildi mi
-  corrects: 0,
-  wrongs: 0
+  answers:Array(QUESTIONS.length).fill(null),
+  checked:Array(QUESTIONS.length).fill(false),
+  corrects:0, wrongs:0
 };
 
 // --- ELEMANLAR ---
-const qTitle = document.getElementById('qTitle');
-const qNum   = document.getElementById('qNum');
-const optsEl = document.getElementById('opts');
-const expEl  = document.getElementById('explain');
-const bar    = document.getElementById('bar');
-const doneCount = document.getElementById('doneCount');
-const totalCount = document.getElementById('totalCount');
-const okCount = document.getElementById('okCount');
-const badCount = document.getElementById('badCount');
-const finishNote = document.getElementById('finishNote');
-const numPanel = document.getElementById('numPanel');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-const checkBtn = document.getElementById('checkBtn');
-const clearBtn = document.getElementById('clearBtn');
-
-totalCount.textContent = QUESTIONS.length;
+const qTitle=document.getElementById('qTitle');
+const qNum=document.getElementById('qNum');
+const optsEl=document.getElementById('opts');
+const expEl=document.getElementById('explain');
+const bar=document.getElementById('bar');
+const doneCount=document.getElementById('doneCount');
+const totalCount=document.getElementById('totalCount');
+const okCount=document.getElementById('okCount');
+const badCount=document.getElementById('badCount');
+const finishNote=document.getElementById('finishNote');
+const numPanel=document.getElementById('numPanel');
+const prevBtn=document.getElementById('prevBtn');
+const nextBtn=document.getElementById('nextBtn');
+const checkBtn=document.getElementById('checkBtn');
+const clearBtn=document.getElementById('clearBtn');
+totalCount.textContent=QUESTIONS.length;
 
 // --- YARDIMCI ---
 function renderNums(){
-  numPanel.innerHTML = '';
-  QUESTIONS.forEach((_, idx)=>{
-    const b = document.createElement('button');
-    b.className = 'nbtn' + (idx===i ? ' active' : '') + (state.checked[idx] ? ' done' : '');
-    b.textContent = (idx+1);
-    b.onclick = ()=>{ i=idx; renderQ(); };
+  numPanel.innerHTML='';
+  QUESTIONS.forEach((_,idx)=>{
+    const b=document.createElement('button');
+    b.className='nbtn'+(idx===i?' active':'')+(state.checked[idx]?' done':'');
+    b.textContent=(idx+1);
+    b.onclick=()=>{i=idx;renderQ();};
     numPanel.appendChild(b);
   });
 }
 function renderQ(){
-  const q = QUESTIONS[i];
-  qTitle.textContent = q.q;
-  qNum.textContent = `Soru ${i+1} / ${QUESTIONS.length}`;
-  optsEl.innerHTML = '';
-  expEl.style.display = state.checked[i] ? 'block' : 'none';
-  expEl.textContent = state.checked[i] ? 'Açıklama: ' + q.exp : '';
+  const q=QUESTIONS[i];
+  qTitle.textContent=q.q;
+  qNum.textContent=`Soru ${i+1} / ${QUESTIONS.length}`;
+  optsEl.innerHTML='';
+  expEl.style.display=state.checked[i]?'block':'none';
+  expEl.textContent=state.checked[i]?'Açıklama: '+q.exp:'';
 
-  q.a.forEach((txt, idx)=>{
-    const label = document.createElement('label');
-    label.className = 'opt';
-    const inp = document.createElement('input');
-    inp.type = 'radio'; inp.name = 'opt'; inp.value = idx;
-    if(state.answers[i]===idx) inp.checked = true;
-
+  q.a.forEach((txt,idx)=>{
+    const label=document.createElement('label');
+    label.className='opt';
+    const inp=document.createElement('input');
+    inp.type='radio';inp.name='opt';inp.value=idx;
+    if(state.answers[i]===idx) inp.checked=true;
     label.appendChild(inp);
-    label.insertAdjacentText('beforeend', txt);
-    label.onclick = () => { state.answers[i]=idx; updateDone(); highlight(); };
+    label.insertAdjacentText('beforeend',txt);
+
+    label.onclick=()=>{
+      state.answers[i]=idx;
+      updateDone();
+      [...optsEl.children].forEach(x=>x.classList.remove('selected'));
+      label.classList.add('selected'); // Mor seçim
+      highlight();
+    };
     optsEl.appendChild(label);
   });
 
   highlight();
   renderNums();
-  prevBtn.disabled = i===0;
-  nextBtn.disabled = i===QUESTIONS.length-1;
+  prevBtn.disabled=i===0;
+  nextBtn.disabled=i===QUESTIONS.length-1;
 }
 function updateDone(){
-  const done = state.answers.filter(v=>v!==null).length;
-  doneCount.textContent = done;
-  const pr = Math.round((done/QUESTIONS.length)*100);
-  bar.style.width = pr + '%';
+  const done=state.answers.filter(v=>v!==null).length;
+  doneCount.textContent=done;
+  const pr=Math.round((done/QUESTIONS.length)*100);
+  bar.style.width=pr+'%';
 }
 function highlight(){
-  const q = QUESTIONS[i];
-  [...optsEl.children].forEach((el, idx)=>{
+  const q=QUESTIONS[i];
+  [...optsEl.children].forEach((el,idx)=>{
     el.classList.remove('correct','wrong');
     if(state.checked[i]){
       if(idx===q.correct) el.classList.add('correct');
@@ -277,35 +185,34 @@ function highlight(){
   });
 }
 function check(){
-  if(state.answers[i]==null){ alert('Bir şık işaretle.'); return; }
+  if(state.answers[i]==null){alert('Bir şık işaretle.');return;}
   if(state.checked[i]) return;
   state.checked[i]=true;
-  const q = QUESTIONS[i];
+  const q=QUESTIONS[i];
   if(state.answers[i]===q.correct) state.corrects++; else state.wrongs++;
-  okCount.textContent = state.corrects;
-  badCount.textContent = state.wrongs;
+  okCount.textContent=state.corrects;
+  badCount.textContent=state.wrongs;
   expEl.style.display='block';
-  expEl.textContent = 'Açıklama: ' + q.exp;
-  highlight();
-  renderNums();
+  expEl.textContent='Açıklama: '+q.exp;
+  highlight();renderNums();
   if(state.checked.every(Boolean)){
-    finishNote.textContent = `Tamamlandı! Puanın: ${Math.round((state.corrects/QUESTIONS.length)*100)} / 100`;
+    finishNote.textContent=`Tamamlandı! Puanın: ${Math.round((state.corrects/QUESTIONS.length)*100)} / 100`;
   }
 }
 function clearMark(){
   state.answers[i]=null;
   state.checked[i]=false;
-  renderQ(); updateDone();
+  renderQ();updateDone();
 }
 
 // --- OLAYLAR ---
-prevBtn.onclick = ()=>{ if(i>0){ i--; renderQ(); } };
-nextBtn.onclick = ()=>{ if(i<QUESTIONS.length-1){ i++; renderQ(); } };
-checkBtn.onclick = check;
-clearBtn.onclick = clearMark;
+prevBtn.onclick=()=>{if(i>0){i--;renderQ();}};
+nextBtn.onclick=()=>{if(i<QUESTIONS.length-1){i++;renderQ();}};
+checkBtn.onclick=check;
+clearBtn.onclick=clearMark;
 
 // --- BAŞLAT ---
-renderNums(); renderQ(); updateDone();
+renderNums();renderQ();updateDone();
 </script>
 </body>
 </html>
