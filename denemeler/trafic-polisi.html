@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Trafik Test 2 – Trafik Polisinin Hareketleri ve Trafik Işıkları</title>
+<style>
+  :root{--bg:#f7f8fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--accent:#7c3aed;--ok:#16a34a;--bad:#dc2626;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+  .container{max-width:1000px;margin:24px auto;padding:0 16px}
+  .card{background:var(--card);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.06);overflow:hidden}
+  header{padding:16px 20px;border-bottom:1px solid #eef2f7;display:flex;gap:12px;align-items:center}
+  header h1{margin:0;font-size:18px}
+  .pill{margin-left:auto;background:var(--accent);color:#fff;border-radius:999px;padding:6px 10px;font-weight:700}
+  .progress{height:6px;background:#e5e7eb}
+  .bar{height:6px;background:var(--accent);width:0%}
+  .body{padding:18px 20px}
+  .q{border:1px solid #eef2f7;border-radius:12px;padding:14px;margin:14px 0;background:#fff}
+  .q h3{margin:0 0 8px 0;font-size:17px}
+  .q .media img{max-width:100%;border-radius:10px;border:1px solid #e5e7eb}
+  .opts{display:grid;gap:10px;margin-top:12px}
+  .opt{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;border:1.5px solid #e5e7eb;border-radius:12px;padding:12px 14px;cursor:pointer;background:#fff;transition:.15s}
+  .opt:hover{border-color:#cbd5e1}
+  .opt input{display:none}
+  .opt .oimg{width:90px;height:64px;object-fit:cover;border-radius:8px;border:1px solid #e5e7eb}
+  .opt .otxt{font-weight:600}
+  .opt.selected{border-color:#7c3aed;background:#f3e8ff}
+  .opt.correct{border-color:var(--ok);background:#f0fdf4}
+  .opt.wrong{border-color:var(--bad);background:#fef2f2}
+  .explain{margin-top:10px;font-size:14px;color:#065f46;background:#ecfeff;border:1px dashed #99f6e4;padding:10px;border-radius:10px;display:none}
+  .actions{margin-top:12px;display:flex;gap:10px}
+  .btn{appearance:none;border:none;border-radius:10px;padding:10px 14px;background:#111827;color:#fff;font-weight:800;cursor:pointer}
+  .btn.ghost{background:transparent;border:1.5px solid #e5e7eb;color:#111827}
+  .muted{color:var(--muted);font-size:14px;margin-left:6px}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <header>
+      <h1>🚦 Trafik Polisinin Hareketleri ve Trafik Işıkları – Test</h1>
+      <span class="pill"><span id="done">0</span>/<span id="total">0</span></span>
+    </header>
+    <div class="progress"><div id="bar" class="bar"></div></div>
+    <div class="body" id="quiz"></div>
+    <div style="padding:0 20px 16px 20px" class="muted">Seçilen şık mor renkle işaretlenir; "Kontrol Et"e basınca doğru/yanlış renklendirilir.</div>
+  </div>
+</div>
+
+<script>
+/*
+  Bu içerik, tarafınızdan sağlandığı beyan edilen sayfadaki soru metinleri ve görsel adresleriyle oluşturulmuştur.
+  Cevap anahtarları ilgili sayfada açık olmadığı için "correct" alanlarını boş bırakıyorum. İstersen her soru için
+  correctIndex değerini (0..3) bana ver, ya da aşağıdaki QUESTIONS içinde kendin işaretle.
+*/
+const QUESTIONS = [
+  {
+    text: "Soru 1. Şekildeki trafik görevlisinin yapmış olduğu işaretin sürücüler için anlamı nedir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru18-2.jpg",
+    options: [
+      { text: "Geç" }, { text: "Hızlan" }, { text: "Yavaşla" }, { text: "Sağa yanaş ve dur" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 2. Aşağıdakilerin hangisinde durulur ve yol kontrol edildikten sonra geçilir?",
+    image: null,
+    options: [
+      { text: "Aralıklı yanıp sönen kırmızı ışıkta" },
+      { text: "Aralıklı yanıp sönen sarı ışıkta" },
+      { text: "Kırmızı ışıkta" },
+      { text: "Sarı ışıkta" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 3. Şekildeki trafik görevlisinin yapmış olduğu işaretin sürücüler için anlamı nedir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru19.jpg",
+    options: [ { text: "Sağa yanaş" }, { text: "Yavaşla" }, { text: "Hızlan" }, { text: "Dur" } ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 4. Işıklı trafik işaret cihazında, yeşil ışıktan sonra sarı ışığın yanması sürücülere neyi bildirir?",
+    image: null,
+    options: [
+      { text: "Yolun trafiğe kapanmak üzere olduğunu" },
+      { text: "Yolun trafiğe açılmak üzere olduğunu" },
+      { text: "Kavşağa yaklaşırken hızın artırılması gerektiğini" },
+      { text: "Yaya geçidi işgal edilecek şekilde durulması gerektiğini" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 5. Şekildeki trafik görevlisinin yapmış olduğu işaretin sürücüler için anlamı nedir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru17.jpg",
+    options: [ { text: "Dur" }, { text: "Hızlan" }, { text: "Yavaşla" }, { text: "Sağa yanaş" } ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 6. Aksine bir durum yoksa, ışıklı trafik işaret cihazında kırmızı ışık yanmakta ise sürücü ne yapmalıdır?",
+    image: null,
+    options: [ { text: "Aracını durdurmalı" }, { text: "Durmadan geçmeli" }, { text: "Gelen araç yoksa dikkatli geçmeli" }, { text: "Yayalar geçebileceği için yavaş gitmeli" } ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 7. Sarı ve kırmızı ışığın birlikte yanması sürücüye neyi bildirir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru17-1.jpg",
+    options: [
+      { text: "Yolda bakım çalışması olduğunu" },
+      { text: "İleride hemzemin geçit bulunduğunu" },
+      { text: "Yolun trafiğe açılmak üzere olduğunu" },
+      { text: "Yolun trafiğe kapanmak üzere olduğunu" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 8. Trafik görevlisinin geceleyin ışıklı işaret çubuğunu şekildeki gibi hareket ettirmesinin anlamı nedir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru17-2.jpg",
+    options: [ { text: "Geç işareti" }, { text: "Dur işareti" }, { text: "Yavaşlatma işareti" }, { text: "Hızlandırma işareti" } ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 9. Şekildeki ışıklı trafik işaret cihazına göre ok yönündeki dönüş ne zaman yapılmalıdır?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru18.jpg",
+    options: [
+      { text: "Oklu ışık sarı yandığında" },
+      { text: "Oklu ışık yeşil yandığında" },
+      { text: "Oklu ışık kırmızı yandığında" },
+      { text: "Sarı ve kırmızı oklu ışık birlikte yandığında" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 10. Hangi hareketin seri halinde yapılması, o yönde akan trafiğin hızlanması talimatını içerir?",
+    image: null,
+    options: [
+      { text: "Şık A", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17a.jpg" },
+      { text: "Şık B", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17b.jpg" },
+      { text: "Şık C", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17c.jpg" },
+      { text: "Şık D", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17d.jpg" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 11. Aralıklı olarak yanıp sönen sarı ışıkta sürücü ne yapmalıdır?",
+    image: null,
+    options: [
+      { text: "Yavaş ve dikkatli geçmeli" },
+      { text: "Durmalı, yolu kontrol ettikten sonra geçmeli" },
+      { text: "Yolun açık olduğunu bildirdiği için hızlı geçmeli" },
+      { text: "Yolun kapalı olduğunu bildirdiği için bu yola girmemeli" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 12. Polis işaretine göre hangisi doğrudur?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru17-3.jpg",
+    options: [
+      { text: "Yol bütün yönlerdeki trafiğe açıktır." },
+      { text: "Yol bütün yönlerdeki trafiğe kapalıdır." },
+      { text: "Yol kolların gösterdiği yöndeki trafiğe açıktır." },
+      { text: "Yol görevlinin ön ve arka tarafındaki trafiğe açıktır." }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 13. Kırmızı ışık + yeşil oklu ışık birlikte yanıyorsa sürücü ne yapabilir?",
+    image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/soru18-1.jpg",
+    options: [ { text: "Sola dönebilir." }, { text: "Sağa dönebilir." }, { text: "İleri yönde devam edebilir." }, { text: "Sağ şeridi kapatacak şekilde durabilir." } ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 14. Işıklı cihazda hangisinin yanması, yolun trafiğe kapanmak üzere olduğunu bildirir?",
+    image: null,
+    options: [
+      { text: "Aralıklı yanıp sönen sarı ışık" },
+      { text: "Aralıklı yanıp sönen kırmızı ışık" },
+      { text: "Yeşil ışıktan sonra yanan sarı ışık" },
+      { text: "Kırmızı ışıkla birlikte yanan sarı ışık" }
+    ],
+    correctIndex: null, explanation: ""
+  },
+  {
+    text: "Soru 15. Hangi hareketin seri halinde yapılması, o yönde akan trafiğin yavaşlaması talimatını içerir?",
+    image: null,
+    options: [
+      { text: "A", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17a-1.jpg" },
+      { text: "B", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17b-1.jpg" },
+      { text: "C", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17c-1.jpg" },
+      { text: "D", image: "https://www.mebehliyetsinavsorulari.com/wp-content/uploads/2018/01/17d-1.jpg" }
+    ],
+    correctIndex: null, explanation: ""
+  }
+];
+
+const quiz = document.getElementById('quiz');
+const doneEl = document.getElementById('done');
+const totalEl = document.getElementById('total');
+const bar = document.getElementById('bar');
+
+totalEl.textContent = QUESTIONS.length;
+
+function render(){
+  quiz.innerHTML = '';
+  QUESTIONS.forEach((q, qi)=>{
+    const box = document.createElement('div');
+    box.className = 'q';
+
+    const h = document.createElement('h3');
+    h.textContent = q.text;
+    box.appendChild(h);
+
+    if(q.image){
+      const media = document.createElement('div');
+      media.className = 'media';
+      media.innerHTML = `<img src="${q.image}" alt="Soru görseli">`;
+      box.appendChild(media);
+    }
+
+    const opts = document.createElement('div');
+    opts.className = 'opts';
+    q._answer = q._answer ?? null;
+    q._checked = q._checked ?? false;
+
+    q.options.forEach((opt, oi)=>{
+      const label = document.createElement('label');
+      label.className = 'opt';
+      const inp = document.createElement('input');
+      inp.type = 'radio'; inp.name = 'q'+qi; inp.value = oi;
+      label.appendChild(inp);
+
+      if(opt.image){
+        const img = document.createElement('img');
+        img.src = opt.image; img.alt = 'Şık görseli'; img.className = 'oimg';
+        label.appendChild(img);
+      }
+
+      const span = document.createElement('span');
+      span.className = 'otxt';
+      span.textContent = opt.text || '';
+      label.appendChild(span);
+
+      label.onclick = (e)=>{
+        e.stopPropagation();
+        q._answer = oi;
+        // mor seçili
+        [...opts.children].forEach(x=>x.classList.remove('selected'));
+        label.classList.add('selected');
+        updateDone();
+        if(q._checked) highlight(q, opts);
+      };
+
+      opts.appendChild(label);
+    });
+
+    box.appendChild(opts);
+
+    const explain = document.createElement('div');
+    explain.className = 'explain';
+    explain.textContent = q.explanation ? ('Açıklama: ' + q.explanation) : '';
+    box.appendChild(explain);
+
+    const actions = document.createElement('div');
+    actions.className = 'actions';
+    const btnCheck = document.createElement('button');
+    btnCheck.className = 'btn';
+    btnCheck.textContent = 'Cevabı Kontrol Et';
+    btnCheck.onclick = ()=>{
+      if(q._answer == null) { alert('Bir şık işaretleyin.'); return; }
+      q._checked = true;
+      highlight(q, opts);
+      if(q.explanation) { explain.style.display='block'; }
+      updateDone();
+    };
+    const btnClear = document.createElement('button');
+    btnClear.className = 'btn ghost';
+    btnClear.textContent = 'İşareti Temizle';
+    btnClear.onclick = ()=>{
+      q._answer = null; q._checked = false;
+      [...opts.children].forEach(x=>x.classList.remove('selected','correct','wrong'));
+      explain.style.display='none';
+      updateDone();
+    };
+    actions.appendChild(btnCheck);
+    actions.appendChild(btnClear);
+    box.appendChild(actions);
+
+    quiz.appendChild(box);
+  });
+  updateDone();
+}
+
+function highlight(q, opts){
+  [...opts.children].forEach((el, idx)=>{
+    el.classList.remove('correct','wrong');
+    if(q._checked && q.correctIndex != null){
+      if(idx===q.correctIndex) el.classList.add('correct');
+      else if(idx===q._answer) el.classList.add('wrong');
+    }
+  });
+}
+
+function updateDone(){
+  const answered = QUESTIONS.filter(x=>x._answer!=null).length;
+  doneEl.textContent = answered;
+  bar.style.width = (answered / QUESTIONS.length * 100) + '%';
+}
+
+render();
+</script>
+</body>
+</html>
