@@ -11,103 +11,52 @@
       margin:20px 0;
       border-radius:8px;
       box-shadow:0 2px 5px rgba(0,0,0,0.1);
-      padding:10px;
+      padding:15px;
       cursor:pointer;
+      transition:0.2s;
+    }
+    .pdf-box:hover {
+      background:#f1f5f9;
     }
     .pdf-box h2 {
       font-size:20px;
       color:#0066cc;
       margin:0;
-      padding:10px 0;
     }
-    iframe {
-      width:100%;
-      height:600px;
-      border:none;
-      display:none; /* başta kapalı */
-    }
-    /* --- Soru kutuları için stiller --- */
-    .question-box {
-      background:#fff;
-      margin:20px 0;
-      border-radius:8px;
-      box-shadow:0 2px 5px rgba(0,0,0,0.1);
-      padding:10px;
-      cursor:pointer;
-    }
-    .question-box h2 {
-      font-size:20px;
-      color:#d62828;
-      margin:0;
-      padding:10px 0;
-    }
-    .question {
-      margin-top:10px;
-    }
-    .options {
-      list-style:none;
-      padding:0;
-    }
-    .options li {
-      border:1px solid #ccc;
-      border-radius:6px;
-      padding:8px 12px;
-      margin:6px 0;
-      cursor:pointer;
-      transition:0.2s;
-    }
-    .options li:hover {
-      background:#f1f5f9;
-    }
-    .options li.selected {
-      background:#cfe9ff;
-      border-color:#0066cc;
-      font-weight:bold;
+    @media(max-width:768px){
+      .pdf-box h2 { font-size:18px; }
+      body { padding:10px; }
     }
   </style>
 </head>
 <body>
   <h1>📘 Ehliyet PDF Notları</h1>
 
-  <div class="pdf-box" onclick="togglePdf('pdf1')">
+  <div class="pdf-box" onclick="openPdf('docs/gecis_ustunlugu1.pdf')">
     <h2>🚑 Geçiş Üstünlüğü – Not 1</h2>
-    <iframe id="pdf1" src="docs/gecis_ustunlugu1.pdf"></iframe>
   </div>
 
-  <div class="pdf-box" onclick="togglePdf('pdf2')">
+  <div class="pdf-box" onclick="openPdf('docs/gecis_ustunlugu2.pdf')">
     <h2>🚦 Geçiş Üstünlüğü – Not 2</h2>
-    <iframe id="pdf2" src="docs/gecis_ustunlugu2.pdf"></iframe>
   </div>
 
-  <div class="pdf-box" onclick="togglePdf('pdf3')">
+  <div class="pdf-box" onclick="openPdf('docs/kanamalar1.pdf')">
     <h2>🚗 Kanamalar</h2>
-    <iframe id="pdf3" src="docs/kanamalar1.pdf"></iframe>
   </div>
 
-  <div class="pdf-box" onclick="togglePdf('pdf4')">
+  <div class="pdf-box" onclick="openPdf('denemeler/kanamalar-deneme.html')">
     <h2>🩸 Kanamalarda İlkyardım – Deneme Testi</h2>
-    <iframe id="pdf4" src="denemeler/kanamalar-deneme.html" style="height:820px;"></iframe>
   </div>
 
-  <div class="pdf-box" onclick="togglePdf('pdf5')">
+  <div class="pdf-box" onclick="openPdf('denemeler/gecis-ustunlugu.html')">
     <h2>🚦 Geçiş Üstünlüğü – Deneme Testi</h2>
-    <iframe id="pdf5" src="denemeler/gecis-ustunlugu.html" style="height:820px;"></iframe>
   </div>
 
 <script>
-function togglePdf(id){
-  const el = document.getElementById(id);
-  el.style.display = (el.style.display==='none' || el.style.display==='') ? 'block' : 'none';
+function openPdf(path){
+  // Aynı sekmede aç
+  window.location.href = path;
 }
-
-// Sorularda seçenek seçilince işaretleme
-document.querySelectorAll('.options li').forEach(li=>{
-  li.addEventListener('click', function(e){
-    this.parentElement.querySelectorAll('li').forEach(x=>x.classList.remove('selected'));
-    this.classList.add('selected');
-    e.stopPropagation();
-  });
-});
 </script>
 </body>
 </html>
