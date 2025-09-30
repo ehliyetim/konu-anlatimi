@@ -12,55 +12,93 @@
       border-radius:8px;
       box-shadow:0 2px 5px rgba(0,0,0,0.1);
       padding:10px;
+      cursor:pointer;
+    }
+    .pdf-box h2 {
+      font-size:20px;
+      color:#0066cc;
+      margin:0;
+      padding:10px 0;
     }
     iframe {
       width:100%;
-      height:600px; /* istediğin yüksekliği ayarlayabilirsin */
+      height:600px;
       border:none;
+      display:none; /* başta kapalı */
     }
-    h2 {
+    /* --- Soru kutuları için stiller --- */
+    .question-box {
+      background:#fff;
+      margin:20px 0;
+      border-radius:8px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
+      padding:10px;
+      cursor:pointer;
+    }
+    .question-box h2 {
       font-size:20px;
-      color:#0066cc;
-      margin-bottom:10px;
+      color:#d62828;
+      margin:0;
+      padding:10px 0;
+    }
+    .question {
+      margin-top:10px;
+    }
+    .options {
+      list-style:none;
+      padding:0;
+    }
+    .options li {
+      border:1px solid #ccc;
+      border-radius:6px;
+      padding:8px 12px;
+      margin:6px 0;
+      cursor:pointer;
+      transition:0.2s;
+    }
+    .options li:hover {
+      background:#f1f5f9;
+    }
+    .options li.selected {
+      background:#cfe9ff;
+      border-color:#0066cc;
+      font-weight:bold;
     }
   </style>
 </head>
 <body>
   <h1>📘 Ehliyet PDF Notları</h1>
 
-  <div class="pdf-box">
+  <div class="pdf-box" onclick="togglePdf('pdf1')">
     <h2>🚑 Geçiş Üstünlüğü 1</h2>
-    <iframe src="docs/gecis_ustunlugu1.pdf"></iframe>
+    <iframe id="pdf1" src="docs/gecis_ustunlugu1.pdf"></iframe>
   </div>
 
-  <div class="pdf-box">
+  <div class="pdf-box" onclick="togglePdf('pdf2')">
     <h2>🚦 Geçiş Üstünlüğü 2</h2>
-    <iframe src="docs/gecis_ustunlugu2.pdf"></iframe>
+    <iframe id="pdf2" src="docs/gecis_ustunlugu2.pdf"></iframe>
   </div>
 
- <div class="pdf-box">
-  <h2>🚗 Kanamalar</h2>
-  <button onclick="document.getElementById('pdf1').style.display='block'">PDF’yi Aç</button>
-  <iframe id="pdf1" src="docs/kanamalar1.pdf" style="display:none;width:100%;height:600px;border:none;"></iframe>
-</div>
-  
-  <div class="pdf-box">
-  <h2>🩸 Kanamalarda İlkyardım – Deneme Testi</h2>
-  <iframe src="denemeler/kanamalar-deneme.html" width="100%" height="820" style="border:none;border-radius:12px;"></iframe>
-</div>
-
-  <div class="pdf-box">
-  <h2 onclick="togglePdf('kanamalar')">🚗 Kanamalar (Tıkla Aç)</h2>
-  <iframe id="kanamalar" src="docs/kanamalar1.pdf" style="display:none;width:100%;height:600px;border:none;"></iframe>
-</div>
+  <div class="pdf-box" onclick="togglePdf('pdf3')">
+    <h2>🚗 Kanamalar</h2>
+    <iframe id="pdf3" src="docs/kanamalar1.pdf"></iframe>
+  </div>
 
 <script>
 function togglePdf(id){
   const el = document.getElementById(id);
   el.style.display = (el.style.display==='none' || el.style.display==='') ? 'block' : 'none';
 }
-</script>
 
-  
+// Sorularda seçenek seçilince işaretleme
+document.querySelectorAll('.options li').forEach(li=>{
+  li.addEventListener('click', function(e){
+    // aynı listede önceki seçimi kaldır
+    this.parentElement.querySelectorAll('li').forEach(x=>x.classList.remove('selected'));
+    this.classList.add('selected');
+    e.stopPropagation(); // tıklayınca kutuyu kapatmasın
+  });
+});
+</script>
 </body>
 </html>
