@@ -70,12 +70,12 @@
   <h1>📘 Ehliyet PDF Notları</h1>
 
   <div class="pdf-box" onclick="togglePdf('pdf1')">
-    <h2>🚑 Geçiş Üstünlüğü 1</h2>
+    <h2>🚑 Geçiş Üstünlüğü – Not 1</h2>
     <iframe id="pdf1" src="docs/gecis_ustunlugu1.pdf"></iframe>
   </div>
 
   <div class="pdf-box" onclick="togglePdf('pdf2')">
-    <h2>🚦 Geçiş Üstünlüğü 2</h2>
+    <h2>🚦 Geçiş Üstünlüğü – Not 2</h2>
     <iframe id="pdf2" src="docs/gecis_ustunlugu2.pdf"></iframe>
   </div>
 
@@ -83,13 +83,15 @@
     <h2>🚗 Kanamalar</h2>
     <iframe id="pdf3" src="docs/kanamalar1.pdf"></iframe>
   </div>
+
   <div class="pdf-box" onclick="togglePdf('pdf4')">
     <h2>🩸 Kanamalarda İlkyardım – Deneme Testi</h2>
     <iframe id="pdf4" src="denemeler/kanamalar-deneme.html" style="height:820px;"></iframe>
   </div>
- <div class="pdf-box" onclick="togglePdf('pdf4')">
-    <h2>🩸 Kanamalarda İlkyardım – Deneme Testi</h2>
-    <iframe id="pdf4" src="denemeler/gecis-ustunlugu.html" style="height:820px;"></iframe>
+
+  <div class="pdf-box" onclick="togglePdf('pdf5')">
+    <h2>🚦 Geçiş Üstünlüğü – Deneme Testi</h2>
+    <iframe id="pdf5" src="denemeler/gecis-ustunlugu.html" style="height:820px;"></iframe>
   </div>
 
 <script>
@@ -101,10 +103,9 @@ function togglePdf(id){
 // Sorularda seçenek seçilince işaretleme
 document.querySelectorAll('.options li').forEach(li=>{
   li.addEventListener('click', function(e){
-    // aynı listede önceki seçimi kaldır
     this.parentElement.querySelectorAll('li').forEach(x=>x.classList.remove('selected'));
     this.classList.add('selected');
-    e.stopPropagation(); // tıklayınca kutuyu kapatmasın
+    e.stopPropagation();
   });
 });
 </script>
