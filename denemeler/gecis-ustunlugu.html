@@ -1,257 +1,380 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geçiş Üstünlüğü Soruları</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 15px;
-        }
-        .soru {
-            margin: 30px 0;
-            padding: 20px;
-            background: #f8f9fa;
-            border-left: 5px solid #667eea;
-            border-radius: 8px;
-            transition: transform 0.2s;
-        }
-        .soru:hover {
-            transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .soru-baslik {
-            font-size: 18px;
-            font-weight: bold;
-            color: #667eea;
-            margin-bottom: 15px;
-        }
-        .soru-metin {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #333;
-            margin: 15px 0;
-        }
-        .soru img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 15px 0;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-        }
-        .gorsel-badge {
-            display: inline-block;
-            background: #28a745;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        .stats {
-            text-align: center;
-            padding: 15px;
-            background: #e9ecef;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .stats span {
-            font-weight: bold;
-            color: #667eea;
-            font-size: 20px;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Geçiş Üstünlüğü – Deneme Testi</title>
+<style>
+  :root{--bg:#f7f8fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--accent:#2563eb;--ok:#16a34a;--bad:#dc2626;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+  .container{max-width:1000px;margin:24px auto;padding:0 16px}
+  .card{background:var(--card);border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.06);overflow:hidden}
+  header{padding:18px 20px;border-bottom:1px solid #eef2f7;display:flex;align-items:center;gap:12px}
+  header h1{font-size:18px;margin:0}
+  header .pill{margin-left:auto;font-weight:600;color:#fff;background:var(--accent);padding:6px 10px;border-radius:999px}
+  .progress{height:6px;background:#e5e7eb}
+  .bar{height:6px;background:var(--accent);width:0%}
+  .body{padding:18px 20px}
+  .q-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .q-title{font-size:18px;font-weight:700}
+  .q-num{color:var(--muted);font-weight:600}
+  .q-img{margin:12px 0;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;background:#fff}
+  .q-img img{display:block;max-height:340px;width:100%;object-fit:contain;background:#fff}
+  .opts{display:grid;gap:10px;margin-top:14px}
+  .opt{border:1.5px solid #e5e7eb;border-radius:12px;padding:12px 14px;cursor:pointer;background:#fff;transition:.15s}
+  .opt:hover{border-color:#cbd5e1}
+  .opt input{display:none}
+  /* Mor seçili */
+  .opt.selected{border-color:#9333ea;background:#f3e8ff}
+  /* Kontrol sonrası renkler */
+  .opt.correct{border-color:var(--ok);background:#f0fdf4}
+  .opt.wrong{border-color:var(--bad);background:#fef2f2}
+  .explain{margin-top:12px;font-size:14px;color:#065f46;background:#ecfeff;border:1px dashed #99f6e4;padding:10px;border-radius:10px;display:none;white-space:pre-wrap}
+  .nav{display:flex;justify-content:space-between;gap:10px;margin-top:18px;flex-wrap:wrap}
+  .btn{appearance:none;border:none;border-radius:10px;padding:12px 16px;background:#111827;color:#fff;font-weight:700;cursor:pointer}
+  .btn[disabled]{opacity:.5;cursor:not-allowed}
+  .btn.secondary{background:#e5e7eb;color:#111827}
+  .btn.ghost{background:transparent;border:1.5px solid #e5e7eb;color:#111827}
+  .grid2{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:960px){.grid2{grid-template-columns:1.3fr .7fr}}
+  .side{background:var(--card);border:1px solid #eef2f7;border-radius:14px;padding:14px;position:sticky;top:16px;height:fit-content}
+  .side h3{margin:4px 0 10px;font-size:16px}
+  .nums{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+  .nbtn{border:1px solid #e5e7eb;border-radius:10px;padding:8px 0;text-align:center;cursor:pointer;font-weight:600;background:#fff}
+  .nbtn.active{background:var(--accent);color:#fff;border-color:transparent}
+  .nbtn.done{background:#e0f2fe;border-color:#bae6fd}
+  .score{font-weight:800}
+  .footer{padding:14px 20px;border-top:1px solid #eef2f7;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+  .source{font-size:12px;color:#6b7280}
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>🚗 Geçiş Üstünlüğü - Test 1</h1>
-        
-        <div class="stats">
-            <span>20</span> Soru | <span>7</span> Görsel Soru
+<div class="container">
+  <div class="grid2">
+    <div class="card" id="quizCard">
+      <header>
+        <h1>🚗 Geçiş Üstünlüğü – Deneme Testi</h1>
+        <span class="pill"><span id="doneCount">0</span>/<span id="totalCount">0</span></span>
+      </header>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+
+      <div class="body">
+        <div class="q-head">
+          <div class="q-title" id="qTitle">Sorular yükleniyor…</div>
+          <div class="q-num" id="qNum"></div>
         </div>
 
-        <div class="soru">
-            <div class="soru-baslik">Soru 1</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/652.webp" alt="Soru 1 Görseli">
-            <div class="soru-metin">
-                Şekilde görülen geçiş üstünlüğüne sahip araçların, görev hâlinde karşılaşmaları durumunda ilk geçiş hakkını hangisi kullanmalıdır?
-            </div>
+        <div class="q-img" id="qImg" style="display:none;">
+          <img id="qImgTag" alt="Soru görseli">
         </div>
 
-        <div class="soru">
-            <div class="soru-baslik">Soru 2</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/68.webp" alt="Soru 2 Görseli">
-            <div class="soru-metin">
-                Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?
-            </div>
-        </div>
+        <div class="opts" id="opts"></div>
+        <div class="explain" id="explain"></div>
 
-        <div class="soru">
-            <div class="soru-baslik">Soru 3</div>
-            <div class="soru-metin">
-                Geçiş üstünlüğü hakkını kullanan araç sürücüsünün aşağıdakilerden hangisini yapması zorunludur?
-            </div>
+        <div class="nav">
+          <button class="btn secondary" id="prevBtn">← Önceki</button>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn ghost" id="clearBtn">İşareti Temizle</button>
+            <button class="btn" id="checkBtn">Cevabı Kontrol Et</button>
+            <button class="btn" id="nextBtn">Sonraki →</button>
+          </div>
         </div>
+      </div>
 
-        <div class="soru">
-            <div class="soru-baslik">Soru 4</div>
-            <div class="soru-metin">
-                Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçlardandır?
-            </div>
-        </div>
+      <div class="footer">
+        <div>Doğru: <span class="score" id="okCount">0</span> – Yanlış: <span class="score" id="badCount">0</span></div>
+        <div id="finishNote"></div>
+      </div>
 
-        <div class="soru">
-            <div class="soru-baslik">Soru 5</div>
-            <div class="soru-metin">
-                Geçiş üstünlüğüne sahip araç sürücüsü, bu hakkı kullanırken aşağıdakilerden hangisine dikkat etmek zorundadır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 6</div>
-            <div class="soru-metin">
-                <strong>Ambulansa eskortluk yapmak</strong><br>
-                <strong>Taşıt yolu üzerinde yer açmak</strong><br>
-                <strong>Bir kavşakta ise kavşağı derhal boşaltmak</strong><br><br>
-                Geçiş üstünlüğü bulunan bir aracın duyulur veya görülür işaretini alan araç sürücüsü, yukarıda verilenlerden hangilerini yapmak zorundadır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 7</div>
-            <div class="soru-metin">
-                <strong>• İtfaiye araçları</strong><br>
-                <strong>• Organ ve doku nakil araçları</strong><br>
-                <strong>• Afet ve acil durum hâllerinde afet ve acil durum hizmetlerinde görevli bulunan araçlar</strong><br>
-                <strong>• Sanık veya suçluları takip eden veya genel güvenlik ve asayiş için olay yerine giden zabıta araçları</strong><br><br>
-                Verilen araçların görev hâli durumunda birbirleriyle karşılaşmalarında, geçiş üstünlüğü ile kavşaklarda ilk geçiş hakkı sıralaması nasıl olmalıdır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 8</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/569.webp" alt="Soru 8 Görseli">
-            <div class="soru-metin">
-                Şekildeki araçların görev hâli durumunda geçiş üstünlüğü sıralaması nasıl olmalıdır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 9</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/652.webp" alt="Soru 9 Görseli">
-            <div class="soru-metin">
-                Şekilde görülen geçiş üstünlüğüne sahip araçların, görev hâlinde karşılaşmaları durumunda ilk geçiş hakkını hangisi kullanmalıdır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 10</div>
-            <div class="soru-metin">
-                <strong>• Görev hâlinde iken geçiş üstünlüğü hakkına sahiptir.</strong><br>
-                <strong>• Görev hâli dışında geçiş üstünlüğü işaretini ve hakkını kullanması yasaktır.</strong><br>
-                <strong>• Hizmetin yerine getirilmesini sağlamak amacına uygun olması şartıyla, Kara Yolları Trafik Kanunu ve bu yönetmelikte gösterilen trafik kısıtlamalarına ve yasaklarına bağlı değildir.</strong><br><br>
-                Buna göre aşağıdakilerden hangisi sürülmelerine ilişkin esas ve kuralları verilen araçlardandır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 11</div>
-            <div class="soru-metin">
-                Geçiş üstünlüğüne sahip araç sürücüsü, bu hakkı kullanırken aşağıdakilerden hangisine dikkat etmek zorundadır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 12</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/672.webp" alt="Soru 12 Görseli">
-            <div class="soru-metin">
-                Şekildeki karşılaşmada öncelikle görev hâlindeki ambulansın geçmesi gerekir.<br><br>
-                Bu durum aşağıdakilerden hangisi ile açıklanır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 13</div>
-            <div class="soru-metin">
-                Yaralı veya acil hasta taşıyan özel araç sürücüleri, geçiş üstünlüğü hakkını nasıl kullanabilirler?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 14</div>
-            <div class="soru-metin">
-                Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçların sürülmesine ilişkin esaslardan biri değildir?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 15</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/411.webp" alt="Soru 15 Görseli">
-            <div class="soru-metin">
-                Şekildeki karşılaşmada öncelikle görev hâlindeki itfaiye aracının geçmesi gerekir. Bu durum aşağıdakilerden hangisi ile açıklanır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 16</div>
-            <div class="soru-metin">
-                Görev sırasında, belirli araç sürücülerinin can ve mal güvenliğini tehlikeye sokmamak şartı ile trafik kısıtlama veya yasaklarına bağlı olmamaları durumuna ne denir?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 17</div>
-            <div class="gorsel-badge">📸 Görselli Soru</div>
-            <img src="https://ehliyet-soru.com/images/q/56.webp" alt="Soru 17 Görseli">
-            <div class="soru-metin">
-                Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 18</div>
-            <div class="soru-metin">
-                Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçlardandır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 19</div>
-            <div class="soru-metin">
-                Geçiş üstünlüğüne sahip araç sürücüsü, bu hakkı kullanırken aşağıdakilerden hangisine dikkat etmek zorundadır?
-            </div>
-        </div>
-
-        <div class="soru">
-            <div class="soru-baslik">Soru 20</div>
-            <div class="soru-metin">
-                Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçlardandır?
-            </div>
-        </div>
-
+      <div class="footer source">
+        Kaynak: ehliyet-soru.com | Görseller için temel adres otomatik eklendi.
+      </div>
     </div>
+
+    <aside class="side">
+      <h3>Sorular</h3>
+      <div class="nums" id="numPanel"></div>
+    </aside>
+  </div>
+</div>
+
+<script>
+// --- GÖRSEL TABAN ADRESİ ---
+const IMG_BASE = 'https://ehliyet-soru.com/';
+
+// --- SORU VERİSİ (React verinden dönüştürüldü) ---
+const QUESTIONS = [
+  {
+    q: "Geçiş üstünlüğü hakkı hangi hâllerde kullanılamaz?",
+    a: ["Görev hâli dışında","Şehirler arası kara yollarında","Trafiğin yoğun olduğu kara yollarında","Yolların buzlu ve kaygan olması hâlinde"],
+    correct: 0,
+    exp: "Geçiş üstünlüğü; ambulans, itfaiye, polis gibi acil hizmet araçlarının görev sırasında öncelik tanıma hakkıdır. Görev hâli dışında bu hak kullanılamaz."
+  },
+  {
+    q: "Şekilde görülen geçiş üstünlüğüne sahip araçların, görev hâlinde karşılaşmaları durumunda ilk geçiş hakkını hangisi kullanmalıdır?",
+    img: "images/q/652.webp",
+    a: ["İş makinesi","Polis aracı","Ambulans","İtfaiye aracı"],
+    correct: 2,
+    exp: "Öncelik sırası: 1) Ambulans 2) İtfaiye 3) Polis aracı 4) İş makinesi."
+  },
+  {
+    q: "Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
+    img: "images/q/68.webp",
+    a: ["1 - 2 - 4 - 3","2 - 1 - 3 - 4","2 - 3 - 4 - 1","3 - 1 - 2 - 4"],
+    correct: 0,
+    exp: "Önce geçiş üstünlüğü olanlar, sonra ana yolda düz devam edenler, sonra dönüş yapanlar, sonra tali yoldakiler… Eşitlikte sağdakine yol verilir."
+  },
+  {
+    q: "Geçiş üstünlüğü hakkını kullanan araç sürücüsünün aşağıdakilerden hangisini yapması zorunludur?",
+    a: ["Hız sınırlarına uyması","Trafik görevlisine bilgi vermesi","Işıklı trafik işaret cihazlarına uyması","Sesli ve ışıklı işaretleri birlikte kullanması"],
+    correct: 3,
+    exp: "Geçiş üstünlüğünü kullanan araçlar sesli ve ışıklı uyarıları birlikte vermelidir."
+  },
+  {
+    q: "Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçlardandır?",
+    a: ["Zırhlı taşıt","Kamu hizmeti taşıtı","Organ nakil araçları","Umum servis araçları"],
+    correct: 2,
+    exp: "Acil nitelikli hizmet veren organ nakil araçları geçiş üstünlüğüne sahiptir."
+  },
+  {
+    q: "Geçiş üstünlüğüne sahip araç sürücüsü, bu hakkı kullanırken aşağıdakilerden hangisine dikkat etmek zorundadır?",
+    a: ["Hız sınırlamasına","Trafik yasaklarına","Çevreyi rahatsız etmemeye","Can ve mal güvenliğini tehlikeye sokmamaya"],
+    correct: 3,
+    exp: "Öncelik; can ve mal güvenliğini tehlikeye sokmamaktır."
+  },
+  {
+    q: "Geçiş üstünlüğü hakkı hangi hâllerde kullanılamaz?",
+    a: ["Görev hâli dışında","Şehirler arası kara yollarında","Trafiğin yoğun olduğu kara yollarında","Yolların buzlu ve kaygan olması hâlinde"],
+    correct: 0,
+    exp: "Görev hâli dışında geçiş üstünlüğü kullanılamaz."
+  },
+  {
+    q: "Geçiş üstünlüğü bulunan bir aracın duyulur veya görülür işaretini alan araç sürücüsü hangilerini yapmak zorundadır?\n1. Ambulansa eskortluk yapmak\n2. Taşıt yolu üzerinde yer açmak\n3. Bir kavşakta ise kavşağı derhal boşaltmak",
+    a: ["Yalnız I","I ve II.","II ve III.","I, II ve III."],
+    correct: 2,
+    exp: "Yer açmak ve kavşağı boşaltmak zorunludur; eskortluk yapmak doğru değildir."
+  },
+  {
+    q: "Verilen araçların görev hâli durumunda geçiş üstünlüğü ve kavşaklarda ilk geçiş hakkı sıralaması nasıl olmalıdır?\n1. İtfaiye araçları\n2. Organ ve doku nakil araçları\n3. Afet ve acil durum araçları\n4. Sanık/suçlu takip eden zabıta araçları",
+    a: ["I - II - III - IV","I - II - IV - III","II - I - IV - III","II - III - I - IV"],
+    correct: 2,
+    exp: "Sıra: (1) Ambulans/Acil hasta – (2) Organ/doku nakil – (3) İtfaiye – (4) Güvenlik/asayiş (sorudaki şıklara göre: II - I - IV - III)."
+  },
+  {
+    q: "Şekildeki araçların görev hâli durumunda geçiş üstünlüğü sıralaması nasıl olmalıdır?",
+    img: "images/q/569.webp",
+    a: ["1 - 3 - 4 - 2","3 - 1 - 4 - 2","4 - 1 - 3 - 2","4 - 1 - 3 - 2"],
+    correct: 2,
+    exp: "Genel sıralama: 1) Ambulans 2) İtfaiye 3) Zabıta/Güvenlik 4) Afet ve Acil Durum yönetimi aracı (sorudaki numaraya göre: 4 - 1 - 3 - 2)."
+  },
+  {
+    q: "Şekilde görülen geçiş üstünlüğüne sahip araçların, görev hâlinde karşılaşmaları durumunda ilk geçiş hakkını hangisi kullanmalıdır?",
+    img: "images/q/652.webp",
+    a: ["İş makinesi","Polis aracı","Ambulans","İtfaiye aracı"],
+    correct: 2,
+    exp: "Öncelik sırası: 1) Ambulans 2) İtfaiye 3) Polis aracı 4) İş makinesi."
+  },
+  {
+    q: "Buna göre aşağıdakilerden hangisi sürülmelerine ilişkin esas ve kuralları verilen araçlardandır?\n• Görev hâlinde iken geçiş üstünlüğü hakkına sahiptir.\n• Görev hâli dışında geçiş üstünlüğü işaretini ve hakkını kullanması yasaktır.\n• Hizmetin gereğiyle sınırlı olmak üzere trafik kısıtlamalarına bağlı değildir.",
+    a: ["Kamu hizmeti taşıtı","Okul taşıtı","İtfaiye","Çekici"],
+    correct: 2,
+    exp: "Şıklarda geçiş üstünlüğüne sahip olan tek araç itfaiyedir."
+  },
+  {
+    q: "Geçiş üstünlüğüne sahip araç sürücüsü, bu hakkı kullanırken aşağıdakilerden hangisine dikkat etmek zorundadır?",
+    a: ["Hız sınırlamasına","Trafik yasaklarına","Çevreyi rahatsız etmemeye","Can ve mal güvenliğini tehlikeye sokmamaya"],
+    correct: 3,
+    exp: "Öncelik emniyettir; can ve mal güvenliği tehlikeye atılamaz."
+  },
+  {
+    q: "Şekildeki karşılaşmada öncelikle görev hâlindeki ambulansın geçmesi gerekir. Bu durum aşağıdakilerden hangisi ile açıklanır?",
+    img: "images/q/672.webp",
+    a: ["Otomobilin tali yolda olması","Ambulansın ana yolda olması","Ambulansın geçiş üstünlüğüne sahip olması","Ambulansın diğer araca göre daha güçlü olması"],
+    correct: 2,
+    exp: "Ambulans görev hâlindeyse geçiş üstünlüğüne sahiptir."
+  },
+  {
+    q: "Yaralı veya acil hasta taşıyan özel araç sürücüleri, geçiş üstünlüğü hakkını nasıl kullanabilirler?",
+    a: ["Eskort eşliğinde","Seyyar tepe lambası taktırarak","Sesli ve ışıklı işaretler vererek","Araçlarında bir gözcü bulundurarak"],
+    correct: 2,
+    exp: "Sesli ve ışıklı uyarılarla geçiş üstünlüğü kullanılabilir."
+  },
+  {
+    q: "Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçların sürülmesine ilişkin esaslardan biri değildir?",
+    a: ["Halkın can ve mal güvenliğinin korunması","Işıklı ve sesli uyarı işaretlerinin bir arada verilmesi","Görev hâli dışında bazı kişilere ayrıcalık sağlanması","Geçiş üstünlüğü hakkının görev hâlinde iken kullanılması"],
+    correct: 2,
+    exp: "Görev hâli dışında hiçbir ayrıcalık yoktur."
+  },
+  {
+    q: "Şekildeki karşılaşmada öncelikle görev hâlindeki itfaiye aracının geçmesi gerekir. Bu durum aşağıdakilerden hangisi ile açıklanır?",
+    img: "images/q/411.webp",
+    a: ["Otomobilin tali yolda olması","İtfaiye aracının ana yolda olması","İtfaiye aracının geçiş üstünlüğüne sahip olması","İtfaiye aracının diğer araca göre daha güçlü olması"],
+    correct: 2,
+    exp: "Görev hâlindeki itfaiye aracı geçiş üstünlüğüne sahiptir."
+  },
+  {
+    q: "Görev sırasında, belirli araç sürücülerinin can ve mal güvenliğini tehlikeye sokmamak şartı ile trafik kısıtlama veya yasaklarına bağlı olmamaları durumuna ne denir?",
+    a: ["Gabari","Geçiş hakkı","Geçiş üstünlüğü","Geçiş kolaylığı"],
+    correct: 2,
+    exp: "Tanım ‘geçiş üstünlüğü’dür."
+  },
+  {
+    q: "Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
+    img: "images/q/56.webp",
+    a: ["1 - 2 - 3 - 4","1 - 2 - 4 - 3","2 - 1 - 4 - 3","4 - 1 - 2 - 3"],
+    correct: 0,
+    exp: "İtfaiye ve polis geçiş üstünlüğüne sahiptir; öncelik itfaiyededir: 1-2-3-4."
+  },
+  {
+    q: "Aşağıdakilerden hangisi geçiş üstünlüğüne sahip araçlardandır?",
+    a: ["İtfaiye aracı","Motosiklet","Tarım traktörü","Toplu taşıma aracı"],
+    correct: 0,
+    exp: "İtfaiye, ambulans, polis, organ nakil vb. acil araçlar geçiş üstünlüğüne sahiptir."
+  }
+];
+
+// --- DURUM ---
+let i = 0;
+const state = {
+  answers: Array(QUESTIONS.length).fill(null),
+  checked: Array(QUESTIONS.length).fill(false),
+  corrects: 0,
+  wrongs: 0
+};
+
+// --- ELEMANLAR ---
+const qTitle = document.getElementById('qTitle');
+const qNum = document.getElementById('qNum');
+const optsEl = document.getElementById('opts');
+const expEl = document.getElementById('explain');
+const bar = document.getElementById('bar');
+const doneCount = document.getElementById('doneCount');
+const totalCount = document.getElementById('totalCount');
+const okCount = document.getElementById('okCount');
+const badCount = document.getElementById('badCount');
+const finishNote = document.getElementById('finishNote');
+const numPanel = document.getElementById('numPanel');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const checkBtn = document.getElementById('checkBtn');
+const clearBtn = document.getElementById('clearBtn');
+const qImgWrap = document.getElementById('qImg');
+const qImgTag = document.getElementById('qImgTag');
+
+totalCount.textContent = QUESTIONS.length;
+
+// --- YARDIMCI ---
+function withBase(imgPath){
+  if(!imgPath) return null;
+  return imgPath.startsWith('http') ? imgPath : (IMG_BASE + imgPath.replace(/^\/+/,''));
+}
+
+function renderNums(){
+  numPanel.innerHTML='';
+  QUESTIONS.forEach((_,idx)=>{
+    const b=document.createElement('button');
+    b.className='nbtn'+(idx===i?' active':'')+(state.checked[idx]?' done':'');
+    b.textContent=(idx+1);
+    b.onclick=()=>{i=idx;renderQ();};
+    numPanel.appendChild(b);
+  });
+}
+
+function renderQ(){
+  const q=QUESTIONS[i];
+  qTitle.textContent=q.q;
+  qNum.textContent=`Soru ${i+1} / ${QUESTIONS.length}`;
+
+  // Görsel
+  const imgUrl = withBase(q.img);
+  if(imgUrl){
+    qImgWrap.style.display='block';
+    qImgTag.src = imgUrl;
+    qImgTag.alt = `Soru ${i+1} görseli`;
+  }else{
+    qImgWrap.style.display='none';
+    qImgTag.src='';
+  }
+
+  // Şıklar
+  optsEl.innerHTML='';
+  expEl.style.display=state.checked[i]?'block':'none';
+  expEl.textContent=state.checked[i] ? 'Açıklama: '+(q.exp||'') : '';
+
+  q.a.forEach((txt,idx)=>{
+    const label=document.createElement('label');
+    label.className='opt';
+    const inp=document.createElement('input');
+    inp.type='radio'; inp.name='opt'; inp.value=idx;
+    if(state.answers[i]===idx) inp.checked=true;
+    label.appendChild(inp);
+    label.insertAdjacentText('beforeend', txt);
+
+    label.onclick=()=>{
+      state.answers[i]=idx;
+      updateDone();
+      [...optsEl.children].forEach(x=>x.classList.remove('selected'));
+      label.classList.add('selected'); // Mor seçim
+      highlight();
+    };
+    optsEl.appendChild(label);
+  });
+
+  highlight();
+  renderNums();
+  prevBtn.disabled=i===0;
+  nextBtn.disabled=i===QUESTIONS.length-1;
+}
+
+function updateDone(){
+  const done=state.answers.filter(v=>v!==null).length;
+  doneCount.textContent=done;
+  const pr=Math.round((done/QUESTIONS.length)*100);
+  bar.style.width=pr+'%';
+}
+
+function highlight(){
+  const q=QUESTIONS[i];
+  [...optsEl.children].forEach((el,idx)=>{
+    el.classList.remove('correct','wrong');
+    if(state.checked[i]){
+      if(idx===q.correct) el.classList.add('correct');
+      else if(idx===state.answers[i]) el.classList.add('wrong');
+    }
+  });
+}
+
+function check(){
+  if(state.answers[i]==null){alert('Bir şık işaretle.');return;}
+  if(state.checked[i]) return;
+  state.checked[i]=true;
+  const q=QUESTIONS[i];
+  if(state.answers[i]===q.correct) state.corrects++; else state.wrongs++;
+  okCount.textContent=state.corrects;
+  badCount.textContent=state.wrongs;
+  expEl.style.display='block';
+  expEl.textContent='Açıklama: '+(q.exp||'');
+  highlight(); renderNums();
+  if(state.checked.every(Boolean)){
+    finishNote.textContent=`Tamamlandı! Puanın: ${Math.round((state.corrects/QUESTIONS.length)*100)} / 100`;
+  }
+}
+
+function clearMark(){
+  state.answers[i]=null;
+  state.checked[i]=false;
+  renderQ(); updateDone();
+}
+
+// --- OLAYLAR ---
+prevBtn.onclick=()=>{if(i>0){i--;renderQ();}};
+nextBtn.onclick=()=>{if(i<QUESTIONS.length-1){i++;renderQ();}};
+checkBtn.onclick=check;
+clearBtn.onclick=clearMark;
+
+// --- BAŞLAT ---
+renderNums(); renderQ(); updateDone();
+</script>
 </body>
 </html>
