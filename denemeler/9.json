@@ -837,5 +837,30 @@
       { "text": "Çıkan araç için manevra imkanı bulunmadığının açıkça anlaşılması halinde geri gitmesi", "isTrue": false }
     ],
     "description": "İnen araç çıkan araca yol vermelidir, hızlanıp girmeye çalışması yanlıştır."
+  },{
+    "id": 66,
+    "category": "Araç Tekniği",
+    "question": "I. Şaft\nII. Motor\nIII. Vites kutusu\nIV. Tekerlek\nV. Diferansiyel\nVI. Aks\nArkadan çekişli bir araçta, hareket aktarımının sağlanabilmesi için güç aktarma organlarının doğru sıralanışı biçimi nasıl olmalıdır?",
+    "image_url": null,
+    "options": [
+      { "text": "I-II-III-V-VI-IV", "isTrue": false },
+      { "text": "II-III-I-V-VI-IV", "isTrue": true },
+      { "text": "II-III-I-V-IV-VI", "isTrue": false },
+      { "text": "III-II-I-VI-V-IV", "isTrue": false }
+    ],
+    "description": "Güç aktarım sırası: Motor -> Vites Kutusu -> Şaft -> Diferansiyel -> Aks -> Tekerlek şeklindedir."
+  },
+  {
+    "id": 67,
+    "category": "Trafik Adabı",
+    "question": "Komşusunun aracının kendi aracına çok yakın park edildiğini gören ve bu nedenle kendi aracını otoparktan çıkarmakta zorlanan bir kişinin komşusuna karşı kullanabileceği ifadelerden bazıları verilmiştir.\nI. Araç çok yakın duruyor. Çıkmakta zorlanıyorum.\nII. Park ettiğin yere bak! Aracımı çıkarmamı engelliyorsun.\nIII. Aracını biraz daha düzgün park etseydin bu sorun yaşanmazdı\nNumaralanmış ifadelerin hangilerinde \"sen dili\" kullanılmıştır?",
+    "image_url": null,
+    "options": [
+      { "text": "Yalnız I", "isTrue": false },
+      { "text": "I ve III", "isTrue": false },
+      { "text": "II ve III", "isTrue": true },
+      { "text": "I, II ve III", "isTrue": false }
+    ],
+    "description": "Suçlayıcı ve yargılayıcı ifadeler (II ve III) sen diline örnektir."
   }
 ]
