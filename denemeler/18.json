@@ -535,7 +535,7 @@
   {
     "id": 42,
     "category": "İlkyardım",
-    "question": "Trafik kazasına tanık olan ilk yardımcı, yaralının; sesli ve ağrılı uyaranlara yanıt vermediğini, yutkunma ve öksürük gibi tepkilerinin de olmadığını gözlemlemiştir. İlk yardımcı acil bir şekilde yaralının;\nI. Sırtüstü yatmasını sağlar,\nII. Solunum yolu açıklığını sağlar,\nIII. Sıkan kıyafetleri varsa gevşetir,\nIV Kustuğunu görünce Heimlich manevrası uygular\nBuna göre, ilk yardımcı tarafından yapılan numaralanmış uygulamalardan hangileri doğrudur?",
+    "question": "Trafik kazasına tanık olan ilk yardımcı, yaralının; sesli ve ağrılı uyaranlara yanıt vermediğini, yutkunma ve öksürük gibi tepkilerinin de olmadığını gözlemlemiştir. İlk yardımcı acil bir şekilde yaralının;\nI. Sırtüstü yatmasını sağlar,\nII. Solunum yolu açıklığını sağlar,\nIII. Sıkan kıyafetleri varsa gevşetir,\nIV. Kustuğunu görünce Heimlich manevrası uygular\nBuna göre, ilk yardımcı tarafından yapılan numaralanmış uygulamalardan hangileri doğrudur?",
     "image_url": null,
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
