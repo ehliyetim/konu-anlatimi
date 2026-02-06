@@ -132,7 +132,7 @@
   {
     "id": 11,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. yaya yollarında sürülmesi yasaktır.\nII. sürülmesi sırasında elde bagaj, paket ve benzerlerinin taşınması yasaktır.\nYukarıda bisiklet, motorlu bisiklet ve motosikletlerin güvenli kullanımıyla ilgili olarak verilenler için ne söylenebilir?",
+    "question": "I. Yaya yollarında sürülmesi yasaktır.\nII. sürülmesi sırasında elde bagaj, paket ve benzerlerinin taşınması yasaktır.\nYukarıda bisiklet, motorlu bisiklet ve motosikletlerin güvenli kullanımıyla ilgili olarak verilenler için ne söylenebilir?",
     "image_url": null,
     "options": [
       { "text": "I. doğru, II. yanlış", "isTrue": false },
@@ -229,7 +229,7 @@
       { "text": "I ve II", "isTrue": false },
       { "text": "I, II ve III", "isTrue": true },
       { "text": "II, III ve IV", "isTrue": false },
-      { "text": "I, III, III ve IV", "isTrue": false }
+      { "text": "I, II, III ve IV", "isTrue": false }
     ],
     "description": "Öfkeyi anlamak ve kontrol etmek olumlu yöntemlerdir, başkasından çıkarmak yanlıştır."
   },
@@ -434,10 +434,10 @@
     "question": "Bilincin kapalı olması durumunda dilin geriye kayması ya da solunum yoluna yabancı cisim kaçması gibi nedenlere bağlı olarak solunum yolu tıkanabilir. Bu durumda kazazedenin boyun travması yoksa hava yolunu açmak için ....... pozisyonu verilir.\nYukarıdaki açıklamada boş bırakılan yere hangisi gelmelidir?",
     "image_url": null,
     "options": [
-      { "text": "şok", "isTrue": false },
-      { "text": "oturuş", "isTrue": false },
-      { "text": "yarı yüzükoyun-yan", "isTrue": false },
-      { "text": "baş geri-çene yukarı", "isTrue": true }
+      { "text": "Şok", "isTrue": false },
+      { "text": "Oturuş", "isTrue": false },
+      { "text": "Yarı yüzükoyun-yan", "isTrue": false },
+      { "text": "Baş geri-çene yukarı", "isTrue": true }
     ],
     "description": "Hava yolunu açmak için en temel manevra baş geri-çene yukarı pozisyonudur."
   },
