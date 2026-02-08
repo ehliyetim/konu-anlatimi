@@ -2,8 +2,8 @@
   {
     "id": 1,
     "category": "İlkyardım",
-    "question": "Hava yolu tıkanıklığı yaşayan dört kazazedeye ait belirtiler aşağıdaki tabloda verilmiştir.",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Hava yolu tıkanıklığı yaşayan dört kazazedeye ait belirtiler aşağıdaki tabloda verilmiştir.Bu tabloya göre bu kazazelerden hangilerine Heimlich manevrası uygulanmalıdır?",
+    "image_url": "tablo1.png",
     "options": [
       { "text": "I ve II.", "isTrue": false },
       { "text": "I ve III.", "isTrue": false },
@@ -29,12 +29,12 @@
     "id": 3,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki karayolu bölümünde hangi numaralı taşıtın ok yönündeki hareketi yasaktır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yanlis-yon12345.png",
     "options": [
-      { "text": "siyah", "isTrue": false },
-      { "text": "kırmızı", "isTrue": true },
-      { "text": "beyaz", "isTrue": false },
-      { "text": "mavi", "isTrue": false }
+      { "text": "Siyah", "isTrue": false },
+      { "text": "Kırmızı", "isTrue": true },
+      { "text": "Beyaz", "isTrue": false },
+      { "text": "Mavi", "isTrue": false }
     ],
     "description": ""
   },
@@ -55,7 +55,7 @@
     "id": 5,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Taşıt yolu üzerine çizilen şekildeki yatay işaretleme sürücülere aşağıdakilerden hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "ileri-saga-yol.png",
     "options": [
       { "text": "Şeridin sağdan daralacağını", "isTrue": false },
       { "text": "Kontrolsüz kavşağa yaklaşıldığını", "isTrue": false },
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Taşıt yolu üzerine çizilen “devamlı yol çizgisi” sürücüye neyi bildirir?",
+    "question": "Taşıt yolu üzerine çizilen yol çizgisi sürücüye neyi bildirir?",
     "image_url": null,
     "options": [
       { "text": "Sağ şeritten gidilemeyeceğini", "isTrue": false },
@@ -341,14 +341,14 @@
     "id": 27,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aşağıdaki trafik işaretlerinden hangisi, 2 numaralı aracın 1 numaralı aracı geçmesini yasaklar?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "hangilevha.png",
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "anayol-taliyol.png", "isTrue": false },
+      { "text": "sag-egim.png", "isTrue": true },
+      { "text": "yandan-ruzgar.png", "isTrue": false },
+      { "text": "buzlanma.png", "isTrue": false }
     ],
-    "description": "Kavşak yaklaşım levhaları (A şıkkı) sollama yasağı olduğunu bildirir."
+    "description": "B şıkkı doğrudur"
   },
   {
     "id": 28,
@@ -367,7 +367,7 @@
     "id": 29,
     "category": "İlkyardım",
     "question": "Yetişkin bir kazazedenin dolaşımı değerlendirilirken hangi noktadan nabız alınır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "nabiz-yeri.png",
     "options": [
       { "text": "I", "isTrue": true },
       { "text": "II", "isTrue": false },
@@ -406,7 +406,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kamyonlar-icin-gecme-yasagi-sonu.png",
     "options": [
       { "text": "Kamyonlar için geçme yasağı sonunu", "isTrue": true },
       { "text": "Karşıdan gelene yol verilmesi", "isTrue": false },
@@ -499,10 +499,10 @@
     "question": "Temel yaşam desteği uygulandıktan sonra yaşamsal refleksleri geri dönen kazazedeye hangi pozisyon verilmelidir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "karin-yaralanmasi.png", "isTrue": false },
+      { "text": "sok.png", "isTrue": false },
+      { "text": "koma.png", "isTrue": true },
+      { "text": "normal.png", "isTrue": false }
     ],
     "description": "Yaşamsal fonksiyonları dönen kişi yan yatış (koma) pozisyonuna alınır."
   },
@@ -564,10 +564,10 @@
     "question": "Verilen yer işaretlemelerinden hangisi bölünmüş yol başlangıcı anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "tarali-alana-girilmez-yol.png", "isTrue": false },
+      { "text": "yolayrimi-yol.png", "isTrue": true },
+      { "text": "yavaslama-cizgileri-yol.png", "isTrue": false },
+      { "text": "yolver-yol.png", "isTrue": false }
     ],
     "description": "B şıkkındaki görsel (V şeklindeki taralı alan) bölünmüş yol başlangıcını ifade eder."
   },
@@ -653,7 +653,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kazada hangi numaralı araç sürücüsü asli kusurlu sayılır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kaza-asli-kusur.png",
     "options": [
       { "text": "1", "isTrue": false },
       { "text": "2", "isTrue": true },
@@ -668,10 +668,10 @@
     "question": "• Aracın hızı azaltılır.\n• En sağ şeride, varsa banket üzerine geçilir.\n• Araç motoru durdurulur ve dörtlü ikaz ışıkları yakılır.\nYukarıdaki uygulamalar, araç gösterge panelinde hangi uyarı ışığının yanması halinde yapılır?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "dusuk-yakit.png", "isTrue": false },
+      { "text": "sis-lambasi.png", "isTrue": false },
+      { "text": "yag-basinci.png", "isTrue": true },
+      { "text": "arka-cam-rezidans.png", "isTrue": false }
     ],
     "description": "Yağ lambası (C şıkkı - yağdanlık simgesi) yandığında motor derhal durdurulmalıdır."
   },
@@ -718,7 +718,7 @@
     "id": 56,
     "category": "İlkyardım",
     "question": "Görseldeki ilk yardım pozisyonunun, hangi durumdaki kazazedeye uygulanması sakıncalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "bas-cene-pozisyonu",
     "options": [
       { "text": "Solunum güçlüğü çekenlerde", "isTrue": false },
       { "text": "Boyun omurlarında hasar olanlarda", "isTrue": true },
@@ -731,20 +731,20 @@
     "id": 57,
     "category": "Trafik Adabı",
     "question": "Görsele göre, mavi araç sürücüsünün davranışı ile ilgili hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yayalari-rahatsiz-etme.png",
     "options": [
       { "text": "Trafik adabı uygun davrandığı", "isTrue": false },
       { "text": "Sorunlu davranışlar sergilediği", "isTrue": false },
       { "text": "Trafikteki bireylerin haklarına önem verdiği", "isTrue": false },
       { "text": "Sorumsuz ve saygısızca araç kullandığı", "isTrue": true }
     ],
-    "description": "Yayaların üzerine su sıçratmak saygısızca bir davranıştır."
+    "description": "Gereksiz yere korna çalmak saygısızca bir davranıştır."
   },
   {
     "id": 58,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Kavşaklara yaklaşırken yol üzerine çizilmiş şekildeki oklar sürücülere neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "seyir-yonleri.png",
     "options": [
       { "text": "Durma, duraklama ve park etmenin yasaklanmış olduğunu", "isTrue": false },
       { "text": "Seyir yönüne uygun şeridin kullanılması gerektiğini", "isTrue": true },
@@ -785,12 +785,12 @@
     "question": "Yaralı sedye üzerine yerleştirme yöntemlerinden olan \"kaşık tekniği\" uygulamasına ait görsel hangisidir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "sedyea.png", "isTrue": false },
+      { "text": "sedyeb.png", "isTrue": false },
+      { "text": "sedyec.png", "isTrue": true },
+      { "text": "sedyed.png", "isTrue": false }
     ],
-    "description": "C şıkkındaki görsel (ilk yardımcıların tek tarafta diz çöküp yaralıyı kucaklayarak kaldırdığı pozisyon) kaşık tekniğidir."
+    "description": "C şıkkındaki görsel  kaşık tekniğidir."
   },
   {
     "id": 62,
@@ -817,5 +817,83 @@
       { "text": "91", "isTrue": false }
     ],
     "description": "Görselde 205 sayısı lastiğin taban/yanak genişliğini ifade eder."
+  },
+  {
+    "id": 64,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Bir şoförün, ticari amaçla aşağıdakilerden hangisini, 24 saatlik herhangi bir süre içinde; toplam olarak 9 saatten ve devamlı olarak 4,5 saatten fazla sürmesi yasaktır?",
+    "image_url": null,
+    "options": [
+      { "text": "motosiklet.png", "isTrue": false },
+      { "text": "traktor.png", "isTrue": false },
+      { "text": "otomobil.png", "isTrue": false },
+      { "text": "otobus.png", "isTrue": true }
+    ],
+    "description": "Ticari amaçla yük veya yolcu taşıyan araç şoförlerinin (otobüs, kamyon vb.) çalışma ve dinlenme süreleri kanunla sınırlandırılmıştır. Görseldeki otobüs bu kısıtlamaya tabi olan ticari bir araçtır."
+  },
+  {
+    "id": 65,
+    "category": "Araç Tekniği",
+    "question": "I. Lastik hava basınçlarının ve yakıt seviyesinin kontrol edilmesi\nII. Aydınlatma ve sinyal sisteminin düzgün çalışıp çalışmadığının kontrol edilmesi\nIII. Ön koltukların, kafalıkların ve aynaların beden ölçülerine uygun olarak ayarlanması\n\nVerilenlerden hangileri, aracı kullanmaya başlamadan önce yapılması gereken hazırlıklardandır?",
+    "image_url": null,
+    "options": [
+      { "text": "A) Yalnız I", "isTrue": false },
+      { "text": "B) Yalnız II", "isTrue": false },
+      { "text": "C) Yalnız III", "isTrue": false },
+      { "text": "D) I, II ve III", "isTrue": true }
+    ],
+    "description": "Güvenli bir sürüş ve trafik emniyeti için yola çıkmadan önce aracın dış (lastik, lamba, yakıt) ve iç (koltuk, ayna) kontrollerinin eksiksiz yapılması gerekir."
+  },
+  {
+    "id": 66,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Görseldeki kavşakta kırmızı renkli otomobilin sürücüsü geçiş hakkını hangi araçtan sonra kullanmalıdır?",
+    "image_url": "kavsak1-itfaiye.png",
+    "options": [
+      { "text": "A) Kamyondan", "isTrue": false },
+      { "text": "B) Mavi otomobilden", "isTrue": false },
+      { "text": "C) İtfaiye aracından", "isTrue": true },
+      { "text": "D) İtfaiye aracı ve siyah otomobilden", "isTrue": false }
+    ],
+    "description": "Geçiş üstünlüğüne sahip olan itfaiye aracı, görev başında olduğu durumlarda kavşaktaki diğer tüm araçlara göre önceliğe sahiptir. Bu nedenle kırmızı otomobil sürücüsü, itfaiye aracının geçmesini beklemelidir."
+  },
+  {
+    "id": 67,
+    "category": "Araç Tekniği",
+    "question": "Şekilde soru işareti (?) ile gösterilen ve vites kutusundan gelen hareketin diferansiyele iletilmesini sağlayan güç aktarma organının adı nedir?",
+    "image_url": "saft.png",
+    "options": [
+      { "text": "A) Aks", "isTrue": false },
+      { "text": "B) Şaft", "isTrue": true },
+      { "text": "C) Volan", "isTrue": false },
+      { "text": "D) Diferansiyel", "isTrue": false }
+    ],
+    "description": "Vites kutusundan gelen torku diferansiyele ileten ve araç altındaki esnek bağlantıyı sağlayan bu aktarma organına şaft denir."
+  },
+  {
+    "id": 68,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Videodaki gibi geçiş üstünlüğüne sahip ambulansın görünür ve duyulur işaretini fark eden öndeki araçların sürücüleri nasıl davranmalıdır?",
+    "image_url": "https://random-url.com/video_frame.png",
+    "options": [
+      { "text": "A) Sağdaki trafiğin ilerlemesi beklenmelidir", "isTrue": false },
+      { "text": "B) Ambulansın önünü derhal açıp yolu boşaltmalı", "isTrue": true },
+      { "text": "C) Soldaki sürücüleri uyararak durmalarını sağlamalı", "isTrue": false },
+      { "text": "D) Ambulans sürücüsünü uyararak farklı bir yoldan gitmesi sağlanmalı", "isTrue": false }
+    ],
+    "description": "Geçiş üstünlüğü bulunan bir aracın (ambulans) siren ve ışıklı uyarılarını fark eden sürücüler, fermuar sistemiyle veya güvenli bir şekilde yolu açarak geçiş önceliği sağlamakla yükümlüdür."
+  },
+  {
+    "id": 69,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Hangisi görseldeki kişinin görevlerindendir?",
+    "image_url": "polis.png",
+    "options": [
+      { "text": "A) Trafiği düzenlemek", "isTrue": true },
+      { "text": "B) Araçların muayenesini yapmak", "isTrue": false },
+      { "text": "C) Trafik levhalarının yerlerini belirlemek", "isTrue": false },
+      { "text": "D) Sağlık Bakanlığına ait hizmetleri yürütmek", "isTrue": false }
+    ],
+    "description": "Görselde görülen kişi trafik polisidir. Trafik polisinin temel görevlerinden biri, trafik akışını emniyetli bir şekilde yönetmek ve trafiği düzenlemektir."
   }
 ]
