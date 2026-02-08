@@ -145,15 +145,15 @@
   {
     "id": 12,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Görseldeki kırmızı araç sürücüsünün hangi hatayı yaptığı kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Hangisi görseldeki kişinin görevlerindendir?",
+    "image_url": "polis.png",
     "options": [
-      { "text": "Karşıya geçiş yapan yayalara yol vermedi", "isTrue": false },
-      { "text": "Kırmızı ışıkta geçtiği", "isTrue": true },
-      { "text": "Araç ışıklarını gerekli yerlerde kullanmadığı", "isTrue": false },
-      { "text": "Girişi olmayan yola girdiği", "isTrue": false }
+      { "text": "A) Trafiği düzenlemek", "isTrue": true },
+      { "text": "B) Araçların muayenesini yapmak", "isTrue": false },
+      { "text": "C) Trafik levhalarının yerlerini belirlemek", "isTrue": false },
+      { "text": "D) Sağlık Bakanlığına ait hizmetleri yürütmek", "isTrue": false }
     ],
-    "description": "Kırmızı ışık yanmasına rağmen yaya geçidini işgal eden araç kural ihlali yapmıştır."
+    "description": "Görselde görülen kişi trafik polisidir. Trafik polisinin temel görevlerinden biri, trafik akışını emniyetli bir şekilde yönetmek ve trafiği düzenlemektir."
   },
   {
     "id": 13,
@@ -181,24 +181,12 @@
     ],
     "description": "Düşük hızlarda bile (30 km/s) emniyet kemeri takmamak ölümcül sonuçlar doğurabilir."
   },
-  {
-    "id": 15,
-    "category": "İlkyardım",
-    "question": "Resimdeki kazazedeye yapılan ilk yardım uygulamasında “yara üzerine konan bezin bir ucunun açık bırakılmasının amacı” hangisidir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "Nefes alma sırasında yaraya hava girmesini engellemek, nefes verme sırasında havanın dışarı çıkmasını sağlamak", "isTrue": false },
-      { "text": "Akciğerlerin açık yaradan dışarı çıkmasını önlemek", "isTrue": false },
-      { "text": "Göğüsteki yarada nefes alıyor görüntüsü oluşturmak", "isTrue": false },
-      { "text": "Şok tablosunun gelişmesini önlemek", "isTrue": true }
-    ],
-    "description": "Delici göğüs yaralanmalarında uygulanan valfli pansumanın genel amacı hayati tehlikeyi ve şoku önlemektir."
-  },
+  
   {
     "id": 16,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "arka-cam-rezidans.png",
     "options": [
       { "text": "Elektrik devresinde aşırı şarj veya düşük şarj olduğunu", "isTrue": false },
       { "text": "Arka cam rezistansının çalışmakta olduğunu", "isTrue": true },
@@ -882,19 +870,6 @@
       { "text": "D) Ambulans sürücüsünü uyararak farklı bir yoldan gitmesi sağlanmalı", "isTrue": false }
     ],
     "description": "Geçiş üstünlüğü bulunan bir aracın (ambulans) siren ve ışıklı uyarılarını fark eden sürücüler, fermuar sistemiyle veya güvenli bir şekilde yolu açarak geçiş önceliği sağlamakla yükümlüdür."
-  },
-  {
-    "id": 69,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Hangisi görseldeki kişinin görevlerindendir?",
-    "image_url": "polis.png",
-    "options": [
-      { "text": "A) Trafiği düzenlemek", "isTrue": true },
-      { "text": "B) Araçların muayenesini yapmak", "isTrue": false },
-      { "text": "C) Trafik levhalarının yerlerini belirlemek", "isTrue": false },
-      { "text": "D) Sağlık Bakanlığına ait hizmetleri yürütmek", "isTrue": false }
-    ],
-    "description": "Görselde görülen kişi trafik polisidir. Trafik polisinin temel görevlerinden biri, trafik akışını emniyetli bir şekilde yönetmek ve trafiği düzenlemektir."
   }
   
 ]
