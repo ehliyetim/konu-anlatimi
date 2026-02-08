@@ -10,7 +10,7 @@
       { "text": "II ve IV.", "isTrue": false },
       { "text": "III ve IV.", "isTrue": true }
     ],
-    "description": ""
+    "description": "Tam tıkanma (nefes alamama, morarma, konuşamama) durumunda Heimlich manevrası uygulanır. Kısmi tıkanmada ise sadece öksürmeye teşvik edilir."
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       { "text": "Dörtlü ikaz ışıklarını yakması", "isTrue": false },
       { "text": "Sis lambalarını açması", "isTrue": false }
     ],
-    "description": ""
+    "description": "Hızını azaltmalıdır"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       { "text": "Beyaz", "isTrue": false },
       { "text": "Mavi", "isTrue": false }
     ],
-    "description": ""
+    "description": "Kırmızı aracın gitmek istediği yönde ters yön levhası var girilmez oraya"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       { "text": "Kaba ve saldırgan davranmaya", "isTrue": false },
       { "text": "Trafik kültüründe birbirini uyarmaya", "isTrue": true }
     ],
-    "description": ""
+    "description": "Trafikte nezaket çerçevesinde yapılan uyarılar, hem güvenliği artırır hem de trafik kültürünün gelişmesine katkı sağlar."
   },
   {
     "id": 5,
@@ -68,7 +68,7 @@
     "id": 6,
     "category": "Araç Tekniği",
     "question": "Görseldeki ikaz ışığının yanması sürücüye hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "hararet.png",
     "options": [
       { "text": "Rot ayarının bozuk olduğuna", "isTrue": false },
       { "text": "Fren hidrolik yağı azaldığını", "isTrue": false },
@@ -114,7 +114,7 @@
       { "text": "CE", "isTrue": true },
       { "text": "B1", "isTrue": false }
     ],
-    "description": ""
+    "description": "E harfi ehliyet sınıflarında Römorklu araç kullanma yetkisini temsil eder. C sınıfı kamyon ise, CE römorklu kamyondur."
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
       { "text": "Soğutma suyunun kaynama noktasını yükseltmek", "isTrue": false },
       { "text": "Su kanallarında oluşabilecek korozyon ve kireçlenmeleri önlemek", "isTrue": false }
     ],
-    "description": ""
+    "description": "Antifriz; suyun donmasını önler, paslanmayı engeller ve harareti geciktirir. Yakıtın yanma devriyle doğrudan bir ilgisi yoktur."
   },
   {
     "id": 11,
@@ -207,18 +207,18 @@
     ],
     "description": "Kare içindeki kıvrımlı oklar arka cam rezistansını (ısıtıcı) ifade eder."
   },
-  {
+    {
     "id": 17,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "trafik işaretlerinden hangisi tali yolda bulunur?",
-    "image_url": null,
+    "question": "Videoya göre, beyaz minibüs sürücüsünün yapması gereken davranış hangisidir?",
+    "image_url": "https://random-url.com/video_frame.png",
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "A) Hızını azaltarak yoluna devam etmeli", "isTrue": false },
+      { "text": "B) Hızını arttırıp traktörün önünden geçmelidir", "isTrue": false },
+      { "text": "C) Geçiş hakkını traktör sürücüsüne vermektir", "isTrue": true },
+      { "text": "D) Sağa dönüp yoluna devam etmelidir", "isTrue": false }
     ],
-    "description": "Ters üçgen (Yol Ver) levhası tali yollarda bulunur."
+    "description": "Kontrolsüz kavşaklarda veya geçiş üstünlüğü kurallarına göre traktörün geçiş hakkı bulunduğu durumlarda, beyaz minibüs sürücüsü geçiş hakkını traktöre vererek trafik güvenliğini sağlamalıdır."
   },
   {
     "id": 18,
@@ -302,7 +302,7 @@
     "id": 24,
     "category": "İlkyardım",
     "question": "Olay yerindeki ilk yardımcı, trafik kazası sonucu yaralanmış dört kazazedeye resimdeki tespit işlemlerini uygulamıştır. Bu tespit işlemlerine göre, ilk yardımcı hangi numaralı kazazedenin köprücük kemiğinde kırık olduğunu düşünmüştür?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tum-kırıklar.png",
     "options": [
       { "text": "I", "isTrue": false },
       { "text": "II", "isTrue": false },
@@ -507,18 +507,18 @@
     "description": "Yaşamsal fonksiyonları dönen kişi yan yatış (koma) pozisyonuna alınır."
   },
   {
-    "id": 40,
-    "category": "İlkyardım",
-    "question": "Bilinci kapalı, solunumu durmuş, göz bebekleri genişlemiş ve tırnakları morarmış kazazedeye hangi ilk yardım uygulaması yapılmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "Yan yatmak", "isTrue": false },
-      { "text": "Heimlich manevrası", "isTrue": true },
-      { "text": "Boyun atardamarına bakmak", "isTrue": false },
-      { "text": "Boğucu sargı", "isTrue": false }
-    ],
-    "description": "Not: Soru uygulamasında Heimlich manevrası (B) yeşil yanmaktadır, bu nedenle true işaretlenmiştir."
-  },
+  "id": 40,
+  "category": "İlkyardım",
+  "question": "Bilinci kapalı, solunumu durmuş, göz bebekleri genişlemiş ve tırnakları morarmış kazazedeye hangi ilk yardım uygulaması yapılmalıdır?",
+  "image_url": null,
+  "options": [
+    { "text": "Yan yatış pozisyonu (koma pozisyonu)", "isTrue": false },
+    { "text": "Kalp masajı ve suni solunum (Temel Yaşam Desteği)", "isTrue": true },
+    { "text": "Boyun atardamarına bakmak", "isTrue": false },
+    { "text": "Boğucu sargı", "isTrue": false }
+  ],
+  "description": "Solunumu durmuş ve bilinç kapalı kazazedeye Temel Yaşam Desteği uygulanır (30 göğüs basısı + 2 kurtarıcı nefes) ve 112 aranır; OED/AED varsa kullanılmalıdır."
+},
   {
     "id": 41,
     "category": "İlkyardım",
@@ -705,7 +705,7 @@
     "id": 55,
     "category": "İlkyardım",
     "question": "Resimde görülen uygulama hangi kırıkların tespiti için yapılır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "on-kol-kemigi.png",
     "options": [
       { "text": "Omurga kırığı", "isTrue": false },
       { "text": "Üst kol kemiği kırığı", "isTrue": false },
@@ -718,7 +718,7 @@
     "id": 56,
     "category": "İlkyardım",
     "question": "Görseldeki ilk yardım pozisyonunun, hangi durumdaki kazazedeye uygulanması sakıncalıdır?",
-    "image_url": "bas-cene-pozisyonu",
+    "image_url": "bas-cene-pozisyonu.png",
     "options": [
       { "text": "Solunum güçlüğü çekenlerde", "isTrue": false },
       { "text": "Boyun omurlarında hasar olanlarda", "isTrue": true },
@@ -809,7 +809,7 @@
     "id": 63,
     "category": "Araç Tekniği",
     "question": "Görseldeki lastik ölçülerinden hangisi lastik yanak genişliğini gösterir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "lastik.png",
     "options": [
       { "text": "205", "isTrue": true },
       { "text": "55", "isTrue": false },
@@ -896,4 +896,5 @@
     ],
     "description": "Görselde görülen kişi trafik polisidir. Trafik polisinin temel görevlerinden biri, trafik akışını emniyetli bir şekilde yönetmek ve trafiği düzenlemektir."
   }
+  
 ]
