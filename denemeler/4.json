@@ -42,7 +42,7 @@
     "id": 4,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi eğimsiz iki yönlü dar yoldaki karşılaşmada, 2 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kamyon-otomobile-yolver.png",
     "options": [
       { "text": "A) farklı bir yolu tercih etmeli", "isTrue": false },
       { "text": "B) 1 numaralı araca yol vermeli", "isTrue": true },
@@ -196,7 +196,7 @@
   {
     "id": 16,
     "category": "Trafik Adabı",
-    "question": "Trafikteki bir aracın,\nI. sinyal vermeden aniden yola çıkması,\nII. makas atarak önden veya arkadan ilerlemesi,\nIII. kurallara uygun şekilde park yapması\ngibi durumlarından hangileri sürücülerin trafikte öfke duygusunu ortaya çıkarmaktadır?",
+    "question": "Trafikteki bir aracın,\nI. Sinyal vermeden aniden yola çıkması,\nII. Makas atarak önden veya arkadan ilerlemesi,\nIII. Kurallara uygun şekilde park yapması\ngibi durumlarından hangileri sürücülerin trafikte öfke duygusunu ortaya çıkarmaktadır?",
     "image_url": null,
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
@@ -223,7 +223,7 @@
     "id": 18,
     "category": "Araç Tekniği",
     "question": "Motor çalıştırıldığında şekildeki ikaz lambası sönmüyorsa sürücü hangisinin kontrolünü yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yag-basinci.png",
     "options": [
       { "text": "A) Motor yağının", "isTrue": true },
       { "text": "B) Yakıt", "isTrue": false },
@@ -271,19 +271,19 @@
     ],
     "description": "İlk yardım kaza olduktan sonra hayatta tutma amacı taşır; kaza önleme bir trafik güvenliği konusudur."
   },
-  {
+{
     "id": 22,
     "category": "Trafik Adabı",
-    "question": "Yardımlaşma, birlikte çalışmak, tek başımıza yapamayacağımız şeyleri yeteneklerimizi ve enerjimizi başkalarıyla birleştirmek, başkalarının bilgi ve yeteneklerinden faydalanmak demektir. Bu tanıma göre, trafikteki hangi davranış yardımlaşmanın anlamına uygun değildir?",
+    "question": "Yardımlaşma; birlikte çalışmak, tek başımıza yapamayacağımız işlerde yeteneklerimizi başkalarıyla birleştirmek demektir. Buna göre, aşağıdakilerden hangisi trafikte yardımlaşma ilkesine uygun bir davranış değildir?",
     "image_url": null,
     "options": [
-      { "text": "A) Olmuş bir kazayı bildirmek", "isTrue": false },
-      { "text": "B) Karlı havada bir başkasının aracının zincirini takmak", "isTrue": false },
-      { "text": "C) Yabancı bir sürücüye gideceği yolu tarif etmek", "isTrue": true },
-      { "text": "D) Yolda aracı arızalandığı birine yardımcı olmak", "isTrue": false }
+      { "text": "Aracı bozulan bir sürücüye teknik destek vermek veya çekici çağırmasına yardım etmek", "isTrue": false },
+      { "text": "Yolda kalmış, zincir takmakta zorlanan bir sürücüye yardım etmek", "isTrue": false },
+      { "text": "Trafik sıkışıklığında sadece kendi geçebileceği kadar boşluk bırakıp diğer araçları engellemek", "isTrue": true },
+      { "text": "Kaza yapmış bir aracı ve yaralıları yetkililere (112) vakit kaybetmeden bildirmek", "isTrue": false }
     ],
-    "description": "Tanımda geçen 'enerji ve yetenek birleştirme' ilkesine göre yol tarifi yapmak diğer şıklardaki fiziksel ve teknik dayanışma örneklerine göre daha bireysel bir bilgi paylaşımıdır."
-  },
+    "description": "Yardımlaşma başkalarının işini kolaylaştırmayı gerektirir; sadece kendini düşünerek trafiği aksatmak bencilliktir ve yardımlaşma ruhuna aykırıdır."
+},
   {
     "id": 23,
     "category": "Araç Tekniği",
@@ -303,10 +303,10 @@
     "question": "Trafik işaretlerinden hangisi \"okul geçidi\" anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "yaya-gecidi-levhasi.png", "isTrue": false },
+      { "text": "el-arabasi-giremez-levhasi-tt-14trafik-5-671e.png", "isTrue": false },
+      { "text": "okul-gecidi.png", "isTrue": true },
+      { "text": "yaya-giremez.png", "isTrue": false }
     ],
     "description": "Çanta taşıyan iki öğrenci figürünün bulunduğu üçgen levha okul geçidini temsil eder."
   },
@@ -342,10 +342,10 @@
     "question": "Araç gösterge panelindeki uyarı işaretlerinden hangisi yanarsa silecek suyu kontrol edilmelidir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_A.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_B.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_C.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_D.png", "isTrue": false }
+      { "text": "ikaz-isigi12551.png", "isTrue": false },
+      { "text": "silecek-suyu.png", "isTrue": true },
+      { "text": "sis-lambasi.png", "isTrue": false },
+      { "text": "lastik-hava-basinci-ikazisigi.png", "isTrue": false }
     ],
     "description": "Fıskiye ve cam sembolü olan ikaz ışığı silecek suyu seviyesinin düşük olduğunu gösterir."
   },
@@ -417,7 +417,7 @@
   {
     "id": 33,
     "category": "Trafik Adabı",
-    "question": "Trafikte adap:\nI. trafiğe çıkan herkesin uymak zorunda olduğu,\nII. trafiği ve trafik akışını en az trafik kuralları kadar düzene sokan,\nIII. ceza korkusu olmadan nezaketen uyulan hususlardır.\nNumaralanmış bu ifadelerden hangileri doğrudur?",
+    "question": "Trafikte adap:\nI. Trafiğe çıkan herkesin uymak zorunda olduğu,\nII. Trafiği ve trafik akışını en az trafik kuralları kadar düzene sokan,\nIII. Teza korkusu olmadan nezaketen uyulan hususlardır.\nNumaralanmış bu ifadelerden hangileri doğrudur?",
     "image_url": null,
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
@@ -457,7 +457,7 @@
     "id": 36,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretinin anlamı nedir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "girisi-olmayan-yol.png",
     "options": [
       { "text": "A) İleri mecburi yön", "isTrue": false },
       { "text": "B) Girişi olmayan yol", "isTrue": true },
@@ -472,10 +472,10 @@
     "question": "Trafik işaretlerinden hangisi, kavşaklarda üzerinde bulunulan yolun tali yol olduğunu ve ana yoldaki araçlara yol verilmesi gerektiğini belirtir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_A.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_B.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_C.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_D.png", "isTrue": false }
+      { "text": "yolver-levhasi.png", "isTrue": true },
+      { "text": "ikili-yol-levhasi.png", "isTrue": false },
+      { "text": "girilmez-yol-levhasi.png", "isTrue": false },
+      { "text": "anayol-taliyol.png", "isTrue": false }
     ],
     "description": "Ters üçgen levhası 'Yol Ver' anlamındadır ve aracın tali yolda olduğunu gösterir."
   },
@@ -508,7 +508,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir durum yoksa, şekildeki gibi ışıklı trafik işaret cihazında kırmızı ışığın yandığını gören sürücü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kirmizi-trafik-isigi.png",
     "options": [
       { "text": "A) Durup beklemeli", "isTrue": true },
       { "text": "B) Durmadan geçmeli", "isTrue": false },
@@ -533,7 +533,7 @@
   {
     "id": 42,
     "category": "İlkyardım",
-    "question": "I. ABC\\'sini değerlendirmek\nII. Ağızdan şeker vermek\nIII. Koma pozisyonu vermek\nNumaralanmış ifadelerden hangileri bilinci yerinde olan ve kan şekeri düşen kazazedeye yapılacak ilk yardım uygulamalarındandır?",
+    "question": "I. ABC'sini değerlendirmek\nII. Ağızdan şeker vermek\nIII. Koma pozisyonu vermek\nNumaralanmış ifadelerden hangileri bilinci yerinde olan ve kan şekeri düşen kazazedeye yapılacak ilk yardım uygulamalarındandır?",
     "image_url": null,
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
@@ -547,10 +547,10 @@
     "id": 43,
     "category": "İlkyardım",
     "question": "Görseldeki ilk yardımcı tarafından yapılan değerlendirme aşaması aşağıdakilerden hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "bilinc-kontrol-sorusu12.png",
     "options": [
       { "text": "A) Bilinci", "isTrue": true },
-      { "text": "B) dolaşımı", "isTrue": false },
+      { "text": "B) Dolaşımı", "isTrue": false },
       { "text": "C) Solunumu", "isTrue": false },
       { "text": "D) Hava yolu açıklığı", "isTrue": false }
     ],
@@ -560,9 +560,9 @@
     "id": 44,
     "category": "Trafik Adabı",
     "question": "Görselde 1 ve 2 numaralı araçların yollarına devam etmekte zorlandıkları görülmektedir.\nBu duruma sebep olan park hâlindeki araçların sürücülerinin hangi temel değere sahip olmadığı kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "digergamlik-sorusu-51561.png",
     "options": [
-      { "text": "A) Diğerkâmlık", "isTrue": true },
+      { "text": "A) Diğergâmlık", "isTrue": true },
       { "text": "B) Sabır", "isTrue": false },
       { "text": "C) Heyecan", "isTrue": false },
       { "text": "D) Öfke kontrolü", "isTrue": false }
@@ -611,15 +611,15 @@
   {
     "id": 48,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Aşağıdaki trafik işaretlerinden hangisi park yerini bildirir?",
+    "question": "Görevli kişinin trafiği yönetme hareketlerine yardımcı olmak üzere; kısa sesli tek veya fasılalı düdük çalması ....... uzun sesli tek veya fasılalı düdük çalması ...... emridir.\nVerilen cümlede boş bırakılan yere sırasıyla hangileri olmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_A.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_B.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_C.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_D.png", "isTrue": false }
+      { "text": "A) Geç - Dur", "isTrue": false },
+      { "text": "B) Uyarma - Geç", "isTrue": false },
+      { "text": "C) Dur - Uyarma", "isTrue": false },
+      { "text": "D) Uyarma - Dur", "isTrue": true }
     ],
-    "description": "Mavi zemin üzerine beyaz 'P' harfi park alanı olduğunu gösteren trafik işaretidir."
+    "description": "Trafik polisi yönetiminde kısa düdük sesi dikkat çekmek (uyarma), uzun düdük sesi ise dur komutu anlamına gelir."
   },
   {
     "id": 49,
@@ -651,7 +651,7 @@
     "id": 51,
     "category": "Araç Tekniği",
     "question": "Araç gösterge panelinde şekildeki uyarı ışığının yanması sürücüye neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "lastik-hava-basinci-ikazisigi.png",
     "options": [
       { "text": "A) Lastik hava basıncının düşük olduğunu", "isTrue": true },
       { "text": "B) Fren balatalarının yıprandığını", "isTrue": false },
@@ -703,7 +703,7 @@
     "id": 55,
     "category": "Trafik Adabı",
     "question": "I. Sürekli kornaya basması\nII. Yayanın geçişini tamamlamasını beklemesi\nIII. Harekete geçmesi\nGörsele göre, araç sürücüsünün hangilerini yapması diğerkâmlık olduğunu gösterir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yaya-geciyor-arac-surucusu.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) Yalnız II", "isTrue": true },
@@ -718,10 +718,10 @@
     "question": "Delici göğüs yaralanmalarında kazazedeye, aşağıdaki pozisyonlardan hangisi verilir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_A.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_B.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_C.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_D.png", "isTrue": true }
+      { "text": "normal.png", "isTrue": false },
+      { "text": "koma.png", "isTrue": false },
+      { "text": "sok.png", "isTrue": false },
+      { "text": "karin-yaralanmasi.png", "isTrue": true }
     ],
     "description": "Delici göğüs yaralanmalarında hasta, nefes almasını kolaylaştırmak için yarı oturuş pozisyonuna getirilir."
   },
@@ -755,7 +755,7 @@
     "id": 59,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Taşıt yolu üzerine çizilen şekildeki yatay işaretlemenin anlamı nedir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yolver-yol.png",
     "options": [
       { "text": "A) Dur", "isTrue": false },
       { "text": "B) Yol ver", "isTrue": true },
@@ -768,7 +768,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kontrolsüz kavşakta 1 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-gecis54632.png",
     "options": [
       { "text": "A) Geçiş hakkını kendi kullanmalı", "isTrue": false },
       { "text": "B) Hızlanıp kavşağa girmeli", "isTrue": false },
@@ -777,19 +777,19 @@
     ],
     "description": "Kontrolsüz kavşaklarda soldaki araç (1), sağdan gelen araca (2) yol vermelidir."
   },
-  {
+{
     "id": 61,
     "category": "Trafik Adabı",
-    "question": "Hangisi, trafikte sorumlu davranma topluma sağlayacağı faydalardan biri değildir?",
+    "question": "Trafikte sorumlu ve kurallara uygun davranmanın topluma sağlayacağı faydalar arasında aşağıdakilerden hangisi yer almaz?",
     "image_url": null,
     "options": [
-      { "text": "A) Sevdiklerini tehlikeye atmak", "isTrue": true },
-      { "text": "B) Tartışma ve kavgalara karışmak", "isTrue": false },
-      { "text": "C) Diğer sürücüleri iske sokmayıp tehlikeye atmamak", "isTrue": false },
-      { "text": "D) Mal ve can kaybına engelleyerek ülke ekonomisini zarara sokmamak", "isTrue": false }
+      { "text": "Trafik kazalarından kaynaklanan can ve mal kayıplarının azalması", "isTrue": false },
+      { "text": "Bireylerin trafikte kendilerini daha güvende ve huzurlu hissetmesi", "isTrue": false },
+      { "text": "Ülke ekonomisinin kaza maliyetleri nedeniyle zarara uğramasının önlenmesi", "isTrue": false },
+      { "text": "Kural ihlalleri yaparak diğer sürücüleri riskli manevralara zorlamak", "isTrue": true }
     ],
-    "description": "Sevdiklerini tehlikeye atmak bir fayda değil, olumsuz bir durumdur."
-  },
+    "description": "Diğer sürücüleri riske atmak toplumsal bir fayda değil, aksine trafik güvenliğini tehlikeye atan olumsuz bir davranış ve suçtur."
+},
   {
     "id": 62,
     "category": "İlkyardım",
@@ -802,18 +802,6 @@
       { "text": "D) Boyun omurunda zedelenme olan", "isTrue": false }
     ],
     "description": "Baş-çene pozisyonu, bilinci kapalı kişilerin dilinin geriye kaçmasını önleyerek soluk yolunu açmak için kullanılır."
-  },
-  {
-    "id": 63,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Görevli kişinin trafiği yönetme hareketlerine yardımcı olmak üzere; kısa sesli tek veya fasılalı düdük çalması ....... uzun sesli tek veya fasılalı düdük çalması ...... emridir.\nVerilen cümlede boş bırakılan yere sırasıyla hangileri olmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) geç - Dur", "isTrue": false },
-      { "text": "B) Uyarma - geç", "isTrue": false },
-      { "text": "C) Dur - Uyarma", "isTrue": false },
-      { "text": "D) Uyarma - Dur", "isTrue": true }
-    ],
-    "description": "Trafik polisi yönetiminde kısa düdük sesi dikkat çekmek (uyarma), uzun düdük sesi ise dur komutu anlamına gelir."
   }
+  
 ]
