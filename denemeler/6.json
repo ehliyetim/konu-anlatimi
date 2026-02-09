@@ -1,125 +1,736 @@
 [
   {
     "id": 1,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Şekildeki trafik işareti hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "category": "Araç Tekniği",
+    "question": "Bujide kıvılcım meydana gelmiyorsa sebebi hangisi olabilir?",
+    "image_url": null,
     "options": [
-      { "text": "A) Kasisli yola girileceğini", "isTrue": true },
-      { "text": "B) Yolda çalışma olduğunu", "isTrue": false },
-      { "text": "C) Yolun trafiğe kapalı olduğunu", "isTrue": false },
-      { "text": "D) Motorlu taşıtların giremeyeceğini", "isTrue": false }
+      { "text": "Benzinin bitmesi", "isTrue": false },
+      { "text": "Motor yağının eksilmesi", "isTrue": false },
+      { "text": "Far ampülünün azalması", "isTrue": false },
+      { "text": "Endüksiyon bobini kablosunun çıkması", "isTrue": true }
     ],
-    "description": "Kırmızı üçgen içerisindeki tümsek şeklindeki sembol, ileride kasisli yol olduğunu bildiren uyarı işaretidir."
+    "description": "Bujilere yüksek voltaj gönderen endüksiyon bobini sistemindeki bir kopukluk kıvılcımı engeller."
   },
   {
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Kamyon, kamyonet ve römorklarda yükle birlikte yolcu taşınırken, yukarıda verilenlerden hangilerinin yapılması zorunludur?\nI- Yüklerin üzerine yolcu bindirilmesi\nII- Kasanın yan ve arka kapaklarının kapalı olması\nIII- Yolcuların kasa içinde ayrılacak bir yerde oturtulması\nIV- Yüklerin sağlam olarak yerleştirilmiş ve bağlanmış olması",
-    "image_url": null,
+    "question": "Şekildeki trafik işaretinin anlamı nedir?",
+    "image_url": "https://random-url.com/image.png",
     "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) I ve II", "isTrue": false },
-      { "text": "C) II, III ve IV", "isTrue": true },
-      { "text": "D) I, II, III ve IV", "isTrue": false }
+      { "text": "Sağa zorunlu yön", "isTrue": false },
+      { "text": "Sola zorunlu yön", "isTrue": false },
+      { "text": "Sola tehlikeli viraj", "isTrue": false },
+      { "text": "Sola dönülmez", "isTrue": true }
     ],
-    "description": "Yük üzerinde yolcu taşınması yasaktır; kapakların kapalı olması, yolcuların ayrı bir yerde oturması ve yüklerin bağlı olması zorunludur."
+    "description": "Kırmızı daire içindeki sola dönen ok ve üzerindeki çizgi sola dönmenin yasak olduğunu bildirir."
   },
   {
     "id": 3,
-    "category": "Araç Tekniği",
-    "question": "Hangisi, araç motoru çalışırken şekildeki arıza ikaz lambasının yanma sebeplerinden biri değildir?",
-    "image_url": "https://random-url.com/image.png",
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Hangisi bütün yasaklama ve kısıtlamaların sona erdiğini bildirir?",
+    "image_url": null,
     "options": [
-      { "text": "A) Kayışının gevşemiş veya kopmuş olması", "isTrue": false },
-      { "text": "B) Alternatörün arızalanması", "isTrue": false },
-      { "text": "C) Akünün şarj olmaması", "isTrue": false },
-      { "text": "D) Fren hidroliğinin azalmış olması", "isTrue": true }
+      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_2.png", "isTrue": true },
+      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
     ],
-    "description": "Görseldeki akü sembolü şarj sistemiyle ilgilidir; fren hidroliği seviyesiyle bir bağlantısı yoktur."
+    "description": "Siyah-beyaz çapraz çizgili tabela genel kısıtlamaların sonunu temsil eder."
   },
   {
     "id": 4,
-    "category": "Trafik Adabı",
-    "question": "Numaralanmış ifadelerden hangileri, trafik düzen ve güvenliği için tehdit oluşturur?\nI. Sürekli sol şeridi kullanmak\nII. Hoşgörülü davranışlarda bulunmak\nIII. Trafik yoğunluğunda emniyet şeridini kullanmak",
+    "category": "Trafik Psikolojisi",
+    "question": "Hangisi, doğrudan sürücüyle alakalı bir stres kaynağıdır?",
     "image_url": null,
     "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": true },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
+      { "text": "Yolun bozuk olması", "isTrue": false },
+      { "text": "Kötü geçen bir iş günü", "isTrue": true },
+      { "text": "Trafiğin sıkışık olması", "isTrue": false },
+      { "text": "Olumsuz hava şartları", "isTrue": false }
     ],
-    "description": "Sol şeridi sürekli işgal etmek ve emniyet şeridini haksız kullanmak trafik güvenliğini tehlikeye atar; hoşgörü ise güvenliği artırır."
+    "description": "Kötü iş günü sürücünün ruhsal haliyle ilgiliyken, diğerleri çevresel faktörlerdir."
   },
   {
     "id": 5,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Görsele göre, sağdaki mavi aracın sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Hangisi, trafik kazalarına neden olan insan unsuru içinde bulunmaz?",
+    "image_url": null,
     "options": [
-      { "text": "A) Geçiş hakkını korna kullanarak istemeli", "isTrue": false },
-      { "text": "B) Hızlanarak yoluna devam etmeli", "isTrue": false },
-      { "text": "C) Beyaz aracın geçmesini beklemeli", "isTrue": true },
-      { "text": "D) Korna çalıp beyaz aracı durdurmalı", "isTrue": false }
+      { "text": "sürücü", "isTrue": false },
+      { "text": "Yol", "isTrue": true },
+      { "text": "Yaya", "isTrue": false },
+      { "text": "Yolcu", "isTrue": false }
     ],
-    "description": "Tali yoldan ana yola çıkan mavi araç sürücüsü, ana yoldaki beyaz araca yol vermelidir."
+    "description": "Yol fiziksel bir çevreyken; sürücü, yaya ve yolcu insan faktörüdür."
   },
   {
     "id": 6,
     "category": "Araç Tekniği",
-    "question": "Araç üzerinde bir elektrikli alıcı çalışmadığında ilk bakılacak yer aşağıdakilerden hangisi olmalıdır?",
+    "question": "\"A\" şehrinden \"B\" şehrine yolculuk yapan iki sürücüden, birincisi giderken, ikincisi ise gelirken aracı sürmüştür. İkinci kişi kullandığında %25 yakıt tasarrufu sağlamıştır. Buna göre, ikinci kişinin %25 yakıt tasarrufu sağlanması da hangisinin daha etkili olduğu söylenebilir",
     "image_url": null,
     "options": [
-      { "text": "A) Motordaki yağ seviyesi", "isTrue": false },
-      { "text": "B) Ateşleme sistemindeki ilgili buji", "isTrue": false },
-      { "text": "C) Sigorta panelindeki ilgili sigorta", "isTrue": true },
-      { "text": "D) Yakıt deposundaki yakıt seviyesi", "isTrue": false }
+      { "text": "Vites değiştirirken ara gazı vermesi", "isTrue": false },
+      { "text": "Aracı, motor devrine uygun viteste kullanmak", "isTrue": true },
+      { "text": "Aracı düşük viteste ve yüksek devirde kullanması", "isTrue": false },
+      { "text": "Aracı yüksek viteste ve çok düşük devirde kullanması", "isTrue": false }
     ],
-    "description": "Elektrikli bir sistem çalışmadığında devreyi koruyan sigortanın atıp atmadığı kontrol edilmelidir."
+    "description": "Motor devrine uygun vites kullanımı yakıt verimliliğini artıran en önemli sürücü davranışıdır."
   },
   {
     "id": 7,
-    "category": "İlkyardım",
-    "question": "Kan kaybı, vücuttaki kan miktarının % kaçını aşarsa ciddi hayati tehlike görülür?",
+    "category": "Araç Tekniği",
+    "question": "Aşağıdakilerden hangisi araç kullanmaya başlamadan önce günlük yapılması gerekenlerden biri değildir?",
     "image_url": null,
     "options": [
-      { "text": "A) %5", "isTrue": false },
-      { "text": "B) %10", "isTrue": false },
-      { "text": "C) %15", "isTrue": false },
-      { "text": "D) %20", "isTrue": true }
+      { "text": "Yağ değişimi", "isTrue": true },
+      { "text": "Koltuk ayarı", "isTrue": false },
+      { "text": "Aynaların ayarlanması", "isTrue": false },
+      { "text": "Lastiklerin kontrolü", "isTrue": false }
     ],
-    "description": "Vücuttaki kanın %20'sinin kaybedilmesi hayati risk (şok ve ölüm) oluşturur."
+    "description": "Yağ değişimi periyodik bakımdır, her sürüş öncesi yapılması gerekmez."
   },
   {
     "id": 8,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre numaralanmış ifadelerden hangileri kesinlikle doğrudur?\nI. Mavi otomobil sürücüsü şerit ihlali yapmaktadır.\nII. Kırmızı otomobil sürücüsü ters şeritten gelmektedir.\nIII. Mavi otomobil sürücüsü, araç ışıklarını gerekli yerde kullanmaktadır.",
-    "image_url": "https://random-url.com/image.png",
+    "category": "Araç Tekniği",
+    "question": "I. Emniyet kemeri, II. Açılır tavan, III. Merkezi kilit, IV. Baş desteği. Hangileri, kaza anında yaralanmaları en aza indirmeyi amaçlayan pasif güvenlik sistemlerdendir?",
+    "image_url": null,
     "options": [
-      { "text": "A) Yalnız I", "isTrue": true },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
+      { "text": "I ve II", "isTrue": false },
+      { "text": "I ve IV", "isTrue": true },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "III ve IV", "isTrue": false }
     ],
-    "description": "Görselde mavi aracın düz çizgi olan yerde şerit değiştirdiği/ihlal yaptığı görülmektedir."
+    "description": "Emniyet kemeri ve baş desteği pasif güvenlik sistemleridir."
   },
   {
     "id": 9,
-    "category": "Araç Tekniği",
-    "question": "Geri vites lambalarından biri parlak diğeri sönük yanıyorsa sebebi aşağıdakilerden hangisidir?",
-    "image_url": null,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Şekle göre 1 numaralı aracın önündeki aracı geçmesi yasaktır Bu durumu sürücüye aşağıdaki şıklardan hangisi bildirir?",
+    "image_url": "https://random-url.com/image.png",
     "options": [
-      { "text": "A) Flaşör arızalıdır.", "isTrue": false },
-      { "text": "B) Akü gerilimi düşüktür.", "isTrue": false },
-      { "text": "C) Geri vites müşiri arızalıdır.", "isTrue": false },
-      { "text": "D) Lamba bağlantısında oksitlenme vardır.", "isTrue": true }
+      { "text": "Devamlı yol çizgisi", "isTrue": true },
+      { "text": "Diğer aracın sürücüsü", "isTrue": false },
+      { "text": "Yol kenarındaki banketler", "isTrue": false },
+      { "text": "Hız kontrolü yapan uyarı cihazları", "isTrue": false }
     ],
-    "description": "Lambaların birinin farklı yanması genellikle şasi bağlantısındaki oksitlenme veya zayıf temas nedeniyle olur."
+    "description": "Yoldaki kesintisiz (devamlı) çizgi sollama yasağını bildirir."
   },
   {
     "id": 10,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Trafik görevlisinin geceleyin yaptığı hareketlerden hangisi, yönün değiştirilmesi gerektiğini belirtir?",
+    "question": "Aşağıdakilerin hangisinde 1 numaralı aracın sürücüsü geçme yasağına uymamıştır?",
+    "image_url": null,
+    "options": [
+      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
+      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+    ],
+    "description": "Görselde hatalı sollama yapan araç kural ihlali yapmaktadır."
+  },
+  {
+    "id": 11,
+    "category": "İlkyardım",
+    "question": "Aşağıdakilerden hangisi olay yerine gelen ilk yardımcının hayat kurtarma zincirinde görevlerindendir?",
+    "image_url": null,
+    "options": [
+      { "text": "Sağlık kuruluşuna haber vermek", "isTrue": true },
+      { "text": "Tıbbi araç gereçlerle müdahale yapmak", "isTrue": false },
+      { "text": "Kazaya uğrayan aracı güvenli bir yere çekmek", "isTrue": false },
+      { "text": "Olay yerini değerlendirmeden önce yaralıların durumlarını değerlendirmek", "isTrue": false }
+    ],
+    "description": "Hayat kurtarma zincirinin ilk adımı bildirmedir."
+  },
+  {
+    "id": 12,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Aksine bir işaret bulunmadıkça, yerleşim yeri dışındaki bölünmüş yollarda otomobiller için azami hız saatte kaç kilometredir?",
+    "image_url": null,
+    "options": [
+      { "text": "90", "isTrue": false },
+      { "text": "100", "isTrue": false },
+      { "text": "110", "isTrue": true },
+      { "text": "130", "isTrue": false }
+    ],
+    "description": "Bölünmüş yollarda otomobil hız sınırı 110 km/s'dir."
+  },
+  {
+    "id": 13,
+    "category": "Araç Tekniği",
+    "question": "Araçta, kullanım ömrünü tamamlamış lastiklerin kullanılması aşağıdakilerden hangisini artırır?",
+    "image_url": null,
+    "options": [
+      { "text": "Sürüş konforunu", "isTrue": false },
+      { "text": "Direksiyon hâkimiyetini", "isTrue": false },
+      { "text": "Araç fren mesafesini", "isTrue": true },
+      { "text": "Aracın yol üzerinde tutunmasını", "isTrue": false }
+    ],
+    "description": "Aşınmış lastikler fren mesafesini uzatır."
+  },
+  {
+    "id": 14,
+    "category": "İlkyardım",
+    "question": "I. Yaşamı korumak, II. iyileşmeyi kolaylaştırmak, III. Durumun kötüye gitmesini önlemek. Hangileri ilk yardımın amaçlarındandır?",
+    "image_url": null,
+    "options": [
+      { "text": "Yalnız I", "isTrue": false },
+      { "text": "I ve II", "isTrue": false },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": true }
+    ],
+    "description": "Yaşamı korumak, iyileşmeyi desteklemek ve kötüleşmeyi önlemek ilkyardımın temel amaçlarıdır."
+  },
+  {
+    "id": 15,
+    "category": "Trafik Adabı",
+    "question": "Araç kullanırken yolda olan bisikletli çocukları fark eden bir sürücünün... yavaş ve dikkatli araç kullanması hangi temel değere uygundur?",
+    "image_url": null,
+    "options": [
+      { "text": "Bencillik", "isTrue": false },
+      { "text": "Feragat", "isTrue": true },
+      { "text": "sabırsızlık", "isTrue": false },
+      { "text": "Yardımlık", "isTrue": false }
+    ],
+    "description": "Sürücünün başkalarını düşünerek hareket etmesi feragattır."
+  },
+  {
+    "id": 16,
+    "category": "İlkyardım",
+    "question": "Yaralanmaya bağlı meydana gelen dış kanamada ilk yardım olarak aşağıdakilerden hangisinin yapılması sakıncalıdır?",
+    "image_url": null,
+    "options": [
+      { "text": "Kanama bölgesine kan taşıyan ana damarlara baskı uygulanması", "isTrue": false },
+      { "text": "Kanayan yer üzerine temiz bir bezle bastırılması", "isTrue": false },
+      { "text": "Bölgenin kalp seviyesinden yukarıda tutulması", "isTrue": false },
+      { "text": "Yara bölgesine sıcak uygulama yapılması", "isTrue": true }
+    ],
+    "description": "Sıcak uygulama kanamayı artırır, bu yüzden sakıncalıdır."
+  },
+  {
+    "id": 17,
+    "category": "Trafik Adabı",
+    "question": "hangisi trafikte bireye yapılan hak ihlallerindendir?",
+    "image_url": null,
+    "options": [
+      { "text": "Aşırı hız yapmaktan kaçınılması", "isTrue": false },
+      { "text": "Geçiş önceliğine sahip araçlara yol verilmesi", "isTrue": false },
+      { "text": "Trafikte sürücülerin tek başına olmadığını düşünülmesi", "isTrue": false },
+      { "text": "Engeli olmadığı hâlde engelli kişiler için ayrılmış yerlere park edilmesi", "isTrue": true }
+    ],
+    "description": "Engelli park alanlarını işgal etmek bir hak ihlalidir."
+  },
+  {
+    "id": 18,
+    "category": "İlkyardım",
+    "question": "Fren mesafesini ayarlayamayan bir aracın... başında ağır kanama olan kazazedeye yapılması gereken ilk yardım uygulaması hangisidir?",
+    "image_url": null,
+    "options": [
+      { "text": "Yaranın temiz pamukla kapatılması", "isTrue": false },
+      { "text": "Şah damarına tek taraflı basınç uygulanması", "isTrue": true },
+      { "text": "Soğuk uygulama yapılarak vücut sıcaklığının düşürülmesi", "isTrue": false },
+      { "text": "Koltuk altından ayak bileğine kadar sert tespit malzemesi yerleştirilmesi", "isTrue": false }
+    ],
+    "description": "Baştaki ağır kanamalar için şah damarına baskı yapılır."
+  },
+  {
+    "id": 19,
+    "category": "İlkyardım",
+    "question": "Hangisi ilk yardımın öncelikli amaçlarındandır?",
+    "image_url": null,
+    "options": [
+      { "text": "Trafikteki kaza sayısını azaltmak", "isTrue": false },
+      { "text": "Hayati tehlikenin ortadan kaldırılması", "isTrue": true },
+      { "text": "İlaç uygulamalarıyla durumun kötüleşmesini önlemek", "isTrue": false },
+      { "text": "Sakatlıkları tedavi etmek", "isTrue": false }
+    ],
+    "description": "Öncelikli amaç hayati tehlikeyi gidermektir."
+  },
+  {
+    "id": 20,
+    "category": "İlkyardım",
+    "question": "I. Nefes alıp vermekle ağrının şiddeti azalır... Kalp krizi geçiren kazazedede yukarıdaki belirtilerden hangileri görülür?",
+    "image_url": null,
+    "options": [
+      { "text": "I ve IV", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": false },
+      { "text": "II, III ve IV", "isTrue": true },
+      { "text": "I, II, III ve IV", "isTrue": false }
+    ],
+    "description": "Kalp krizinde terleme, ölüm korkusu ve kola yayılan ağrı görülür; nefesle ağrı azalmaz."
+  },
+  {
+    "id": 21,
+    "category": "Araç Tekniği",
+    "question": "Aşağıdakilerden hangisi fren sisteminin görevlerinden değildir?",
+    "image_url": null,
+    "options": [
+      { "text": "Duran aracı sabitlemek", "isTrue": false },
+      { "text": "Aracın hızını düşürmek", "isTrue": false },
+      { "text": "Aracın durma mesafesini artırmak", "isTrue": true },
+      { "text": "Aracı güvenli bir şekilde durdurmak", "isTrue": false }
+    ],
+    "description": "Fren sistemi durma mesafesini artırmaz, azaltır."
+  },
+  {
+    "id": 22,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Hangisi yayalara trafikte kolaylık sağlayan unsurlardan biridir?",
+    "image_url": null,
+    "options": [
+      { "text": "Kaldırımlar", "isTrue": true },
+      { "text": "Bariyerler", "isTrue": false },
+      { "text": "Banklar", "isTrue": false },
+      { "text": "Otoparklar", "isTrue": false }
+    ],
+    "description": "Kaldırımlar yayalar için güvenli alanlardır."
+  },
+  {
+    "id": 23,
+    "category": "İlkyardım",
+    "question": "Görseldeki gibi yaralanması olan kazazedeye ilk yardımcının hangisini yapması yanlıştır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Yarayı sargı beziyle sarması", "isTrue": false },
+      { "text": "Antibiyotik içeren merhem sürmesi", "isTrue": true },
+      { "text": "Yaralı bölgeyi kalp seviyesinin üzerinde tutması", "isTrue": false },
+      { "text": "Yara içerisindeki toz, toprak gibi maddeleri bol temiz suyla yıkayarak uzaklaştırması", "isTrue": false }
+    ],
+    "description": "Açık yaraya ilkyardım aşamasında merhem sürülmez."
+  },
+  {
+    "id": 24,
+    "category": "İlkyardım",
+    "question": "hangisi ateşli havalede yapılan hatalı ilk yardım uygulamalarındandır?",
+    "image_url": null,
+    "options": [
+      { "text": "Kazazedenin giysilerinin çıkartılması", "isTrue": false },
+      { "text": "Karın ve göğüs bölgesi üzerine direkt olarak buz konulması", "isTrue": true },
+      { "text": "Kazazedenin koltuk altlarına... ıslak bez yerleştirilmesi", "isTrue": false },
+      { "text": "Musluk suyu ile ıslatılan havlu... ateş düşürülmesi", "isTrue": false }
+    ],
+    "description": "Direkt buz uygulaması vücut ısısını aniden düşüreceği için tehlikelidir."
+  },
+  {
+    "id": 25,
+    "category": "Araç Tekniği",
+    "question": "Araç motorunu çalıştıran sürücü, görseldeki ikaz lambasının sönmediğini fark ederse hangisini kontrol etmelidir?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Motor yağı", "isTrue": true },
+      { "text": "Yakıt", "isTrue": false },
+      { "text": "Hidrolik yağ", "isTrue": false },
+      { "text": "Silecek suyu", "isTrue": false }
+    ],
+    "description": "Yağdanlık sembolü motor yağ basıncını temsil eder."
+  },
+  {
+    "id": 26,
+    "category": "Araç Tekniği",
+    "question": "I- Motor soğutma suyunun eksilmesi... Verilenlerden hangileri motorun hararet yapma sebebidir?",
+    "image_url": null,
+    "options": [
+      { "text": "Yalnız I", "isTrue": false },
+      { "text": "I ve II", "isTrue": false },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": true }
+    ],
+    "description": "Su eksilmesi, kayış kopması ve fan arızası hararet nedenidir."
+  },
+  {
+    "id": 27,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Seyir esnasında araçlarda emniyet kemeri kullanılması, aşağıdakilerin hangisinin azalmasında etkili olur?",
+    "image_url": null,
+    "options": [
+      { "text": "Trafik kazalarının", "isTrue": false },
+      { "text": "Trafik işaret levhalarının", "isTrue": false },
+      { "text": "Trafikteki görevli sayısının", "isTrue": false },
+      { "text": "Kaza anında ölüm ve yaralanmaların", "isTrue": true }
+    ],
+    "description": "Emniyet kemeri can kaybını azaltır."
+  },
+  {
+    "id": 28,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Sürücünün videoda dikkat etmesi gereken tehlikeli durum hangisidir?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Sol şeritte ilerleyen bir araç orta şeride geçebilir", "isTrue": false },
+      { "text": "Bir iş makinesi sağ taraftan yola çıkabilir", "isTrue": false },
+      { "text": "Elektronik denge kontrol sistemi (EDS) devre dışı kalabilir", "isTrue": false },
+      { "text": "Bir araç yakıt istasyonundan yola çıkabilir", "isTrue": true }
+    ],
+    "description": "Tali yollardan çıkan araçlar her zaman risktir."
+  },
+  {
+    "id": 29,
+    "category": "İlkyardım",
+    "question": "Bayılmış olan bir kazazedeyi sırtüstü yatarak ayaklarını 30 cm kaldıran ilk yardımcının temel amacı nedir?",
+    "image_url": null,
+    "options": [
+      { "text": "iç kanama ihtimalini ortadan kaldırmak", "isTrue": false },
+      { "text": "hayati organların kanlanmasını sağlamak", "isTrue": true },
+      { "text": "bacaklardaki uyuşmayı gidermek", "isTrue": false },
+      { "text": "Kazazedeyi kolay taşımak", "isTrue": false }
+    ],
+    "description": "Şok pozisyonu beyne kan gitmesini sağlar."
+  },
+  {
+    "id": 30,
+    "category": "Trafik Adabı",
+    "question": "Trafik kazası geçirenlere yardım ederken hangisinin yapılması, yeni bir tehlikenin oluşmasına yol açar?",
+    "image_url": null,
+    "options": [
+      { "text": "motoru kapatmak", "isTrue": false },
+      { "text": "güvenli alan oluşturmak", "isTrue": false },
+      { "text": "uyarı işaretleri koymak", "isTrue": false },
+      { "text": "parlayıcı ışık araçlarının kullanılması", "isTrue": true }
+    ],
+    "description": "Kaza yerinde ateş veya parlayıcı madde kullanmak patlama riski yaratır."
+  },
+  {
+    "id": 31,
+    "category": "Araç Tekniği",
+    "question": "I. Aşınmayı azaltmak, II. Sürtünmeyi azaltmak... hangileri motor yağının görevlerindendir?",
+    "image_url": null,
+    "options": [
+      { "text": "Yalnız I", "isTrue": false },
+      { "text": "I ve II", "isTrue": true },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": false }
+    ],
+    "description": "Yağlama sistemi sürtünme ve aşınmayı önler."
+  },
+  {
+    "id": 32,
+    "category": "İlkyardım",
+    "question": "Aşağıdaki organlardan hangisi karın bölgesinde bulunur?",
+    "image_url": null,
+    "options": [
+      { "text": "Kalp", "isTrue": false },
+      { "text": "Mide", "isTrue": true },
+      { "text": "Yutak", "isTrue": false },
+      { "text": "Akciğer", "isTrue": false }
+    ],
+    "description": "Mide karın bölgesindeki temel organdır."
+  },
+  {
+    "id": 33,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "I. Yükün hasar görmesi... Görseldeki sürücü trafik işaretini fark etmeden devam ederse hangileri olabilir?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "I ve II", "isTrue": false },
+      { "text": "I ve III", "isTrue": false },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": true }
+    ],
+    "description": "Kasis tabelasını görmemek araca her türlü zararı verebilir."
+  },
+  {
+    "id": 34,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Görseldeki trafik kazasında 1 numaralı aracın sürücüsü hangisine uymamıştır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Geçiş hakkına", "isTrue": false },
+      { "text": "Takip mesafesine", "isTrue": true },
+      { "text": "Geçiş üstünlüğüne", "isTrue": false },
+      { "text": "Geçme kuralına", "isTrue": false }
+    ],
+    "description": "Arkadan çarpmalarda ana kusur takip mesafesidir."
+  },
+  {
+    "id": 35,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Taşıt yolu üzerine çizilen hangi çizgi, ayırıcı anlamındadır?",
+    "image_url": null,
+    "options": [
+      { "text": "Kesik yol çizgisi", "isTrue": false },
+      { "text": "Devamlı yol çizgisi", "isTrue": false },
+      { "text": "Kesik ve devamlı yol çizgisi", "isTrue": false },
+      { "text": "Yan yana iki devamlı yol çizgisi", "isTrue": true }
+    ],
+    "description": "İki devamlı çizgi ayırıcı (refüj) görevi görür."
+  },
+  {
+    "id": 36,
+    "category": "Trafik Adabı",
+    "question": "Görseldeki araç sürücüsünün hangi şekilde araç kullandığı söylenemez?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Düşüncesiz", "isTrue": false },
+      { "text": "Tehlikeli", "isTrue": false },
+      { "text": "Öfkeli", "isTrue": false },
+      { "text": "Saygılı", "isTrue": true }
+    ],
+    "description": "Su sıçratan bir sürücü saygılı değildir."
+  },
+  {
+    "id": 37,
+    "category": "İlkyardım",
+    "question": "Hangisi bayılma belirtilerinden biri değildir?",
+    "image_url": null,
+    "options": [
+      { "text": "Bilinç bulanıklığı", "isTrue": false },
+      { "text": "İdrar ve dışkı kaçırma", "isTrue": true },
+      { "text": "Baş dönmesi, göz kararması", "isTrue": false },
+      { "text": "Yüzde solukluk, üşüme", "isTrue": false }
+    ],
+    "description": "İdrar kaçırma sara nöbeti belirtisidir, basit bayılmada görülmez."
+  },
+  {
+    "id": 38,
+    "category": "İlkyardım",
+    "question": "boyun omuru yaralanmış olan kazazedeye ilk yardım olarak hangisi yapılmalıdır?",
+    "image_url": null,
+    "options": [
+      { "text": "Hareket etmemesi sağlanmalıdır", "isTrue": true },
+      { "text": "Boyun omuruna turnike", "isTrue": false },
+      { "text": "Ayakları 30 cm kaldırmak", "isTrue": false },
+      { "text": "Baş geri-çene yukarı pozisyonu", "isTrue": false }
+    ],
+    "description": "Omurga hasarında felci önlemek için tam hareketsizlik sağlanır."
+  },
+  {
+    "id": 39,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Sürücülerin manevra ve dönüşlerde hangisini yapmaları tehlike oluşturur?",
+    "image_url": null,
+    "options": [
+      { "text": "Trafiğin yoğun olduğu yollarda geriye dönmeleri", "isTrue": true },
+      { "text": "park edilen yerden çıkılırken kontrol etmeleri", "isTrue": false },
+      { "text": "geçiş kolaylığı sağlamak için geri gitmeleri", "isTrue": false },
+      { "text": "Dönüşlerde gelen şeridi kontrol etmeleri", "isTrue": false }
+    ],
+    "description": "Yoğun yolda 'U' dönüşü veya geri dönüş yasaktır/tehlikelidir."
+  },
+  {
+    "id": 40,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Önündeki aracı güvenli mesafeden izlemeyen sürücü için hangisi kesinlikle söylenir?",
+    "image_url": null,
+    "options": [
+      { "text": "Çok dikkatli olduğu", "isTrue": false },
+      { "text": "Çok tecrübeli olduğu", "isTrue": false },
+      { "text": "Trafik kuralına uymadığı", "isTrue": true },
+      { "text": "Yolun yapısına bağlı hareket ettiği", "isTrue": false }
+    ],
+    "description": "Takip mesafesi ihlali kural tanımamazlıktır."
+  },
+  {
+    "id": 41,
+    "category": "Araç Tekniği",
+    "question": "I. Kavramanın kaçırması,II III. Yüksek devirde araç kullanılması... hangileri fazla yakıt tüketimine sebep olur?",
+    "image_url": null,
+    "options": [
+      { "text": "I ve II", "isTrue": false },
+      { "text": "II ve IV", "isTrue": false },
+      { "text": "I, III ve IV", "isTrue": true },
+      { "text": "II, III ve IV", "isTrue": false }
+    ],
+    "description": "Debriyaj kaçırması ve ani hızlanma yakıtı artırır."
+  },
+  {
+    "id": 42,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Hangisi, karşıdan gelene yol ver anlamındadır?",
+    "image_url": null,
+    "options": [
+      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_2.png", "isTrue": true },
+      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+    ],
+    "description": "Kırmızı daire içindeki zıt yönlü oklar karşıdan gelene öncelik bildirir."
+  },
+  {
+    "id": 43,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Görseldeki gibi bir karşılaşmada araçların geçiş hakkı sıralaması nasıl olur?",
+    "image_url": "kavsak-siralama-45621.png",
+    "options": [
+      { "text": "1-2-3", "isTrue": false },
+      { "text": "1-3-2", "isTrue": true },
+      { "text": "3-1-2", "isTrue": false },
+      { "text": "3-2-1", "isTrue": false }
+    ],
+    "description": "Kavşaklarda geçiş üstünlüğü kurallarına göre sıralama yapılır."
+  },
+  {
+    "id": 44,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Videodaki kavşakta ilk geçiş hakkını hangi araç sürücüsü kullanmalıdır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "kırmızı", "isTrue": false },
+      { "text": "sarı", "isTrue": false },
+      { "text": "mavi", "isTrue": true },
+      { "text": "Gri", "isTrue": false }
+    ],
+    "description": "Düz giden veya ana yoldaki araç önceliklidir."
+  },
+  {
+    "id": 45,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Şerit değiştirmek isteyen 1 numaralı araç sürücüsü, hangisini mutlaka yapmalıdır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "farları yakmak", "isTrue": false },
+      { "text": "2 numaralı taşıtı beklemek", "isTrue": false },
+      { "text": "İç ve dış aynalardan kontrol etmek", "isTrue": true },
+      { "text": "daha fazla yaklaşmak", "isTrue": false }
+    ],
+    "description": "Manevra öncesi ayna kontrolü hayatidir."
+  },
+  {
+    "id": 46,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Trafik görevlisinin, hangi hareketi trafiğin hızlanması talimatını içerir?",
+    "image_url": null,
+    "options": [
+      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_2.png", "isTrue": true },
+      { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
+      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+    ],
+    "description": "Polisin kolunu seri çekmesi 'hızlan' demektir."
+  },
+  {
+    "id": 47,
+    "category": "Araç Tekniği",
+    "question": "II. Yakıt bitmiştir, III. Bujiler arızalıdır... motor dönüyor ama çalışmıyorsa sebebi hangileri olabilir?",
+    "image_url": null,
+    "options": [
+      { "text": "I ve IV", "isTrue": false },
+      { "text": "II ve III", "isTrue": true },
+      { "text": "III ve IV", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": false }
+    ],
+    "description": "Motor dönüyorsa akü sağlamdır; ateşleme veya yakıt sorunu vardır."
+  },
+  {
+    "id": 48,
+    "category": "Araç Tekniği",
+    "question": "I. Aracın dönmesini sağlamak, \nII. Lastikleri aynı yöne yöneltmek.\nIII Bozuk yollarda yüzeyden gelen darbeleri azaltmak. IV. Aracın istenilen noktada durmasını sağlamak  \nhangileri direksiyon sisteminin görevlerindendir?",
+    "image_url": null,
+    "options": [
+      { "text": "I ve II", "isTrue": true },
+      { "text": "III ve IV", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": false },
+      { "text": "I, II, III ve IV", "isTrue": false }
+    ],
+    "description": "Direksiyon sadece yönlendirme yapar; süspansiyon veya frenle ilgisi yoktur."
+  },
+  {
+    "id": 49,
+    "category": "İlkyardım",
+    "question": "Hangisi baş ve omurga yaralanmalarında ortaya çıkan sonuçlardan biri değildir?",
+    "image_url": null,
+    "options": [
+      { "text": "Felç", "isTrue": false },
+      { "text": "Ölüm", "isTrue": false },
+      { "text": "Açık pnömotoraks", "isTrue": true },
+      { "text": "Omurilik yaralanması", "isTrue": false }
+    ],
+    "description": "Pnömotoraks göğüs kafesiyle ilgilidir."
+  },
+  {
+    "id": 50,
+    "category": "İlkyardım",
+    "question": "hangisi İlk yardım ABC'si içinde yer almaz?",
+    "image_url": null,
+    "options": [
+      { "text": "Kırıkların tespit edilmesi", "isTrue": true },
+      { "text": "Dolaşım", "isTrue": false },
+      { "text": "Solunum", "isTrue": false },
+      { "text": "Hava yolu", "isTrue": false }
+    ],
+    "description": "A-B-C: Hava yolu, Solunum, Dolaşım'dır."
+  },
+  {
+    "id": 51,
+    "category": "İlkyardım",
+    "question": "Resimde görülen pozisyon, aşağıdaki durumların hangisinde uygulanır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Kalp durması", "isTrue": false },
+      { "text": "Bacak kemiği kırılması", "isTrue": false },
+      { "text": "Solunum yolu tıkanması", "isTrue": false },
+      { "text": "Delici göğüs yaralanması", "isTrue": true }
+    ],
+    "description": "Yarı oturuş delici göğüs yaralanmasında nefesi rahatlatır."
+  },
+  {
+    "id": 52,
+    "category": "Araç Tekniği",
+    "question": "Hangisi, motor soğutma suyunun eksilmesine sebep olur?",
+    "image_url": null,
+    "options": [
+      { "text": "Debriyajın kaçırması", "isTrue": false },
+      { "text": "Vantilatör kayışının gergin olması", "isTrue": false },
+      { "text": "Hararet göstergesinin arızalanması", "isTrue": false },
+      { "text": "Kalorifer hortumunda sızıntı olması", "isTrue": true }
+    ],
+    "description": "Hortum sızıntıları doğrudan su kaybı demektir."
+  },
+  {
+    "id": 53,
+    "category": "Araç Tekniği",
+    "question": "Şekilde soru işareti (?) ile gösterilen... hareketi tekerleklere ileten organ hangisidir?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "Aks", "isTrue": true },
+      { "text": "Volan", "isTrue": false },
+      { "text": "Kavrama", "isTrue": false },
+      { "text": "Vites kutusu", "isTrue": false }
+    ],
+    "description": "Diferansiyelden tekerleğe hareketi aks iletir."
+  },
+  {
+    "id": 54,
+    "category": "Trafik Adabı",
+    "question": "Bir sürücü emniyet kemeri takmadan kaza yapmış... sonraki sürüşlerinde ne yapması beklenir?",
+    "image_url": null,
+    "options": [
+      { "text": "Kısa mesafelerde kullanılması gereksiz", "isTrue": false },
+      { "text": "Yavaş gidiliyorsa ihtiyaç olmaz", "isTrue": false },
+      { "text": "Risk alma davranışlardan vazgeçecektir", "isTrue": true },
+      { "text": "Arka koltuktakilerin takmasına gerek yok", "isTrue": false }
+    ],
+    "description": "Tecrübe eden sürücünün riskli davranıştan kaçınması beklenir."
+  },
+  {
+    "id": 55,
+    "category": "İlkyardım",
+    "question": "Verilen durumların hangisinde kazazedeye Heimlich manevrası uygulanır?",
+    "image_url": null,
+    "options": [
+      { "text": "Kalbi durduğunda", "isTrue": false },
+      { "text": "Kanaması olduğunda", "isTrue": false },
+      { "text": "Kan şekeri düştüğünde", "isTrue": false },
+      { "text": "Tam tıkanma yaşadığında", "isTrue": true }
+    ],
+    "description": "Heimlich tam tıkanma içindir."
+  },
+  {
+    "id": 56,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Videoda sürücü 80 km/sa hızla seyretmektedir... takip mesafesi kaç metre olmalıdır?",
+    "image_url": "https://random-url.com/image.png",
+    "options": [
+      { "text": "40", "isTrue": true },
+      { "text": "50", "isTrue": false },
+      { "text": "60", "isTrue": false },
+      { "text": "70", "isTrue": false }
+    ],
+    "description": "Takip mesafesi hızın yarısıdır (80/2=40)."
+  },
+  {
+    "id": 57,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Trafik tanzim işaretlerinden hangisi, bütün yasaklama ve kısıtlamaların sona erdiğini bildirir?",
     "image_url": null,
     "options": [
       { "text": "https://random-url.com/option_visual_1.png", "isTrue": true },
@@ -127,721 +738,97 @@
       { "text": "https://random-url.com/option_visual_3.png", "isTrue": false },
       { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
     ],
-    "description": "Geceleyin elindeki ışıklı cihazı geniş bir yay şeklinde hareket ettiren görevli, trafiği yönlendirme/yön değiştirme işareti yapmaktadır."
-  },
-  {
-    "id": 11,
-    "category": "İlkyardım",
-    "question": "Verilenlerden hangileri turnike uygulamasında dikkat edilecek hususlardandır?\nI. İp, tel gibi kesici malzemelerin kullanılması\nII. Uygulamanın yapıldığı saatin bir kağıda yazılıp kazazedenin üzerine asılması\nIII. Uzvun koptuğu bölgeye en yakın ve deri bütünlüğü bozulmamış olan yere uygulanması",
-    "image_url": null,
-    "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) I ve II", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": true },
-      { "text": "D) I, II ve III", "isTrue": false }
-    ],
-    "description": "Turnike uygulamasında ip/tel gibi kesici maddeler kullanılmaz; saat not edilmeli ve en yakın sağlam deri bölgesine uygulanmalıdır."
-  },
-  {
-    "id": 12,
-    "category": "Araç Tekniği",
-    "question": "I. Hava filtresinin kirli olması\nII. Rölanti devrinin yüksek olması\nIII. Dizel motorlarda yakıt pompası ve enjektör ayarlarının bozuk olması\nBir araçta verilen durumların gözlenmesi hangisine neden olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Motor yağı azalır", "isTrue": false },
-      { "text": "B) Aracın fazla yakıt yakmasına", "isTrue": true },
-      { "text": "C) Aracın aküsünü boşalmasına", "isTrue": false },
-      { "text": "D) Araç performansını artırmasına", "isTrue": false }
-    ],
-    "description": "Kirli filtre ve bozuk yakıt sistem ayarları motorun verimini düşürerek yakıt tüketimini doğrudan artırır."
-  },
-  {
-    "id": 13,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Bir aracın güvenle taşıyabileceği en çok yük ağırlığına veya yolcu ve hizmetli sayısına ne denir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Dingil ağırlığı", "isTrue": false },
-      { "text": "B) Azami ağırlık", "isTrue": false },
-      { "text": "C) Gabari", "isTrue": false },
-      { "text": "D) Taşıma sınırı", "isTrue": true }
-    ],
-    "description": "Aracın taşıyabileceği en üst limit 'Taşıma Sınırı' (Kapasite) olarak tanımlanır."
-  },
-  {
-    "id": 14,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Şekildeki trafik işaretinin anlamı nedir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Taşıt Giremez", "isTrue": false },
-      { "text": "B) Motosiklet Giremez", "isTrue": false },
-      { "text": "C) Taşıt Trafiğine Kapalı Yol", "isTrue": false },
-      { "text": "D) Motosiklet hariç motorlu taşıt trafiğine kapalı yol", "isTrue": true }
-    ],
-    "description": "İçinde otomobil simgesi olan kırmızı daire tabela, motosiklet dışındaki motorlu taşıtların girişine kapalı olduğunu bildirir."
-  },
-  {
-    "id": 15,
-    "category": "Trafik Adabı",
-    "question": "Videodaki tehlikeli durumun oluşmasına hangisinin sebep olduğu kesinlikle söylenebilir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Kaza hava şartlarından kaynaklandı", "isTrue": false },
-      { "text": "B) Sürücülerin takip mesafesine uymamaları", "isTrue": false },
-      { "text": "C) Mavi araç sürücüsünün hatalı geçiş yapması", "isTrue": true },
-      { "text": "D) Beyaz minibüs sürücüsünün ani fren yapması", "isTrue": false }
-    ],
-    "description": "Görselde/Videoda mavi aracın kurallara aykırı şekilde şerit değiştirerek trafiği tehlikeye attığı görülmektedir."
-  },
-  {
-    "id": 16,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Geçiş üstünlüğüne sahip bir aracın duyulur veya görülür işaretini alan bir sürücünün hangisini yapması yanlış olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Sakin davranması", "isTrue": false },
-      { "text": "B) Hızın azalması", "isTrue": false },
-      { "text": "C) Aniden durması", "isTrue": true },
-      { "text": "D) Yolun sağına geçmesi", "isTrue": false }
-    ],
-    "description": "Geçiş üstünlüğü olan araç geldiğinde yol açılmalıdır; aniden durmak arkadan gelen araçlar için tehlike yaratır."
-  },
-  {
-    "id": 17,
-    "category": "Araç Tekniği",
-    "question": "Hangi araçta kış öncesi yetkili servis tarafından yapılması gereken kontrollerdendir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Silecek suyu", "isTrue": false },
-      { "text": "B) Lastik hava basıncı", "isTrue": false },
-      { "text": "C) Antifriz yoğunluğu", "isTrue": true },
-      { "text": "D) Soğutma suyu seviyesi", "isTrue": false }
-    ],
-    "description": "Kış mevsimine girmeden önce motor soğutma suyunun donmaması için antifriz derecesinin ölçülmesi kritik bir kontroldür."
-  },
-  {
-    "id": 18,
-    "category": "İlkyardım",
-    "question": "Patlama ve yangın tehlikesinin olduğu durumlarda, gerekli güvenlik önlemleri alındıktan sonra, görseldeki yöntemle kazazede araç içerisinden çıkartılır. Bu yöntem kazazedede,\nI. bilincinin kapalı olması\nII. kalp atımlarının olmaması\nIII. solunum hareketlerinin durması\ndurumlarından hangilerinde uygulanır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) Yalnız II", "isTrue": false },
-      { "text": "C) Yalnız III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": true }
-    ],
-    "description": "Rentek manevrası, hayati tehlike (yangın/patlama) durumunda veya temel yaşam desteği gereken (bilinç, solunum, kalp yoksa) durumlarda uygulanır."
-  },
-  {
-    "id": 19,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Akan trafikte, trafik görevlisinin hangi hareketi \"daha önce açık olan yolun kapanacağı, kapalı olan yolun ise açılacağı\" anlamındadır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) https://random-url.com/option_visual_1.png", "isTrue": true },
-      { "text": "B) https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "C) https://random-url.com/option_visual_3.png", "isTrue": false },
-      { "text": "D) https://random-url.com/option_visual_4.png", "isTrue": false }
-    ],
-    "description": "Trafik polisinin bir kolunu dikey olarak kaldırması, trafiğin duracağı ve yön değiştireceği hazırlık aşamasını bildirir."
-  },
-  {
-    "id": 20,
-    "category": "İlkyardım",
-    "question": "Hangi durumdaki kazazede kesinlikle sedye ile taşınmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Kolunda yara ve kırık olan", "isTrue": false },
-      { "text": "B) Birinci derece yanığı olan", "isTrue": false },
-      { "text": "C) Omurgasında kırık olan", "isTrue": true },
-      { "text": "D) Kaburgasında kırık olan", "isTrue": false }
-    ],
-    "description": "Omurga kırığı şüphesi olan kazazedeler, felç riskini önlemek adına mutlaka sabitlenerek sedye ile taşınmalıdır."
-  },
-  {
-    "id": 21,
-    "category": "Araç Tekniği",
-    "question": "Lastik değişiminden sonra balans ayarı yapılmaması aşağıdakilerden hangisine neden olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Aracın daha fazla yakıt tüketmesine", "isTrue": false },
-      { "text": "B) Frenleme performansının artmasına", "isTrue": false },
-      { "text": "C) Lastik basıncının kendi kendine azalmasına", "isTrue": false },
-      { "text": "D) Belirli bir hızdan sonra direksiyonun titremesine", "isTrue": true }
-    ],
-    "description": "Tekerleklerin ağırlık dengesi (balans) bozuk olduğunda, araç belirli hızlara ulaştığında direksiyonda sarsıntı ve titreme oluşur."
-  },
-  {
-    "id": 22,
-    "category": "İlkyardım",
-    "question": "Aşağıdakilerden hangisi ilk yardımın öncelikli amaçlarındandır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Trafikteki kaza sayısının azaltılması", "isTrue": false },
-      { "text": "B) İnsanların zararlı alışkanlıklarından uzaklaştırılması", "isTrue": false },
-      { "text": "C) Kazazedenin durumunun kötüleşmesinin önlenmesi", "isTrue": true },
-      { "text": "D) Trafik ortamını paylaşanların özel yaşamıyla ilgilenilmesi", "isTrue": false }
-    ],
-    "description": "İlk yardımın temel amacı hayati tehlikeyi ortadan kaldırmak ve durumun daha kötüye gitmesini engellemektir."
-  },
-  {
-    "id": 23,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Motorlu araçla çekilen insan veya yük taşımak için imal edilmiş motorsuz araca ne denir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Özel amaçlı taşıt", "isTrue": false },
-      { "text": "B) Kamp taşıtı", "isTrue": false },
-      { "text": "C) Römork", "isTrue": true },
-      { "text": "D) Katar", "isTrue": false }
-    ],
-    "description": "Kendi motoru olmayan ve bir çekici araç tarafından çekilen motorsuz taşıtlara römork denir."
-  },
-  {
-    "id": 24,
-    "category": "İlkyardım",
-    "question": "I. Kazazedeye su içirilir.\nII. Kazazedenin üzeri örtülür.\nIII. Bilinci açık ise ayakları %30 oranında yükseltilir.\nIV. Kusma varsa baş geri-çene yukarı pozisyonu verilir.\nYukarıdakilerden hangileri iç kanamalarda yapılan ilk yardım uygulamalarındandır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) II ve III", "isTrue": true },
-      { "text": "C) I, III ve VI", "isTrue": false },
-      { "text": "D) I, II, III ve VI", "isTrue": false }
-    ],
-    "description": "İç kanamalarda asla ağızdan sıvı verilmez; vücut ısısı korunmalı ve şok pozisyonu (ayaklar 30 cm yukarı) verilmelidir."
-  },
-  {
-    "id": 25,
-    "category": "Araç Tekniği",
-    "question": "Lastiklerin hava basıncı dengesizse frenleme anında aşağıdakilerden hangisi olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Frenlerden ses gelir.", "isTrue": false },
-      { "text": "B) Fren hidroliği azalır.", "isTrue": false },
-      { "text": "C) Fren pedalı sertleşir.", "isTrue": false },
-      { "text": "D) Araç bir tarafa çeker.", "isTrue": true }
-    ],
-    "description": "Farklı hava basınçlarına sahip lastikler farklı tutunma direnci göstereceği için frenleme anında araç basıncı düşük olan tarafa çeker."
-  },
-  {
-    "id": 26,
-    "category": "Araç Tekniği",
-    "question": "I. Ani hızlanmalar yapılması\nII. Araç lastiklerinin eskimesi\nIII. Hava filtresinin değiştirilmesi\nNumaralanmış ifadelerden hangileri yakıt tüketiminin artmasına neden olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) I ve II", "isTrue": true },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
-    ],
-    "description": "Sert sürüş ve yıpranmış lastikler yakıtı artırır; hava filtresinin bakımı ise yakıt tasarrufu sağlar."
-  },
-  {
-    "id": 27,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücülerin yerleşim yeri içi, yerleşim yeri dışı ve otoyollarda uymak zorunda olan kurallar hangi kanunla belirlenmiştir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Türk ceza kanunu", "isTrue": false },
-      { "text": "B) Karayolları Trafik Kanunu", "isTrue": true },
-      { "text": "C) 2872 Sayılı Çevre Kanunu", "isTrue": false },
-      { "text": "D) Polis Vazife ve Salahiyet Kanunu", "isTrue": false }
-    ],
-    "description": "Karayolu üzerindeki tüm trafik kuralları ve cezaları 2918 sayılı Karayolları Trafik Kanunu ile belirlenmiştir."
-  },
-  {
-    "id": 28,
-    "category": "İlkyardım",
-    "question": "Trafik kazası sonucu yaralanan bir kazazedenin bilinç durumunu değerlendirildiğinde yalnız sözlü ve gürültülü uyaranlara cevap verdiğini tespit eden ilk yardıma, kazazedenin bilinç düzeyinin hangi durumda olduğunu düşünmelidir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Bilinci yerinde", "isTrue": false },
-      { "text": "B) 1. derece bilinç kaybı vardır.", "isTrue": true },
-      { "text": "C) 2. derece bilinç kaybı vardır.", "isTrue": false },
-      { "text": "D) 3. derece bilinç kaybı vardır.", "isTrue": false }
-    ],
-    "description": "Kazazedenin sadece sesli uyaranlara (sözlü ve gürültülü) tepki vermesi 1. derece bilinç kaybı olarak tanımlanır."
-  },
-  {
-    "id": 29,
-    "category": "Trafik Adabı",
-    "question": "Öfkeli sürücülerin trafikteki olumsuz davranışlarının sebeplerini ve bunların diğer sürücülere etkilerinin incelenmesine ne ad verilir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Sürücü süper egosu", "isTrue": false },
-      { "text": "B) Sürücü davranış analizi", "isTrue": true },
-      { "text": "C) Akılcı davranış", "isTrue": false },
-      { "text": "D) Beklenti değer", "isTrue": false }
-    ],
-    "description": "Sürücülerin trafikteki davranışlarının neden-sonuç ilişkisini inceleyen bilimsel yaklaşıma sürücü davranış analizi denir."
-  },
-  {
-    "id": 30,
-    "category": "Araç Tekniği",
-    "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Emniyet kemerinin takılı olmadığını", "isTrue": true },
-      { "text": "B) Hava yastığı sisteminde bir arıza olduğunu", "isTrue": false },
-      { "text": "C) Yakıt deposu kapağının doğru kapatılmadığını", "isTrue": false },
-      { "text": "D) Araçta elektrikli koltuk sisteminin bulunduğunu", "isTrue": false }
-    ],
-    "description": "Koltukta oturan ve üzerine kemer çekilmiş insan figürü emniyet kemeri ikazıdır."
-  },
-  {
-    "id": 31,
-    "category": "Trafik Adabı",
-    "question": "Yaylara, özellikle de yaşlı, çocuk ve engellilere; yeşil ışık süresinde karşıya geçişi tamamlayamadığından dolayı korna çalma ya da el kol hareketleri ile çabuk geçmeye zorlama hâli, trafikte hangi temel değere sahip olunmadığını gösterir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Sabır", "isTrue": true },
-      { "text": "B) Öfke", "isTrue": false },
-      { "text": "C) İnatlaşma", "isTrue": false },
-      { "text": "D) Aşırı tepki", "isTrue": false }
-    ],
-    "description": "Trafikte dezavantajlı gruplara karşı tahammül gösterememek sabır değerinin eksikliğini gösterir."
-  },
-  {
-    "id": 32,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Araç Tescil Belgesi kimin adına düzenlenir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Araç sahibinin", "isTrue": true },
-      { "text": "B) Araç sürücüsünün", "isTrue": false },
-      { "text": "C) Emniyet Genel Müdürlüğünün", "isTrue": false },
-      { "text": "D) Karayolları Genel Müdürlüğünün", "isTrue": false }
-    ],
-    "description": "Ruhsat olarak da bilinen tescil belgesi, aracın yasal mülkiyetine sahip olan kişi adına düzenlenir."
-  },
-  {
-    "id": 33,
-    "category": "Araç Tekniği",
-    "question": "Araç motorunun ilk çalıştırılması esnasında vites hangi konumda olmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Boş", "isTrue": true },
-      { "text": "B) 1. vites", "isTrue": false },
-      { "text": "C) 2. vites", "isTrue": false },
-      { "text": "D) 3. vites", "isTrue": false }
-    ],
-    "description": "Güvenli kalkış ve marş motoruna yük binmemesi için motor boş viteste çalıştırılmalıdır."
-  },
-  {
-    "id": 34,
-    "category": "Araç Tekniği",
-    "question": "Aşağıdakilerden hangisi motor yağının eksilmesine neden olur?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Fren balatalarının aşınması", "isTrue": false },
-      { "text": "B) Karter contasının yırtılması", "isTrue": true },
-      { "text": "C) Hava filtresinin kirlenmesi", "isTrue": false },
-      { "text": "D) Rot ayarının bozulması", "isTrue": false }
-    ],
-    "description": "Yağ karterindeki contaların yırtılması veya hasar görmesi yağ sızıntısına ve yağın eksilmesine yol açar."
-  },
-  {
-    "id": 35,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Görseldeki trafik işaretini gören sürücünün aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Yolu kontrol etmesi", "isTrue": false },
-      { "text": "B) Öndeki aracı geçmesi", "isTrue": true },
-      { "text": "C) Aracının hızını azaltması", "isTrue": false },
-      { "text": "D) Geçiş hakkını yayalara vermesi", "isTrue": false }
-    ],
-    "description": "Yaya geçidi yaklaşımında hız azaltılır ve yaya varsa beklenir; bu bölgede öndeki aracı geçmek yasaktır."
-  },
-  {
-    "id": 36,
-    "category": "Trafik Adabı",
-    "question": "Trafik kazası, sadece maddi hasarlı bile olsa yaşanması hiç istenmeyen ve kazaya karışan sürücüleri psikolojik olarak olumsuz etkileyen bir durumdur. Buna göre kaza sonrası tarafların birbirine hangi şekilde davranması hâlinde meydana gelen kaza ile ilgili sorunlar daha kısa sürede çözülecektir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Asabi", "isTrue": false },
-      { "text": "B) Aşırı tepkili", "isTrue": false },
-      { "text": "C) Kaba ve saldırgan", "isTrue": false },
-      { "text": "D) Saygılı ve nezaketli", "isTrue": true }
-    ],
-    "description": "Kaza sonrası tarafların sakin ve nazik olması, tutanak ve yasal süreçlerin daha hızlı yönetilmesini sağlar."
-  },
-  {
-    "id": 37,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürüş sırasında görseldeki trafik işaretini göre sürücü, numaralanmış ifadelerden hangilerini yapmak zorundadır?\nI. Takip mesafesini azaltmak\nII. Hızını azaltmak\nIII. İkaz ışıklarını yakmak",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) Yalnız II", "isTrue": true },
-      { "text": "C) I ve III", "isTrue": false },
-      { "text": "D) II ve III", "isTrue": false }
-    ],
-    "description": "T-kavşağı veya daralan yol uyarılarında sürücü sadece güvenli bir seviyeye hızını düşürmekle yükümlüdür."
-  },
-  {
-    "id": 38,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Yerleşim yeri içindeki kara yollarında, aksine bir işaret yoksa motosikletler için azami hız sınırı saatte kaç kilometredir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) 20", "isTrue": false },
-      { "text": "B) 30", "isTrue": false },
-      { "text": "C) 40", "isTrue": false },
-      { "text": "D) 50", "isTrue": true }
-    ],
-    "description": "Yerleşim yeri içinde, trafik levhası ile aksi belirtilmedikçe motosikletler (L3) için hız sınırı 50 km/s'dir."
-  },
-  {
-    "id": 39,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Emniyet Genel Müdürlüğünün yetki alanı dışındaki yerlerde, trafiğin düzenlenmesi ve denetlenmesini hangi kuruluş yerine getirir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Milli Eğitim Bakanlığı", "isTrue": false },
-      { "text": "B) Afet İşleri Genel Müdürlüğü", "isTrue": false },
-      { "text": "C) Jandarma Genel Komutanlığı", "isTrue": true },
-      { "text": "D) Sivil Savunma Genel Müdürlüğü", "isTrue": false }
-    ],
-    "description": "Polis bölgesinin dışında kalan kırsal alanlarda trafik denetleme ve düzenleme yetkisi Jandarma Genel Komutanlığına aittir."
-  },
-  {
-    "id": 40,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Hangi durumda bir aracın tescil belgesi geçersiz sayılır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Muayene süresi geçirildiğinde", "isTrue": false },
-      { "text": "B) Bakımı düzenli olarak yapılmadığında", "isTrue": false },
-      { "text": "C) Üzerinde teknik değişiklik yapıldığında", "isTrue": true },
-      { "text": "D) Tescil belgesi araçta bulundurulmadığında", "isTrue": false }
-    ],
-    "description": "Araç üzerinde yapılan ve tescil belgesine işletilmeyen teknik değişiklikler (renk değişimi, lpg montajı vb.) belgeyi geçersiz kılar."
-  },
-  {
-    "id": 41,
-    "category": "İlkyardım",
-    "question": "Görselde yaşam kurtarma zinciri ile ilgili halkalar verilmiştir. Buna göre, numaralanmış halkalardan hangileri ilk yardım kapsamında yer alır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) I ve II", "isTrue": true },
-      { "text": "B) I ve IV", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) III ve IV", "isTrue": false }
-    ],
-    "description": "Yaşam kurtarma zincirinin ilk iki halkası (haber verme ve olay yerinde müdahale) ilk yardımcının görevidir; son iki halka profesyonel ekiplerce yapılır."
-  },
-  {
-    "id": 42,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Yerleşim yeri içinde, trafik işaret levhalarına yaklaşım yönünde kaç metre mesafede duraklamak yasaktır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) 15", "isTrue": true },
-      { "text": "B) 20", "isTrue": false },
-      { "text": "C) 25", "isTrue": false },
-      { "text": "D) 30", "isTrue": false }
-    ],
-    "description": "Tabelaların görünürlüğünü engellememek adına yerleşim yeri içinde levhalara 15 metre kala duraklamak yasaktır."
-  },
-  {
-    "id": 43,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Alkolün araç sürüşüne etkileriyle ilgili numaralanmış ifadelerden hangileri doğrudur?\nI. Riske girme isteğinin artması\nII. Saldırganlığın artması\nIII. Işık hassasiyetinin azalması\nIV. Kırmızı ışığa hassasiyetin zayıflaması",
-    "image_url": null,
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I, II ve III", "isTrue": false },
-      { "text": "C) I, II ve IV", "isTrue": true },
-      { "text": "D) II, III ve IV", "isTrue": false }
-    ],
-    "description": "Alkol denetim mekanizmasını bozarak risk alma ve saldırganlığı artırırken, renk algısını (özellikle kırmızı) ve tepki süresini zayıflatır."
-  },
-  {
-    "id": 44,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I- Geçiş kurallarına uyduğu\nII- Karşı yönden gelen aracın hızını dikkate almadığı\nIII- Geçilen araçtan yeterince uzaklaşmadan sağ şeride geçtiği\nŞekle göre, geçme işlemi yapan 1 numaralı aracın sürücüsü için aşağıdakilerden hangileri söylenebilir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) I ve II", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": true },
-      { "text": "D) I, II ve III", "isTrue": false }
-    ],
-    "description": "1 numaralı araç sürücüsü karşıdan gelen araca rağmen hatalı sollamaya çıkmış ve güvenli mesafe bırakmadan şeridine dönmeye çalışmıştır."
-  },
-  {
-    "id": 45,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Aşağıdaki yerlerden hangisinde duraklama yapılması yasak değildir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Banketlerde", "isTrue": true },
-      { "text": "B) Dönemeçlerde", "isTrue": false },
-      { "text": "C) Yaya ve okul geçitlerinde", "isTrue": false },
-      { "text": "D) Tepe üstlerine yakın yerlerde", "isTrue": false }
-    ],
-    "description": "Banketler acil durumlar ve güvenli duraklamalar için ayrılmış yol dışı alanlardır; diğer seçeneklerde duraklamak yasaktır."
-  },
-  {
-    "id": 46,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Hangisi, otomobillerde bulundurulması zorunlu olan malzemelerdendir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Antifrizli cam suyu", "isTrue": false },
-      { "text": "B) Tüm araçlar için arka işaret levhası", "isTrue": false },
-      { "text": "C) Yangın söndürme cihazı", "isTrue": true },
-      { "text": "D) Lastik şişirme aleti", "isTrue": false }
-    ],
-    "description": "Otomobillerde yangın söndürme cihazı, ilk yardım çantası ve üçgen reflektör bulundurulması yasalarca zorunludur."
-  },
-  {
-    "id": 47,
-    "category": "İlkyardım",
-    "question": "Kalp masajı yapılacak olan kazazede hangi pozisyonda ve nereye yatırılmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Sırtüstü, sert bir zemine", "isTrue": true },
-      { "text": "B) Yüzüstü, sert bir zemine", "isTrue": false },
-      { "text": "C) Sırtüstü, yumuşak bir zemine", "isTrue": false },
-      { "text": "D) Yüzüstü, yumuşak bir zemine", "isTrue": false }
-    ],
-    "description": "Kalp masajının etkili olabilmesi için kazazedenin sert bir zemin üzerinde sırtüstü yatıyor olması gerekir."
-  },
-  {
-    "id": 48,
-    "category": "İlkyardım",
-    "question": "Yetişkinde uygulanan kalp masajı uygulama bölgesi ve bası derinliği aşağıdakilerden hangisinde doğru olarak verilmiştir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Kaburganın sağ alt bölgesi (1 cm)", "isTrue": false },
-      { "text": "B) Karnın sol üst bölgesi (3 cm)", "isTrue": false },
-      { "text": "C) Göğüs kemiğinin ortası (5 cm)", "isTrue": true },
-      { "text": "D) Kaburganın sol alt bölgesi (7 cm)", "isTrue": false }
-    ],
-    "description": "Yetişkinlerde göğüs kemiğinin (iman tahtası) ortasına, göğüs kafesi 5 cm çökecek şekilde bası uygulanır."
-  },
-  {
-    "id": 49,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Görseldeki trafik işareti sürücüye hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Kontrollü demir yoluna yaklaşıldığını", "isTrue": true },
-      { "text": "B) Kontrolsüz demir yoluna yaklaşıldığını", "isTrue": false },
-      { "text": "C) Toprak yol başlangıcını", "isTrue": false },
-      { "text": "D) Evcil hayvanların bulunduğu bölgeye girildiğini", "isTrue": false }
-    ],
-    "description": "Üçgen içerisindeki çit sembolü, ileride bariyerli (kontrollü) bir demiryolu geçidi olduğunu bildirir."
-  },
-  {
-    "id": 50,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Bölünmüş kara yolunda karşı yönden gelen tırlar rampa ve bağlantı yollarına girmek için ayrılan yolları kazalarında ....... sayılan hallerdendir.\nBu ifadede boş bırakılan yere aşağıdakilerden hangisi yazılmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) tali kusur", "isTrue": false },
-      { "text": "B) asli kusur", "isTrue": true },
-      { "text": "C) yol kusuru", "isTrue": false },
-      { "text": "D) kusuru paylaştırma", "isTrue": false }
-    ],
-    "description": "Karşı yönden gelen trafiğin kullandığı şeride veya yol bölümüne girme halleri trafik kazalarında asli kusur sayılır."
-  },
-  {
-    "id": 51,
-    "category": "Araç Tekniği",
-    "question": "ABS fren sistemi, frenleme sırasında tekerleklerin kilitlenmesini önler.\nBuna göre, ABS fren sistemi, frenleme sırasında aşağıdakilerden hangisini artırır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Trafik kazası riskini", "isTrue": false },
-      { "text": "B) Virajlarda savrulmayı", "isTrue": false },
-      { "text": "C) Aracın yol üzerinde kaymasını", "isTrue": false },
-      { "text": "D) Direksiyon hakimiyetini", "isTrue": true }
-    ],
-    "description": "ABS sistemi tekerleklerin kilitlenmesini engelleyerek sürücünün sert fren anında bile direksiyonu yönlendirebilmesini sağlar."
-  },
-  {
-    "id": 52,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Lastik ile yol yüzeyi temasının azalması\nII. Fren mesafesinin uzaması\nIII. Sıçrayan su nedeniyle görüş mesafesinin azalması\nNumaralanmış ifadelerden hangileri, yağmur yağarken takip mesafesinin arttırılmasını gerektiren nedenlerdendir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": true }
-    ],
-    "description": "Yağışlı havalarda azalan yol tutuşu, uzayan durma mesafesi ve kısıtlı görüş nedeniyle güvenli takip mesafesi artırılmalıdır."
-  },
-  {
-    "id": 53,
-    "category": "Araç Tekniği",
-    "question": "Aracın gösterge panelinde bulunan şekildeki gösterge sürücüye neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Karterdeki yağ miktarını", "isTrue": false },
-      { "text": "B) Depodaki yakıt miktarını", "isTrue": false },
-      { "text": "C) Soğutma suyu sıcaklığını", "isTrue": true },
-      { "text": "D) Radyatördeki su seviyesini", "isTrue": false }
-    ],
-    "description": "Görseldeki derece ve dalga sembolü motor soğutma suyu sıcaklık (hararet) göstergesidir."
-  },
-  {
-    "id": 54,
-    "category": "İlkyardım",
-    "question": "Kaza geçirmiş araç içindeki yaralıları, herhangi bir yangın ihtimaline karşı korunmak için yapılması gereken ilk işlem aşağıdakilerden hangisidir?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Aracın çevresindeki yanıcı maddelerin uzaklaştırılması", "isTrue": false },
-      { "text": "B) Araç çalışır vaziyette iken yaralıların oradan uzaklaştırılması", "isTrue": false },
-      { "text": "C) itfaiyeye haber verilip, gelmesinin beklenmesi", "isTrue": false },
-      { "text": "D) Aracın kontağının kapatılarak yaralıların oradan uzaklaştırılması", "isTrue": true }
-    ],
-    "description": "Olay yeri güvenliği için ilk adım kontağın kapatılarak yangın riskinin azaltılması ve ardından tahliyenin yapılmasıdır."
-  },
-  {
-    "id": 55,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücü, görseldeki trafik işaretine göre numaralanmış ifadelerden hangilerini yapmak zorundadır?\nI. Önündeki aracı selektörle uyarmak\nII. Hızını ayarlamak\nIII. Motor devrini yükseltmek\nIV. Zincir takmak",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) I ve IV", "isTrue": false },
-      { "text": "B) II ve IV", "isTrue": true },
-      { "text": "C) I, II ve III", "isTrue": false },
-      { "text": "D) I, II, III ve IV", "isTrue": false }
-    ],
-    "description": "Mecburi kar zinciri tabelası görüldüğünde hız düşürülmeli ve çekici tekerleklere zincir takılmalıdır."
-  },
-  {
-    "id": 56,
-    "category": "Araç Tekniği",
-    "question": "Araçta yakıt ekonomisi için aşağıdakilerden hangisinin bakımı düzenli aralıklarla yapılmalıdır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) Sinyal ampulü", "isTrue": false },
-      { "text": "B) Hava filtresi", "isTrue": true },
-      { "text": "C) Hız göstergesi", "isTrue": false },
-      { "text": "D) Yakıt göstergesi", "isTrue": false }
-    ],
-    "description": "Tıkalı hava filtresi motorun zengin karışımla çalışmasına ve yakıt tüketiminin artmasına neden olur."
-  },
-  {
-    "id": 57,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Kamunun faydalandığı okul, hastane ve benzerlerinin giriş ve çıkış kapılarına her iki yönden kaç metrelik mesafe içinde park edilmesi yasaktır?",
-    "image_url": null,
-    "options": [
-      { "text": "A) 5", "isTrue": true },
-      { "text": "B) 10", "isTrue": false },
-      { "text": "C) 15", "isTrue": false },
-      { "text": "D) 20", "isTrue": false }
-    ],
-    "description": "Kamu hizmeti binalarının giriş-çıkış kapılarının her iki yanından 5 metre mesafede park etmek yasaktır."
+    "description": "Siyah-beyaz boş yuvarlak 'tüm yasaklar bitti' demektir."
   },
   {
     "id": 58,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Şerit takibi\nII. Araç geçme\nIII. Araç ışıklarını gerekli yerde kullanma\nVideoya göre, trafik kurallarından hangileri ihlal edilmiştir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "II. Yakıt tüketiminin artması, III. Trafiğin yoğunlaşması. hangileri özel araçları gereksiz kullanmanın zararlarındandır?",
+    "image_url": null,
     "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": true }
+      { "text": "Yalnız I", "isTrue": false },
+      { "text": "I ve II", "isTrue": false },
+      { "text": "II ve III", "isTrue": true },
+      { "text": "I, II ve III", "isTrue": false }
     ],
-    "description": "Görseldeki videoda aracın şerit ihlali yaptığı, hatalı sollama girişiminde bulunduğu ve farlarını uygunsuz kullandığı tespit edilmiştir."
+    "description": "Gereksiz araç kullanımı çevreye ve trafiğe yüktür."
   },
   {
     "id": 59,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "D sınıfı sürücü belgesiyle kullanılan araçları römorkla birleşik şekilde kullanmak için ......... sınıfı sürücü belgesi gerekir.\nCümlede boş bırakılan yere hangisi gelmelidir?",
+    "category": "Trafik Adabı",
+    "question": "Hangisini uygulamak trafik kültürünün yerleşmesine yardım eder?",
     "image_url": null,
     "options": [
-      { "text": "A) B", "isTrue": false },
-      { "text": "B) DE", "isTrue": true },
-      { "text": "C) CE", "isTrue": false },
-      { "text": "D) B1", "isTrue": false }
+      { "text": "Dönüş yaparken yayalara dikkat etmek", "isTrue": true },
+      { "text": "Takip mesafesini ihlal etmek", "isTrue": false },
+      { "text": "cep telefonu ile konuşmak", "isTrue": false },
+      { "text": "Emniyet kemeri takmamak", "isTrue": false }
     ],
-    "description": "D sınıfı (otobüs) bir aracı römorklu olarak kullanabilmek için 'E' (römork) eki alarak DE sınıfı ehliyete sahip olmak gerekir."
+    "description": "Yayaya saygı kültürel gelişimdir."
   },
   {
     "id": 60,
     "category": "İlkyardım",
-    "question": "İlk yardımcı, görseldeki değerlendirmeden sonra ilk olarak hangisini yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Yetişkinlere yapılan dış kalp masajıyla ilgili olarak hangisi doğrudur?",
+    "image_url": null,
     "options": [
-      { "text": "A) Çevreden yüksek sesle yardım çağırıp 112'yi aramalıdır", "isTrue": true },
-      { "text": "B) Kazazedeye baş geri-çene yukarı pozisyonu vermelidir", "isTrue": false },
-      { "text": "C) Kendisinin ve kazazedenin güvenliğinden emin olmalıdır", "isTrue": false },
-      { "text": "D) Bak-dinle-hisset yöntemiyle kazazedenin solunum yapıp yapmadığını kontrol etmelidir", "isTrue": false }
+      { "text": "4 cm aşağı inmesi", "isTrue": false },
+      { "text": "dakikada 30 bası", "isTrue": false },
+      { "text": "alt yarısına dik yerleştirme", "isTrue": false },
+      { "text": "parmakların temas ettirilmemesi, dirseklerin bükülmemesi", "isTrue": true }
     ],
-    "description": "Bilinç kontrolü yapıldıktan sonra kazazedenin tepki vermediği anlaşıldığında vakit kaybetmeden çevreye haber verilmeli ve 112 aranmalıdır."
+    "description": "Dirsekler bükülmeden yapılan masaj en verimlisidir."
   },
   {
     "id": 61,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Hangisinde araç sürücüsünün emniyet kemeri kullanması zorunludur?",
+    "category": "Trafik Adabı",
+    "question": "Aracı arıza yapan sürücüye durup yardım eden diğer sürücü hangi değere sahiptir?",
     "image_url": null,
     "options": [
-      { "text": "A) Traktör", "isTrue": false },
-      { "text": "B) Otomobil", "isTrue": true },
-      { "text": "C) Motosiklet", "isTrue": false },
-      { "text": "D) İş makinesi", "isTrue": false }
+      { "text": "Yardımlaşmaya", "isTrue": true },
+      { "text": "Öfke duygusuna", "isTrue": false },
+      { "text": "Bencil davranmaya", "isTrue": false },
+      { "text": "Aşırı tepki göstermeye", "isTrue": false }
     ],
-    "description": "Karayolları Trafik Yönetmeliği'ne göre otomobillerde sürücü ve yolcuların emniyet kemeri takması yasal zorunluluktur."
+    "description": "Sıkıntıda olana yardım etmek yardımlaşmadır."
   },
   {
     "id": 62,
-    "category": "Trafik Adabı",
-    "question": "Trafikteki hangi davranışımız, karşıdaki kişide öfkeye neden olur?",
+    "category": "İlkyardım",
+    "question": "Aşağıdakilerden hangisi kalp krizinin belirtilerinden biri değildir?",
     "image_url": null,
     "options": [
-      { "text": "A) Kurallara uygun hareket etmememiz", "isTrue": false },
-      { "text": "B) Yapılan hatalara hoşgörü ile yaklaşmamız", "isTrue": false },
-      { "text": "C) Karşıdaki insana saygı duymamız", "isTrue": false },
-      { "text": "D) Sadece kendimizi haklı görmemiz", "isTrue": true }
+      { "text": "ölüm korkusu", "isTrue": false },
+      { "text": "terleme, mide bulantısı", "isTrue": false },
+      { "text": "Ağrının kısa süreli olması ve nefesle şiddetinin değişmesi", "isTrue": true },
+      { "text": "hazımsızlıkla karıştırılması", "isTrue": false }
     ],
-    "description": "Empatiden yoksun, sadece kendi menfaatini düşünen 'benmerkezci' davranışlar diğer sürücüleri provoke ederek öfkeye yol açar."
+    "description": "Kalp krizi ağrısı nefesle değişmez ve süreklidir."
   },
   {
     "id": 63,
-    "category": "Araç Tekniği",
-    "question": "Araç park hâlindeyken park lambalarının açık bırakılması aşağıdakilerden hangisine neden olur?",
+    "category": "İlkyardım",
+    "question": "Karın bölgesinde cisim saplanan kazazedeye hangisi yapılmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "A) Akünün boşalmasına", "isTrue": true },
-      { "text": "B) Kabloların kısa devre yapmasına", "isTrue": false },
-      { "text": "C) Sigortanın atmasına", "isTrue": false },
-      { "text": "D) Alternatörün gereksiz çalışmasına", "isTrue": false }
+      { "text": "cismi oynatmak", "isTrue": false },
+      { "text": "naylon poşetle kapatmak", "isTrue": false },
+      { "text": "su ile ıslatmak", "isTrue": false },
+      { "text": "Yan oturur pozisyonda bacaklar bükülmüş olarak oturtulmalıdır", "isTrue": true }
     ],
-    "description": "Motor çalışmıyorken açık bırakılan elektrikli alıcılar enerjiyi doğrudan aküden çektiği için akünün bitmesine neden olur."
+    "description": "Bacakların bükülmesi karın gerginliğini azaltır."
   },
   {
     "id": 64,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Trafik işaretlerine göre hangi renkteki geçiş hakkı kuralına uymamıştır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Kırmızı", "isTrue": true },
-      { "text": "B) Sarı", "isTrue": false },
-      { "text": "C) Mavi", "isTrue": false },
-      { "text": "D) Gri", "isTrue": false }
-    ],
-    "description": "Görseldeki kavşak işaretlerine göre ana yolda bulunan araçların geçiş üstünlüğü varken, tali yoldaki aracın beklemesi gerekirdi."
-  },
-  {
-    "id": 65,
     "category": "Araç Tekniği",
-    "question": "Aracın kullanma kılavuzuna göre, belirli kilometre dolunca aşağıdaki parçalardan hangisi değiştirilir?",
+    "question": "Hangi parça marş sistemi içinde yer alır?",
     "image_url": null,
     "options": [
-      { "text": "A) Buji", "isTrue": true },
-      { "text": "B) Manifold", "isTrue": false },
-      { "text": "C) Teker jantı", "isTrue": false },
-      { "text": "D) Vites kutusu", "isTrue": false }
+      { "text": "Diferansiyel yağı", "isTrue": false },
+      { "text": "Ventilatör", "isTrue": false },
+      { "text": "Volant dişlisi", "isTrue": true },
+      { "text": "Emme manifoldu", "isTrue": false }
     ],
-    "description": "Bujiler, aracın periyodik bakımları kapsamında belirli kilometre aralıklarında değiştirilmesi gereken sarf malzemeleridir."
+    "description": "Marş motoru volant dişlisini çevirir."
   }
 ]
