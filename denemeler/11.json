@@ -8,7 +8,7 @@
       { "text": "A) Sigorta kutusu", "isTrue": false },
       { "text": "B) Navigasyon", "isTrue": false },
       { "text": "C) ECU (Beyin)", "isTrue": true },
-      { "text": "D) Gösterge panel", "isTrue": false }
+      { "text": "D) Gösterge paneli", "isTrue": false }
     ],
     "description": "ECU (Electronic Control Unit), aracın elektronik kontrol ünitesidir ve motorun çalışma parametrelerini sensörlerden gelen verilere göre yönetir."
   },
@@ -16,7 +16,7 @@
     "id": 2,
     "category": "İlkyardım",
     "question": "Solunum yolu tam tıkanan yetişkin kazazedede; bilinci kapalı ve nabız yoksa, şemasına göre soru işareti (?) ile gösterilen yere hangisi gelmelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tablo-85412sgdb5.png",
     "options": [
       { "text": "A) 5 kez sırtına vurma", "isTrue": false },
       { "text": "B) 5 kez karna bası", "isTrue": false },
@@ -29,7 +29,7 @@
     "id": 3,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa, şekildeki aracın sürücüsü iki yönlü, dört veya daha fazla şeritli yollarda; geçme ve dönme dışında aşağıdakilerden hangisinde seyretmek zorundadır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kamyon.png",
     "options": [
       { "text": "A) Bankette", "isTrue": false },
       { "text": "B) Orta şeritte", "isTrue": false },
@@ -120,7 +120,7 @@
     "id": 10,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki 1 numaralı aracın sürücüsü, önündeki araç \"A\" noktasında iken \"88-89\" diye saymaya başlıyor. 1 numaralı sürücünün bu davranışı aşağıdakilerden hangisini belirlemeye yöneliktir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "88-89-kurali-512kj.png",
     "options": [
       { "text": "A) Motor gücünü", "isTrue": false },
       { "text": "B) Asfalt kalitesini", "isTrue": false },
@@ -174,7 +174,7 @@
     "question": "Videoya göre hangi kural ihlali yapılmıştır?",
     "image_url": "https://random-url.com/image.png",
     "options": [
-      { "text": "A) Geçime", "isTrue": false },
+      { "text": "A) Geçme", "isTrue": false },
       { "text": "B) Takip mesafesi", "isTrue": false },
       { "text": "C) Şerit takip", "isTrue": false },
       { "text": "D) Dönüş ve manevra", "isTrue": true }
@@ -242,7 +242,7 @@
       { "text": "A) Okul taşıtı geçip yola devam etmelidir", "isTrue": false },
       { "text": "B) Korna çalarak okul taşıtı sürücüsüne ikaz etmelidir.", "isTrue": false },
       { "text": "C) Durup okul taşıtını beklemelidir.", "isTrue": true },
-      { "text": "D) farklı bir yolu tercih etmelidir.", "isTrue": false }
+      { "text": "D) Farklı bir yolu tercih etmelidir.", "isTrue": false }
     ],
     "description": "Okul taşıtlarının durması veya öğrenci indirme/bindirme yapması durumunda diğer sürücülerin durarak beklemesi zorunludur."
   },
@@ -250,7 +250,7 @@
     "id": 20,
     "category": "Araç Tekniği",
     "question": "Gösterge panelinde görseldeki uyarı ışığının yanması hangisinin eksikliğini belirtir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "silecek-suyu.png",
     "options": [
       { "text": "A) Soğutma sıvısının", "isTrue": false },
       { "text": "B) Yağ seviyesinin", "isTrue": false },
@@ -263,7 +263,7 @@
     "id": 21,
     "category": "İlkyardım",
     "question": "Görseldeki tespit işlemi hangi durumda olan kazazedeye uygulanmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kol-kirigi-dogru.png",
     "options": [
       { "text": "A) Omuz çıkığı", "isTrue": true },
       { "text": "B) Ön kol kırığı", "isTrue": false },
@@ -289,7 +289,7 @@
     "id": 23,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa, şekildeki araç için yerleşim yeri dışındaki bölünmüş yollarda azami hız sınırı saatte kaç kilometredir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "otomobil.png",
     "options": [
       { "text": "A) 90", "isTrue": false },
       { "text": "B) 100", "isTrue": false },
@@ -375,7 +375,7 @@
       { "text": "D) Aracın yüksek devirde kullanılması", "isTrue": false }
     ],
     "description": "Polen filtresi kabin içine giren havayı temizler; kirlenmesi klimanın performansını etkiler ancak motorun yakıt tüketimine doğrudan bir etkisi yoktur."
-  },[
+  },
   {
     "id": 30,
     "category": "Trafik Adabı",
@@ -406,7 +406,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekle göre aşağıdakilerden hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-kaza-5515sgs1d5.png",
     "options": [
       { "text": "A) 2 numaralı aracın yanlış şeritte seyrettiği", "isTrue": false },
       { "text": "B) 2 numaralı aracın takip mesafesine uymadığı", "isTrue": false },
@@ -445,7 +445,7 @@
     "id": 35,
     "category": "İlkyardım",
     "question": "Görseldeki gibi \"Araç sürücülerini yavaşlatmak ve olası bir kaza tehlikesini önlemek için kaza noktasının önüne ve arkasına gelebilecek uyarı işaretleri yerleştirilmesi\" ilk yardımın ilkelerinden hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "reflektor-ile-koruma.png",
     "options": [
       { "text": "A) Koruma", "isTrue": true },
       { "text": "B) Bildirme", "isTrue": false },
@@ -458,7 +458,7 @@
     "id": 36,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi devamlı çizgi bulunan kara yolu için aşağıdakilerden hangisi söylenemez?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "devamli-yol512451.png",
     "options": [
       { "text": "A) İki yönlü kara yolu olduğu", "isTrue": false },
       { "text": "B) Öndeki aracın geçilebileceği", "isTrue": true },
@@ -486,10 +486,10 @@
     "question": "Hangisi hayat kurtarma zincirinin birinci halkasını oluşturur?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_a.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_c.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_d.png", "isTrue": false }
+      { "text": "hayat-kurtarma-halka-1.png", "isTrue": true },
+      { "text": "hayat-kurtarma-halka-2.png", "isTrue": false },
+      { "text": "hayat-kurtarma-halka-3.png", "isTrue": false },
+      { "text": "hayat-kurtarma-halka-4.png", "isTrue": false }
     ],
     "description": "Hayat kurtarma zincirinin birinci halkası, sağlık kuruluşuna haber verilmesi (112 acil servisin aranması) işlemidir."
   },
@@ -575,7 +575,7 @@
     "id": 45,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekilde görüldüğü gibi, kavşakta araçların geçiş hakkı sırası nasıldır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-siralama-45621.png",
     "options": [
       { "text": "A) 1-2-3", "isTrue": false },
       { "text": "B) 1-3-2", "isTrue": true },
@@ -627,7 +627,7 @@
     "id": 49,
     "category": "Araç Tekniği",
     "question": "Şekildeki lastiğin ebatları 205/65 R15'tir. Buna göre şekilde \"?\" ile belirtilen yerin uzunluğu kaç mm'dir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "lastikyanakkesit544.png",
     "options": [
       { "text": "A) 205", "isTrue": true },
       { "text": "B) 90", "isTrue": false },
@@ -642,10 +642,10 @@
     "question": "Aşağıdakilerden hangisi sürücülere kontrollü bir kavşağa yaklaşıldığını bildirir?",
     "image_url": "https://random-url.com/image.png",
     "options": [
-      { "text": "A) https://random-url.com/option_visual_a.png", "isTrue": true },
-      { "text": "B) https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "C) https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "D) https://random-url.com/option_visual_d.png", "isTrue": false }
+      { "text": "trafik-isigi.png", "isTrue": true },
+      { "text": "donus-adasi-ek-levha.png", "isTrue": false },
+      { "text": "saga-sola-levha.png", "isTrue": false },
+      { "text": "cikmaz-sokak-levha.png", "isTrue": false }
     ],
     "description": "Üçgen içerisindeki trafik ışığı sembolü, ileride ışıklı işaret cihazı ile kontrol edilen bir kavşak olduğunu bildirir."
   },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "İlkyardım",
     "question": "Bilinci kapalı, solunumu ve dolaşımı olan resimdeki kazazedeye aşağıdaki ilk yardım uygulamalarından hangisi yapılmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kulak-kanamasi845219461n.png",
     "options": [
       { "text": "A) Sağ kulağının üzerine yan yatırılmalıdır.", "isTrue": false },
       { "text": "B) Başı hafifçe öne eğilip şok pozisyonu verilmelidir.", "isTrue": false },
@@ -707,7 +707,7 @@
     "question": "I. Kontak anahtarı kapatılmalı\nII. Yetkili servis veya tamirci aranmalı\nIII. Motor kaputu açılarak durum gözlenmeli\nIV. Araç kurallara uygun olarak yolun sağ kenarına çekilmeli\nV. Gerekiyorsa yangın tüpü kullanılmalı\nAraçtan anormal bir ses yada koku alındığında uygulama sıralaması nasıl olmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "A) I - II - V - II - IV", "isTrue": false },
+      { "text": "A) I - II - V - III - IV", "isTrue": false },
       { "text": "B) I - III - II - V - IV", "isTrue": false },
       { "text": "C) IV - I - III - V - II", "isTrue": true },
       { "text": "D) IV - V - II - I - III", "isTrue": false }
@@ -758,10 +758,10 @@
     "question": "Aşağıdaki trafik işaretlerinden hangisi kontrollü demir yolu geçidine yaklaşıldığını bildirir?",
     "image_url": null,
     "options": [
-      { "text": "A) https://random-url.com/option_visual_a.png", "isTrue": false },
-      { "text": "B) https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "C) https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "D) https://random-url.com/option_visual_d.png", "isTrue": true }
+      { "text": "tren-isareti.png", "isTrue": false },
+      { "text": "kontrolsuz-demiryolu.png", "isTrue": false },
+      { "text": "dur.png", "isTrue": false },
+      { "text": "kontrollu-demiryolu.png", "isTrue": true }
     ],
     "description": "Trafik levhalarında 'çit' sembolü kontrollü (bariyerli) demir yolu geçidini, 'lokomotif' sembolü ise kontrolsüz geçidi ifade eder."
   },
