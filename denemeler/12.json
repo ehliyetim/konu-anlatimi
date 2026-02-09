@@ -3,7 +3,7 @@
     "id": 1,
     "category": "İlkyardım",
     "question": "Görseldeki, aşamalarına göre numaralanmış ilk yardım uygulamasının hangi durumdaki kazazedeye yapılması doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "solunum-yolu-tam-tikanma-8525215412.png",
     "options": [
       { "text": "A) Solunum yolu tam tıkanan", "isTrue": true },
       { "text": "B) 3. derece bilinç kaybı olan", "isTrue": false },
@@ -29,7 +29,7 @@
     "id": 3,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki araç geçme işlemiyle ilgili olarak hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "arac-gecis-8451gdv.png",
     "options": [
       { "text": "A) 3 numaralı aracın geçme yasağına uymadığı", "isTrue": false },
       { "text": "B) 1 numaralı aracın izlediği şeridin yanlış olduğu", "isTrue": false },
@@ -68,7 +68,7 @@
     "id": 6,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekle göre araç sürücüsü hangi şeritleri kullanabilir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "arac-surucusu-hangi-yolu-kullanabilir.png",
     "options": [
       { "text": "A) 1-2", "isTrue": false },
       { "text": "B) 1-3", "isTrue": false },
@@ -107,7 +107,7 @@
     "id": 9,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Hemzemin geçitte en az 100 m kala durulmalıdır.\nII. Tek hatlı demir yolu geçididir.\nIII. Kontrolsüz demir yolu geçididir.\nIV. 1 numaralı araç sürücüsü önündeki aracı geçebilir.\nŞekle göre yukarıdakilerden hangileri doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tramvay-arabalar-451251.png",
     "options": [
       { "text": "A) I ve III", "isTrue": false },
       { "text": "B) II ve III", "isTrue": true },
@@ -122,18 +122,18 @@
     "question": "Olay yerindeki bir yaralıyı taşıması gereken ilk yardımcı, sırtının gerginliğini korumak ve omurilik yaralanması riskini azaltmak için hangisini yapmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "A) Dizlerini ve kalçalarını bükmelidir.", "isTrue": true },
-      { "text": "B) Kalkarken ağırlığı bacak kaslarına vermelidir.", "isTrue": false },
-      { "text": "C) Ağırlığı kaldırırken kalçasını kasmamalıdır.", "isTrue": false },
-      { "text": "D) Yürürken adımları omzundan daha geniş olmalıdır.", "isTrue": false }
+      { "text": "A) Dizlerini ve kalçalarını bükmeli, kalkarken ağırlığı bacak kaslarına vermelidir.", "isTrue": true },
+      { "text": "B) Kalkarken ağırlığı omuz ve sırt kaslarına vermelidir.", "isTrue": false },
+      { "text": "C) Ağırlığı kaldırırken kalçasını kasmadan hızlıca kalkmalıdır.", "isTrue": false },
+      { "text": "D) Yürürken adımları omuz genişliğinden daha dar olmalıdır.", "isTrue": false }
     ],
-    "description": "Ağırlık kaldırırken bel yerine diz ve kalçaları bükmek, omurgaya binen yükü azaltarak sakatlık riskini önler."
+    "description": "Ağırlık kaldırırken bel yerine vücudun en güçlü kasları olan bacakları kullanmak, omurgaya binen yükü azaltarak sakatlık riskini önler."
   },
   {
     "id": 11,
     "category": "İlkyardım",
     "question": "Görselde uygulanan ilk yardım tekniği hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kopru-tasima-teknigi.png",
     "options": [
       { "text": "A) Köprü", "isTrue": true },
       { "text": "B) Altın beşik", "isTrue": false },
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "park-etme-yasagi-levha.png",
     "options": [
       { "text": "A) Park etme yasağı", "isTrue": true },
       { "text": "B) Bütün yasakların sona erdiğini", "isTrue": false },
@@ -185,12 +185,12 @@
     "id": 15,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde aşağıdaki ikaz ışıklarından hangisinin yanıyor olması, şarj sisteminin çalışmadığını gösterir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "A) Akü sembolü", "isTrue": true },
-      { "text": "B) Fren balatası uyarısı", "isTrue": false },
-      { "text": "C) Yağ basıncı uyarısı", "isTrue": false },
-      { "text": "D) El freni/Fren sistemi uyarısı", "isTrue": false }
+      { "text": "aku.png", "isTrue": true },
+      { "text": "fren-balatasi-isisgi.png", "isTrue": false },
+      { "text": "yag-basinci.png", "isTrue": false },
+      { "text": "el-freni-cekili.png", "isTrue": false }
     ],
     "description": "Akü sembolü şeklindeki şarj ikaz lambası, alternatörün aküyü beslemediğini ve sistemde bir arıza olduğunu gösterir."
   },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "İlkyardım",
     "question": "İlk yardımcı, trafik kazası geçirmiş olan kazazedeye görseldeki pozisyonu vermiştir. Buna göre ilk yardımcı, gözlemlediği hangi belirti sonucunda bu pozisyonu vermiştir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "sok.png",
     "options": [
       { "text": "A) Hızlı ve zayıf nabız", "isTrue": true },
       { "text": "B) Sıcak ve kuru cilt", "isTrue": false },
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "category": "İlkyardım",
-    "question": "I. Gecikmiş yaralar\nII. Ateşli silah yaraları\nIII. Dikişleri ayrılmış yaralar\nVerilenlerden hangileri, yüksek enfeksiyon riski taşıyan yaralardandır?",
+    "question": "I. Gecikmiş(beklenmiş) yaralar\nII. Ateşli silah yaraları\nIII. Dikişleri ayrılmış yaralar\nVerilenlerden hangileri, yüksek enfeksiyon riski taşıyan yaralardandır?",
     "image_url": null,
     "options": [
       { "text": "A) I ve II", "isTrue": false },
@@ -341,7 +341,7 @@
     "id": 27,
     "category": "İlkyardım",
     "question": "Resimde görülen uygulama hangi pozisyonun veriliş aşamalarını göstermektedir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "koma-hazirlanmasi.png",
     "options": [
       { "text": "A) Şok pozisyonu", "isTrue": false },
       { "text": "B) Koma pozisyonu", "isTrue": true },
@@ -354,7 +354,7 @@
     "id": 28,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kavşakta, trafik görevlisinin duruşuna göre, numaralı araçlardan hangileri yollarına devam edebilir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "trafik-polisi-df5sdf45sv.png",
     "options": [
       { "text": "A) 1 ve 2", "isTrue": false },
       { "text": "B) 1 ve 3", "isTrue": true },
@@ -369,10 +369,10 @@
     "question": "Soğuk havalarda dizel motorlu bir aracı çalıştırırken marşa basmadan önce, hangi göstergenin sönmesini beklemeliyiz?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_fren.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_motor.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_yag.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_kizdirma.png", "isTrue": true }
+      { "text": "fren-balatasi-isisgi.png", "isTrue": false },
+      { "text": "fren-ariza-ikaz.png", "isTrue": false },
+      { "text": "yag-basinci.png", "isTrue": false },
+      { "text": "isitma-bujisi.png", "isTrue": true }
     ],
     "description": "Dizel motorlarda soğuk havalarda yanmayı kolaylaştırmak için kullanılan kızdırma (ön ısıtma) bujisi lambasının sönmesi beklenmelidir."
   },
@@ -405,15 +405,15 @@
   {
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Hangisi karayollarının kullanılması konusunda, araç sürücülerinin uymak zorunda olduğu kurallardan değildir?",
+    "question": "Aşağıdakilerden hangisi karayollarının kullanılması konusunda, araç sürücülerinin uymak zorunda olduğu kurallardan biri değildir?",
     "image_url": null,
     "options": [
       { "text": "A) Trafiği aksatacak veya tehlikeye sokacak şekilde şerit değiştirmemek", "isTrue": false },
       { "text": "B) Gidişe ayrılan yol bölümünün en sol şeridini sürekli işgal etmemek", "isTrue": false },
-      { "text": "C) Şerit değiştirmeden önce, gireceği şeritteki sürücülerin güvenli bir şekilde geçişlerini beklememek", "isTrue": true },
-      { "text": "D) İki şeridi aynı anda kullanmamak", "isTrue": false }
+      { "text": "C) Şerit değiştirmeden önce, o şeritteki araçların güvenli geçişini beklememek", "isTrue": true },
+      { "text": "D) İki şeridi aynı anda (şeridi ortalayarak) kullanmamak", "isTrue": false }
     ],
-    "description": "Şerit değiştirmeden önce diğer sürücülerin güvenliği için onların geçişini beklemek zorunluluktur; beklememek bir kural ihlalidir."
+    "description": "Sürücüler şerit değiştirmeden önce o şeritteki araçların geçmesini beklemek zorundadır; 'beklememek' bir kural değil, kural ihlalidir."
   },
   {
     "id": 33,
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "İlkyardım",
     "question": "Yukarıda soru işareti (?) ile gösterilen ve hayat kurtarma zincirinin 2. halkası olan uygulama hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "hayat-kurtarma-2-halka-nedir.png",
     "options": [
       { "text": "A) İlaçla tedavi", "isTrue": false },
       { "text": "B) Hasar tespiti", "isTrue": false },
@@ -523,7 +523,7 @@
     "id": 41,
     "category": "Araç Tekniği",
     "question": "Araç lastiğinin orta kısmının görseldeki gibi fazla aşınmasının sebebi hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "asinmis-lastik.png",
     "options": [
       { "text": "A) Aşırı basınç nedeniyle aşınma", "isTrue": true },
       { "text": "B) Düşük basınç nedeniyle aşınma", "isTrue": false },
@@ -549,12 +549,12 @@
     "id": 43,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Trafik bilgi ve işaret levhalarından hangisi kavşak öncesi şerit seçimi yapılması gerektiğini ifade eder?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_a.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_d.png", "isTrue": false }
+      { "text": "mavilevha1.png", "isTrue": true },
+      { "text": "mavilevha2.png", "isTrue": false },
+      { "text": "mavilevha3.png", "isTrue": false },
+      { "text": "mavilevha4.png", "isTrue": false }
     ],
     "description": "Mavi zeminli ve oklarla yön belirten bilgi levhası, sürücülere kavşağa yaklaşırken gitmek istedikleri yöne uygun şeride girmeleri gerektiğini bildirir."
   },
@@ -653,7 +653,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki geçiş üstünlüğüne sahip araçların, görev hâlinde karşılaşmaları durumunda ilk geçiş hakkını hangisi kullanmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "gecis-ustunlugu-98564871254.png",
     "options": [
       { "text": "A) Ambulans", "isTrue": true },
       { "text": "B) Polis aracı", "isTrue": false },
@@ -720,10 +720,10 @@
     "question": "Vücut eksenine dik karın yaralanması olan yaralıya, ilk yardım olarak hangi pozisyonun uygulanması doğrudur?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_a.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_d.png", "isTrue": true }
+      { "text": "sok.png", "isTrue": false },
+      { "text": "koma.png", "isTrue": false },
+      { "text": "normal.png", "isTrue": false },
+      { "text": "karin-yaralanmasi.png", "isTrue": true }
     ],
     "description": "Karın yaralanmalarında karın kaslarının gerilmemesi ve organların dışarı çıkmaması için bacaklar bükülerek sırtüstü yatış pozisyonu verilir."
   },
@@ -757,7 +757,7 @@
     "id": 59,
     "category": "Trafik Adabı",
     "question": "Görseldeki yayayı zor durumda bırakan sürücü için hangisi söylenemez?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "surucuye-su-sicratma-84512.png",
     "options": [
       { "text": "A) Diğerkâmlık kavramına uymadığı", "isTrue": false },
       { "text": "B) Feragat kavramına uymadığı", "isTrue": true },
@@ -772,19 +772,19 @@
     "question": "Görsellerden hangisi \"ciddi yaralanma\" olarak değerlendirilemez?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_a.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_d.png", "isTrue": true }
+      { "text": "kunt-yara.png", "isTrue": false },
+      { "text": "ayirici-yara.png", "isTrue": false },
+      { "text": "siyrik-yara.png", "isTrue": true },
+      { "text": "karin-yaralanmasi-a.png", "isTrue": false }
     ],
-    "description": "Görseldeki D şıkkı, diğer açık ve derin yaralara kıyasla daha hafif, yüzeyel bir sıyrığı veya batmayı temsil ettiği için 'ciddi yaralanma' sınıfına girmez."
+    "description": "C şıkkı sıyrık yaralar sürtünmeye bağlı olur ve diğerleri kadar tehlikeli değildir."
   },{
     "id": 61,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sürücünün hangi davranışı sürüş güvenliğini tehlikeye düşürür?",
     "image_url": null,
     "options": [
-      { "text": "A) Mola vermeden uzun süreli araç kullanması", "isTrue": false },
+      { "text": "A) Mola vermeden uzun süreli araç kullanmaması", "isTrue": false },
       { "text": "B) Sürüş öncesi alkollü içki içilmesi", "isTrue": true },
       { "text": "C) Araç bakımlarını zamanında yaptırması", "isTrue": false },
       { "text": "D) Yol şartlarına göre kontrol edilebilecek hızda araç kullanılması", "isTrue": false }
