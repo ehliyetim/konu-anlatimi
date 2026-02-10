@@ -16,7 +16,7 @@
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik kazası, aşağıdakilerden hangisine uyulmaması sonucu meydana gelmiş olabilir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-kaza-5515sgs1d5.png",
     "options": [
       { "text": "A) Takip mesafesine", "isTrue": false },
       { "text": "B) Kavşaklarda geçiş hakkına", "isTrue": true },
@@ -44,10 +44,10 @@
     "question": "Gösterge panosunda hangi uyarı ışığının yanması el freninin çekili olduğunu gösterir?",
     "image_url": null,
     "options": [
-      { "text": "A) https://random-url.com/pedal_symbol.png", "isTrue": false },
-      { "text": "B) https://random-url.com/abs_symbol.png", "isTrue": false },
-      { "text": "C) https://random-url.com/handbrake_symbol.png", "isTrue": true },
-      { "text": "D) https://random-url.com/pad_warning_symbol.png", "isTrue": false }
+      { "text": "fren-pedalina-basilmali.png", "isTrue": false },
+      { "text": "fren-ariza-ikaz.png", "isTrue": false },
+      { "text": "el-freni-cekili.png", "isTrue": true },
+      { "text": "fren-balatasi-isisgi.png", "isTrue": false }
     ],
     "description": "İçinde ünlem işareti bulunan kırmızı yuvarlak simge el freninin çekili olduğunu veya fren sisteminde arıza olduğunu bildirir."
   },
@@ -60,14 +60,14 @@
       { "text": "A) Cisimin yerinden oynaması", "isTrue": false },
       { "text": "B) Cismin dışarda kalan kısmını kestirmesi", "isTrue": false },
       { "text": "C) Cismi ileri ya da geri hareket ettirmesi", "isTrue": false },
-      { "text": "D) Cismin etrafını temiz bezlerle destekleyen", "isTrue": true }
+      { "text": "D) Cismin etrafını temiz bezlerle destekleyerek kapatılması", "isTrue": true }
     ],
     "description": "Vücuda saplanan delici cisimler asla çıkarılmaz veya hareket ettirilmez; hareket etmemesi için etrafı desteklenerek sabitlenir."
   },
   {
     "id": 6,
     "category": "Trafik Adabı",
-    "question": "Bir sanat veya bilime temel olan, yön veren ilke ve kaide olarak tanımlanan kavrama kural denir. Bu cümlede boş bırakılan yere hangi kavram yazılmalıdır?",
+    "question": "Bir sanat veya bilime temel olan, yön veren ilke ve kaide olarak tanımlanan kavrama ...... denir. Bu cümlede boş bırakılan yere hangi kavram yazılmalıdır?",
     "image_url": null,
     "options": [
       { "text": "A) kural", "isTrue": true },
@@ -148,10 +148,10 @@
     "question": "Aşağıdakilerden hangisi azami hız sınırlaması anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "A) https://random-url.com/hiz_siniri_70.png", "isTrue": true },
-      { "text": "B) https://random-url.com/agirlik_siniri_7t.png", "isTrue": false },
-      { "text": "C) https://random-url.com/hiz_siniri_sonu_50.png", "isTrue": false },
-      { "text": "D) https://random-url.com/takip_mesafesi_70m.png", "isTrue": false }
+      { "text": "azami-hiz.png", "isTrue": true },
+      { "text": "sollama-sonu.png", "isTrue": false },
+      { "text": "hiz-sonu.png", "isTrue": false },
+      { "text": "70m-mesafe.png", "isTrue": false }
     ],
     "description": "Kırmızı daire içindeki rakam, o yol kesiminde yapılabilecek en yüksek (azami) hızı belirtir."
   },
@@ -276,7 +276,7 @@
     "id": 22,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I- 1 numaralı şerit sadece sola dönüş içindir.\nII- 2 numaralı şerit sadece ileri yönde seyir içindir.\nIII- 3 numaralı şerit sadece sağa dönüş içindir.\nŞekle göre, aşağıdaki ifadelerden hangileri doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "serit-ifadeleri-dogru.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": true },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre hangisi doğrudur?",
-    "image_url": "https://random-url.com/ambulance_scene.png",
+    "image_url": "maviaraba-amlunsayolverdi-ksd55.png",
     "options": [
       { "text": "A) Geçiş üstünlüğü bulunan araçlara her zaman ve her yerde yol verilmelidir", "isTrue": false },
       { "text": "B) Geçiş üstünlüğü bulunan ve görev başındaki araçların arkasından ilerlemek sakıncalıdır", "isTrue": false },
@@ -486,7 +486,7 @@
     "question": "Yolla ilgili verilen özellikler hangisini etkilemez?\n• Kaplamanın niteliği veya kalitesi\n• Yüzeyindeki bozukluk\n• Yolun donanımındaki eksiklikler",
     "image_url": null,
     "options": [
-      { "text": "A) Rahat ve güvenli yolculuk yapılır hale", "isTrue": false },
+      { "text": "A) Rahat ve güvenli yolculuk yapılmasını", "isTrue": false },
       { "text": "B) Araçların yıpranma süresini", "isTrue": false },
       { "text": "C) Araçların sigorta ve kasko bedelleri", "isTrue": true },
       { "text": "D) Araçların yıllık bakım masraflarını", "isTrue": false }
@@ -562,9 +562,9 @@
     "id": 44,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde sağa dönüş yaparken görülen siyah otomobil sürücüsü hangi hatayı kesinlikle yapmıştır?",
-    "image_url": "https://random-url.com/black_car_turning.png",
+    "image_url": "siyaharaba-donus-8451sfsf.png",
     "options": [
-      { "text": "A) Araç akışına gereken yerde kullanamamakta", "isTrue": false },
+      { "text": "A) Araç akışına uygun şekilde hareket etmektedir", "isTrue": false },
       { "text": "B) Şerit izleme ve takip kurallarına uymamıştır", "isTrue": true },
       { "text": "C) Dönüşün yasak olduğu yol bölümüne dönmüştür.", "isTrue": false },
       { "text": "D) Araçları çok yakın mesafeden takip etmiştir.", "isTrue": false }
@@ -679,7 +679,7 @@
     "id": 53,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "https://random-url.com/intersection_tram.png",
+    "image_url": "tramvay-ve-arabalar-542afsegsdgs.png",
     "options": [
       { "text": "A) 1-2-3", "isTrue": false },
       { "text": "B) 2-1-3", "isTrue": false },
@@ -817,5 +817,18 @@
       { "text": "D) Karşı mesaj", "isTrue": true }
     ],
     "description": "İletişimin temel öğeleri gönderici, alıcı, mesaj ve kanaldır (taşıyıcı). 'Karşı mesaj' bu temel süreç unsurları arasında yer almaz."
+  },
+  {
+    "id": 64,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "Görseldeki gibi eğimsiz, iki yönlü dar yolda karşılaşmada 2 numaralı aracın sürücüsü ne yapmalıdır?",
+    "image_url": "kopru-yolver-minubus-52212nnjjb.png",
+    "options": [
+      { "text": "A) U dönüşü yapmalı", "isTrue": false },
+      { "text": "B) 1 numaralı araca yol vermeli", "isTrue": true },
+      { "text": "C) İlk geçiş hakkını kendisi kullanmalı", "isTrue": false },
+      { "text": "D) 1 numaralı aracın sürücüsünü ikaz edip durdurmalı", "isTrue": false }
+    ],
+    "description": "Daralan yollarda öncelik hakkını belirleyen trafik levhalarına uyulmalıdır. 1 numaralı aracın tarafındaki 'Öncelik' levhası nedeniyle, 2 numaralı araç bekleyip yol vermelidir."
   }
 ]
