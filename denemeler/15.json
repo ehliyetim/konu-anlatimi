@@ -42,7 +42,7 @@
     "id": 4,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "2013-2014 yılları itibariyle ülkemizde meydana gelen trafik kazalarındaki kusur oranları tabloda verilmiştir. Buna göre, aşağıdakilerden hangisi trafik kazalarına en fazla neden olmuştur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tablo-5412sdv61.png",
     "options": [
       { "text": "A) Araç", "isTrue": false },
       { "text": "B) Yaya", "isTrue": false },
@@ -94,7 +94,7 @@
     "id": 8,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde, şekildeki uyarı işaretinin yandığını gören sürücü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "karlogo-84512.png",
     "options": [
       { "text": "A) Arabanın yakıtını kontrol edilir", "isTrue": false },
       { "text": "B) Ani hareket ve manevralardan kaçınır", "isTrue": true },
@@ -159,7 +159,7 @@
     "id": 13,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 2 numaralı araç sürücüsünün hangisini yapması doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-gecis-araba-surucusu.png",
     "options": [
       { "text": "A) Hızını artırarak dönüşe geçmesi", "isTrue": false },
       { "text": "B) Dönüşünü en sol şeritte tamamlaması", "isTrue": false },
@@ -292,7 +292,7 @@
     "image_url": null,
     "options": [
       { "text": "A) İkaz sesle uyarak", "isTrue": false },
-      { "text": "B) İkaz sesle uyarak", "isTrue": false },
+      { "text": "B) Sürekli kornaya basılarak", "isTrue": false },
       { "text": "C) Nazik ve saygıyla davranmakla", "isTrue": true },
       { "text": "D) Kişisel İhanet ile", "isTrue": false }
     ],
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "category": "Trafik Adabı",
-    "question": "• Araçta bulunanlarla tartışmak • Müzik sesini aşırı açmak • Cep telefonu ile konuşmak, mesajlaşmak • Arka koltuktan bir şeyi almak. Sürüş esnasındaki bu davranışların sonucu hangisi olamaz?",
+    "question": "• Araçta bulunanlarla tartışmak \n• Müzik sesini aşırı açmak \n• Cep telefonu ile konuşmak, mesajlaşmak \n• Arka koltuktan bir şeyi almak. \nSürüş esnasındaki bu davranışların sonucu hangisi olamaz?",
     "image_url": null,
     "options": [
       { "text": "A) Dikkat dağınıklığı", "isTrue": false },
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "category": "İlkyardım",
-    "question": "• İlk yardımcı sol kolu ile omzundan tutarak kazazedeyi oturur duruma getirir. • Çömelerek sağ kolunu kazazedenin bacaklarının arasından geçirir. • Kazazedenin vücudunu sağ omzuna alır. • Sol el ile kazazedenin sağ elini tutar, ağırlığı dizlerine vererek kalkar. • Kazazedenin önde boşta kalan bileğini kavrayarak kazazedeyi hızla olay yerinden uzaklaştırır. Yukarıda uygulama basamakları verilen acil taşıma tekniği hangisidir?",
+    "question": "• İlk yardımcı sol kolu ile omzundan tutarak kazazedeyi oturur duruma getirir. \n• Çömelerek sağ kolunu kazazedenin bacaklarının arasından geçirir. \n• Kazazedenin vücudunu sağ omzuna alır. \n• Sol el ile kazazedenin sağ elini tutar, ağırlığı dizlerine vererek kalkar. \n• Kazazedenin önde boşta kalan bileğini kavrayarak kazazedeyi hızla olay yerinden uzaklaştırır. Yukarıda uygulama basamakları verilen acil taşıma tekniği hangisidir?",
     "image_url": null,
     "options": [
       { "text": "A) Rentek manevrası", "isTrue": false },
@@ -330,10 +330,10 @@
     "question": "Kazazedeye 'Nasılsınız?' diye sorduğunda göğüs boşluğunu göstererek özellikle kravat bölgesinde ağrı olduğunu ve bu ağrının giderek omzuna, boyun bölgesine, çenesine ve sol koluna doğru yayıldığını söylemiştir. Bu belirtilere göre, ilk yardımcı kazazedeye hangi pozisyonu vermelidir?",
     "image_url": null,
     "options": [
-      { "text": "A) https://random-url.com/option_visual.png", "isTrue": false },
-      { "text": "B) https://random-url.com/option_visual.png", "isTrue": true },
-      { "text": "C) https://random-url.com/option_visual.png", "isTrue": false },
-      { "text": "D) https://random-url.com/option_visual.png", "isTrue": false }
+      { "text": "sok.png", "isTrue": false },
+      { "text": "gogus-yaralanmasi-pozisyonu.png", "isTrue": true },
+      { "text": "koma.png", "isTrue": false },
+      { "text": "normal.png", "isTrue": false }
     ],
     "description": "Göğüs ağrısı ve kalp krizi şüphesi olan durumlarda hastanın rahat nefes alabilmesi ve kalbinin daha az yorulması için yarı oturuş (kalp) pozisyonu verilir."
   },
@@ -435,7 +435,7 @@
     "image_url": "https://random-url.com/traffic_video_thumbnail_2.png",
     "options": [
       { "text": "A) Araç ışıklarının uygun yerlerde kullanılmaktadır", "isTrue": false },
-      { "text": "B) Dönüş yapacağı yöne uygun taraftan gitmekteda.", "isTrue": true },
+      { "text": "B) Dönüş yapacağı yöne uygun taraftan gitmektedir.", "isTrue": true },
       { "text": "C) Trafik ışık ve levhalarına uygun hareket etmektedir.", "isTrue": false },
       { "text": "D) Başka araçların geçiş haklarını engellemektedir.", "isTrue": false }
     ],
@@ -497,12 +497,12 @@
     "id": 39,
     "category": "İlkyardım",
     "question": "Hangisi ilk yardımcının yaralıya yönelik yapabileceği uygulamalar arasında yer almaz?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "A) Kalp masajı yapmak", "isTrue": false },
-      { "text": "B) Heimlich manevrası uygulamak", "isTrue": false },
-      { "text": "C) Baş-çene pozisyonu vermek", "isTrue": false },
-      { "text": "D) Oksijen maskesi takmak", "isTrue": true }
+      { "text": "kalp-masaji-yap.png", "isTrue": false },
+      { "text": "heimlich-manevrasi-yap.png", "isTrue": false },
+      { "text": "bas-cene-yap.png", "isTrue": false },
+      { "text": "oksilen-maskesi-tak.png", "isTrue": true }
     ],
     "description": "Oksijen maskesi tıbbi bir müdahaledir, profesyonel sağlık ekipleri tarafından uygulanır."
   },
@@ -523,7 +523,7 @@
     "id": 41,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kavşakta sola dönüş yapacak olan 2 numaralı araç sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-gecis-yaya-515s15.png",
     "options": [
       { "text": "A) Dar bir kavisle dönmeli", "isTrue": false },
       { "text": "B) Karşıya geçen yayaya yol vermeli", "isTrue": true },
@@ -653,7 +653,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sola dönüş yapacak olan görseldeki araç sürücüsü, hangilerini yapmalıdır?\nI. Sola dönüş lambasını yakmalı\nII. Hızını azaltmalı\nIII. Dar bir kavisle dönmeli",
-    "image_url": "https://random-url.com/image_51.png",
+    "image_url": "kavsak-gecis-yon4526416461.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": true },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde numaralandırılmış araç sürücülerinden hangileri şerit takip kuralını ihlal etmiştir?",
-    "image_url": "https://random-url.com/image_54.png",
+    "image_url": "hatali-arac-surucusu-333.png",
     "options": [
       { "text": "A) Yalnız 1", "isTrue": false },
       { "text": "B) Yalnız 3", "isTrue": true },
@@ -731,12 +731,12 @@
     "id": 57,
     "category": "Araç Tekniği",
     "question": "Uyarı ışıklarından hangisi fren sistemi ile ilgili değildir?",
-    "image_url": "https://random-url.com/image_57.png",
+    "image_url": null,
     "options": [
-      { "text": "A) ABS uyarı ışığı", "isTrue": false },
-      { "text": "B) Fren balatası aşınma uyarı ışığı", "isTrue": false },
-      { "text": "C) Cam suyu düşük seviye uyarı ışığı", "isTrue": true },
-      { "text": "D) El freni çekili/Hidrolik seviye düşük ışığı", "isTrue": false }
+      { "text": "abs.png", "isTrue": false },
+      { "text": "el-freni-cekili.png", "isTrue": false },
+      { "text": "silecek-suyu.png", "isTrue": true },
+      { "text": "fren-balatasi-isisgi.png", "isTrue": false }
     ],
     "description": "C şıkkındaki simge cam yıkama suyu seviyesini gösterir, fren sistemi ile bir ilgisi yoktur."
   },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "https://random-url.com/image_60.png",
+    "image_url": "kavsak-gecis-sorusu-6532.png",
     "options": [
       { "text": "A) 1 - 2 - 4 - 3", "isTrue": false },
       { "text": "B) 2 - 1 - 3 - 4", "isTrue": true },
@@ -796,7 +796,7 @@
     "id": 62,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi kontrolsüz kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "https://random-url.com/image_62.png",
+    "image_url": "kavsak-gecis-5151251.png",
     "options": [
       { "text": "A) 1 - 2 - 3", "isTrue": false },
       { "text": "B) 2 - 1 - 3", "isTrue": false },
