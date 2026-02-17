@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Sürüş yaparken, elde paket veya bagaj taşımaları\nII. Özel şekilde imal edilmiş üç tekerlekli motosikletlerle yolcu taşımaları\nIII. Sürücü arkasında yeterli oturma yeri olsa bile bir kişiden fazlasını taşımaları\nBisiklet ve motosiklet sürücülerinin, verilenlerden hangilerini yapmaları yanlıştır?",
+    "question": "I. Sürüş yaparken, elde paket veya bagaj taşımaları\nII. Özel şekilde imal edilmiş üç tekerlekli motosikletlerle yolcu taşımaları\nIII. Sürücü arkasında yeterli oturma yeri olsa bile bir kişiden fazlasını taşımaları\nBisiklet ve motosiklet sürücülerinin, verilenlerden hangilerini yapmaları yasaktır?",
     "image_url": null,
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
@@ -81,7 +81,7 @@
     "id": 7,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik görevlisinin işaretine göre 2 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "trafik-polisi-2-nolu-arac.png",
     "options": [
       { "text": "A) Beklemeli", "isTrue": true },
       { "text": "B) Sola dönmeli", "isTrue": false },
@@ -94,7 +94,7 @@
     "id": 8,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki araç sürücüsü kavşaktan sağa dönüş yapmak için hangi şeridi izlemelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "araba-hangi-yolu-secmeli-333333.png",
     "options": [
       { "text": "A) İstediği şeridi", "isTrue": false },
       { "text": "B) 1 numaralı şeridi", "isTrue": false },
@@ -133,7 +133,7 @@
     "id": 11,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "traktor-giremez-sdfksd5152.png",
     "options": [
       { "text": "A) Traktörün geçebileceğini", "isTrue": false },
       { "text": "B) Traktörün giremeyeceğini", "isTrue": true },
@@ -213,10 +213,10 @@
     "question": "Aşağıdaki trafik işaretlerinden hangisi uzunluk anlamında gabari sınırlamasının olduğunu bildirir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual.png", "isTrue": false }
+      { "text": "gabari-genislik.png", "isTrue": false },
+      { "text": "gabari-yukseklik.png", "isTrue": false },
+      { "text": "gabari-uzunluk.png", "isTrue": true },
+      { "text": "6-ton-levhasi.png", "isTrue": false }
     ],
     "description": "Kamyon figürü altında '10m' yazan levha, uzunluğu 10 metreyi geçen araçların giremeyeceğini (uzunluk gabarisini) bildirir."
   },
@@ -304,12 +304,12 @@
     "question": "Vantilatör kayışının koptuğu, ilk olarak hangi ikaz ışığının yanması ile anlaşılır?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_a.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_b.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_c.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_d.png", "isTrue": false }
+      { "text": "aku.png", "isTrue": true },
+      { "text": "isitma-bujisi.png", "isTrue": false },
+      { "text": "el-freni-cekili.png", "isTrue": false },
+      { "text": "hararet.png", "isTrue": false }
     ],
-    "description": "Vantilatör kayışı koptuğunda alternatör dönmeyi durdurur ve şarj sistemi çalışmaz; bu nedenle ilk olarak Akü/Şarj ikaz ışığı yanar."
+    "description": "Vantilatör kayışı hem alternatörü (şarj) hem de su pompasını çevirir. Kayış koptuğunda alternatör anında durduğu için panelde ilk yanan lamba "Şarj / Akü" lambasıdır. Hararet lambası, suyun ısınması için bir süre geçtikten sonra yanar."
   },
   {
     "id": 25,
@@ -367,7 +367,7 @@
     "id": 29,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi eğimsiz iki yönlü dar yoldaki karşılaşmada, 1 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kopru-yolver-araba-45fs5ffds.png",
     "options": [
       { "text": "A) U dönüşü yapmalı", "isTrue": false },
       { "text": "B) 2 numaralı araca yol vermeli", "isTrue": true },
@@ -406,7 +406,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kavşakta 1 numaralı araç sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tren-yolu-araba-neyapsin-sdfs54512.png",
     "options": [
       { "text": "A) Sol şeride geçip beklemeli", "isTrue": false },
       { "text": "B) Önündeki aracın geçişini beklemeli", "isTrue": true },
@@ -419,7 +419,7 @@
     "id": 33,
     "category": "İlkyardım",
     "question": "İlk yardımcı, görseldeki kazazedede hangi tür yaranın oluştuğunu düşünerek müdahale etmelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kesik-yara-gorsel-sdgdsg45564.png",
     "options": [
       { "text": "A) Sıyrık", "isTrue": false },
       { "text": "B) Parçalı", "isTrue": false },
@@ -486,10 +486,10 @@
     "question": "\"Trafik kazalarında insan, araç, yol ve iklim koşulları etkili olmaktadır.\"\nBuna göre, trafik işaretlerinden hangisi iklim koşullarından kaynaklanan bir tehlike olabileceğini bildirir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_ice.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_bump.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_rocks.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_water.png", "isTrue": false }
+      { "text": "gizli-buzlanma-sdf15.png", "isTrue": true },
+      { "text": "kasis-dsgsd12.png", "isTrue": false },
+      { "text": "gevsek-sev-sgds51.png", "isTrue": false },
+      { "text": "tehlikeli-madde-51521.png", "isTrue": false }
     ],
     "description": "Üçgen levha içindeki 'kar kristali' işareti, yolda gizli buzlanma olabileceğini bildirir ve bu durum iklim kaynaklı bir tehlikedir."
   },
@@ -562,7 +562,7 @@
     "id": 44,
     "category": "Araç Tekniği",
     "question": "Dizel motorlu aracın gösterge panelinde bulunan şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "isitma-bujisi.png",
     "options": [
       { "text": "A) Fren hidrolik seviyesinin çok düştüğünü", "isTrue": false },
       { "text": "B) Arka sis lambasının yanmakta olduğunu", "isTrue": false },
@@ -692,20 +692,20 @@
     "id": 54,
     "category": "İlkyardım",
     "question": "Görseldeki taşıma tekniği ile ilgili olarak hangisi doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "altin-besik-tasima.png",
     "options": [
       { "text": "A) Sedye üzerine yerleştirme tekniklerindendir", "isTrue": false },
       { "text": "B) Bilinci kapalı kazazedeler için kullanılır", "isTrue": false },
       { "text": "C) Kazazedenin omurilik yaralanması varsa tercih edilir", "isTrue": false },
-      { "text": "D) Ciddi bir yaralanması olmayan ve ilk yardımcılara yardım edebilen", "isTrue": true }
+      { "text": "D) Ciddi bir yaralanması olmayan ve ilk yardımcılara yardım edebilen,onlarla konuşabilen durumlarda olan yaralılar içindir", "isTrue": true }
     ],
-    "description": "Not: Görselde 'Kaşık Tekniği' görülmektedir ancak sistem cevabı olarak D şıkkı işaretlenmiştir. Normal şartlarda 3 kişiyle yapılan bu taşıma, omurilik şüphesi olan veya hareket edemeyen yaralılar içindir."
+    "description": "Altın beşik yöntemidir."
   },
   {
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde görülen kara yolu bölümünde hangisinin yapılması yasaktır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "tehlikeli-viraj-kavsak-hareket.png",
     "options": [
       { "text": "A) Öndeki aracın geçilmesi", "isTrue": true },
       { "text": "B) Takip mesafesini artırması", "isTrue": false },
@@ -731,7 +731,7 @@
     "id": 57,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti hangisine yaklaşıldığını bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kontrolsuz-demiryolu.png",
     "options": [
       { "text": "A) Demir yolu alt geçidine", "isTrue": false },
       { "text": "B) Demir yolu üst geçidine", "isTrue": false },
@@ -744,7 +744,7 @@
     "id": 58,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 2 numaralı aracın sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "kavsak-gecis-durumu-dsfsd56456.png",
     "options": [
       { "text": "A) Hızını artırmalı", "isTrue": false },
       { "text": "B) Geçiş hakkını kendisi kullanmalı", "isTrue": true },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Trafik görevlisinin, geceleyin ışıklı işaret çubuğunu şekildeki gibi hareket ettirmesinin sürücüler için anlamı nedir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "gecedur-polis.png",
     "options": [
       { "text": "A) Dur", "isTrue": true },
       { "text": "B) Hızlan", "isTrue": false },
