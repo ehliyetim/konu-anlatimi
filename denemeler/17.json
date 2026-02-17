@@ -293,7 +293,7 @@
     "options": [
       { "text": "normal-kirik8512.png", "isTrue": false },
       { "text": "kapali-kirik-4512.png", "isTrue": false },
-      { "text": "acik-kirik-5412.png", "isTrue": true0 },
+      { "text": "acik-kirik-5412.png", "isTrue": true },
       { "text": "catlak-512.png", "isTrue": false }
     ],
     "description": "Açık kırıklarda kemik bütünlüğü bozulmuş ve kemik uçları deri dışına çıkarak dış ortamla temas etmiştir. Görselde bu durum C şıkkında görülmektedir."
@@ -733,8 +733,8 @@
     "question": "• Kaygının artması\n• Kalp atışının hızlanması\n• Saldırgan tavırlar sergilenmesi\n• Gerginlik yaşanması\n\nVerilen davranışların trafikte hangi durumda gerçekleşmesi beklenmez?",
     "image_url": null,
     "options": [
-      { "text": "A) Kaygının artması", "isTrue": false },
-      { "text": "B) trafik sıkışıklığı nedeniyle işe geç kalmak", "isTrue": false },
+      { "text": "A) Sürekli ona korna çalınması", "isTrue": false },
+      { "text": "B) Trafik sıkışıklığı nedeniyle işe geç kalmak", "isTrue": false },
       { "text": "C) Trafik kurallarına uymak", "isTrue": true },
       { "text": "D) Gidilen bir yerde park yeri bulamamak", "isTrue": false }
     ],
@@ -748,7 +748,7 @@
     "options": [
       { "text": "sedyea.png", "isTrue": false },
       { "text": "sedyeb.png", "isTrue": false },
-      { "text": "sedyeb.png", "isTrue": false },
+      { "text": "sedyec.png", "isTrue": false },
       { "text": "sedyed.png", "isTrue": true }
     ],
     "description": "D şıkkındaki görsel (itfaiyeci yöntemi/omuzda taşıma), sedyesiz bir taşıma yöntemidir. Diğer görseller sedyeye yerleştirme tekniklerini göstermektedir."
