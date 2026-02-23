@@ -1,5 +1,4 @@
 [
-  
   {
     "id": 1,
     "category": "Trafik ve Çevre Bilgisi",
@@ -89,7 +88,7 @@
       { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-uzunluk.png", "isTrue": false },
       { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-yukseklik.png", "isTrue": false }
     ],
-    "description": "7t Tondan bahseder araba kütlesi"
+    "description": "Yüklü ağırlığı 7 tonu geçen araçlar giremez levhası, aracın kütlesini ifade eder."
   },
   {
     "id": 8,
@@ -284,7 +283,7 @@
       { "text": "Evde arkadaşlarımıza trafikte yaşadıklarımızı anlatmak", "isTrue": true },
       { "text": "Araç sürerken yayalara yolu sormak", "isTrue": false }
     ],
-    "description": null
+    "description": "Evde arkadaşlarımıza trafikte yaşadıklarımızı anlatmak, anlık trafik ortamındaki iletişim türlerinden biri değildir."
   },
   {
     "id": 23,
@@ -297,7 +296,7 @@
       { "text": "Asgari hız", "isTrue": true },
       { "text": "Uygun hız", "isTrue": false }
     ],
-    "description": null
+    "description": "Kara yollarında araçların seyretmelerine izin verilen en düşük hız sınırına asgari hız denir."
   },
   {
     "id": 24,
@@ -310,7 +309,7 @@
       { "text": "Aralıklı yanıp sönen sarı ışık", "isTrue": false },
       { "text": "Aralıklı yanıp sönen kırmızı ışık", "isTrue": false }
     ],
-    "description": null
+    "description": "Yaya figürlü kırmızı ışık, yayaların yola girmesinin yasak olduğunu ve beklemeleri gerektiğini bildirir."
   },
   {
     "id": 25,
@@ -323,7 +322,7 @@
       { "text": "50", "isTrue": false },
       { "text": "60", "isTrue": false }
     ],
-    "description": null
+    "description": "Araç üzerinde yapılan renk değişimi gibi teknik değişikliklerin 30 gün içinde yetkili kuruluşa bildirilip tescil belgesine işlenmesi zorunludur."
   },
   {
     "id": 26,
@@ -362,7 +361,7 @@
       { "text": "Akü şarjı bitmiştir", "isTrue": true },
       { "text": "Akü elektroliti azalmıştır", "isTrue": false }
     ],
-    "description": null
+    "description": "Akü üzerindeki durum göstergesinin siyah renkli olması, akü şarjının bittiğini ve şarj edilmesi gerektiğini gösterir."
   },
   {
     "id": 29,
@@ -375,7 +374,7 @@
       { "text": "Karın bölgesinde olan kanamalarda", "isTrue": false },
       { "text": "Bacak bölgesinde olan kanamalarda", "isTrue": false }
     ],
-    "description": null
+    "description": "Yüz bölgesindeki şiddetli kanamalarda en yakın bası noktası olan boyundaki şah damarına baskı uygulanarak kanama kontrol altına alınır."
   },
   {
     "id": 30,
@@ -397,16 +396,16 @@
     "image_url": null,
     "options": [
       { "text": "Küçük çocukların araçlarda çocuk koltuğunda oturtulması.", "isTrue": false },
-      { "text": "Çocuğun yolculuk esnasında annesinin kucağında oturmak", "isTrue": true },
+      { "text": "Çocuğun yolculuk esnasında annesinin kucağında oturması", "isTrue": true },
       { "text": "Boyu 1,5 metreden uzun ve 36 kilodan fazla olanları araçta emniyet kemeri takması", "isTrue": false },
       { "text": "Okul servislerinde her öğrencinin emniyet kemeri takması", "isTrue": false }
     ],
-    "description": null
+    "description": "Çocukların araç içerisinde kucakta taşınması güvenlik açısından çok tehlikeli ve yanlıştır; çarpışma anında çocuk savrulabilir."
   },
   {
     "id": 32,
     "category": "İlk Yardım",
-    "question": "Kanama resimlerinden hangisi atar damar kanamasına aittir?",
+    "question": "Kanama resimlerinden hangisi atardamar kanamasına aittir?",
     "image_url": null,
     "options": [
       { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/toplardamar.png", "isTrue": false },
@@ -427,7 +426,7 @@
       { "text": "Organ", "isTrue": false },
       { "text": "Sistem", "isTrue": false }
     ],
-    "description": null
+    "description": "Aynı yapı ve görevdeki hücrelerin birleşmesiyle dokular oluşur. Hücreler dokuları, dokular organları, organlar sistemleri meydana getirir."
   },
   {
     "id": 34,
@@ -440,7 +439,7 @@
       { "text": "Epilepsi", "isTrue": false },
       { "text": "Bayılma", "isTrue": false }
     ],
-    "description": null
+    "description": "Dolaşım yetmezliği sebebiyle yaşamsal organlara yeterli kan gitmemesi ve tansiyon düşüklüğüyle ortaya çıkan duruma şok denir."
   },
   {
     "id": 35,
@@ -505,7 +504,7 @@
       { "text": "Omurilik", "isTrue": true },
       { "text": "Omurilik soğanı", "isTrue": false }
     ],
-    "description": null
+    "description": "Omurilik, omurga kanalı içinde yer alır, reflekslerin merkezidir ve beyin ile vücut arasındaki iletişimi sağlar."
   },
   {
     "id": 40,
@@ -518,7 +517,7 @@
       { "text": "2-3-1-4", "isTrue": true },
       { "text": "3-4-1-2", "isTrue": false }
     ],
-    "description": null
+    "description": "Geçme işleminde sırasıyla: Sola sinyal verilir (2), takip mesafesi korunarak sol şeride geçilir (3), geçilen araç geride bırakılacak kadar ilerlenir (1) ve sağa sinyal verilerek sağ şeride dönülür (4)."
   },
   {
     "id": 41,
@@ -531,7 +530,7 @@
       { "text": "Hava filtresi", "isTrue": false },
       { "text": "Emme manifoldu", "isTrue": false }
     ],
-    "description": null
+    "description": "Vantilatör, radyatördeki suyun soğumasına yardımcı olan soğutma sistemi parçasıdır."
   },
   {
     "id": 42,
@@ -570,7 +569,7 @@
       { "text": "Aracın trafikten süresiz men edilmesi", "isTrue": false },
       { "text": "Sürücü belgesinin süresiz geri alınması", "isTrue": false }
     ],
-    "description": null
+    "description": "Araçlarında hız ölçen cihazların yerini tespit eden (radar tespit cihazı) bulunduran sürücülere sadece para cezası uygulanır."
   },
   {
     "id": 45,
@@ -583,7 +582,7 @@
       { "text": "Başlık", "isTrue": false },
       { "text": "Sigorta tablası", "isTrue": false }
     ],
-    "description": null
+    "description": "Aracın anlık durumunu (hız, yakıt, uyarı lambaları vb.) sürücüye bildiren ışıklı veya ibreli ekrana gösterge paneli denir."
   },
   {
     "id": 46,
@@ -594,9 +593,9 @@
       { "text": "Toplardamar kanamalarında kan koyu renklidir.", "isTrue": true },
       { "text": "Kılcal damar kanamalarında kan kesik kesik akar.", "isTrue": false },
       { "text": "Atardamar kanamalarında fışkırma yoktur ve süreklidir.", "isTrue": false },
-      { "text": "Toplardamar kanamaları kalp atımları ile uyumlu ve taşkını tarzda.", "isTrue": false }
+      { "text": "Toplardamar kanamaları kalp atımları ile uyumlu ve fışkırır tarzda akar.", "isTrue": false }
     ],
-    "description": null
+    "description": "Toplardamar kanamaları, oksijenden fakir kan taşıdığı için daha koyu renklidir ve sürekli (sızıntı) şeklinde akar."
   },
   {
     "id": 47,
@@ -609,7 +608,7 @@
       { "text": "Gürültü kirliliğinin en aza inmesi", "isTrue": false },
       { "text": "Egzozdan siyah renkte duman çıkması", "isTrue": false }
     ],
-    "description": null
+    "description": "Egzoz susturucusu motorun yanma sonucu oluşan sesini azaltır. Çıkarılması durumunda çevreye yayılan gürültü kirliliği ciddi oranda artar."
   },
   {
     "id": 48,
@@ -635,7 +634,7 @@
       { "text": "1 ay hapis cezası verilir", "isTrue": false },
       { "text": "Araç 1 ay süreyle trafikten men edilir", "isTrue": false }
     ],
-    "description": null
+    "description": "Sürücü belgesi olmayan kişilere araç kullandıran araç sahiplerine tescil plakası üzerinden idari para cezası uygulanır."
   },
   {
     "id": 50,
@@ -661,7 +660,7 @@
       { "text": "II ve III", "isTrue": false },
       { "text": "I, II ve III", "isTrue": true }
     ],
-    "description": null
+    "description": "Psikoteknik değerlendirmede sürücülerin tepki hızı, koordinasyon, hız ve mesafe algısı gibi zihinsel ve psikomotor becerileri ölçülür."
   },
   {
     "id": 52,
@@ -749,7 +748,7 @@
     "options": [
       { "text": "A) Durak", "isTrue": false },
       { "text": "B) Ada", "isTrue": true },
-      { "text": "C) Ayrıcı", "isTrue": false },
+      { "text": "C) Ayırıcı", "isTrue": false },
       { "text": "D) Banket", "isTrue": false }
     ],
     "description": "Tanımı yapılan alan, trafik akışını düzenlemek ve yayaların güvenliğini sağlamak amacıyla oluşturulan 'Yaya Adası'dır."
