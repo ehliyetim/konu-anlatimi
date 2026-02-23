@@ -3,7 +3,7 @@
     "id": 1,
     "category": "İlkyardım",
     "question": "Hava yolu tıkanıklığı yaşayan dört kazazedeye ait belirtiler aşağıdaki tabloda verilmiştir.Bu tabloya göre bu kazazelerden hangilerine Heimlich manevrası uygulanmalıdır?",
-    "image_url": "tablo1.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo1.png",
     "options": [
       { "text": "I ve II.", "isTrue": false },
       { "text": "I ve III.", "isTrue": false },
@@ -29,7 +29,7 @@
     "id": 3,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki karayolu bölümünde hangi numaralı taşıtın ok yönündeki hareketi yasaktır?",
-    "image_url": "yanlis-yon12345.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yanlis-yon12345.png",
     "options": [
       { "text": "Siyah", "isTrue": false },
       { "text": "Kırmızı", "isTrue": true },
@@ -55,27 +55,27 @@
     "id": 5,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Taşıt yolu üzerine çizilen şekildeki yatay işaretleme sürücülere aşağıdakilerden hangisini bildirir?",
-    "image_url": "ileri-saga-yol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ileri-saga-yol.png",
     "options": [
       { "text": "Şeridin sağdan daralacağını", "isTrue": false },
       { "text": "Kontrolsüz kavşağa yaklaşıldığını", "isTrue": false },
       { "text": "Sağ tarafta bisiklet yolu bulunduğunu", "isTrue": false },
       { "text": "Şeridin sadece ileri seyir veya sağa dönüş için olduğunu", "isTrue": true }
     ],
-    "description": ""
+    "description": "Bu işaret, şeridin sadece ileri seyir veya sağa dönüş için zorunlu olduğunu bildirir."
   },
   {
     "id": 6,
     "category": "Araç Tekniği",
     "question": "Görseldeki ikaz ışığının yanması sürücüye hangisini bildirir?",
-    "image_url": "hararet.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet.png",
     "options": [
       { "text": "Rot ayarının bozuk olduğuna", "isTrue": false },
       { "text": "Fren hidrolik yağı azaldığını", "isTrue": false },
       { "text": "Motor hararetini arttığını", "isTrue": true },
       { "text": "Partikül filtresinin dolduğunu", "isTrue": false }
     ],
-    "description": ""
+    "description": "Hararet göstergesi, motor soğutma suyu sıcaklığının tehlikeli seviyeye ulaştığını bildirir."
   },
   {
     "id": 7,
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Hangisi görseldeki kişinin görevlerindendir?",
-    "image_url": "polis.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/polis.png",
     "options": [
       { "text": "A) Trafiği düzenlemek", "isTrue": true },
       { "text": "B) Araçların muayenesini yapmak", "isTrue": false },
@@ -186,7 +186,7 @@
     "id": 16,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "arka-cam-rezidans.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/arka-cam-rezidans.png",
     "options": [
       { "text": "Elektrik devresinde aşırı şarj veya düşük şarj olduğunu", "isTrue": false },
       { "text": "Arka cam rezistansının çalışmakta olduğunu", "isTrue": true },
@@ -290,7 +290,7 @@
     "id": 24,
     "category": "İlkyardım",
     "question": "Olay yerindeki ilk yardımcı, trafik kazası sonucu yaralanmış dört kazazedeye resimdeki tespit işlemlerini uygulamıştır. Bu tespit işlemlerine göre, ilk yardımcı hangi numaralı kazazedenin köprücük kemiğinde kırık olduğunu düşünmüştür?",
-    "image_url": "tum-kırıklar.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tum-kırıklar.png",
     "options": [
       { "text": "I", "isTrue": false },
       { "text": "II", "isTrue": false },
@@ -329,14 +329,14 @@
     "id": 27,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aşağıdaki trafik işaretlerinden hangisi, 2 numaralı aracın 1 numaralı aracı geçmesini yasaklar?",
-    "image_url": "hangilevha.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hangilevha.png",
     "options": [
-      { "text": "anayol-taliyol.png", "isTrue": false },
-      { "text": "sag-egim.png", "isTrue": true },
-      { "text": "yandan-ruzgar.png", "isTrue": false },
-      { "text": "buzlanma.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/anayol-taliyol.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kontrolsuz-kavsak.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yandan-ruzgar.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/buzlanma.png", "isTrue": false }
     ],
-    "description": "B şıkkı doğrudur"
+    "description": "Trafik kurallarına göre kavşaklara yaklaşırken ve kavşaklarda öndeki aracı geçmek yasaktır. Kontrolsüz kavşak levhası bu yasağın başladığını bildirir."
   },
   {
     "id": 28,
@@ -355,7 +355,7 @@
     "id": 29,
     "category": "İlkyardım",
     "question": "Yetişkin bir kazazedenin dolaşımı değerlendirilirken hangi noktadan nabız alınır?",
-    "image_url": "nabiz-yeri.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/nabiz-yeri.png",
     "options": [
       { "text": "I", "isTrue": true },
       { "text": "II", "isTrue": false },
@@ -394,7 +394,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "kamyonlar-icin-gecme-yasagi-sonu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyonlar-icin-gecme-yasagi-sonu.png",
     "options": [
       { "text": "Kamyonlar için geçme yasağı sonunu", "isTrue": true },
       { "text": "Karşıdan gelene yol verilmesi", "isTrue": false },
@@ -487,10 +487,10 @@
     "question": "Temel yaşam desteği uygulandıktan sonra yaşamsal refleksleri geri dönen kazazedeye hangi pozisyon verilmelidir?",
     "image_url": null,
     "options": [
-      { "text": "karin-yaralanmasi.png", "isTrue": false },
-      { "text": "sok.png", "isTrue": false },
-      { "text": "koma.png", "isTrue": true },
-      { "text": "normal.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karin-yaralanmasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sok.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koma.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/normal.png", "isTrue": false }
     ],
     "description": "Yaşamsal fonksiyonları dönen kişi yan yatış (koma) pozisyonuna alınır."
   },
@@ -552,10 +552,10 @@
     "question": "Verilen yer işaretlemelerinden hangisi bölünmüş yol başlangıcı anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "tarali-alana-girilmez-yol.png", "isTrue": false },
-      { "text": "yolayrimi-yol.png", "isTrue": true },
-      { "text": "yavaslama-cizgileri-yol.png", "isTrue": false },
-      { "text": "yolver-yol.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/tarali-alana-girilmez-yol.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yolayrimi-yol.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yavaslama-cizgileri-yol.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yolver-yol.png", "isTrue": false }
     ],
     "description": "B şıkkındaki görsel (V şeklindeki taralı alan) bölünmüş yol başlangıcını ifade eder."
   },
@@ -641,7 +641,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kazada hangi numaralı araç sürücüsü asli kusurlu sayılır?",
-    "image_url": "kaza-asli-kusur.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kaza-asli-kusur.png",
     "options": [
       { "text": "1", "isTrue": false },
       { "text": "2", "isTrue": true },
@@ -656,10 +656,10 @@
     "question": "• Aracın hızı azaltılır.\n• En sağ şeride, varsa banket üzerine geçilir.\n• Araç motoru durdurulur ve dörtlü ikaz ışıkları yakılır.\nYukarıdaki uygulamalar, araç gösterge panelinde hangi uyarı ışığının yanması halinde yapılır?",
     "image_url": null,
     "options": [
-      { "text": "dusuk-yakit.png", "isTrue": false },
-      { "text": "sis-lambasi.png", "isTrue": false },
-      { "text": "yag-basinci.png", "isTrue": true },
-      { "text": "arka-cam-rezidans.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dusuk-yakit.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sis-lambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/arka-cam-rezidans.png", "isTrue": false }
     ],
     "description": "Yağ lambası (C şıkkı - yağdanlık simgesi) yandığında motor derhal durdurulmalıdır."
   },
@@ -693,7 +693,7 @@
     "id": 55,
     "category": "İlkyardım",
     "question": "Resimde görülen uygulama hangi kırıkların tespiti için yapılır?",
-    "image_url": "on-kol-kemigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/on-kol-kemigi.png",
     "options": [
       { "text": "Omurga kırığı", "isTrue": false },
       { "text": "Üst kol kemiği kırığı", "isTrue": false },
@@ -706,7 +706,7 @@
     "id": 56,
     "category": "İlkyardım",
     "question": "Görseldeki ilk yardım pozisyonunun, hangi durumdaki kazazedeye uygulanması sakıncalıdır?",
-    "image_url": "bas-cene-pozisyonu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bas-cene-pozisyonu.png",
     "options": [
       { "text": "Solunum güçlüğü çekenlerde", "isTrue": false },
       { "text": "Boyun omurlarında hasar olanlarda", "isTrue": true },
@@ -719,7 +719,7 @@
     "id": 57,
     "category": "Trafik Adabı",
     "question": "Görsele göre, mavi araç sürücüsünün davranışı ile ilgili hangisi kesinlikle söylenir?",
-    "image_url": "yayalari-rahatsiz-etme.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yayalari-rahatsiz-etme.png",
     "options": [
       { "text": "Trafik adabı uygun davrandığı", "isTrue": false },
       { "text": "Sorunlu davranışlar sergilediği", "isTrue": false },
@@ -732,7 +732,7 @@
     "id": 58,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Kavşaklara yaklaşırken yol üzerine çizilmiş şekildeki oklar sürücülere neyi bildirir?",
-    "image_url": "seyir-yonleri.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/seyir-yonleri.png",
     "options": [
       { "text": "Durma, duraklama ve park etmenin yasaklanmış olduğunu", "isTrue": false },
       { "text": "Seyir yönüne uygun şeridin kullanılması gerektiğini", "isTrue": true },
@@ -773,10 +773,10 @@
     "question": "Yaralı sedye üzerine yerleştirme yöntemlerinden olan \"kaşık tekniği\" uygulamasına ait görsel hangisidir?",
     "image_url": null,
     "options": [
-      { "text": "sedyea.png", "isTrue": false },
-      { "text": "sedyeb.png", "isTrue": false },
-      { "text": "sedyec.png", "isTrue": true },
-      { "text": "sedyed.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyea.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyeb.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyec.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyed.png", "isTrue": false }
     ],
     "description": "C şıkkındaki görsel  kaşık tekniğidir."
   },
@@ -797,7 +797,7 @@
     "id": 63,
     "category": "Araç Tekniği",
     "question": "Görseldeki lastik ölçülerinden hangisi lastik yanak genişliğini gösterir?",
-    "image_url": "lastik.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik.png",
     "options": [
       { "text": "205", "isTrue": true },
       { "text": "55", "isTrue": false },
@@ -812,10 +812,10 @@
     "question": "Bir şoförün, ticari amaçla aşağıdakilerden hangisini, 24 saatlik herhangi bir süre içinde; toplam olarak 9 saatten ve devamlı olarak 4,5 saatten fazla sürmesi yasaktır?",
     "image_url": null,
     "options": [
-      { "text": "motosiklet.png", "isTrue": false },
-      { "text": "traktor.png", "isTrue": false },
-      { "text": "otomobil.png", "isTrue": false },
-      { "text": "otobus.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/motosiklet.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/traktor.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/otomobil.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/otobus.png", "isTrue": true }
     ],
     "description": "Ticari amaçla yük veya yolcu taşıyan araç şoförlerinin (otobüs, kamyon vb.) çalışma ve dinlenme süreleri kanunla sınırlandırılmıştır. Görseldeki otobüs bu kısıtlamaya tabi olan ticari bir araçtır."
   },
@@ -836,7 +836,7 @@
     "id": 66,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kavşakta kırmızı renkli otomobilin sürücüsü geçiş hakkını hangi araçtan sonra kullanmalıdır?",
-    "image_url": "kavsak1-itfaiye.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak1-itfaiye.png",
     "options": [
       { "text": "A) Kamyondan", "isTrue": false },
       { "text": "B) Mavi otomobilden", "isTrue": false },
@@ -849,7 +849,7 @@
     "id": 67,
     "category": "Araç Tekniği",
     "question": "Şekilde soru işareti (?) ile gösterilen ve vites kutusundan gelen hareketin diferansiyele iletilmesini sağlayan güç aktarma organının adı nedir?",
-    "image_url": "saft.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/saft.png",
     "options": [
       { "text": "A) Aks", "isTrue": false },
       { "text": "B) Şaft", "isTrue": true },
