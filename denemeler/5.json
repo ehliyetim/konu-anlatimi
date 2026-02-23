@@ -20,7 +20,7 @@
     "options": [
       { "text": "Araç motoru parçaları aşınır.", "isTrue": false },
       { "text": "Alternatör çalışmaz.", "isTrue": true },
-      { "text": "Aracın yağlarına sistemi zarar görür.", "isTrue": false },
+      { "text": "Aracın yağlama sistemi zarar görür.", "isTrue": false },
       { "text": "Araç motoru aşırı ısınır.", "isTrue": false }
     ],
     "description": "Alternatör gücünü motorun hareketinden alır; yağlama sistemiyle doğrudan bir bağlantısı yoktur."
@@ -29,7 +29,7 @@
     "id": 3,
     "category": "İlkyardım",
     "question": "Görseldeki gibi kanaması olan yaralıya ilk yardımcı, \"kanayan yere en yakın bası noktası\" kuralını göz önünde bulundurduğunda hangisine basınç uygulamalıdır?",
-    "image_url": "atardamar-kanamasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/atardamar-kanamasi.png",
     "options": [
       { "text": "Kolun üst bölümüne", "isTrue": true },
       { "text": "Kasık bölgesine", "isTrue": false },
@@ -81,7 +81,7 @@
     "id": 7,
     "category": "İlkyardım",
     "question": "Olay yerindeki ilk yardımcı, trafik kazası sonucu yaralanmış dört kazazedeye resimdeki tespit işlemlerini uygulamıştır. Tespit işlemlerine göre, ilkyardımcı hangi numaralı kazazedenin omzunda çıkık olduğunu düşünmüştür?",
-    "image_url": "tum-kiriklar.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tum-kiriklar.png",
     "options": [
       { "text": "I", "isTrue": false },
       { "text": "II", "isTrue": true },
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "category": "İlkyardım",
-    "question": "Kazazedeye hangi durumla suni solunum yapılır?",
+    "question": "Kazazedeye hangi durumda suni solunum yapılır?",
     "image_url": null,
     "options": [
       { "text": "Nabzı yavaşladığında", "isTrue": false },
@@ -109,7 +109,7 @@
     "question": "Bir otobüsle otomobilin karıştığı trafik kazasını gören seyir hâlindeki bir araç sürücüsü, güvenli bir şekilde durup olay yerine gitmiş ve olay yerinin güvenliğini sağlamıştır. Otobüs sürücüsünün bilincinin açık olduğunu ve direksiyon ile koltuk arasına sıkıştığını, otomobil sürücüsünün ise aracının camından yola fırladığını, bilinçsiz bir şekilde yattığını ayrıca başında kanama olduğunu tespit etmiş ve zaman kaybetmeden 112'yi aramıştır.\nBuna göre, ilk yardımcı öncelikle hangisini yapmalıdır.",
     "image_url": null,
     "options": [
-      { "text": "Otobüs sürücüsün sıkıştığı yerden çıkartmaya çalışmalıdır", "isTrue": false },
+      { "text": "Otobüs sürücüsünü sıkıştığı yerden çıkartmaya çalışmalıdır", "isTrue": false },
       { "text": "Otomobil sürücüsünün başına temiz bir bezle uygulamalıdır.", "isTrue": true },
       { "text": "Otobüs sürücüsünün bilincinin açık kalmasını sağlamalıdır.", "isTrue": false },
       { "text": "Otomobil sürücüsünü düz pozisyonda daha güvenli bir yere sürüklemelidir.", "isTrue": false }
@@ -120,7 +120,7 @@
     "id": 10,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde görülen kontrolsüz kavşakta ilk geçiş hakkını hangi araç kullanmalıdır?",
-    "image_url": "kavsak-gecis-durumu-56415.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-durumu-56415.png",
     "options": [
       { "text": "Otobüs", "isTrue": true },
       { "text": "Traktör", "isTrue": false },
@@ -198,7 +198,7 @@
     "id": 16,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sola dönüş yapmak isteyen şekildeki 1 numaralı aracın sürücüsü aşağıdakilerden hangisini yapmak zorundadır?",
-    "image_url": "sola-donus-yapan-surucu645.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/sola-donus-yapan-surucu645.png",
     "options": [
       { "text": "2 numaralı aracın geçmesini beklemek", "isTrue": true },
       { "text": "Hızlanarak yoluna devam etmek", "isTrue": false },
@@ -224,12 +224,12 @@
     "id": 18,
     "category": "Araç Tekniği",
     "question": "Seyir hâlindeyken aracın gösterge panelinde, aşağıdaki ikaz ışıklarından hangisinin yanıyor olması derhal durmayı gerektirmez?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "dusuk-yakit.png", "isTrue": true },
-      { "text": "aku.png", "isTrue": false },
-      { "text": "yag-basinci.png", "isTrue": false },
-      { "text": "hararet.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dusuk-yakit.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/aku.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet.png", "isTrue": false }
     ],
     "description": "A şıkkındaki düşük yakıt seviyesi uyarısı derhal durmayı gerektirmez, ancak diğerleri (şarj, hararet, yağ) ciddi arıza belirtisidir."
   },
@@ -250,7 +250,7 @@
     "id": 20,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kara yoluna ne ad verilir?",
-    "image_url": "bolunmus-yol-gorseli53215.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bolunmus-yol-gorseli53215.png",
     "options": [
       { "text": "Bağlantı yolu", "isTrue": false },
       { "text": "İki yönlü kara yolu", "isTrue": true },
@@ -268,7 +268,7 @@
       { "text": "Ölmüş olan", "isTrue": false },
       { "text": "Dirseğinde çıkık olan", "isTrue": false },
       { "text": "Açık karın yarası olan", "isTrue": true },
-      { "text": "Ayak bileğinde burulmuş olan", "isTrue": false }
+      { "text": "Ayak bileğinde burkulmuş olan", "isTrue": false }
     ],
     "description": "Hayati tehlike arz eden derin yaralanmalar (açık karın yarası gibi) triyajda önceliklidir."
   },
@@ -354,7 +354,7 @@
     "id": 28,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kara yolunda numaralandırılmış şeritlerden hangisi sadece geçme için kullanılır?",
-    "image_url": "gecme-yolu5412.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecme-yolu5412.png",
     "options": [
       { "text": "1", "isTrue": false },
       { "text": "2", "isTrue": true },
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "category": "Araç Tekniği",
-    "question": "hangisi süspansiyon sisteminin elemanıdır?",
+    "question": "Hangisi süspansiyon sisteminin elemanıdır?",
     "image_url": null,
     "options": [
       { "text": "Şaft", "isTrue": false },
@@ -393,7 +393,7 @@
     "id": 31,
     "category": "Araç Tekniği",
     "question": "Araç çalışırken şekildeki ikaz ışığının yanması hangisinin arızalı olduğunu gösterir?",
-    "image_url": "aku.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/aku.png",
     "options": [
       { "text": "Marş motorunun", "isTrue": false },
       { "text": "Alternatörün", "isTrue": true },
@@ -421,7 +421,7 @@
     "question": "Araçlara sonradan eklenen ve yüksek akım çekerek çalışan sistemler hangisine sebep olur?",
     "image_url": null,
     "options": [
-      { "text": "Araçları yol tutuşunun azalmasına", "isTrue": false },
+      { "text": "Aracın yol tutuşunun azalmasına", "isTrue": false },
       { "text": "Yakıt tüketiminin artmasına", "isTrue": false },
       { "text": "Araç performansının düşmesine", "isTrue": false },
       { "text": "Akünün erken deşarj olmasına", "isTrue": true }
@@ -484,7 +484,7 @@
     "id": 38,
     "category": "Trafik Adabı",
     "question": "Görsele göre, 1 numaralı araç sürücüsü hangisini yaparsa trafik adabına uygun davranış olur?",
-    "image_url": "otomobil-ve-bisiklet5455.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/otomobil-ve-bisiklet5455.png",
     "options": [
       { "text": "Bisiklet sürücüsünü rahatsız etmezse", "isTrue": true },
       { "text": "El kol hareket ile bisikletliyi uyarırsa", "isTrue": false },
@@ -575,7 +575,7 @@
     "id": 45,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, araç sürücüsünün hangisini yapması yasaktır?",
-    "image_url": "kavsak-beyaz-araba-51252.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-beyaz-araba-51252.png",
     "options": [
       { "text": "Sola dönüş yapması", "isTrue": false },
       { "text": "Sağa dönüş yapması", "isTrue": false },
@@ -588,7 +588,7 @@
     "id": 46,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, kamyon sürücüsü hangisini yapılmalıdır?",
-    "image_url": "yaya-kamyon-geciss45.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-kamyon-geciss45.png",
     "options": [
       { "text": "Sol şeride geçmeli", "isTrue": false },
       { "text": "Yayanın karşıya geçmesini beklemeli", "isTrue": true },
@@ -614,19 +614,19 @@
     "id": 48,
     "category": "Araç Tekniği",
     "question": "Aşağıdaki ikaz lambalarından hangisinin yanması veya yanıp sönmesi durumunda aracın derhal durdurulması gerekir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "el-freni-cekili.png", "isTrue": false },
-      { "text": "hararet.png", "isTrue": true },
-      { "text": "partikul-ikaz-isigi.png", "isTrue": false },
-      { "text": "silecek-suyu.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/partikul-ikaz-isigi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/silecek-suyu.png", "isTrue": false }
     ],
     "description": "Hararet ikaz lambasının (B şıkkı) yanması, motorun aşırı ısındığını gösterir ve aracın derhal durdurulmasını gerektirir."
   },
   {
     "id": 49,
     "category": "İlkyardım",
-    "question": "I. Bu tip yaralanmalarda kanama sızıntı şeklindedir.\nII. Dokular anatomik bölgelerinden ayrılmıştır.\nIII. Derinin dış tabakasının bir bölümünün kaybı ile oluşan yaralanmalardır.\nIV. İç organlarda, hayati tehlike oluşturabilecek hasarlar meydana gelebilir.\nNumaralanmış özelliklerden hangileri \"sıyrık yaralarla ilgilidir?",
+    "question": "I. Bu tip yaralanmalarda kanama sızıntı şeklindedir.\nII. Dokular anatomik bölgelerinden ayrılmıştır.\nIII. Derinin dış tabakasının bir bölümünün kaybı ile oluşan yaralanmalardır.\nIV. İç organlarda, hayati tehlike oluşturabilecek hasarlar meydana gelebilir.\nNumaralanmış özelliklerden hangileri Sıyrık yaralarla ilgilidir?",
     "image_url": null,
     "options": [
       { "text": "I ve II", "isTrue": false },
@@ -666,12 +666,12 @@
     "id": 52,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Yeni açılan bir tünel kullanmak isteyen bir kamyon sürücüsü tünele girdiğinde kamyonunun üst kısmı tünelin girişine çarpmıştır.\nBu olayda sürücü hangi trafik işaretine dikkat etmemiştir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "gabari-uzunluk.png", "isTrue": false },
-      { "text": "gabari-genislik.png", "isTrue": false },
-      { "text": "gabari-yukseklik.png", "isTrue": true },
-      { "text": "6-ton-levhasi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-uzunluk.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-genislik.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-yukseklik.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/6-ton-levhasi.png", "isTrue": false }
     ],
     "description": "Sürücü, üzerinde üst ve alt oklar bulunan \"Yükseklik Gabarisi\" sınırlama levhasına (C şıkkı) uymadığı için kaza gerçekleşmiştir."
   },
@@ -679,7 +679,7 @@
     "id": 53,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "tehlikeli-madde-tasiyanlarin-yolu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tehlikeli-madde-tasiyanlarin-yolu.png",
     "options": [
       { "text": "Tehlikeli madde taşıyan taşıt giremez", "isTrue": false },
       { "text": "Belirli miktarlardan fazla su kirletici madde taşıyan taşıt giremez", "isTrue": false },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "İlkyardım",
     "question": "Kazazedenin solunumunu değerlendirmeyi amaçlayan ilk yardımcının, görseldeki uygulama ile hangisini yapması beklenemez?",
-    "image_url": "solunum-yolu-acikligi-sagla512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/solunum-yolu-acikligi-sagla512.png",
     "options": [
       { "text": "Soluğu hissetmesi", "isTrue": false },
       { "text": "Solunumunu dinlemesi", "isTrue": false },
@@ -772,7 +772,7 @@
     "question": "Temel değerlerden hangisini içselleştirmiş bir sürücü, trafikte kendinden çok başkalarını düşünür ve başkalarının iyiliği için fedakarlık yapar?",
     "image_url": null,
     "options": [
-      { "text": "şaşkınlığı", "isTrue": false },
+      { "text": "Şaşkınlığı", "isTrue": false },
       { "text": "Saldırganlığı", "isTrue": false },
       { "text": "Diğerkamlığı", "isTrue": true },
       { "text": "Hoşgörüsüzlüğü", "isTrue": false }
@@ -782,7 +782,7 @@
   {
     "id": 61,
     "category": "İlkyardım",
-    "question": "I. ip, tel gibi malzemeler kullanılarak uygulanan turnike, sağlık personeli gelinceye kadar sıkılır.\nII. Turnike uygulanan bölgenin üzeri temiz bir bezle örtülür.\nIII. Kol ve uyluk gibi tek kemikli bölgelere uygulanır ancak uzun kopası hariç ön kol ve bacağa el ve ayak beslenmesi bozulabileceği için uygulanmaz.\nTurnike uygulamasıyla ilgili verilenlerden hangileri doğrudur?",
+    "question": "I. ip, tel gibi malzemeler kullanılarak uygulanan turnike, sağlık personeli gelinceye kadar sıkılır.\nII. Turnike uygulanan bölgenin üzeri temiz bir bezle örtülür.\nIII. Kol ve uyluk gibi tek kemikli bölgelere uygulanır ancak uzuv kopması hariç ön kol ve bacağa el ve ayak beslenmesi bozulabileceği için uygulanmaz.\nTurnike uygulamasıyla ilgili verilenlerden hangileri doğrudur?",
     "image_url": null,
     "options": [
       { "text": "Yalnız I", "isTrue": false },
@@ -796,7 +796,7 @@
     "id": 62,
     "category": "Araç Tekniği",
     "question": "Seyir esnasında aracın gösterge panelinde yağlama sistemi ile ilgili şekildeki gibi bir arıza bildirimi görüldüğünde öncelikle yapılması gereken nedir?",
-    "image_url": "hararet-araba-gostergesi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet-araba-gostergesi.png",
     "options": [
       { "text": "Motor devri yükseltilir.", "isTrue": false },
       { "text": "Motor devri düşürülür.", "isTrue": false },
@@ -812,7 +812,7 @@
     "image_url": null,
     "options": [
       { "text": "Fren sistemi", "isTrue": true },
-      { "text": "Amortisseurleri", "isTrue": false },
+      { "text": "Amortisörleri", "isTrue": false },
       { "text": "Aktarma organlarını", "isTrue": false },
       { "text": "Yağlama sistemini", "isTrue": false }
     ],
