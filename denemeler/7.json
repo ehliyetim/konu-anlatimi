@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "lastik-hava-basinci-ikazisigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik-hava-basinci-ikazisigi.png",
     "options": [
       { "text": "A) Motor kaputunun tam kapanmadığını", "isTrue": false },
       { "text": "B) Lastik hava basıncının düşük olduğunu", "isTrue": true },
@@ -44,10 +44,10 @@
     "question": "Gösterge panelinde hangi ikaz ışığının sürekli yanıp sönmesi acil uyarı ışıklarının açık olduğunu belirtir?",
     "image_url": null,
     "options": [
-      { "text": "on-sis-lambasi.png", "isTrue": false },
-      { "text": "kisa-far-ikazlambasi.png", "isTrue": false },
-      { "text": "dortlu-flasor.png", "isTrue": true },
-      { "text": "dis-aydinlatma.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/on-sis-lambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kisa-far-ikazlambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dortlu-flasor.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dis-aydinlatma.png", "isTrue": false }
     ],
     "description": "C şıkkındaki çift yönlü ok simgesi, dörtlü ikaz (flaşör) lambalarının aktif olduğunu temsil eder."
   },
@@ -81,7 +81,7 @@
     "id": 7,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "el-freni-cekili.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png",
     "options": [
       { "text": "A) El freninin çekili olduğunu", "isTrue": true },
       { "text": "B) Yağ basıncının çok düştüğünü", "isTrue": false },
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi sağa dönüş yapmak isteyen sürücülerin aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "kavsak-gecis65274966.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis65274966.png",
     "options": [
       { "text": "A) Hızlarını azaltmaları", "isTrue": false },
       { "text": "B) Dar bir kavisle dönmeleri", "isTrue": false },
@@ -159,7 +159,7 @@
     "id": 13,
     "category": "İlkyardım",
     "question": "Görseldeki yaralıya ilk yardımcının, hangi uygulamayı yapması uygun değildir?",
-    "image_url": "yatis-pozisyonu84512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yatis-pozisyonu84512.png",
     "options": [
       { "text": "A) Boyun tespiti yapması", "isTrue": false },
       { "text": "B) Yarı oturur pozisyona alması", "isTrue": true },
@@ -198,7 +198,7 @@
     "id": 16,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi yeterince aydınlatılmamış tünele giriş yapan aracın sürücüsü, aşağıdakilerden hangisini yapmak zorundadır?",
-    "image_url": "tunel-giris-surucu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tunel-giris-surucu.png",
     "options": [
       { "text": "A) Duraklamak", "isTrue": false },
       { "text": "B) Araç içi ışıkları yakmak", "isTrue": false },
@@ -328,7 +328,7 @@
     "id": 26,
     "category": "Trafik Adabı",
     "question": "Görseldeki şekilde konuşan birinin karşıdaki sürücüye vermek istediği gizli mesaj hangisidir?\n(Mesaj: Sevgili komşum, şunu biraz daha düzgün bir şekilde park etsen de ben de rahatça çıkabilsem.)",
-    "image_url": "sevgili-komsum-yazisi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/sevgili-komsum-yazisi.png",
     "options": [
       { "text": "A) Arabayı benden iyi park ediyorsun", "isTrue": false },
       { "text": "B) İyi park yapmıyorsun", "isTrue": true },
@@ -356,10 +356,10 @@
     "question": "Trafik kazası sonrası olay yerinde bulunan ilk yardımcı, kazazedenin kol kemiğinin üst ucunun öne doğru kaydığını değerlendirmiştir. Buna göre yapılması gereken tespit işlemi hangisidir?",
     "image_url": null,
     "options": [
-      { "text": "ustkol-kirigi.png", "isTrue": false },
-      { "text": "kol-kirigi-dogru.png", "isTrue": true },
-      { "text": "koprucuk-kemigi-kirik.png", "isTrue": false },
-      { "text": "on-kol-kemigi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ustkol-kirigi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kol-kirigi-dogru.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koprucuk-kemigi-kirik.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/on-kol-kemigi.png", "isTrue": false }
     ],
     "description": "Üst kol kemiği tespitinde kol, gövdeye paralel olarak sabitlenmeli ve üçgen sargı bezinden yardım alınmalıdır."
   },
@@ -484,7 +484,7 @@
     "id": 38,
     "category": "İlkyardım",
     "question": "Kol kemiğinde kırık olan kazazedeye yapılan tespit işleminde ilk yardımcının dikkat etmesi gereken uygulama hangisidir?",
-    "image_url": "ustkol-kirigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ustkol-kirigi.png",
     "options": [
       { "text": "A) Kazazedenin takılarını çıkartma", "isTrue": false },
       { "text": "B) Kırık bölgenin üzerine şerit bağlama", "isTrue": false },
@@ -525,10 +525,10 @@
     "question": "Açıklamaları verilen işaret levhalarına ait görseller, hangisinde doğru olarak sıralanmıştır?\nI. Vahşi hayvan geçebilir.\nII. Kasisli köprü yaklaşımı.\nIII. Işık işaret cihazı.\nIV. Yol çalışması.",
     "image_url": null,
     "options": [
-      { "text": "levhalar-a.png", "isTrue": false },
-      { "text": "levhalar-b.png", "isTrue": true },
-      { "text": "levhalar-c.png", "isTrue": false },
-      { "text": "levhalar-d.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/levhalar-a.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/levhalar-b.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/levhalar-c.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/levhalar-d.png", "isTrue": false }
     ],
     "description": "Levha anlamları: Geyik sembolü (Vahşi hayvan), Çift kavis (Kasis), Trafik ışığı (Işıklı cihaz) ve Kürek çizen adam (Yol çalışması) şeklindedir."
   },
@@ -613,7 +613,7 @@
     "id": 48,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi eğimsiz iki yönlü dar yoldaki karşılaşmada 1 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "traktor-otomobil-kopru.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/traktor-otomobil-kopru.png",
     "options": [
       { "text": "A) U dönüşü yapmalı", "isTrue": false },
       { "text": "B) 2 numaralı araca yol vermeli", "isTrue": true },
@@ -639,7 +639,7 @@
     "id": 50,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, sürücü nasıl davranmalıdır?",
-    "image_url": "anayola-giren-ikiaraba.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/anayola-giren-ikiaraba.png",
     "options": [
       { "text": "A) Sadece soldan gelen kırmızı araca yol vermelidir.", "isTrue": false },
       { "text": "B) Sadece sağdan gelen mavi araca yol vermelidir.", "isTrue": false },
@@ -652,7 +652,7 @@
     "id": 51,
     "category": "Trafik Adabı",
     "question": "Görseldeki otomobil sürücüsü nasıl davranırsa trafik adabına uygun olur?",
-    "image_url": "yayaya-su-sicratma.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yayaya-su-sicratma.png",
     "options": [
       { "text": "A) Hızını azaltarak dikkatle yoluna devam ederse", "isTrue": true },
       { "text": "B) Öfkeli davranışlarda bulunursa", "isTrue": false },
@@ -755,7 +755,7 @@
     "id": 59,
     "category": "Trafik Adabı",
     "question": "Sürücünün numaralanmış ifadelerden hangilerini yapması trafik adabına uygundur?\nI. Korna çalıp sol taraftan geçmesi\nII. Aracı durdurup engelli yayaya yardım etmesi\nIII. Tehlike uyarı ışıklarını yakarak beklemesi",
-    "image_url": "engelli-surcu-durumu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/engelli-surcu-durumu.png",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": false },
@@ -768,7 +768,7 @@
     "id": 60,
     "category": "Trafik Adabı",
     "question": "Görseldeki kırmızı otomobil sürücüsünün, görevdeki ambulans sürücüsüne karşı sergilediği davranışlar ilgili olarak hangisi kesinlikle söylenir?",
-    "image_url": "ambulans-trfadabi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ambulans-trfadabi.png",
     "options": [
       { "text": "A) Trafikte saygı ve yardımlaşmaya önem veriyor", "isTrue": false },
       { "text": "B) Trafikteki sorumluluklarının bilincinde olduğu", "isTrue": false },
