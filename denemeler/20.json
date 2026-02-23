@@ -16,7 +16,7 @@
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde, sağa dönüş yapacak olan otomobil sürücüsünün hangisini yapması yanlıştır?",
-    "image_url": "kavsak-durum-hangisi5-545sdfd5.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-durum-hangisi5-545sdfd5.png",
     "options": [
       { "text": "Dar kavisle dönmesi", "isTrue": false },
       { "text": "Geniş kavisle dönmesi", "isTrue": true },
@@ -29,7 +29,7 @@
     "id": 3,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kara yolu bölümünde, yan yana çizilmiş kesik ve devamlı yol çizgileri sürücülere aşağıdakilerden hangisini bildirir?",
-    "image_url": "gecis-araba-4512asf-yol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecis-araba-4512asf-yol.png",
     "options": [
       { "text": "İki şeritli yolun tek şeritli yola dönüşeceğini", "isTrue": false },
       { "text": "Çift yönlü yoldan tek yönlü yola girileceğini", "isTrue": false },
@@ -42,7 +42,7 @@
     "id": 4,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Trafik uygun olsa bile şekildeki aracın hangi yöndeki hareketi kesinlikle yasak ve asli kusur sayılır?",
-    "image_url": "kavsak-hatali-durum-56df5sd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-hatali-durum-56df5sd.png",
     "options": [
       { "text": "Sola dönmesi", "isTrue": false },
       { "text": "Sağa dönmesi", "isTrue": false },
@@ -68,7 +68,7 @@
     "id": 6,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Kara yolunun sağ ve soluna konan şekildeki trafik işaretleri aşağıdakilerden hangisini bildirir?",
-    "image_url": "200m-levhasi-asdk.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/200m-levhasi-asdk.png",
     "options": [
       { "text": "Yolun daralmakta olduğunu", "isTrue": false },
       { "text": "200 m ileride köprü olduğunu", "isTrue": false },
@@ -133,7 +133,7 @@
     "id": 11,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa şekildeki aracın yerleşim yeri içindeki azami hızı saatte kaç kilometredir?",
-    "image_url": "otobus.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/otobus.png",
     "options": [
       { "text": "50", "isTrue": true },
       { "text": "70", "isTrue": false },
@@ -172,7 +172,7 @@
     "id": 14,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki ışıklı trafik işaret cihazında, yeşil ışık ve kırmızı oklu ışık birlikte yanmaktadır.\nBu durumda sürücülerin aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "isikli-cihaz-kirmizi-ok-yesil.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/isikli-cihaz-kirmizi-ok-yesil.png",
     "options": [
       { "text": "Düz gitmeleri", "isTrue": false },
       { "text": "Düz gideceklerse beklemeleri", "isTrue": true },
@@ -226,10 +226,10 @@
     "question": "Hangisi gevşek şev işaretidir?",
     "image_url": null,
     "options": [
-      { "text": "tehlikeli-madde-51521.png", "isTrue": false },
-      { "text": "gevsek-sev-sgds51.png", "isTrue": true },
-      { "text": "kasis-dsgsd12.png", "isTrue": false },
-      { "text": "gevsek-malzemeli-zemin.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/tehlikeli-madde-51521.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gevsek-sev-sgds51.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kasis-dsgsd12.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gevsek-malzemeli-zemin.png", "isTrue": false }
     ],
     "description": "Yamaçtan taş veya kaya düşebileceğini bildiren 'Gevşek Şev' levhası B şıkkındaki görseldir."
   },
@@ -276,7 +276,7 @@
     "id": 22,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kara yolunda 1 numaralı araç sürücüsünün aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "yol-arac-surucusu-yanlis-hareket-5sdfsdf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yol-arac-surucusu-yanlis-hareket-5sdfsdf.png",
     "options": [
       { "text": "Bulunduğu şeritte seyretmesi", "isTrue": false },
       { "text": "Geçme sırasında hızını artırması", "isTrue": false },
@@ -289,7 +289,7 @@
     "id": 23,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videodaki trafik sıkışıklığının sebebi hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/https://random-url.com/image.png",
     "options": [
       { "text": "Beyaz minibüs sürücüsünün geçiş hakkı kuralını ihlal etmesi", "isTrue": false },
       { "text": "Siyah araç sürücüsünün dikkatsiz olması", "isTrue": true },
@@ -302,7 +302,7 @@
     "id": 24,
     "category": "Trafik Adabı",
     "question": "Yolda kalmış bir sürücünün aracına zincir takan bir sürücünün bu davranışı hangi temel değere örnektir?",
-    "image_url": "karda-kalan-arabaya-yardim.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/karda-kalan-arabaya-yardim.png",
     "options": [
       { "text": "Hoşgörü", "isTrue": false },
       { "text": "Nezaket", "isTrue": false },
@@ -341,7 +341,7 @@
     "id": 27,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki ışıklı trafik işaret cihazında, kırmızı ışık ve yeşil oklu ışık birlikte yanmaktadır.\nBu durum sürücülere aşağıdakilerden hangisini bildirir?",
-    "image_url": "isikli-cihaz-sadece-saga-donebilirsin.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/isikli-cihaz-sadece-saga-donebilirsin.png",
     "options": [
       { "text": "Düz gidilebileceğini", "isTrue": false },
       { "text": "Sadece sağa dönülebileceğini", "isTrue": true },
@@ -367,7 +367,7 @@
     "id": 29,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Verilen istatistikte, hızın trafik kazalarında birinci sırada yer aldığı görülmektedir. Buna göre aşağıdakilerden hangisi aşırı hızın sebep olduğu durumlardan biri değildir?",
-    "image_url": "tablo-sdfsd521sdsd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo-sdfsd521sdsd.png",
     "options": [
       { "text": "Fren mesafesi artışı", "isTrue": false },
       { "text": "Aracı kontrol etme zorluğu", "isTrue": false },
@@ -393,7 +393,7 @@
     "id": 31,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti hangi yol bölümünde bulunur?",
-    "image_url": "kaygan-yol-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kaygan-yol-levhasi.png",
     "options": [
       { "text": "Virajlı", "isTrue": false },
       { "text": "Kasisli", "isTrue": false },
@@ -406,7 +406,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Ticari amaçlı yük veya yolcu taşımacılığında kullanılan araç resimleri verilmiştir.\nBu araçlardan hangilerini şehirler arasında kullanan bir şoförün, 24 saat süre içerisinde devamlı olarak 4,5 saatten fazla sürmesi yasaktır?",
-    "image_url": "ticari-amacli-sorusu-sfdsdf56412.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ticari-amacli-sorusu-sfdsdf56412.png",
     "options": [
       { "text": "Yalnız I", "isTrue": false },
       { "text": "I ve II", "isTrue": false },
@@ -445,7 +445,7 @@
     "id": 35,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "kavsak-oncesi-serit-secimi-gorsel.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-oncesi-serit-secimi-gorsel.png",
     "options": [
       { "text": "İki yönlü yol başlangıcı", "isTrue": false },
       { "text": "Girişi olmayan yol kavşağını", "isTrue": false },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki araçların görev hâli durumunda geçiş üstünlüğü sıralaması nasıl olmalıdır?",
-    "image_url": "gecis-ustunlugu-am-it-pol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecis-ustunlugu-am-it-pol.png",
     "options": [
       { "text": "1-3-4-2", "isTrue": false },
       { "text": "3-1-4-2", "isTrue": true },
@@ -497,7 +497,7 @@
     "id": 39,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretlerine göre 1 numaralı araç sürücüsü nasıl davranmalıdır?",
-    "image_url": "daralan-yol-karsidan-gelene-yolver.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/daralan-yol-karsidan-gelene-yolver.png",
     "options": [
       { "text": "Hızını artırmalı", "isTrue": false },
       { "text": "Önündeki aracı geçmeli", "isTrue": false },
@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Grafikte ülkemizde meydana gelen trafik kazalarına ait kaza faktörleri ve kusur yüzdeleri (%) verilmiştir. Verilere göre aşağıdaki yorumlardan hangisi yapılabilir?",
-    "image_url": "tablo-safsdf54sdfsd5f4.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo-safsdf54sdfsd5f4.png",
     "options": [
       { "text": "Trafik kazalarında en büyük kusur insanlardadır.", "isTrue": true },
       { "text": "Araç sayısı nüfusa bağlı olarak artmaktadır.", "isTrue": false },
@@ -523,7 +523,7 @@
     "id": 42,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre sola dönüş yapacak olan araç sürücüsü hangi şeridi kullanmalıdır?",
-    "image_url": "yol-hangi-seritten-gidilecek-sola54612s.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yol-hangi-seritten-gidilecek-sola54612s.png",
     "options": [
       { "text": "İstediği şeridi", "isTrue": false },
       { "text": "1 numaralı şerit", "isTrue": true },
@@ -549,7 +549,7 @@
     "id": 44,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki otoyolda numaralanmış şeritlerden hangisi ayrılma (yavaşlama) şerididir?",
-    "image_url": "yol-seritler-hangisi-sdfsd56412.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yol-seritler-hangisi-sdfsd56412.png",
     "options": [
       { "text": "1", "isTrue": true },
       { "text": "2", "isTrue": false },
@@ -577,10 +577,10 @@
     "question": "Bir trafik polisinin, yolun ilerisinde bir kaza olduğu için trafiği sola yönlendirmesi gerekmektedir.\nBu durumda trafik polisinin yapması gereken davranış hangi görselde doğru olarak verilmiştir?",
     "image_url": null,
     "options": [
-      { "text": "polis-sorusu-a.png", "isTrue": true },
-      { "text": "polis-sorusu-b.png", "isTrue": false },
-      { "text": "polis-sorusu-c.png", "isTrue": false },
-      { "text": "polis-sorusu-d.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-a.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-b.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-c.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-d.png", "isTrue": false }
     ],
     "description": "Trafiği yönlendirme işareti (sola yönlendirme) A seçeneğindeki görseldedir."
   },
@@ -627,7 +627,7 @@
     "id": 50,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretini gören sürücünün aşağıdakilerden hangisini yapması doğrudur?",
-    "image_url": "saga-tehlikeli-devam-viraj-dsfsd54.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/saga-tehlikeli-devam-viraj-dsfsd54.png",
     "options": [
       { "text": "Yolun solundan gitmesi", "isTrue": false },
       { "text": "Takip mesafesini azaltması", "isTrue": false },
@@ -640,7 +640,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "karsidan-gelene-yolver-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/karsidan-gelene-yolver-levhasi.png",
     "options": [
       { "text": "Yolun tek yönlü olduğunu", "isTrue": false },
       { "text": "Yolun iki taraftan daraldığını", "isTrue": false },
@@ -679,7 +679,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Trafik görevlisinin geceleyin ışıklı işaret çubuğunu şekildeki gibi hareket ettirmesinin sürücüler için anlamı nedir?",
-    "image_url": "gecegec-polis-sf4.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecegec-polis-sf4.png",
     "options": [
       { "text": "Geç işareti", "isTrue": true },
       { "text": "Dur işareti", "isTrue": false },
@@ -692,7 +692,7 @@
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Taşıt yolları üzerine çizilen şekildeki yatay işaretlemelerden hangileri yaya geçidini gösterir?",
-    "image_url": "hangisi-yaya-gecisi-5sdf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hangisi-yaya-gecisi-5sdf.png",
     "options": [
       { "text": "Yalnız I", "isTrue": false },
       { "text": "I ve II", "isTrue": true },
@@ -718,7 +718,7 @@
     "id": 57,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki otoyolda numaralanmış şeritlerden hangisi katılma (hızlanma) şerididir?",
-    "image_url": "yol-seritler-hangisi-sdfsd56412.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yol-seritler-hangisi-sdfsd56412.png",
     "options": [
       { "text": "1", "isTrue": false },
       { "text": "2", "isTrue": false },
@@ -772,10 +772,10 @@
     "question": "Aşağıdakilerden hangisi, öndeki taşıtı geçmek yasaktır anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "ondeki-araci-gecmek-yasaktir-65564dsfds.png", "isTrue": true },
-      { "text": "karsidan-gelene-yolver-levhasi.png", "isTrue": false },
-      { "text": "motorlu-tasit-giremez4.png", "isTrue": false },
-      { "text": "kamyonlar-icin-gecme-yasagi-sonu.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ondeki-araci-gecmek-yasaktir-65564dsfds.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karsidan-gelene-yolver-levhasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/motorlu-tasit-giremez4.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyonlar-icin-gecme-yasagi-sonu.png", "isTrue": false }
     ],
     "description": "A şıkkındaki levha (kırmızı çember içinde kırmızı ve siyah araç) öndeki taşıtı geçmenin yasak olduğunu bildirir."
   },
@@ -783,7 +783,7 @@
     "id": 62,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretinin bulunduğu yola aşağıdaki taşıtlardan hangisi girebilir?",
-    "image_url": "motorlu-tasit-giremez4.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/motorlu-tasit-giremez4.png",
     "options": [
       { "text": "Otomobil", "isTrue": false },
       { "text": "Kamyon", "isTrue": false },
