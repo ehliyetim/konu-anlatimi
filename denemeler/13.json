@@ -16,7 +16,7 @@
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik kazası, aşağıdakilerden hangisine uyulmaması sonucu meydana gelmiş olabilir?",
-    "image_url": "kavsak-kaza-5515sgs1d5.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-kaza-5515sgs1d5.png",
     "options": [
       { "text": "A) Takip mesafesine", "isTrue": false },
       { "text": "B) Kavşaklarda geçiş hakkına", "isTrue": true },
@@ -44,10 +44,10 @@
     "question": "Gösterge panosunda hangi uyarı ışığının yanması el freninin çekili olduğunu gösterir?",
     "image_url": null,
     "options": [
-      { "text": "fren-pedalina-basilmali.png", "isTrue": false },
-      { "text": "fren-ariza-ikaz.png", "isTrue": false },
-      { "text": "el-freni-cekili.png", "isTrue": true },
-      { "text": "fren-balatasi-isisgi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-pedalina-basilmali.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-ariza-ikaz.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-balatasi-isisgi.png", "isTrue": false }
     ],
     "description": "İçinde ünlem işareti bulunan kırmızı yuvarlak simge el freninin çekili olduğunu veya fren sisteminde arıza olduğunu bildirir."
   },
@@ -57,7 +57,7 @@
     "question": "Trafik kazası geçiren bir kazazedenin yanına gelen ilk yardımcı, kazazedenin karnına delici bir cisim saplandığını tespit etmiştir. Buna göre aşağıdakilerden hangisi kazazedenin karnındaki cisim ile ilgili ilk yardımcının yapması gereken işlemlerdendir?",
     "image_url": null,
     "options": [
-      { "text": "A) Cisimin yerinden oynaması", "isTrue": false },
+      { "text": "A) Cismin yerinden oynatılması", "isTrue": false },
       { "text": "B) Cismin dışarda kalan kısmını kestirmesi", "isTrue": false },
       { "text": "C) Cismi ileri ya da geri hareket ettirmesi", "isTrue": false },
       { "text": "D) Cismin etrafını temiz bezlerle destekleyerek kapatılması", "isTrue": true }
@@ -148,10 +148,10 @@
     "question": "Aşağıdakilerden hangisi azami hız sınırlaması anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "azami-hiz.png", "isTrue": true },
-      { "text": "sollama-sonu.png", "isTrue": false },
-      { "text": "hiz-sonu.png", "isTrue": false },
-      { "text": "70m-mesafe.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/azami-hiz.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sollama-sonu.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/hiz-sonu.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/70m-mesafe.png", "isTrue": false }
     ],
     "description": "Kırmızı daire içindeki rakam, o yol kesiminde yapılabilecek en yüksek (azami) hızı belirtir."
   },
@@ -276,7 +276,7 @@
     "id": 22,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I- 1 numaralı şerit sadece sola dönüş içindir.\nII- 2 numaralı şerit sadece ileri yönde seyir içindir.\nIII- 3 numaralı şerit sadece sağa dönüş içindir.\nŞekle göre, aşağıdaki ifadelerden hangileri doğrudur?",
-    "image_url": "serit-ifadeleri-dogru.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/serit-ifadeleri-dogru.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": true },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre hangisi doğrudur?",
-    "image_url": "maviaraba-amlunsayolverdi-ksd55.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/maviaraba-amlunsayolverdi-ksd55.png",
     "options": [
       { "text": "A) Geçiş üstünlüğü bulunan araçlara her zaman ve her yerde yol verilmelidir", "isTrue": false },
       { "text": "B) Geçiş üstünlüğü bulunan ve görev başındaki araçların arkasından ilerlemek sakıncalıdır", "isTrue": false },
@@ -562,7 +562,7 @@
     "id": 44,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde sağa dönüş yaparken görülen siyah otomobil sürücüsü hangi hatayı kesinlikle yapmıştır?",
-    "image_url": "siyaharaba-donus-8451sfsf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/siyaharaba-donus-8451sfsf.png",
     "options": [
       { "text": "A) Araç akışına uygun şekilde hareket etmektedir", "isTrue": false },
       { "text": "B) Şerit izleme ve takip kurallarına uymamıştır", "isTrue": true },
@@ -679,7 +679,7 @@
     "id": 53,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "tramvay-ve-arabalar-542afsegsdgs.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tramvay-ve-arabalar-542afsegsdgs.png",
     "options": [
       { "text": "A) 1-2-3", "isTrue": false },
       { "text": "B) 2-1-3", "isTrue": false },
@@ -822,7 +822,7 @@
     "id": 64,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi eğimsiz, iki yönlü dar yolda karşılaşmada 2 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "kopru-yolver-minubus-52212nnjjb.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kopru-yolver-minubus-52212nnjjb.png",
     "options": [
       { "text": "A) U dönüşü yapmalı", "isTrue": false },
       { "text": "B) 1 numaralı araca yol vermeli", "isTrue": true },
