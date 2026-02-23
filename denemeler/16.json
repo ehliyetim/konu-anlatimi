@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, araç sürücüsü hangisini yapabilir?",
-    "image_url": "surucu-ne-yapabilir56-ef5esd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/surucu-ne-yapabilir56-ef5esd.png",
     "options": [
       { "text": "A) U dönüşü yapabilir", "isTrue": false },
       { "text": "B) Düz gidebilir", "isTrue": false },
@@ -18,10 +18,10 @@
     "question": "Trafik işaretlerinden hangisi, kavşakta ilk geçiş hakkına sahip olduğunuzu gösterir?",
     "image_url": null,
     "options": [
-      { "text": "yolver-levhasi.png", "isTrue": false },
-      { "text": "kontrolsuz-kavsak.png", "isTrue": false },
-      { "text": "anayol-taliyol.png", "isTrue": true },
-      { "text": "kontrollu-demiryolu.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yolver-levhasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kontrolsuz-kavsak.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/anayol-taliyol.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kontrollu-demiryolu.png", "isTrue": false }
     ],
     "description": "C şıkkındaki levha ana yol - tali yol kavşağını belirtir ve ana yolda ilerleyen sürücünün geçiş üstünlüğüne sahip olduğunu bildirir."
   },
@@ -68,7 +68,7 @@
     "id": 6,
     "category": "Araç Tekniği",
     "question": "Şekildeki lastiğin yanak kısmında yazılı olan sayılardan hangisi taban genişliğini belirtmektedir?",
-    "image_url": "lastik.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik.png",
     "options": [
       { "text": "A) 205", "isTrue": true },
       { "text": "B) 55", "isTrue": false },
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Araç Tekniği",
     "question": "Motor çalışır durumda iken aracın gösterge panelinde yağ basıncı ikaz ışığı yanıyorsa sebebi aşağıdakilerden hangisi olabilir?",
-    "image_url": "yag-basinci.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png",
     "options": [
       { "text": "A) Fren hidroliğinin eksilmesi", "isTrue": false },
       { "text": "B) Karterde yağın kalmaması", "isTrue": true },
@@ -187,10 +187,10 @@
     "question": "Uzun farların açık olduğunu gösteren işaret hangisidir?",
     "image_url": null,
     "options": [
-      { "text": "dis-aydinlatma.png", "isTrue": false },
-      { "text": "kisa-far-ikazlambasi.png", "isTrue": false },
-      { "text": "sis-lambasi.png", "isTrue": false },
-      { "text": "uzun-far-ikaz-isigi.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dis-aydinlatma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kisa-far-ikazlambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sis-lambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/uzun-far-ikaz-isigi.png", "isTrue": true }
     ],
     "description": "Mavi renkli ve yatay çizgili lamba simgesi, uzun hüzmeli farların açık olduğunu ifade eder."
   },
@@ -239,10 +239,10 @@
     "question": "Fren balataları fazla aşındığında aracın gösterge panelinde hangi uyarı ışığı yanar?",
     "image_url": null,
     "options": [
-      { "text": "lastik-hava-basinci-ikazisigi.png", "isTrue": false },
-      { "text": "fren-balatasi-isisgi.png", "isTrue": true },
-      { "text": "arka-cam-rezidans.png", "isTrue": false },
-      { "text": "el-freni-cekili.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik-hava-basinci-ikazisigi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-balatasi-isisgi.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/arka-cam-rezidans.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png", "isTrue": false }
     ],
     "description": "Kırmızı daire etrafındaki kesik çizgiler fren balatalarının bittiğini veya aşırı aşındığını gösterir."
   },
@@ -263,7 +263,7 @@
     "id": 21,
     "category": "Trafik Adabı",
     "question": "Görsele göre 1 numaralı araç sürücüsünün diğer araç sürücüsüne 'Yapabileceğim bir şey var mı?' diye sorması trafikte hangi değere sahip olduğunu gösterir?",
-    "image_url": "trafikadabi-sorusu5412sdgv.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/trafikadabi-sorusu5412sdgv.png",
     "options": [
       { "text": "A) Sabretmeye", "isTrue": false },
       { "text": "B) Hoşgörü", "isTrue": false },
@@ -289,7 +289,7 @@
     "id": 23,
     "category": "Trafik Adabı",
     "question": "Görseldeki araç sürücüsü için hangisi kesinlikle söylenir?",
-    "image_url": "kamu-hakki-ihlal-tir.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamu-hakki-ihlal-tir.png",
     "options": [
       { "text": "A) Öfkeli davranışı sergilediği", "isTrue": false },
       { "text": "B) Kamu hakkını ihlal ettiği", "isTrue": true },
@@ -319,7 +319,7 @@
 "image_url": null,
 "options": [
 { "text": "A) Kılcal damar kanaması", "isTrue": false },
-{ "text": "B) Toplarmar damar kanaması", "isTrue": false },
+{ "text": "B) Toplardamar damar kanaması", "isTrue": false },
 { "text": "C) Atardamar kanaması", "isTrue": true },
 { "text": "D) Doğal deliklerden olan kanama", "isTrue": false }
 ],
@@ -329,7 +329,7 @@
     "id": 27,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi bir kavşakta karşılaşan araçların geçiş önceliği sıralaması nasıl olmalıdır?",
-    "image_url": "kavsak-gecis-onc5485lkjhgf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-onc5485lkjhgf.png",
     "options": [
       { "text": "A) 1-2-3-4", "isTrue": false },
       { "text": "B) 2-3-1-4", "isTrue": false },
@@ -355,7 +355,7 @@
     "id": 29,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kırmızı otomobil sürücüsü, yoldaki zemin işaretlerine göre hangisini yapmalıdır?",
-    "image_url": "yavaslama-cizgileri-5421sfsfs5.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yavaslama-cizgileri-5421sfsfs5.png",
     "options": [
       { "text": "A) Durmalı", "isTrue": false },
       { "text": "B) Hızını azaltmalı", "isTrue": true },
@@ -383,10 +383,10 @@
     "question": "Aşağıdakilerden hangisi, kamu hizmeti yapan taşıtların yolcularını indirip-bindirdikleri yeri gösterir?",
     "image_url": null,
     "options": [
-      { "text": "park.png", "isTrue": false },
-      { "text": "durak.png", "isTrue": true },
-      { "text": "duz-park.png", "isTrue": false },
-      { "text": "cikmaz-sokak-levha.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/park.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/durak.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/duz-park.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/cikmaz-sokak-levha.png", "isTrue": false }
     ],
     "description": "B şıkkındaki 'D' harfli levha, toplu taşıma araçlarının durak yerlerini belirtir."
   },
@@ -433,7 +433,7 @@
     "id": 35,
     "category": "İlkyardım",
     "question": "Resimdeki insan iskeletinde soru işareti (?) ile gösterilen kemik hangisidir?",
-    "image_url": "koprucuk-kemigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/koprucuk-kemigi.png",
     "options": [
       { "text": "A) Kürek kemiği", "isTrue": false },
       { "text": "B) Köprücük kemiği", "isTrue": true },
@@ -615,7 +615,7 @@
     "id": 49,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "kavsak-gecis-hakki-541232sdgsvd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-hakki-541232sdgsvd.png",
     "options": [
       { "text": "A) 1-2-3", "isTrue": false },
       { "text": "B) 2-1-3", "isTrue": false },
@@ -654,7 +654,7 @@
     "id": 52,
     "category": "İlkyardım",
     "question": "Görseldeki tespit işlemi vücutta hangi kemiğin kırılması durumunda uygulanmalıdır?",
-    "image_url": "koprucuk-kemigi-kirik.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/koprucuk-kemigi-kirik.png",
     "options": [
       { "text": "A) Ön kol", "isTrue": false },
       { "text": "B) Üst kol", "isTrue": false },
@@ -680,7 +680,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki taşıtın bulunduğu kara yoluna ne ad verilir?",
-    "image_url": "kavsak-hangiyolsorusu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-hangiyolsorusu.png",
     "options": [
       { "text": "A) Ana yol", "isTrue": true },
       { "text": "B) Tali yol", "isTrue": false },
