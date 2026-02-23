@@ -16,7 +16,7 @@
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kırmızı araç sürücüsünün hangi hatayı yaptığı kesinlikle söylenir?",
-    "image_url": "kirmizi-isikta-gecti512145.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-isikta-gecti512145.png",
     "options": [
       { "text": "Karşıya geçiş yapan yayalara yol vermedi", "isTrue": false },
       { "text": "Kırmızı ışıkta geçtiği", "isTrue": true },
@@ -55,7 +55,7 @@
     "id": 5,
     "category": "İlk Yardım",
     "question": "Resimdeki kazazedeye yapılan ilk yardım uygulamasında “yara üzerine konan bezin bir ucunun açık bırakılmasının amacı” hangisidir?",
-    "image_url": "yara-acik-birakma.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yara-acik-birakma.png",
     "options": [
       { "text": "Nefes alma sırasında yaraya hava girmesini engellemek, nefes verme sırasında havanın dışarı çıkmasını sağlamak", "isTrue": false },
       { "text": "Akciğerlerin açık yaradan dışarı çıkmasını önlemek", "isTrue": false },
@@ -68,7 +68,7 @@
     "id": 6,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "arka-cam-rezidans.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/arka-cam-rezidans.png",
     "options": [
       { "text": "Elektrik devresinde aşırı şarj veya düşük şarj olduğunu", "isTrue": false },
       { "text": "Arka cam rezistansının çalışmakta olduğunu", "isTrue": true },
@@ -83,10 +83,10 @@
     "question": "Hangisi aracın kütlesi ile ilgilidir",
     "image_url": null,
     "options": [
-      { "text": "yuklu-agirligi-7ton.png", "isTrue": true },
-      { "text": "gabari-genislik.png", "isTrue": false },
-      { "text": "gabari-uzunluk.png", "isTrue": false },
-      { "text": "gabari-yukseklik.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yuklu-agirligi-7ton.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-genislik.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-uzunluk.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gabari-yukseklik.png", "isTrue": false }
     ],
     "description": "7t Tondan bahseder araba kütlesi"
   },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "İlk Yardım",
     "question": "İlk yardımcının kazazedenin kırık ve çıkık durumlarına göre uyguladığı tespit işlemleri tabloda verilmiştir.Buna göre, ilk yardımcının kazazedelere uyguladığı numaralanmış tespit işlemlerinden hangileri yanlıştır?",
-    "image_url": "kiriklar-tablosu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kiriklar-tablosu.png",
     "options": [
       { "text": "Yalnız I", "isTrue": false },
       { "text": "Yalnız II", "isTrue": false },
@@ -341,7 +341,7 @@
     "id": 27,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 2 numaralı araç sürücüsü hangisini yapmalıdır?",
-    "image_url": "kavsak-icindekine-yolver512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-icindekine-yolver512.png",
     "options": [
       { "text": "Hızını artırmalı", "isTrue": false },
       { "text": "Korna çalıp 1 numaralı aracı durdurmalı", "isTrue": false },
@@ -380,7 +380,7 @@
     "id": 30,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Bazı araçlara ilişkin görseller verilmiştir. Hangileri özel amaçla insan veya eşya taşımak için imal edilmiş olan motorlu araçlardandır?",
-    "image_url": "ambulans-cenaze-itfaiye.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ambulans-cenaze-itfaiye.png",
     "options": [
       { "text": "Yalnız I", "isTrue": false },
       { "text": "Yalnız II", "isTrue": false },
@@ -408,10 +408,10 @@
     "question": "Kanama resimlerinden hangisi atar damar kanamasına aittir?",
     "image_url": null,
     "options": [
-      { "text": "toplardamar.png", "isTrue": false },
-      { "text": "kilcal.png", "isTrue": false },
-      { "text": "sizinti.png", "isTrue": false },
-      { "text": "atardamar.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/toplardamar.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kilcal.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sizinti.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/atardamar.png", "isTrue": true }
     ],
     "description": "Fışkırarak akan kanama atardamar kanamasını gösterir."
   },
@@ -458,7 +458,7 @@
     "id": 36,
     "category": "Trafik Adabı",
     "question": "I. Hareket hâlindeki taşıttan, sürücüden habersiz inip binmek.\nII. Uygun ve sabitlenmiş şekilde oturmak\nIII. Yüklerin üzerinde yolculuk yapmak\nGörseldeki gibi taşıma yapılırken, numaralanmış ifadelerden hangilerini yapmak kazalara neden olur?",
-    "image_url": "pikapta-yolcu-tasima.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/pikapta-yolcu-tasima.png",
     "options": [
       { "text": "I ve II", "isTrue": false },
       { "text": "I ve III", "isTrue": true },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Araç Tekniği",
     "question": "Şekilde soru işareti (?) ile gösterilen güç aktarma organının adı nedir?",
-    "image_url": "diferansiyel-512684.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/diferansiyel-512684.png",
     "options": [
       { "text": "Volan", "isTrue": false },
       { "text": "Aks", "isTrue": false },
@@ -549,7 +549,7 @@
     "id": 43,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sola dönüş yapmak isteyen şekildeki araç sürücüsünün aşağıdakilerden hangisini yapması doğrudur?",
-    "image_url": "yayaya-izinver512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yayaya-izinver512.png",
     "options": [
       { "text": "Korna çalıp yayayı uyarması", "isTrue": false },
       { "text": "Geçiş hakkını yayaya vermesi", "isTrue": true },
@@ -616,10 +616,10 @@
     "question": "Kazazedelerden hangisinde “sıyrık yara” meydana gelmiştir?",
     "image_url": null,
     "options": [
-      { "text": "karin-yaralanmasi-a.png", "isTrue": false },
-      { "text": "ayirici-yara.png", "isTrue": false },
-      { "text": "kunt-yara.png", "isTrue": false },
-      { "text": "siyrik-yara.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karin-yaralanmasi-a.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ayirici-yara.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kunt-yara.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/siyrik-yara.png", "isTrue": true }
     ],
     "description": "Görsel D'deki hafif yüzeysel yara sıyrıktır."
   },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki aracın sürücüsü, kamu hizmeti yapan yolcu taşıtı durağının en az kaç metre uzağına aracını park edebilir?",
-    "image_url": "duraga-kacmet6874.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/duraga-kacmet6874.png",
     "options": [
       { "text": "A) 5", "isTrue": false },
       { "text": "B) 10", "isTrue": false },
