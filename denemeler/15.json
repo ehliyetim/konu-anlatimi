@@ -42,7 +42,7 @@
     "id": 4,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "2013-2014 yılları itibariyle ülkemizde meydana gelen trafik kazalarındaki kusur oranları tabloda verilmiştir. Buna göre, aşağıdakilerden hangisi trafik kazalarına en fazla neden olmuştur?",
-    "image_url": "tablo-5412sdv61.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo-5412sdv61.png",
     "options": [
       { "text": "A) Araç", "isTrue": false },
       { "text": "B) Yaya", "isTrue": false },
@@ -94,7 +94,7 @@
     "id": 8,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde, şekildeki uyarı işaretinin yandığını gören sürücü nasıl davranmalıdır?",
-    "image_url": "karlogo-84512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/karlogo-84512.png",
     "options": [
       { "text": "A) Arabanın yakıtını kontrol edilir", "isTrue": false },
       { "text": "B) Ani hareket ve manevralardan kaçınır", "isTrue": true },
@@ -159,7 +159,7 @@
     "id": 13,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 2 numaralı araç sürücüsünün hangisini yapması doğrudur?",
-    "image_url": "kavsak-gecis-araba-surucusu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-araba-surucusu.png",
     "options": [
       { "text": "A) Hızını artırarak dönüşe geçmesi", "isTrue": false },
       { "text": "B) Dönüşünü en sol şeritte tamamlaması", "isTrue": false },
@@ -294,7 +294,7 @@
       { "text": "A) İkaz sesle uyarak", "isTrue": false },
       { "text": "B) Sürekli kornaya basılarak", "isTrue": false },
       { "text": "C) Nazik ve saygıyla davranmakla", "isTrue": true },
-      { "text": "D) Kişisel İhanet ile", "isTrue": false }
+      { "text": "D) Kişisel hakaret ile", "isTrue": false }
     ],
     "description": "Trafik adabı gereği, hatalı davranış sergileyen diğer sürücülerin nazik ve saygılı bir üslupla uyarılması toplumsal huzur için önemlidir."
   },
@@ -330,10 +330,10 @@
     "question": "Kazazedeye 'Nasılsınız?' diye sorduğunda göğüs boşluğunu göstererek özellikle kravat bölgesinde ağrı olduğunu ve bu ağrının giderek omzuna, boyun bölgesine, çenesine ve sol koluna doğru yayıldığını söylemiştir. Bu belirtilere göre, ilk yardımcı kazazedeye hangi pozisyonu vermelidir?",
     "image_url": null,
     "options": [
-      { "text": "sok.png", "isTrue": false },
-      { "text": "gogus-yaralanmasi-pozisyonu.png", "isTrue": true },
-      { "text": "koma.png", "isTrue": false },
-      { "text": "normal.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sok.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gogus-yaralanmasi-pozisyonu.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/normal.png", "isTrue": false }
     ],
     "description": "Göğüs ağrısı ve kalp krizi şüphesi olan durumlarda hastanın rahat nefes alabilmesi ve kalbinin daha az yorulması için yarı oturuş (kalp) pozisyonu verilir."
   },
@@ -489,7 +489,7 @@
       { "text": "A) Öndeki aracı geçmek", "isTrue": false },
       { "text": "B) Trafik kurallarına uymak ve derhal durmak", "isTrue": true },
       { "text": "C) Aniden durmak", "isTrue": false },
-      { "text": "D) Hızlı azaltarak yoluna devam etmesi", "isTrue": false }
+      { "text": "D) Hızını azaltarak yoluna devam etmesi", "isTrue": false }
     ],
     "description": "Güvenli bir trafik akışı için kural ihlali yapmadan trafik işaretlerine uyulmalıdır."
   },
@@ -499,10 +499,10 @@
     "question": "Hangisi ilk yardımcının yaralıya yönelik yapabileceği uygulamalar arasında yer almaz?",
     "image_url": null,
     "options": [
-      { "text": "kalp-masaji-yap.png", "isTrue": false },
-      { "text": "heimlich-manevrasi-yap.png", "isTrue": false },
-      { "text": "bas-cene-yap.png", "isTrue": false },
-      { "text": "oksilen-maskesi-tak.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kalp-masaji-yap.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/heimlich-manevrasi-yap.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/bas-cene-yap.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/oksilen-maskesi-tak.png", "isTrue": true }
     ],
     "description": "Oksijen maskesi tıbbi bir müdahaledir, profesyonel sağlık ekipleri tarafından uygulanır."
   },
@@ -523,7 +523,7 @@
     "id": 41,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kavşakta sola dönüş yapacak olan 2 numaralı araç sürücüsü nasıl davranmalıdır?",
-    "image_url": "kavsak-gecis-yaya-515s15.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-yaya-515s15.png",
     "options": [
       { "text": "A) Dar bir kavisle dönmeli", "isTrue": false },
       { "text": "B) Karşıya geçen yayaya yol vermeli", "isTrue": true },
@@ -653,7 +653,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sola dönüş yapacak olan görseldeki araç sürücüsü, hangilerini yapmalıdır?\nI. Sola dönüş lambasını yakmalı\nII. Hızını azaltmalı\nIII. Dar bir kavisle dönmeli",
-    "image_url": "kavsak-gecis-yon4526416461.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-yon4526416461.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": true },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görselde numaralandırılmış araç sürücülerinden hangileri şerit takip kuralını ihlal etmiştir?",
-    "image_url": "hatali-arac-surucusu-333.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-arac-surucusu-333.png",
     "options": [
       { "text": "A) Yalnız 1", "isTrue": false },
       { "text": "B) Yalnız 3", "isTrue": true },
@@ -733,10 +733,10 @@
     "question": "Uyarı ışıklarından hangisi fren sistemi ile ilgili değildir?",
     "image_url": null,
     "options": [
-      { "text": "abs.png", "isTrue": false },
-      { "text": "el-freni-cekili.png", "isTrue": false },
-      { "text": "silecek-suyu.png", "isTrue": true },
-      { "text": "fren-balatasi-isisgi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/abs.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/silecek-suyu.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-balatasi-isisgi.png", "isTrue": false }
     ],
     "description": "C şıkkındaki simge cam yıkama suyu seviyesini gösterir, fren sistemi ile bir ilgisi yoktur."
   },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki gibi bir kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "kavsak-gecis-sorusu-6532.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-sorusu-6532.png",
     "options": [
       { "text": "A) 1 - 2 - 4 - 3", "isTrue": false },
       { "text": "B) 2 - 1 - 3 - 4", "isTrue": true },
@@ -796,7 +796,7 @@
     "id": 62,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi kontrolsüz kavşakta karşılaşan araçların geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "kavsak-gecis-5151251.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-5151251.png",
     "options": [
       { "text": "A) 1 - 2 - 3", "isTrue": false },
       { "text": "B) 2 - 1 - 3", "isTrue": false },
