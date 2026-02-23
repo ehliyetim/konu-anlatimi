@@ -41,8 +41,8 @@
   {
     "id": 4,
     "category": "Araç Tekniği",
-    "question": "Arac gösterge panosunda görseldeki uyarı ışığının yanması, hangisini ifade eder?",
-    "image_url": "fren-pedalina-basilmali.png",
+    "question": "Araç gösterge panosunda görseldeki uyarı ışığının yanması, hangisini ifade eder?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-pedalina-basilmali.png",
     "options": [
       { "text": "Fren balataları aşınmış", "isTrue": false },
       { "text": "Fren pedalına basılması gerektiğini", "isTrue": true },
@@ -55,7 +55,7 @@
     "id": 5,
     "category": "İlkyardım",
     "question": "Hangisi resimdeki uygulamadan önce ilk yardımcının yapması gerekenlerden biri değildir?",
-    "image_url": "rentek-manevrasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/rentek-manevrasi.png",
     "options": [
       { "text": "Kaza ortamının değerlendirilmesi yapılmadan acil müdahale", "isTrue": true },
       { "text": "Yaralının ayaklarının pedala sıkışmadığından emin olunur", "isTrue": false },
@@ -81,7 +81,7 @@
     "id": 7,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, siyah otomobil sürücüsünün hangisini yapması doğru olur?",
-    "image_url": "siyah-otomobil-surucusu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/siyah-otomobil-surucusu.png",
     "options": [
       { "text": "Aynı şeritte kalarak yavaşlaması", "isTrue": true },
       { "text": "Hızlanıp beyaz otomobilin önüne geçmesi", "isTrue": false },
@@ -94,7 +94,7 @@
     "id": 8,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, kamyon sürücülerinin kullanabileceği şeritler hangileridir?",
-    "image_url": "kamyon-kullanabilir.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon-kullanabilir.png",
     "options": [
       { "text": "1 ve 2", "isTrue": false },
       { "text": "2 ve 3", "isTrue": false },
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Araç Tekniği",
     "question": "Soğuk havalarda, araç gösterge panelinde şekildeki uyarı lambası yanıyorsa hangisi yapılmalıdır?",
-    "image_url": "kar.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kar.png",
     "options": [
       { "text": "Motor devri yükseltme", "isTrue": false },
       { "text": "Araç hızı artırılmalı", "isTrue": false },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretini gören sürücünün aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "kaygan-yol-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kaygan-yol-levhasi.png",
     "options": [
       { "text": "Yolu kontrol etmesi", "isTrue": false },
       { "text": "Aracını yavaşlatması", "isTrue": false },
@@ -276,7 +276,7 @@
     "id": 22,
     "category": "İlkyardım",
     "question": "Resimde görülen pozisyon, aşağıdaki durumların hangisinde uygulanır?",
-    "image_url": "napiyon-yarali.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/napiyon-yarali.png",
     "options": [
       { "text": "Şok", "isTrue": false },
       { "text": "Koma", "isTrue": true },
@@ -289,7 +289,7 @@
     "id": 23,
     "category": "Araç Tekniği",
     "question": "Araç gösterge panelinde şekildeki uyarı ışığı yandığında sürücü ne yapmalıdır?",
-    "image_url": "silecek-suyu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/silecek-suyu.png",
     "options": [
       { "text": "Aracı durdurup motoru stop etmeli", "isTrue": false },
       { "text": "Araç motoruna yağ ilave etmeli", "isTrue": false },
@@ -341,7 +341,7 @@
     "id": 27,
     "category": "Araç Tekniği",
     "question": "Aracından görseldeki gibi gri-beyaz egzoz dumanının çıktığını gören sürücü nasıl davranmalıdır?",
-    "image_url": "gri-beyaz-duman.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gri-beyaz-duman.png",
     "options": [
       { "text": "Aracına hemen bakıma götürmeli", "isTrue": true },
       { "text": "Normal kullanıma devam etmeli", "isTrue": false },
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "category": "Araç Tekniği",
-    "question": "yarayan ve özel göstergesi bulunan parçaya ne ad verilir?",
+    "question": "Motor yağ seviyesini ölçmeye yarayan ve özel göstergesi bulunan parçaya ne ad verilir?",
     "image_url": null,
     "options": [
       { "text": "Yağdanlık", "isTrue": false },
@@ -393,7 +393,7 @@
     "id": 31,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki mavi aracın sürücüsü nasıl davranmalıdır?",
-    "image_url": "mavi-arac-surucusu-vetehlikelimadde.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/mavi-arac-surucusu-vetehlikelimadde.png",
     "options": [
       { "text": "Hızını değiştirmeden yoluna devam etmek", "isTrue": false },
       { "text": "Hızla orta şeride geçiş yapmalı", "isTrue": false },
@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi kontrolsüz bir kavşakta karşılaşan araçların, geçiş hakkı sıralaması nasıl olmalıdır?",
-    "image_url": "gecis-hakki1251.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecis-hakki1251.png",
     "options": [
       { "text": "2-1-3", "isTrue": false },
       { "text": "2-1-3", "isTrue": false },
@@ -523,7 +523,7 @@
     "id": 41,
     "category": "İlkyardım",
     "question": "ilk yardımcı, bacak bölgesinde kanaması olan yaralıya \"kanayan bölgeye en yakın bası noktası\" kuralını göz önünde bulundurduğunda görseldeki numaralanmış bölgelerden hangisine basınç uygulamalıdır?",
-    "image_url": "nabiz-yeri.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/nabiz-yeri.png",
     "options": [
       { "text": "I", "isTrue": false },
       { "text": "II", "isTrue": false },
@@ -653,7 +653,7 @@
     "id": 51,
     "category": "Trafik Adabı",
     "question": "Tablodaki \"Sürücü Davranış Analizi\" ile ilgili eşleştirmelerden hangisi yanlıştır?",
-    "image_url": "tablo54152.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo54152.png",
     "options": [
       { "text": "I", "isTrue": false },
       { "text": "II", "isTrue": true },
@@ -678,15 +678,15 @@
   {
     "id": 53,
     "category": "İlkyardım",
-    "question": "ilk yardımcı tarafından resimdeki pozisyona getirilmiş bir kazazedenin durumu aşağıdakilerden hangisi olabilir?",
-    "image_url": "koma-51212.png",
+    "question": "Olay yerinde bilinci kapalı olan ancak solunumu devam eden bir kazazedeye, görseldeki pozisyonun verilme nedeni aşağıdakilerden hangisidir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/koma-51212.png",
     "options": [
-      { "text": "Bayılmıştır", "isTrue": false },
-      { "text": "Omurga yaralaması şüphesi vardır.", "isTrue": false },
-      { "text": "Bilinç kaybı ve kan şekeri düşüklüğü yaşıyordur.", "isTrue": true },
-      { "text": "Bilinci yerindedir fakat kulak kanaması vardır.", "isTrue": false }
+      { "text": "Dokuların oksijenlenmesini artırarak şok tablosunun gelişmesini önlemek", "isTrue": false },
+      { "text": "Omurga yaralanması riskini azaltmak", "isTrue": false },
+      { "text": "Dilin geriye kaçmasını önleyerek soluk yolunu açık tutmak", "isTrue": true },
+      { "text": "Kırık olan bölgenin daha fazla zarar görmesini önlemek", "isTrue": false }
     ],
-    "description": "Görseldeki şok pozisyonu, beyne kan akışını desteklemek için kan şekeri düşüklüğü ve bayılma gibi durumlarda uygulanır."
+    "description": "Bilinci kapalı ancak solunumu olan kişilere koma pozisyonu verilir; bu sayede dilin geriye kaçması veya kusmuk gibi maddelerin soluk yolunu tıkaması önlenmiş olur."
   },
   {
     "id": 54,
@@ -718,7 +718,7 @@
     "id": 56,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "yaya-bolgesi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-bolgesi.png",
     "options": [
       { "text": "08.00-16.00 saatleri arasında yayaların yola giremeyeceğini", "isTrue": false },
       { "text": "08.00-16.00 saatleri arasında motorlu taşıtların yola girebileceğini", "isTrue": false },
@@ -796,7 +796,7 @@
     "id": 62,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti aşağıdakilerden hangisini bildirir?",
-    "image_url": "kamyon-giremez-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon-giremez-levhasi.png",
     "options": [
       { "text": "Kamyon garajını", "isTrue": false },
       { "text": "Kamyonun giremeyeceğini", "isTrue": true },
