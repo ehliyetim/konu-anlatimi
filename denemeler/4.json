@@ -42,11 +42,11 @@
     "id": 4,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki gibi eğimsiz iki yönlü dar yoldaki karşılaşmada, 2 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "kamyon-otomobile-yolver.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon-otomobile-yolver.png",
     "options": [
-      { "text": "A) farklı bir yolu tercih etmeli", "isTrue": false },
+      { "text": "A) Farklı bir yolu tercih etmeli", "isTrue": false },
       { "text": "B) 1 numaralı araca yol vermeli", "isTrue": true },
-      { "text": "C) ilk geçiş hakkını kendisi kullanmalı", "isTrue": false },
+      { "text": "C) İlk geçiş hakkını kendisi kullanmalı", "isTrue": false },
       { "text": "D) 1 numaralı aracın sürücüsünü ikaz edip durdurmalı", "isTrue": false }
     ],
     "description": "Aksine bir işaret yoksa, daralan yollarda otomobil (1) ile kamyonet (2) karşılaşmasında kamyonet otomobile yol vermelidir."
@@ -73,7 +73,7 @@
       { "text": "A) Şerit değiştirmeden sağa devam etmesidir", "isTrue": false },
       { "text": "B) Aynı şeritlerde ve aynı hızda hareket etmek", "isTrue": false },
       { "text": "C) Sinyal verip şerit değiştirirken aracın solundan hızlanarak gitmek", "isTrue": true },
-      { "text": "D) şerit değiştirmeden aracın solundan gitmek", "isTrue": false }
+      { "text": "D) Şerit değiştirmeden aracın solundan gitmek", "isTrue": false }
     ],
     "description": "Geçme eylemi, bilinçli bir şerit değiştirme ve önündeki aracın soluna geçme sürecini kapsar."
   },
@@ -223,7 +223,7 @@
     "id": 18,
     "category": "Araç Tekniği",
     "question": "Motor çalıştırıldığında şekildeki ikaz lambası sönmüyorsa sürücü hangisinin kontrolünü yapmalıdır?",
-    "image_url": "yag-basinci.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png",
     "options": [
       { "text": "A) Motor yağının", "isTrue": true },
       { "text": "B) Yakıt", "isTrue": false },
@@ -303,10 +303,10 @@
     "question": "Trafik işaretlerinden hangisi \"okul geçidi\" anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "yaya-gecidi-levhasi.png", "isTrue": false },
-      { "text": "el-arabasi-giremez-levhasi-tt-14trafik-5-671e.png", "isTrue": false },
-      { "text": "okul-gecidi.png", "isTrue": true },
-      { "text": "yaya-giremez.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-gecidi-levhasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-arabasi-giremez-levhasi-tt-14trafik-5-671e.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/okul-gecidi.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-giremez.png", "isTrue": false }
     ],
     "description": "Çanta taşıyan iki öğrenci figürünün bulunduğu üçgen levha okul geçidini temsil eder."
   },
@@ -342,10 +342,10 @@
     "question": "Araç gösterge panelindeki uyarı işaretlerinden hangisi yanarsa silecek suyu kontrol edilmelidir?",
     "image_url": null,
     "options": [
-      { "text": "ikaz-isigi12551.png", "isTrue": false },
-      { "text": "silecek-suyu.png", "isTrue": true },
-      { "text": "sis-lambasi.png", "isTrue": false },
-      { "text": "lastik-hava-basinci-ikazisigi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ikaz-isigi12551.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/silecek-suyu.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sis-lambasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik-hava-basinci-ikazisigi.png", "isTrue": false }
     ],
     "description": "Fıskiye ve cam sembolü olan ikaz ışığı silecek suyu seviyesinin düşük olduğunu gösterir."
   },
@@ -457,7 +457,7 @@
     "id": 36,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretinin anlamı nedir?",
-    "image_url": "girisi-olmayan-yol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/girisi-olmayan-yol.png",
     "options": [
       { "text": "A) İleri mecburi yön", "isTrue": false },
       { "text": "B) Girişi olmayan yol", "isTrue": true },
@@ -472,10 +472,10 @@
     "question": "Trafik işaretlerinden hangisi, kavşaklarda üzerinde bulunulan yolun tali yol olduğunu ve ana yoldaki araçlara yol verilmesi gerektiğini belirtir?",
     "image_url": null,
     "options": [
-      { "text": "yolver-levhasi.png", "isTrue": true },
-      { "text": "ikili-yol-levhasi.png", "isTrue": false },
-      { "text": "girilmez-yol-levhasi.png", "isTrue": false },
-      { "text": "anayol-taliyol.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yolver-levhasi.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ikili-yol-levhasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/girilmez-yol-levhasi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/anayol-taliyol.png", "isTrue": false }
     ],
     "description": "Ters üçgen levhası 'Yol Ver' anlamındadır ve aracın tali yolda olduğunu gösterir."
   },
@@ -508,7 +508,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir durum yoksa, şekildeki gibi ışıklı trafik işaret cihazında kırmızı ışığın yandığını gören sürücü ne yapmalıdır?",
-    "image_url": "kirmizi-trafik-isigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-trafik-isigi.png",
     "options": [
       { "text": "A) Durup beklemeli", "isTrue": true },
       { "text": "B) Durmadan geçmeli", "isTrue": false },
@@ -547,7 +547,7 @@
     "id": 43,
     "category": "İlkyardım",
     "question": "Görseldeki ilk yardımcı tarafından yapılan değerlendirme aşaması aşağıdakilerden hangisidir?",
-    "image_url": "bilinc-kontrol-sorusu12.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bilinc-kontrol-sorusu12.png",
     "options": [
       { "text": "A) Bilinci", "isTrue": true },
       { "text": "B) Dolaşımı", "isTrue": false },
@@ -560,7 +560,7 @@
     "id": 44,
     "category": "Trafik Adabı",
     "question": "Görselde 1 ve 2 numaralı araçların yollarına devam etmekte zorlandıkları görülmektedir.\nBu duruma sebep olan park hâlindeki araçların sürücülerinin hangi temel değere sahip olmadığı kesinlikle söylenir?",
-    "image_url": "digergamlik-sorusu-51561.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/digergamlik-sorusu-51561.png",
     "options": [
       { "text": "A) Diğergâmlık", "isTrue": true },
       { "text": "B) Sabır", "isTrue": false },
@@ -651,7 +651,7 @@
     "id": 51,
     "category": "Araç Tekniği",
     "question": "Araç gösterge panelinde şekildeki uyarı ışığının yanması sürücüye neyi bildirir?",
-    "image_url": "lastik-hava-basinci-ikazisigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/lastik-hava-basinci-ikazisigi.png",
     "options": [
       { "text": "A) Lastik hava basıncının düşük olduğunu", "isTrue": true },
       { "text": "B) Fren balatalarının yıprandığını", "isTrue": false },
@@ -692,25 +692,25 @@
     "question": "Hangisi, Emniyet Genel Müdürlüğünün görevlerinden biri değildir?",
     "image_url": null,
     "options": [
-      { "text": "A) trafik kazada olay yerinde önlem almak", "isTrue": false },
+      { "text": "A) Trafik kazada olay yerinde önlem almak", "isTrue": false },
       { "text": "B) Trafik güvenliğini ve akışını sağlamak", "isTrue": false },
-      { "text": "C) özel sürücü kursu açılmasına izin vermek", "isTrue": true },
-      { "text": "D) suçu işleyenlerin araç plakalarını trafik zabıtasına bildirme", "isTrue": false }
+      { "text": "C) Özel sürücü kursu açılmasına izin vermek", "isTrue": true },
+      { "text": "D) Suçu işleyenlerin araç plakalarını trafik zabıtasına bildirme", "isTrue": false }
     ],
     "description": "Özel sürücü kurslarının açılmasına izin vermek ve bunları denetlemek Milli Eğitim Bakanlığı'nın görevidir."
   },
   {
     "id": 55,
     "category": "Trafik Adabı",
-    "question": "I. Sürekli kornaya basması\nII. Yayanın geçişini tamamlamasını beklemesi\nIII. Harekete geçmesi\nGörsele göre, araç sürücüsünün hangilerini yapması diğerkâmlık olduğunu gösterir?",
-    "image_url": "yaya-geciyor-arac-surucusu.png",
+    "question": "Görseldeki araç sürücüsüne yeşil ışık yanmıştır ancak yaya henüz geçişini tamamlamamıştır. Bu durumda sürücünün 'diğerkâmlık' (özgecilik) değerine uygun davranabilmesi için hangilerini yapması beklenir?\n\nI. Yeşil ışık yandığı için yayayı korna ile hızlanması yönünde uyarması\nII. Yayanın güvenle geçişini tamamlaması için sabırla beklemesi\nIII. Arkadaki trafiği bekletmemek adına yayanın sağından veya solundan manevra yaparak geçmesi",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-geciyor-arac-surucusu.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) Yalnız II", "isTrue": true },
       { "text": "C) I ve II", "isTrue": false },
       { "text": "D) II ve III", "isTrue": false }
     ],
-    "description": "Diğerkâmlık (özgecilik), başkalarını düşünmek demektir; yayanın geçişini sakince beklemek bu değerle uyuşur."
+    "description": "Araç sürücüsüne yeşil ışık yanmış olsa dahi yaya geçidindeki kişi geçişini tamamlayana kadar beklenmelidir. Diğerkâmlık (başkasını düşünme), kendi yasal hakkı (yeşil ışık) doğmuş olsa bile yayanın güvenliğini kendi hakkının önüne koymayı ve sabırla beklemeyi gerektirir. Manevra yapmak veya korna çalmak bencilce ve tehlikeli eylemlerdir."
   },
   {
     "id": 56,
@@ -718,10 +718,10 @@
     "question": "Delici göğüs yaralanmalarında kazazedeye, aşağıdaki pozisyonlardan hangisi verilir?",
     "image_url": null,
     "options": [
-      { "text": "normal.png", "isTrue": false },
-      { "text": "koma.png", "isTrue": false },
-      { "text": "sok.png", "isTrue": false },
-      { "text": "karin-yaralanmasi.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/normal.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sok.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karin-yaralanmasi.png", "isTrue": true }
     ],
     "description": "Delici göğüs yaralanmalarında hasta, nefes almasını kolaylaştırmak için yarı oturuş pozisyonuna getirilir."
   },
@@ -755,7 +755,7 @@
     "id": 59,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Taşıt yolu üzerine çizilen şekildeki yatay işaretlemenin anlamı nedir?",
-    "image_url": "yolver-yol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yolver-yol.png",
     "options": [
       { "text": "A) Dur", "isTrue": false },
       { "text": "B) Yol ver", "isTrue": true },
@@ -768,7 +768,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kontrolsüz kavşakta 1 numaralı aracın sürücüsü ne yapmalıdır?",
-    "image_url": "kavsak-gecis54632.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis54632.png",
     "options": [
       { "text": "A) Geçiş hakkını kendi kullanmalı", "isTrue": false },
       { "text": "B) Hızlanıp kavşağa girmeli", "isTrue": false },
