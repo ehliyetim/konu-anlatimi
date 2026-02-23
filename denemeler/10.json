@@ -5,10 +5,10 @@
     "question": "Bilinci kapalı, solunumu ve dolaşımı olmayan kazazedenin omuriliğine zarar vermeden araç içinden çıkarılması için aşağıdaki tekniklerden hangisi kullanılmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "A) Rentek manevrası", "isTrue": true },
-      { "text": "B) Heimlich manevrası", "isTrue": false },
-      { "text": "C) Ayak bileklerinden sürükleme yöntemi", "isTrue": false },
-      { "text": "D) Koltuk altından tutarak sürükleme yöntemi", "isTrue": false }
+      { "text": "Rentek manevrası", "isTrue": true },
+      { "text": "Heimlich manevrası", "isTrue": false },
+      { "text": "Ayak bileklerinden sürükleme yöntemi", "isTrue": false },
+      { "text": "Koltuk altından tutarak sürükleme yöntemi", "isTrue": false }
     ],
     "description": "Araçtan çıkarma manevrası Rentek manevrasıdır."
   },
@@ -83,10 +83,10 @@
     "question": "Fren hidroliğinin azalması ya da fren sisteminde arıza olması durumunda gösterge panelinde hangi ikaz ışığı yanar?",
     "image_url": null,
     "options": [
-      { "text": "aku.png", "isTrue": false },
-      { "text": "el-freni-cekili.png", "isTrue": true },
-      { "text": "dis-aydinlatma.png", "isTrue": false },
-      { "text": "yag-basinci.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/aku.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/el-freni-cekili.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dis-aydinlatma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png", "isTrue": false }
     ],
     "description": "Daire içinde ünlem işareti fren sistemi uyarısıdır."
   },
@@ -94,7 +94,7 @@
     "id": 8,
     "category": "Araç Tekniği",
     "question": "Araç gösterge panelinde şekildeki uyarı ışığı yandığında sürücü ne yapmalıdır?",
-    "image_url": "fren-ariza-ikaz.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-ariza-ikaz.png",
     "options": [
       { "text": "A) Fren hidroliği kontrol edilmeli", "isTrue": false },
       { "text": "B) Motora yağ ilave edilmeli", "isTrue": false },
@@ -159,14 +159,14 @@
     "id": 13,
     "category": "İlkyardım",
     "question": "Görselde, trafik kazasında yaralanan bir kazazedenin (baş bölgesindeki) yarasının görüntüsü verilmiştir. Olay yerine gelen ilk yardımcının ilk değerlendirmesine göre kazazedenin bilinci açık, solunumu ve nabzı vardır. Buna göre, ilk yardımcının bu kazazedeye hangisini yapması yanlıştır?",
-    "image_url": "bas-yaralanmasi85515.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bas-yaralanmasi85515.png",
     "options": [
-      { "text": "A) Yaranın üzerini temiz bir peçeteyle kapatması", "isTrue": false },
-      { "text": "B) Hareket etmesini sağlaması", "isTrue": false },
-      { "text": "C) Tetanos konusunda uyarıda bulunması", "isTrue": true },
+      { "text": "A) Yaranın üzerini temiz bir bezle kapatması", "isTrue": false },
+      { "text": "B) Hareket etmesini sağlaması", "isTrue": true },
+      { "text": "C) Tetanos konusunda uyarıda bulunması", "isTrue": false },
       { "text": "D) Baş-boyun-gövde eksenini bozmaktan kaçınması", "isTrue": false }
     ],
-    "description": "İlk yardımcının görevi teşhis veya aşı uyarısı değil, hayat kurtarıcı müdahaledir."
+    "description": "İlk yardımcı baş yaralanmalarında kazazedeyi hareket ettirmemelidir. Hareket gibi eylemler felce sebep olabilir"
   },
   {
     "id": 14,
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa şekildeki aracın yerleşim yeri içindeki azami hızı saatte kaç kilometredir?",
-    "image_url": "kamyon.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon.png",
     "options": [
       { "text": "A) 30", "isTrue": false },
       { "text": "B) 50", "isTrue": true },
@@ -237,7 +237,7 @@
     "id": 19,
     "category": "İlkyardım",
     "question": "İlk Yardım ile Acil Tedavi arasındaki farklarla ilgili olarak tabloda verilen bilgiler için ne söylenebilir?",
-    "image_url": "tablo54876594sca.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tablo54876594sca.png",
     "options": [
       { "text": "A) I. doğru, II. yanlış", "isTrue": false },
       { "text": "B) I. yanlış, II. doğru", "isTrue": true },
@@ -302,7 +302,7 @@
     "id": 24,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre hangi numaralı araç sürücüsü kural ihlali yapmıştır?",
-    "image_url": "kurar-ihlali-kimyapiyor.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kurar-ihlali-kimyapiyor.png",
     "options": [
       { "text": "A) 1", "isTrue": false },
       { "text": "B) 2", "isTrue": false },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Araç Tekniği",
     "question": "Motor çalışır durumda iken aracın gösterge panelinde şekildeki ikaz ışığının yanıyor olmasının sebebi, aşağıdakilerden hangisi olabilir?",
-    "image_url": "yag-basinci.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png",
     "options": [
       { "text": "A) Radyatörde antifrizin olmaması", "isTrue": false },
       { "text": "B) Motor yağ basıncının ani düşmesi", "isTrue": true },
@@ -484,7 +484,7 @@
     "id": 38,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre hangi numaralı aracın sürücüsü hatalıdır?",
-    "image_url": "hatali-gecis-kim512512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-gecis-kim512512.png",
     "options": [
       { "text": "A) 1", "isTrue": false },
       { "text": "B) 2", "isTrue": false },
@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki demir yolu kavşağına yaklaşan sürücünün hangisini yapması yanlış olur?",
-    "image_url": "tren-yolu-bariyer.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tren-yolu-bariyer.png",
     "options": [
       { "text": "A) Geçmeden önce uygun bir mesafede durması", "isTrue": false },
       { "text": "B) Herhangi bir demir yolu aracının gelmedikçe geçmesi", "isTrue": false },
@@ -575,7 +575,7 @@
     "id": 45,
     "category": "İlkyardım",
     "question": "Tam tıkanıklık yaşayan bebeğe, resimdeki uygulama kaç kez yapılmalıdır?",
-    "image_url": "bebek-sirt-basisi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bebek-sirt-basisi.png",
     "options": [
       { "text": "A) 2", "isTrue": false },
       { "text": "B) 3", "isTrue": false },
@@ -668,10 +668,10 @@
     "question": "I. Aşırı sıcak ortamlar\nII. Kan şekerinin düşmesi\nIII. Yorgunluk, aniden ayağa kalkma\nYukarıdakilerden hangileri bayılma nedenlerindendir?",
     "image_url": null,
     "options": [
-      { "text": "A) I ve II", "isTrue": true },
+      { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": false },
       { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
+      { "text": "D) I, II ve III", "isTrue": true }
     ],
     "description": "Sıcak ve kan şekeri düşüklüğü bayılmaya neden olur."
   },
@@ -679,10 +679,10 @@
     "id": 53,
     "category": "İlkyardım",
     "question": "Kanamanın türü nedir?",
-    "image_url": "atardamar-kanamasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/atardamar-kanamasi.png",
     "options": [
       { "text": "A) Kılcal damar kanaması", "isTrue": false },
-      { "text": "B) Kanama", "isTrue": false },
+      { "text": "B) İç kanama", "isTrue": false },
       { "text": "C) Toplardamar kanaması", "isTrue": false },
       { "text": "D) Atardamar kanaması", "isTrue": true }
     ],
@@ -731,7 +731,7 @@
     "id": 57,
     "category": "İlkyardım",
     "question": "Seyir halindeki bir sürücü, yol kenarında resimdeki kişiyi görmüş ve trafik kurallarına uyarak durmuştur. Bu kişinin yanına gelen sürücü, resimdeki belirtilerin dışında kişinin sesli nefes aldığını ve idrar kaçırmış olduğunu gözlemlemiştir. Buna göre aşağıdakilerden hangisi sürücünün bu kişiye yapması gereken ilk yardım uygulamalarındandır?",
-    "image_url": "sara-epilepsicocuk415.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/sara-epilepsicocuk415.png",
     "options": [
       { "text": "A) El, kol ve bacaklarının bağlanması", "isTrue": false },
       { "text": "B) Kilitlenmiş çenesinin zorla açılmaya çalışılması", "isTrue": false },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, sürücünün hareketi hangisi olmalıdır?",
-    "image_url": "anayola-giren-ikiaraba.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/anayola-giren-ikiaraba.png",
     "options": [
       { "text": "A) Yoluna aynı şekilde devam etmeli", "isTrue": true },
       { "text": "B) 1 numaralı kırmızı araca yol vermelidir.", "isTrue": false },
@@ -811,10 +811,10 @@
     "question": "Göğsünde kuvvetli ağrısı olan bir kazazedeye hangi pozisyon verilmelidir?",
     "image_url": null,
     "options": [
-      { "text": "gogus-yaralanmasi-pozisyonu.png", "isTrue": true },
-      { "text": "sok.png", "isTrue": false },
-      { "text": "koma.png", "isTrue": false },
-      { "text": "karin-yaralanmasi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gogus-yaralanmasi-pozisyonu.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sok.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karin-yaralanmasi.png", "isTrue": false }
     ],
     "description": "Göğüs ağrısı ve kalp spazmı durumlarında kazazedeye yarı oturur pozisyon verilir."
   },
