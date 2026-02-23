@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki devamlı yol çizgisi, sürücülere aşağıdakilerden hangisini bildirir?",
-    "image_url": "tehlikeli-viraj-suc12.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tehlikeli-viraj-suc12.png",
     "options": [
       { "text": "A) Karşı şeride geçilebileceğini", "isTrue": false },
       { "text": "B) Sağ şeritten gidilemeyeceğini", "isTrue": false },
@@ -81,7 +81,7 @@
     "id": 7,
     "category": "İlk Yardım",
     "question": "Kazazedeyi görseldeki pozisyona neden getirmiş olabilir?",
-    "image_url": "sag-kulak-kanama.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/sag-kulak-kanama.png",
     "options": [
       { "text": "A) Kan şekeri düşmüştür ve tüm uyaranlara karşı tepkisizdir.", "isTrue": false },
       { "text": "B) Hiçbir uyarana cevap vermiyordur, solunumu ve nabzı yoktur.", "isTrue": false },
@@ -135,10 +135,10 @@
     "question": "Trafik kazalarında insan, araç, yol ve iklim koşulları etkili olmaktadır.\nBuna göre aşağıdaki trafik işaretlerinden hangisi, yoldan kaynaklanan bir tehlike olabileceğini bildirir?",
     "image_url": null,
     "options": [
-      { "text": "okul-gecidi.png", "isTrue": false },
-      { "text": "yandan-ruzgar.png", "isTrue": false },
-      { "text": "gevsek-malzemeli-zemin.png", "isTrue": true },
-      { "text": "kontrolsuz-kavsak.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/okul-gecidi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yandan-ruzgar.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gevsek-malzemeli-zemin.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kontrolsuz-kavsak.png", "isTrue": false }
     ],
     "description": "Gevşek malzemeli zemin işareti (taş sıçratma) yoldan kaynaklıdır."
   },
@@ -146,7 +146,7 @@
     "id": 12,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Hangi sürücü belgesi, görseldeki araç için düzenlenmez?",
-    "image_url": "motosiklet.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/motosiklet.png",
     "options": [
       { "text": "A) A1", "isTrue": false },
       { "text": "B) C1", "isTrue": true },
@@ -161,10 +161,10 @@
     "question": "Aksine bir işaret yoksa, aşağıdakilerden hangisinin yerleşim yeri içindeki azami hızı 50 km/saat olmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "traktor.png", "isTrue": false },
-      { "text": "dozer.png", "isTrue": false },
-      { "text": "jip.png", "isTrue": true },
-      { "text": "tehlikeli-madde-arabasi.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/traktor.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dozer.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/jip.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/tehlikeli-madde-arabasi.png", "isTrue": false }
     ],
     "description": "Kamyonetlerin şehir içi hızı 50 km/s'tir."
   },
@@ -172,7 +172,7 @@
     "id": 14,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretinin anlamı nedir?",
-    "image_url": "otoyol-sonu-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/otoyol-sonu-levhasi.png",
     "options": [
       { "text": "A) Otoyol Sonu", "isTrue": true },
       { "text": "B) İleri Çıkmaz Yol", "isTrue": false },
@@ -213,10 +213,10 @@
     "question": "Kazazedelerden hangisinde \"künt yaralanma\" meydana gelmiştir?",
     "image_url": null,
     "options": [
-      { "text": "karin-yaralanmasi-a.png", "isTrue": false },
-      { "text": "ayirici-yara.png", "isTrue": false },
-      { "text": "kunt-yara.png", "isTrue": true },
-      { "text": "siyrik-yara.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/karin-yaralanmasi-a.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/ayirici-yara.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kunt-yara.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/siyrik-yara.png", "isTrue": false }
     ],
     "description": "Morarma (ekimoz) künt yaralanma belirtisidir."
   },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekle göre, yaya yolu ayrılmamış kara yolunda, olağan olarak yayaların ve hayvanların kullanacağı 1 ve 2 numaralı kısımlara ne ad verilir?",
-    "image_url": "banket.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/banket.png",
     "options": [
       { "text": "A) Taşıt yolu", "isTrue": false },
       { "text": "B) Banket", "isTrue": true },
@@ -236,7 +236,7 @@
   {
     "id": 19,
     "category": "İlk Yardım",
-    "question": "• Cerrahi dikişleri ayrılmış yaralar ayrılmış yaralar\n• Bıçak, çakı, şiş, kurşun vb. aletlerle oluşan yaralar delici yaradır.\n• Keskin veya sivri uçlu (cam, bıçak vb.) bir cisimle meydana gelen yaralar kesik yaradır.\n\nYara çeşitleri ve özellikleriyle ilgili verilenler doğru (D)-yanlış (Y) olarak değerlendirildiğinde sıralama hangisi olur?",
+    "question": "I. Cerrahi dikişleri ayrılmış yaralar, delici yaralardır.\nII. Bıçak, çakı, kurşun vb. aletlerle oluşan yaralar delici yaralardır.\nIII. Keskin veya sivri uçlu (cam, bıçak vb.) bir cisimle meydana gelen yaralar kesik yaralardır.\n\nYara çeşitleri ve özellikleriyle ilgili verilenler doğru (D) - yanlış (Y) olarak değerlendirildiğinde sıralama hangisi olur?",
     "image_url": null,
     "options": [
       { "text": "A) D-D-Y", "isTrue": false },
@@ -244,7 +244,7 @@
       { "text": "C) Y-D-Y", "isTrue": true },
       { "text": "D) D-Y-D", "isTrue": false }
     ],
-    "description": "3"
+    "description": "Cerrahi dikişlerin ayrılması 'enfekte yara' veya 'ayrılmış yara' sınıfına girer, delici yara değildir. Keskin cisimlerle oluşan yaralar ise kesik yara olarak tanımlanır."
   },
   {
     "id": 20,
@@ -263,7 +263,7 @@
     "id": 21,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Sağa dönüş\nII. Sola dönüş\nIII. Aynı yönde ilerleme\n\nGörseldeki aracın sürücüsü, numaralandırılmış davranışlardan hangilerini yapabilir?",
-    "image_url": "kirmiziaraba-girisi-olmayan-yol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmiziaraba-girisi-olmayan-yol.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": true },
       { "text": "B) I ve II", "isTrue": false },
@@ -315,7 +315,7 @@
     "id": 25,
     "category": "İlk Yardım",
     "question": "Görselde verilen yaralı taşıma yöntemi hangisidir?",
-    "image_url": "teskereci.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/teskereci.png",
     "options": [
       { "text": "A) Teskereci", "isTrue": true },
       { "text": "B) İtfaiyeci", "isTrue": false },
@@ -380,7 +380,7 @@
     "id": 30,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekle göre aşağıdakilerden hangisi yasaktır?",
-    "image_url": "kirpi-tasima.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirpi-tasima.png",
     "options": [
       { "text": "A) Araçların takip mesafesine uyması", "isTrue": false },
       { "text": "B) 2 numaralı aracın 1 numaralı aracı geçmesi", "isTrue": false },
@@ -458,7 +458,7 @@
     "id": 36,
     "category": "İlk Yardım",
     "question": "Görselde soru (?) işaretiyle gösterilen sindirim sistemi organı hangisidir?",
-    "image_url": "karaciger.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/karaciger.png",
     "options": [
       { "text": "A) Safra kese", "isTrue": false },
       { "text": "B) Karaciğer", "isTrue": true },
@@ -484,7 +484,7 @@
     "id": 38,
     "category": "Araç Tekniği",
     "question": "Gösterge panelinde, görseldeki uyarı ışığının yanması durumunda sürücü hangisini yapmalıdır?",
-    "image_url": "esp.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/esp.png",
     "options": [
       { "text": "A) Aracın lastiklerini yenilenmesi", "isTrue": true },
       { "text": "B) Aracı derhal durdurmak", "isTrue": false },
@@ -536,7 +536,7 @@
     "id": 42,
     "category": "Araç Tekniği",
     "question": "Araç hareket halindeyken şekildeki uyarı lambasının yandığını fark eden sürücü hangisini yapmalıdır?",
-    "image_url": "yag-basinci.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png",
     "options": [
       { "text": "A) Aracı durdurup motoru rölantide çalıştırmak", "isTrue": false },
       { "text": "B) Aracı durdurup motoru yüksek devirde çalıştırması", "isTrue": false },
@@ -549,7 +549,7 @@
     "id": 43,
     "category": "Araç Tekniği",
     "question": "Aracın egzozundan görseldeki gibi gri-beyaz duman çıkması hangisini bildirir?",
-    "image_url": "egzoz-mavi-araba.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/egzoz-mavi-araba.png",
     "options": [
       { "text": "A) Motor iyi çalışmıyor", "isTrue": false },
       { "text": "B) Uygun yanma koşullarının oluştuğunu", "isTrue": false },
@@ -588,12 +588,12 @@
     "id": 46,
     "category": "Araç Tekniği",
     "question": "Soğutma suyu sıcaklığı çok yükseldiğinde, gösterge panosunda hangi uyarı ışığı yanar?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": null,
     "options": [
-      { "text": "hararet.png", "isTrue": true },
-      { "text": "on-camrezidans.png", "isTrue": false },
-      { "text": "isitma-bujisi.png", "isTrue": false },
-      { "text": "arka-cam-rezidans.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/on-camrezidans.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/isitma-bujisi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/arka-cam-rezidans.png", "isTrue": false }
     ],
     "description": "Hararet lambası yanar."
   },
@@ -679,7 +679,7 @@
     "id": 53,
     "category": "İlk Yardım",
     "question": "Resimdeki kazazedenin hangi kemiği kırılmıştır?",
-    "image_url": "ustkol-kirigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ustkol-kirigi.png",
     "options": [
       { "text": "A) Omurga", "isTrue": false },
       { "text": "B) Ön kol", "isTrue": false },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekle göre aşağıdakilerden hangisi kesinlikle söylenir?",
-    "image_url": "gecme-yasagi-hatasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecme-yasagi-hatasi.png",
     "options": [
       { "text": "A) 3 numaralı aracın şerit ihlali yaptığı", "isTrue": false },
       { "text": "B) 2 numaralı aracın şerit ihlali yaptığı", "isTrue": false },
@@ -707,10 +707,10 @@
     "question": "İlk yardımcı, bilinci kapalı olan kazazedenin solunum yolunu kontrol etmiştir. Ağız içine gözle bakmış, gördüğü yabancı cisimleri çıkartmış ve hava yolunu açmak için kazazedenin başına pozisyon vermiştir.\n\nBuna göre, ilk yardımcının bu kazazedeye verdiği pozisyon hangisidir?",
     "image_url": null,
     "options": [
-      { "text": "https://random-url.com/option_visual_1.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_2.png", "isTrue": false },
-      { "text": "https://random-url.com/option_visual_3.png", "isTrue": true },
-      { "text": "https://random-url.com/option_visual_4.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sok.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/koma.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/bas-cene-pozisyonu.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/normal.png", "isTrue": false }
     ],
     "description": "Hava yolunu açmak için Baş-Çene Pozisyonu (C şıkkındaki görsel) verilir."
   },
@@ -772,10 +772,10 @@
     "question": "Hangi, trafik bilgi işareti yola paralel park yapılamayacağını ifade eder?",
     "image_url": null,
     "options": [
-      { "text": "park.png", "isTrue": false },
-      { "text": "paralel-park.png", "isTrue": false },
-      { "text": "duz-park.png", "isTrue": true },
-      { "text": "arac-park-edilmez.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/park.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/paralel-park.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/duz-park.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/arac-park-edilmez.png", "isTrue": false }
     ],
     "description": "C şıkkındaki görsel 'Park Yeri (Dik)' levhasıdır, dolayısıyla paralel park yapılamayacağını (dik park edileceğini) bildirir."
   },
@@ -783,7 +783,7 @@
     "id": 61,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde bulunan şekildeki gösterge sürücüye neyi bildirir?",
-    "image_url": "hiz-gostergesi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hiz-gostergesi.png",
     "options": [
       { "text": "A) Aracın hızını", "isTrue": true },
       { "text": "B) Yakıt miktarını", "isTrue": false },
@@ -796,7 +796,7 @@
     "id": 62,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 1 numaralı araç sürücüsü için hangisi kesinlikle söylenir?",
-    "image_url": "hatali-sollama4515.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-sollama4515.png",
     "options": [
       { "text": "A) Hız kuralına uymadığı", "isTrue": false },
       { "text": "B) Güvenli sürüş yaptığı", "isTrue": false },
