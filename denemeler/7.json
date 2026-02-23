@@ -187,12 +187,12 @@
     "question": "Bazı sürücülere yapılan alkol muayenesi sonuçları aşağıda verilmiştir:\nI. Ticari araç sürücüsü (1,0 promil)\nII. Kamu hizmetinde çalışan sürücü (1,5 promil)\nIII. Motosiklet sürücüsü (0,30 promil)\n\nBuna göre trafik zabıtası hangi sürücülere ceza yazıp sürücü belgelerini geri alır?",
     "image_url": null,
     "options": [
-      { "text": "A) I ve II", "isTrue": true },
+      { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": false },
       { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
+      { "text": "D) I, II ve III", "isTrue": true }
     ],
-    "description": "Ticari araç ve kamu hizmeti sürücüleri için alkol sınırı 0,20 promildir. 1,0 ve 1,5 promil ile bu sınır aşıldığı için işlem yapılır."
+    "description": "Ticari araç ve kamu hizmeti sürücüleri için alkol sınırı 0,20 promildir. 0.30, 1,0 ve 1,5 promil ile bu sınır aşıldığı için işlem yapılır."
   },
   {
     "id": 16,
