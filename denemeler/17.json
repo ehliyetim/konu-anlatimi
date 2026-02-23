@@ -109,10 +109,10 @@
     "question": "Seçeneklerdeki trafik işaretlerinden hangisi, park etmenin yasak olduğunu ve sadece yolcu indirme-bindirme ve yük alma-boşaltma için araçların durmasına izin verildiğini bildirir?",
     "image_url": null,
     "options": [
-      { "text": "arac-park-edilmez.png", "isTrue": false },
-      { "text": "duz-park.png", "isTrue": false },
-      { "text": "durmak-duraklamak-parketmek-yasak-4521.png", "isTrue": false },
-      { "text": "park-etme-yasagi-levha.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/arac-park-edilmez.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/duz-park.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/durmak-duraklamak-parketmek-yasak-4521.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/park-etme-yasagi-levha.png", "isTrue": true }
     ],
     "description": "C şıkkındaki levha 'Park Etmek Yasaktır' levhasıdır ve sadece duraklama yapılmasına izin verir."
   },
@@ -133,7 +133,7 @@
     "id": 11,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki kara yolu üzerinde soru işareti (?) ile gösterilen, çizgilerle belirlenmiş alana ne ad verilir?",
-    "image_url": "yaya-gecidi-sorusu-5521sf2.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-gecidi-sorusu-5521sf2.png",
     "options": [
       { "text": "A) Banket", "isTrue": false },
       { "text": "B) Yaya yolu", "isTrue": false },
@@ -250,7 +250,7 @@
     "id": 20,
     "category": "İlkyardım",
     "question": "Görseldeki yardımcının, kazazedenin hava yolu açıklığını sağlamak için verdiği pozisyon hangisidir?",
-    "image_url": "bas-cene-yap.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bas-cene-yap.png",
     "options": [
       { "text": "A) Şok", "isTrue": false },
       { "text": "B) Koma", "isTrue": false },
@@ -291,10 +291,10 @@
     "question": "Dört kazazedenin bacaklarındaki kırıklara ait görsellerden hangisi açık kırık olarak değerlendirilir?",
     "image_url": null,
     "options": [
-      { "text": "normal-kirik8512.png", "isTrue": false },
-      { "text": "kapali-kirik-4512.png", "isTrue": false },
-      { "text": "acik-kirik-5412.png", "isTrue": true },
-      { "text": "catlak-512.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/normal-kirik8512.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/kapali-kirik-4512.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/acik-kirik-5412.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/catlak-512.png", "isTrue": false }
     ],
     "description": "Açık kırıklarda kemik bütünlüğü bozulmuş ve kemik uçları deri dışına çıkarak dış ortamla temas etmiştir. Görselde bu durum C şıkkında görülmektedir."
   },
@@ -484,7 +484,7 @@
     "id": 38,
     "category": "Araç Tekniği",
     "question": "I. Aracın düz bir zeminde olmaması\nII. Aracın çalışır durumda olması\nIII. Yağ çubuğunu temizlememesi\n\nGörsele göre, aracın yağ kontrolünü yapan sürücünün numaralanmış ifadelerdeki hangi hataları yaptığı kesinlikle söylenir?",
-    "image_url": "arac-tamir-kontrol-545dsg5.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/arac-tamir-kontrol-545dsg5.png",
     "options": [
       { "text": "A) I ve II", "isTrue": true },
       { "text": "B) I ve III", "isTrue": false },
@@ -523,7 +523,7 @@
     "id": 41,
     "category": "Araç Tekniği",
     "question": "Gösterge panelinde bu uyarı ışığının yandığını gören sürücü, hangisini yapmalıdır?",
-    "image_url": "anahtar-yok-ikaz-dfdfgd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/anahtar-yok-ikaz-dfdfgd.png",
     "options": [
       { "text": "A) Yakıt depo kapağını kontrol etmeli", "isTrue": false },
       { "text": "B) Kontak anahtarını araç içine almalı", "isTrue": true },
@@ -603,10 +603,10 @@
     "question": "Gösterge panelinde, aşağıdaki ikaz lambalarından hangisinin yanması veya yanıp sönmesi durumunda araç derhal durdurulmalıdır?",
     "image_url": null,
     "options": [
-      { "text": "yag-basinci.png", "isTrue": true },
-      { "text": "isitma-bujisi.png", "isTrue": false },
-      { "text": "fren-pedalina-basilmali.png", "isTrue": false },
-      { "text": "silecek-suyu.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/yag-basinci.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/isitma-bujisi.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/fren-pedalina-basilmali.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/silecek-suyu.png", "isTrue": false }
     ],
     "description": "A şıkkındaki yağdanlık simgesi (Yağ Basıncı İkaz Işığı), motor yağlamasının yapılmadığını gösterir. Motorun zarar görmemesi için araç derhal durdurulmalıdır."
   },
@@ -666,7 +666,7 @@
     "id": 52,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kara yolu bölümünde görülen kesik çizginin anlamı nedir?",
-    "image_url": "sollama-gecis-kdsfj45421.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/sollama-gecis-kdsfj45421.png",
     "options": [
       { "text": "A) Şerit değiştirmek yasaktır.", "isTrue": false },
       { "text": "B) Öndeki aracı geçmek yasaktır.", "isTrue": false },
@@ -692,7 +692,7 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, numaralı araç sürücülerinden hangisi/hangileri hatalı davranmıştır?",
-    "image_url": "trafik-cevre-sorusu-sdg12.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/trafik-cevre-sorusu-sdg12.png",
     "options": [
       { "text": "A) Yalnız 4", "isTrue": true },
       { "text": "B) 1 ve 2", "isTrue": false },
@@ -705,7 +705,7 @@
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki karayolunda, yatay olarak verilen trafik işaretlemesi otomobil sürücüsüne neyi bildirir?",
-    "image_url": "azami-hiz-50-sfklsdjf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/azami-hiz-50-sfklsdjf.png",
     "options": [
       { "text": "A) Işıklara 50 m kaldığını", "isTrue": false },
       { "text": "B) Azami hızın 50 km/saat olduğunu", "isTrue": true },
@@ -717,8 +717,8 @@
   {
     "id": 56,
     "category": "İlkyardım",
-    "question": "Ayaklarının pedala sıkışmadığından emin olunur. Yan tarafından yaklaşılır ve bir elle kolu, diğer elle çenesi kavranarak hafif hareketlerle boynu tespit edilir. Baş-boyun-gövde hizasını bozmadan araçtan dışarı çekilir.\n\nUygulama basamakları verilen ve görseldeki gibi yapılan manevra hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Ayaklarının pedala sıkışmadığından emin olunur. Yan tarafından yaklaşılır ve bir elle kolu, diğer elle çenesi kavranarak hafif hareketlerle boynu tespit edilir. Baş-boyun-gövde hizasını bozmadan araçtan dışarı çekilir.\n\nUygulama basamakları verilen manevra hangisidir?",
+    "image_url": null,
     "options": [
       { "text": "A) İtfaiyeci yöntemi", "isTrue": false },
       { "text": "B) Rentek manevrası", "isTrue": true },
@@ -746,10 +746,10 @@
     "question": "Hangisi yaralıyı sedye üzerine yerleştirme yöntemlerinden biri değildir?",
     "image_url": null,
     "options": [
-      { "text": "sedyea.png", "isTrue": false },
-      { "text": "sedyeb.png", "isTrue": false },
-      { "text": "sedyec.png", "isTrue": false },
-      { "text": "sedyed.png", "isTrue": true }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyea.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyeb.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyec.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyed.png", "isTrue": true }
     ],
     "description": "D şıkkındaki görsel (itfaiyeci yöntemi/omuzda taşıma), sedyesiz bir taşıma yöntemidir. Diğer görseller sedyeye yerleştirme tekniklerini göstermektedir."
   },
@@ -783,12 +783,12 @@
     "id": 61,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kamyonun yol kenarına düşmesini önlemek için soru işareti (?) ile belirtilen yere hangi trafik işareti konulmalıdır?",
-    "image_url": "kamyon-dusuk-banket4512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon-dusuk-banket4512.png",
     "options": [
-      { "text": "sag-egim.png", "isTrue": false },
-      { "text": "dusuk-banket.png", "isTrue": true },
-      { "text": "gevsek-malzemeli-zemin.png", "isTrue": false },
-      { "text": "sola-egim-512dsgsd.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sag-egim.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/dusuk-banket.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gevsek-malzemeli-zemin.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sola-egim-512dsgsd.png", "isTrue": false }
     ],
     "description": "Görselde yolun banket kısmının çökme tehlikesi olduğu görülmektedir. Bu durumu bildiren ve sürücüleri bankete fazla yaklaşmamaları konusunda uyaran levha 'Düşük Banket' (T-6) levhasıdır. B şıkkındaki görsel bu levhayı temsil eder."
   },
