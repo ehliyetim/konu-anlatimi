@@ -556,7 +556,7 @@
       { "text": "C) Tahammüle", "isTrue": false },
       { "text": "D) Benmerkezciliğe", "isTrue": true }
     ],
-    "description": "Başkalarını düşünen ve kurallara uyan bir sürücü 'benmerkezci' (bencil) değildir. Görselde 'Bermerkezciliğe' olarak hatalı yazılan şık, 'Benmerkezciliğe' olarak düzeltilmiştir."
+    "description": "Başkalarını düşünen ve kurallara uyan bir sürücü 'benmerkezci' (bencil) değildir."
   },
   {
     "id": 44,
