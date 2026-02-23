@@ -81,7 +81,7 @@
     "id": 7,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki sürücü hatalı geçme yapmaktadır. Geçmenin hatalı olmasının sebebi nedir?",
-    "image_url": "kavsaga-yaklasan-araba.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsaga-yaklasan-araba.png",
     "options": [
       { "text": "A) Kavşağa yaklaşılması", "isTrue": true },
       { "text": "B) Kara yolunun dar olması", "isTrue": false },
@@ -172,7 +172,7 @@
     "id": 14,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir durum yoksa, şekildeki motosiklet sürücüsü 60 km/saat hızla seyrederken önündeki araca en fazla kaç metre yaklaşabilir?",
-    "image_url": "motosiklet-surucusu-hiz4.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/motosiklet-surucusu-hiz4.png",
     "options": [
       { "text": "A) 10", "isTrue": false },
       { "text": "B) 20", "isTrue": false },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "İlkyardım",
     "question": "Dış kalp masajı uygulama basamaklarından hangisi görselde hatalı olarak verilmiştir?",
-    "image_url": "dis-kalp-masaji-451sdf.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/dis-kalp-masaji-451sdf.png",
     "options": [
       { "text": "A) Kazazedenin sert bir zemin üzerine sırt üstü yatırılarak yanına diz çökülmesi", "isTrue": false },
       { "text": "B) Göğüs kemiğinin alt ve üst ucunun tespit edilerek alt yarısına bir el topuğunun yerleştirilmesi", "isTrue": true },
@@ -302,7 +302,7 @@
     "id": 24,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki kavşağa yaklaşmakta olan beyaz otomobil sürücüsü, önündeki yer işaretlemesine göre hangisini yapmalıdır?",
-    "image_url": "kavsak-image_white_car_intersection.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-image_white_car_intersection.png",
     "options": [
       { "text": "A) Ters yönde ilerlediği için geri dönmeli", "isTrue": false },
       { "text": "B) Yol kapalı olduğu için farklı bir yoldan gitmeli", "isTrue": false },
@@ -367,7 +367,7 @@
     "id": 29,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki trafik işaretine göre, sürücü hangisini yapmak zorundadır?",
-    "image_url": "zincir-tak-kar-var51scsd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/zincir-tak-kar-var51scsd.png",
     "options": [
       { "text": "A) Eğimli yollarda vites küçültmek", "isTrue": false },
       { "text": "B) Lastik hava basınçlarını indirmek", "isTrue": false },
@@ -393,7 +393,7 @@
     "id": 31,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki durumla karşılaşan araç sürücüsünün, numaralandırılmış davranışlardan hangilerini yapması kaza riskini artırır?\nI. Kendi şeridine bakması\nII. Işıktan kurtulmak için hızını artırması\nIII. Kendisinin de uzun farları yakması",
-    "image_url": "araba-camina-isik-vuruyor.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/araba-camina-isik-vuruyor.png",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": false },
@@ -406,12 +406,12 @@
     "id": 32,
     "category": "İlkyardım",
     "question": "Yaralıyı sedye üzerine yerleştirme yöntemlerinden olan 'köprü tekniği' uygulamasına ait görsel hangisidir?",
-    "image_url": "https://random-url.com/stretcher_techniques.png",
+    "image_url": null,
     "options": [
-      { "text": "sedyea.png", "isTrue": false },
-      { "text": "sedyeb.png", "isTrue": true },
-      { "text": "sedyec.png", "isTrue": false },
-      { "text": "sedyed.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyea.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyeb.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyec.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/sedyed.png", "isTrue": false }
     ],
     "description": "Köprü tekniğinde ilkyardımcılar yaralının üzerine bacaklarını açarak durur ve yaralıyı gövdesinden sarsmadan dik olarak kaldırıp sedyenin altına sürülmesini sağlarlar."
   },
@@ -497,7 +497,7 @@
     "id": 39,
     "category": "İlkyardım",
     "question": "Görseldeki kazazedede hangi tür yaralanma meydana gelmiştir?",
-    "image_url": "kunt-yara.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kunt-yara.png",
     "options": [
       { "text": "A) Parçalı", "isTrue": false },
       { "text": "B) Delici", "isTrue": false },
@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre 2 numaralı aracın sürücüsü hangisini yapmalıdır?",
-    "image_url": "meb-sorusu-bu-kardesss.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/meb-sorusu-bu-kardesss.png",
     "options": [
       { "text": "A) Hızını artırmalı", "isTrue": false },
       { "text": "B) U dönüşü yapmalı", "isTrue": false },
@@ -561,7 +561,7 @@
     "id": 44,
     "category": "Araç Tekniği",
     "question": "Şekilde gösterilen (ok işareti ile belirtilen) parça aşağıdakilerden hangisidir?",
-    "image_url": "starter_motor_diagram.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/starter_motor_diagram.png",
     "options": [
       { "text": "A) Radyatör", "isTrue": false },
       { "text": "B) Marş Motoru", "isTrue": true },
@@ -652,7 +652,7 @@
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa yerleşim yeri dışındaki bölünmüş kara yolunda, şekildeki 1 numaralı aracın azami (en yüksek) hızı saatte kaç kilometredir?",
-    "image_url": "otobus-hizi-nekadar-541dsgsd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/otobus-hizi-nekadar-541dsgsd.png",
     "options": [
       { "text": "A) 50", "isTrue": false },
       { "text": "B) 70", "isTrue": false },
@@ -704,7 +704,7 @@
     "id": 55,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde bulunan şekildeki ikaz ışığı aşağıdakilerden hangisidir?",
-    "image_url": "https://random-url.com/rear_fog_light_symbol.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ikaz-lamba-arac-far-asfsdf4512.png",
     "options": [
       { "text": "A) Arka sis lambası ikaz ışığı", "isTrue": true },
       { "text": "B) Hava yastığı ikaz ışığı", "isTrue": false },
@@ -717,7 +717,7 @@
     "id": 56,
     "category": "İlkyardım",
     "question": "Görseldeki kanama durdurma yöntemi hangisidir?",
-    "image_url": "kola-bogucu-turnike.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kola-bogucu-turnike.png",
     "options": [
       { "text": "A) Kanayan yere direkt baskı uygulama", "isTrue": false },
       { "text": "B) Kanayan bölgeyi yukarı kaldırma", "isTrue": false },
@@ -833,7 +833,7 @@
     "id": 65,
     "category": "Trafik Adabı",
     "question": "I. Yayaların hayatını tehlikeye attıkları\nII. Kaldırım taşlarına zarar verdikleri\nIII. Empati düzeylerinin yüksek olduğu\nGörseldeki araç sürücüleri için numaralandırılmış ifadelerden hangileri söylenebilir?",
-    "image_url": "kaldirima-park-eden-suruculer.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kaldirima-park-eden-suruculer.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": true },
