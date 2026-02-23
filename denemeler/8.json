@@ -120,7 +120,7 @@
     "id": 10,
     "category": "Araç Tekniği",
     "question": "Sürücü, görseldeki trafik işaretine göre numaralanmış ifadelerden hangilerini yapmak zorundadır?\n\nI. Önündeki aracı selektörle uyarmak\nII. Hızını ayarlamak\nIII. Motor devrini yükseltmek\nIV. Zincir takmak",
-    "image_url": "zincir-tak-kar-var51scsd.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/zincir-tak-kar-var51scsd.png",
     "options": [
       { "text": "A) I ve IV", "isTrue": false },
       { "text": "B) II ve IV", "isTrue": true },
@@ -133,7 +133,7 @@
     "id": 11,
     "category": "İlkyardım",
     "question": "İlk yardımcı, görseldeki değerlendirmeden sonra ilk olarak hangisini yapmalıdır?",
-    "image_url": "bilinc-kontrol-sorusu12.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bilinc-kontrol-sorusu12.png",
     "options": [
       { "text": "A) Çevreden yüksek sesle yardım çağırıp 112'yi aramalıdır", "isTrue": true },
       { "text": "B) Kazazedeye baş geri-çene yukarı pozisyonu vermelidir", "isTrue": false },
@@ -200,10 +200,10 @@
     "question": "Trafik görevlisinin geceleyin yaptığı hareketlerden hangisi, yönün değiştirilmesi gerektiğini belirtir?",
     "image_url": null,
     "options": [
-      { "text": "gecegec-polis-sf4.png", "isTrue": false },
-      { "text": "polis-sorusu-d.png", "isTrue": false },
-      { "text": "gecedur-polis.png", "isTrue": false },
-      { "text": "gecedonus.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gecegec-polis-sf4.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-d.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gecedur-polis.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/gecedonus.png", "isTrue": false }
     ],
     "description": "D şıkkındaki şekil dönüş belirtir."
   },
@@ -224,7 +224,7 @@
     "id": 18,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işaretinin anlamı nedir?",
-    "image_url": "motorlu-tasit-giremez4.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/motorlu-tasit-giremez4.png",
     "options": [
       { "text": "A) Taşıt Giremez", "isTrue": false },
       { "text": "B) Motosiklet Giremez", "isTrue": false },
@@ -237,7 +237,7 @@
     "id": 19,
     "category": "Araç Tekniği",
     "question": "Hangisi, araç motoru çalışırken şekildeki arıza ikaz lambasının yanma sebeplerinden biri değildir?",
-    "image_url": "aku.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/aku.png",
     "options": [
       { "text": "A) Kayışının gevşemiş veya kopmuş olması", "isTrue": false },
       { "text": "B) Alternatörün arızalanması", "isTrue": false },
@@ -263,7 +263,7 @@
     "id": 21,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki trafik işareti sürücüye hangisini bildirir?",
-    "image_url": "kontrollu-demiryolu.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kontrollu-demiryolu.png",
     "options": [
       { "text": "A) Kontrollü demir yoluna yaklaşıldığını", "isTrue": true },
       { "text": "B) Kontrolsüz demir yoluna yaklaşıldığını", "isTrue": false },
@@ -302,7 +302,7 @@
     "id": 24,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik işareti hangisini bildirir?",
-    "image_url": "kasis-dsgsd12.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kasis-dsgsd12.png",
     "options": [
       { "text": "A) Kasisli yola girileceğini", "isTrue": true },
       { "text": "B) Yolda çalışma olduğunu", "isTrue": false },
@@ -369,10 +369,10 @@
     "question": "Akan trafikte, trafik görevlisinin hangi hareketi \"daha önce açık olan yolun kapanacağı, kapalı olan yolun ise açılacağı\" anlamındadır?",
     "image_url": null,
     "options": [
-      { "text": "polis-sorusu-c.png", "isTrue": true },
-      { "text": "acik2-sdf56sd.png", "isTrue": false },
-      { "text": "polis-sorusu-b.png", "isTrue": false },
-      { "text": "acik1-sfsd521.png", "isTrue": false }
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-c.png", "isTrue": true },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/acik2-sdf56sd.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/polis-sorusu-b.png", "isTrue": false },
+      { "text": "https://ehliyetim.github.io/fotos-img/img-fotos/acik1-sfsd521.png", "isTrue": false }
     ],
     "description": "Trafik polisinin elini havaya kaldırması, bütün yönlere yolun kapanacağını ve ardından trafiğin yön değiştireceğini (açık olanın kapanıp, kapalı olanın açılacağını) bildirir."
   },
@@ -393,7 +393,7 @@
     "id": 31,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I- Geçiş kurallarına uyduğu\nII- Karşı yönden gelen aracın hızını dikkate almadığı\nIII- Geçilen araçtan yeterince uzaklaşmadan sağ şeride geçtiği\n\nŞekle göre, geçme işlemi yapan 1 numaralı aracın sürücüsü için aşağıdakilerden hangileri söylenebilir?",
-    "image_url": "hatali-gecis1258.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-gecis1258.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": false },
@@ -432,7 +432,7 @@
     "id": 34,
     "category": "İlkyardım",
     "question": "Patlama ve yangın tehlikesinin olduğu durumlarda, gerekli güvenlik önlemleri alındıktan sonra, görseldeki yöntemle kazazede araç içerisinden çıkartılır. Bu yöntem kazazedede;\nI. bilincinin kapalı olması\nII. kalp atımlarının olmaması\nIII. solunum hareketlerinin durması\n\ndurumlarının hangilerinde uygulanır?",
-    "image_url": "rentek-manevrasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/rentek-manevrasi.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) Yalnız II", "isTrue": false },
@@ -458,7 +458,7 @@
     "id": 36,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde şekildeki uyarı lambasının yanıyor olması neyi bildirir?",
-    "image_url": "emniyet-kemeri-ikaz-isigi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/emniyet-kemeri-ikaz-isigi.png",
     "options": [
       { "text": "A) Emniyet kemerinin takılı olmadığını", "isTrue": true },
       { "text": "B) Hava yastığı sisteminde bir arıza olduğunu", "isTrue": false },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Takip mesafesini azaltmak\nII. Hızını azaltmak\nIII. İkaz ışıklarını yakmak\n\nSürüş sırasında görseldeki trafik işaretini gören sürücü, numaralanmış ifadelerden hangilerini yapmak zorundadır?",
-    "image_url": "gevsek-sev-sgds51.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gevsek-sev-sgds51.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) Yalnız II", "isTrue": true },
@@ -536,7 +536,7 @@
     "id": 42,
     "category": "İlkyardım",
     "question": "Görselde yaşam kurtarma zinciri ile ilgili halkalar verilmiştir.\nBuna göre, numaralanmış halkalardan hangileri ilk yardım kapsamında yer alır?",
-    "image_url": "hayat-kurtarma-2-halka-nedir.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hayat-kurtarma-2-halka-nedir.png",
     "options": [
       { "text": "A) I ve II", "isTrue": true },
       { "text": "B) I ve IV", "isTrue": false },
@@ -705,7 +705,7 @@
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görseldeki trafik işaretini gören sürücünün aşağıdakilerden hangisini yapması yanlıştır?",
-    "image_url": "yaya-gecidi-levhasi.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yaya-gecidi-levhasi.png",
     "options": [
       { "text": "A) Yolu kontrol etmesi", "isTrue": false },
       { "text": "B) Öndeki aracı geçmesi", "isTrue": true },
@@ -770,7 +770,7 @@
     "id": 60,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Görsele göre, sağdaki mavi aracın sürücüsü nasıl davranmalıdır?",
-    "image_url": "mavi-beyaz-araba-gecis-beyaz.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/mavi-beyaz-araba-gecis-beyaz.png",
     "options": [
       { "text": "A) Geçiş hakkını korna kullanarak istemeli", "isTrue": false },
       { "text": "B) Hızlanarak yoluna devam etmeli", "isTrue": false },
@@ -835,7 +835,7 @@
     "id": 65,
     "category": "Araç Tekniği",
     "question": "Aracın gösterge panelinde bulunan şekildeki gösterge sürücüye neyi bildirir?",
-    "image_url": "hararet-ikaz-isisgi-kmhz-sdfsd54.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hararet-ikaz-isisgi-kmhz-sdfsd54.png",
     "options": [
       { "text": "A) Karterdeki yağ miktarını", "isTrue": false },
       { "text": "B) Depodaki yakıt miktarını", "isTrue": false },
