@@ -15,8 +15,8 @@
   {
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre sürücünün hangisini yapması doğru olur?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görsele  göre sürücünün hangisini yapması doğru olur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/inek-cikabilir-sorusu.png",
     "options": [
       { "text": "Hızını azaltması", "isTrue": true },
       { "text": "Sol şeride geçmesi", "isTrue": false },
@@ -198,8 +198,8 @@
     {
     "id": 17,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre, beyaz minibüs sürücüsünün yapması gereken davranış hangisidir?",
-    "image_url": "https://random-url.com/video_frame.png",
+    "question": "Görsele göre, beyaz minibüs sürücüsünün yapması gereken davranış hangisidir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-yolver-treyler-sfd54.png",
     "options": [
       { "text": "A) Hızını azaltarak yoluna devam etmeli", "isTrue": false },
       { "text": "B) Hızını arttırıp traktörün önünden geçmelidir", "isTrue": false },
@@ -224,15 +224,15 @@
   {
     "id": 19,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücü, ileride hangi tehlikeyle karşılaşabileceğini düşünmelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "I. Kamyon sürücüsü kırmızı araçtan önce geçişini tamamlamalıdır.\nII. Kırmızı araç sürücüsü hızını artırarak kamyondan önce geçmelidir.\nIII. Kırmızı aracın  sürücüsü 50 km/saate indirmelidir \nŞekilde bir aracın ilk ve son durumu gösterilmiştir,buna göre yukardakilerden hangisi doğrudur",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecis-ve-hiz-sorusu.png",
     "options": [
-      { "text": "İş araçları yollarda görünebilir", "isTrue": false },
-      { "text": "Yola yabani hayvan çıkabileceğini", "isTrue": false },
-      { "text": "Yola taş yuvarlanmış olabileceğini", "isTrue": true },
-      { "text": "Yolda tehlikeli kasisler olabileceğini", "isTrue": false }
+      { "text": "I ", "isTrue": true },
+      { "text": "I ve III", "isTrue": false },
+      { "text": "II ve III", "isTrue": false },
+      { "text": "I, II ve III", "isTrue": false }
     ],
-    "description": "Videodaki veya görseldeki arazi yapısına göre heyelan/taş düşmesi tehlikesi öngörülmelidir."
+    "description": "Dikkat işareti bu bölgenin tehlikeli olduğunu,önceliklinin diğer bölgedeki inşaat araçlarına ait olduğunu gösterir.Önce kamyon geçer ve hız ise 30 olmalı 50 değil."
   },
   {
     "id": 20,
@@ -433,7 +433,7 @@
     "id": 35,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre gri renkli otomobil sürücüsü, geçiş hakkını nasıl kullanmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-video-sdfsd5gf1.mp4",
     "options": [
       { "text": "Kırmızı ve mavi arabanın ardından Sarı arabadan önce", "isTrue": false },
       { "text": "Bütün araçlardan sonra", "isTrue": true },
@@ -861,8 +861,8 @@
   {
     "id": 68,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki gibi geçiş üstünlüğüne sahip ambulansın görünür ve duyulur işaretini fark eden öndeki araçların sürücüleri nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/video_frame.png",
+    "question": "Görseldeki  gibi geçiş üstünlüğüne sahip ambulansın görünür ve duyulur işaretini fark eden öndeki araçların sürücüleri nasıl davranmalıdır?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ambulans-yolver-sfsf5412s.png",
     "options": [
       { "text": "A) Sağdaki trafiğin ilerlemesi beklenmelidir", "isTrue": false },
       { "text": "B) Ambulansın önünü derhal açıp yolu boşaltmalı", "isTrue": true },
