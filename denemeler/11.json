@@ -169,19 +169,6 @@
     "description": "Yolcuların yüklerin üzerinde taşınması hayati tehlike arz eder ve trafik kurallarına göre kesinlikle yasaktır."
   },
   {
-    "id": 14,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre hangi kural ihlali yapılmıştır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Geçme", "isTrue": false },
-      { "text": "B) Takip mesafesi", "isTrue": false },
-      { "text": "C) Şerit takip", "isTrue": false },
-      { "text": "D) Dönüş ve manevra", "isTrue": true }
-    ],
-    "description": "Görselde yeşil ile işaretlenen seçenek, araç sürücüsünün dönüş ve manevra kurallarına uymadığını göstermektedir."
-  },
-  {
     "id": 15,
     "category": "Araç Tekniği",
     "question": "• Araç hareket halindeyken ayağın debriyaj pedalı üzerinde devamlı durması.\n• Vites değiştirirken debriyaj pedalına tam basılmaması\n• Ani ve sert kalkışlar yapılması\nVerilen davranışların yapılması aracın öncelikle hangi sistemine zarar verir?",
@@ -232,19 +219,6 @@
       { "text": "D) Bayındırlık ve İskân Bakanlığı", "isTrue": false }
     ],
     "description": "Şehirler arası yolların inşası, işaretlenmesi ve bakımı Karayolları Genel Müdürlüğü'nün sorumluluğundadır."
-  },
-  {
-    "id": 19,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki sürücü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Okul taşıtı geçip yola devam etmelidir", "isTrue": false },
-      { "text": "B) Korna çalarak okul taşıtı sürücüsüne ikaz etmelidir.", "isTrue": false },
-      { "text": "C) Durup okul taşıtını beklemelidir.", "isTrue": true },
-      { "text": "D) Farklı bir yolu tercih etmelidir.", "isTrue": false }
-    ],
-    "description": "Okul taşıtlarının durması veya öğrenci indirme/bindirme yapması durumunda diğer sürücülerin durarak beklemesi zorunludur."
   },
   {
     "id": 20,
