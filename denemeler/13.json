@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre, kırmızı otomobil sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/video_question.mp4",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/soru-video-neyapmali-sf418.mp4",
     "options": [
       { "text": "A) Önündeki aracın sağından yoluna devam etmeli", "isTrue": false },
       { "text": "B) Solundaki şeride geçmeli", "isTrue": false },
@@ -531,19 +531,6 @@
       { "text": "D) Yarı yüzüstü yan yatış", "isTrue": true }
     ],
     "description": "Bilinci kapalı (koma) olan kazazedelerde dilin geriye kaçmasını önlemek ve soluk yolunu açık tutmak için yarı yüzüstü yan yatış (koma pozisyonu) verilir."
-  },
-  {
-    "id": 42,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/intersection_video_still.png",
-    "options": [
-      { "text": "A) Beyaz araba sürücüsü ters yönden geliyor", "isTrue": false },
-      { "text": "B) Mavi arabanın sürücüsü öncelik geçiş hakkını beyaz arabaya vermedi", "isTrue": false },
-      { "text": "C) Kırmızı aracın sürücüsü sağdan gelen mavi aracın sürücüsüne geçiş hakkı vermedi", "isTrue": false },
-      { "text": "D) Mavi otomobil sürücüsünün kavşak içindeki kırmızı otomobile ilk geçiş hakkını vermesi gerekir.", "isTrue": true }
-    ],
-    "description": "Trafik kurallarına göre, dönel kavşak içindeki araçların geçiş üstünlüğü vardır; kavşağa giren mavi araç, içerideki kırmızı araca yol vermelidir."
   },
   {
     "id": 43,
