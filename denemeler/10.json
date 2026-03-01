@@ -200,12 +200,12 @@
     "question": "Sürücü, ileride hangi tehlikeyle karşılaşabileceğini düşünmelidir?",
     "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yabani-hayvan-cikabiliri-levha-dsgd5412.png",
     "options": [
-      { "text": "A) Hızı azaltın", "isTrue": false },
-      { "text": "B) Takip mesafesini azaltması", "isTrue": false },
-      { "text": "C) Yabani hayvan çıkabileceğini düşünerek önlem alması", "isTrue": true },
-      { "text": "D) Önündeki araçla arasında yeterli takip mesafesi bırakması", "isTrue": false }
+      { "text": "A) Dağdan taşların düşebileceği", "isTrue": false },
+      { "text": "B) Yola çocukların atlayabileceğini", "isTrue": false },
+      { "text": "C) Yabani hayvan çıkabileceğini", "isTrue": true },
+      { "text": "D) Önündeki aracın aniden hızlanabileceğini", "isTrue": false }
     ],
-    "description": "Görseldeki tabela veya ortam (videodan alınan kare) yabani hayvan çıkabileceğine işaret etmektedir."
+    "description": "Görseldeki tabela veya ortam  yabani hayvan çıkabileceğine işaret etmektedir."
   },
   {
     "id": 17,
