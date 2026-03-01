@@ -197,7 +197,7 @@
   {
     "id": 16,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Şekilde yolunda giden arabaları için görseldeki 1. ve 2. durum verilmiştir. 2. durumda siyah arabanın durduğunu farkeden şoför sürücüsü nasıl hareket etmeli?",
+    "question": "Şekilde yolunda giden arabalar için görseldeki 1. ve 2. durum verilmiştir. 2. durumda siyah arabanın durduğunu farkeden şoför sürücüsü nasıl hareket etmeli?",
     "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-yol-durumu-nasil-girmelisdfdsg854125sdf.png",
     "options": [
       { "text": "A) Aynı hızla yoluna devam etmek", "isTrue": false },
