@@ -197,8 +197,8 @@
   {
     "id": 16,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre sürücü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Şekilde yolunda giden arabaları için görseldeki 1. ve 2. durum verilmiştir. 2. durumda siyah arabanın durduğunu farkeden şoför sürücüsü nasıl hareket etmeli?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-yol-durumu-nasil-girmelisdfdsg854125sdf.png",
     "options": [
       { "text": "A) Aynı hızla yoluna devam etmek", "isTrue": false },
       { "text": "B) Sağ taraftan bir yayanın olabileceğini düşünerek durmalı", "isTrue": true },
@@ -249,8 +249,8 @@
   {
     "id": 20,
     "category": "Araç Tekniği",
-    "question": "Videodaki gösterge panelinde yanan ikaz lambası sürücüye hangisini bildirir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görseldeki araç yolda giderken gösterge panelinde şekildeki ikaz lambası yanmaktadır bu durumda sürücü ne olduğunu düşünmelidir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/arac-hararet-dsgsd5125-gorsel.png",
     "options": [
       { "text": "A) Araç motorunun hararet yaptığı", "isTrue": true },
       { "text": "B) Cam suyu motoru arızalı olduğunu", "isTrue": false },
