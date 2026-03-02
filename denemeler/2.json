@@ -198,7 +198,7 @@
     "id": 16,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Karayolunun ıslak olması\nII. Takip mesafesine uyulmaması\nIII. Mavi otomobil sürücüsünün hatalı geçme yapması\nIV. Orta ve sağ şeritteki araçların yavaş seyretmeleri\n\nVideodaki tehlikeli durumun oluşmasına numaralanmış ifadelerden hangilerinin etkisi olmuştur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yagmur-yagis-video-sorusu-sdgsd5412.mp4",
     "options": [
       { "text": "A) I ve IV", "isTrue": false },
       { "text": "B) III ve IV", "isTrue": false },
@@ -431,8 +431,8 @@
   {
     "id": 34,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Empati düzeyinin düşürülmesi\nII. İletişimde ön yargılı davranılması\nIII. Öfkenin başarılı bir şekilde yönetilmesi\n\nVideoya göre kırmızı renkli aracın sürücüsünün davranışlarıyla ilgili aşağıdakilerden hangisi söylenemez?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görselde trafik akışından iki görsel gösterilmektedir,kırmızı araç sürücüsü yola kontrolsüz katılmaktadır ve kazaya sebep olmuştur.\nBuna göre kırmızı renkli aracın sürücüsünün davranışlarıyla ilgili aşağıdakilerden hangisi söylenemez?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-arac-salak-hatali-gecis-yapiyor-sdgsd8451.png",
     "options": [
       { "text": "A) Deneyimsiz bir sürücüdür ve diğer sürücüleri tehlikeye düşürmektedir", "isTrue": false },
       { "text": "B) Trafik akışına uygun şekilde hareket ettiği için deneyimli bir sürücüdür", "isTrue": true },
@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre, kırmızı otomobil sürücüsü numaralandırılmış hatalardan hangilerini yapmaktadır?\nI. Kırmızı ışıkta geçmektedir.\nII. Sağdan gelen yeşil araca ilk geçiş hakkını vermemektedir.\nIII. Girişi olmayan yol bölümüne girmektedir.",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ters-yon-gecis-video-asfsa512.png",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": true },
@@ -518,19 +518,6 @@
       { "text": "D) I, II ve III", "isTrue": false }
     ],
     "description": "Görselde doğru cevap işaretlenmemiş olsa da, kırmızı aracın yaptığı hatalar (II ve III) genellikle doğru cevaptır. Ancak görselde 'Yeşil' işaretli şık bulunamadığı için tümü 'false' işaretlendi."
-  },
-  {
-    "id": 41,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Hatalı geçme yaptığı\nII. Hız sınırına uymadığı\nIII. Şerit takip kuralına uymadığı\nIV. Araç ışıklarını gerek yerde kullanmadığı\n\nYeşil aracın sürücüsü için hangileri kesinlikle söylenir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) II ve III", "isTrue": false },
-      { "text": "B) I, II ve IV", "isTrue": false },
-      { "text": "C) I, III ve IV", "isTrue": true },
-      { "text": "D) II, III ve IV", "isTrue": false }
-    ],
-    "description": "Yeşil araç sinyal vermiyor ve şerit ihlali yapıyor."
   },
   {
     "id": 42,
