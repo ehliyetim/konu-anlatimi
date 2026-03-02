@@ -91,30 +91,30 @@
     "description": "Doğru devir ve vites seçimi yakıt ekonomisi için en kritik faktördür."
   },
   {
-    "id": 8,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücünün videoda dikkat etmesi gereken tehlikeli durum hangisidir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Sol şeritte ilerleyen bir araç orta şeride geçebilir", "isTrue": false },
-      { "text": "B) Bir iş makinesi sağ taraftan yola çıkabilir", "isTrue": false },
-      { "text": "C) Elektronik denge kontrol sistemi (EDS) devre dışı kalabilir", "isTrue": false },
-      { "text": "D) Bir araç yakıt istasyonundan yola çıkabilir", "isTrue": true }
-    ],
-    "description": "Yol kenarı tesislerinden ana yola katılan araçlar her zaman takip edilmelidir."
-  },
+  "id": 8,
+  "category": "Trafik ve Çevre Bilgisi",
+  "question": "Aşağıdakilerden hangisi güvenli takip mesafesinin korunmasının en önemli nedenidir?",
+  "image_url": "",
+  "options": [
+    { "text": "A) Yakıt tasarrufu sağlamak", "isTrue": false },
+    { "text": "B) Trafik akışını hızlandırmak", "isTrue": false },
+    { "text": "C) Ani durmalarda çarpışmayı önlemek", "isTrue": true },
+    { "text": "D) Diğer sürücülere yol vermek", "isTrue": false }
+  ],
+  "description": "Takip mesafesi, öndeki aracın ani fren yapması durumunda güvenli şekilde durabilmek için bırakılması gereken mesafedir."
+},
   {
     "id": 9,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoda sürücü 80 km/sa hızla seyretmektedir. Sürücünün önündeki araçla arasındaki takip mesafesi kaç metre olmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görseldeki sürücü 80 km/sa hızla seyretmektedir. Sürücünün önündeki araçla arasındaki takip mesafesi kaç metre olmalıdır?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tehlikeli-madde-tasiyan-araba-afssdf512.png",
     "options": [
       { "text": "A) 40", "isTrue": false },
       { "text": "B) 50", "isTrue": false },
       { "text": "C) 60", "isTrue": false },
       { "text": "D) 70", "isTrue": true }
     ],
-    "description": "Videodaki özel yol durumu veya güvenlik payı nedeniyle takip mesafesi 70 metre olarak belirlenmiştir."
+    "description": "Görselde gösterilen 70m levhası bunu gerektirir"
   },
   {
     "id": 10,
@@ -250,7 +250,7 @@
     "id": 20,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videodaki kavşakta ilk geçiş hakkını hangi araç sürücüsü kullanmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kavsak-gecis-video-sdfsd5gf1.mp4",
     "options": [
       { "text": "A) Kırmızı", "isTrue": false },
       { "text": "B) Sarı", "isTrue": false },
