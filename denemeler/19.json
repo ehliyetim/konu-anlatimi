@@ -65,19 +65,6 @@
     "description": "Hoşgörülü olmak, trafikteki gerginlikleri azaltır, diğer sürücülerin hatalarına karşı sabırlı olmayı sağlar ve kaza riskini düşürür."
   },
   {
-    "id": 6,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre, numaralı araç sürücülerinden hangileri hatalı sürüş yapmaktadır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) II ve III", "isTrue": false },
-      { "text": "C) I, II ve III", "isTrue": false },
-      { "text": "D) I, III ve IV", "isTrue": true }
-    ],
-    "description": "Görsel veya videoda şerit ihlali, hatalı sollama veya takip mesafesi kuralına uymayan araçlar sorulmaktadır."
-  },
-  {
     "id": 7,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki trafik görevlisinin işaretine göre 2 numaralı aracın sürücüsü ne yapmalıdır?",
@@ -600,8 +587,8 @@
   {
     "id": 47,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoda, tünel çıkışındaki \"Bilgi İşareti\" sürücülere hangisini belirtmektedir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görseldeki, tünel çıkışındaki \"Bilgi İşareti\" sürücülere hangisini belirtmektedir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tunel-cikisi-levha-hangisi-45sd1f2.png",
     "options": [
       { "text": "A) Yolun sağdan daralacağını", "isTrue": false },
       { "text": "B) Yolun soldan daralacağını", "isTrue": false },
@@ -635,19 +622,6 @@
       { "text": "D) Marş sistemi", "isTrue": false }
     ],
     "description": "Debriyaj, vites kutusu, şaft, diferansiyel ve akslardan oluşan sisteme güç aktarma organları denir."
-  },
-  {
-    "id": 50,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki durumla karşılaşan sürücü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Siyah arabanın önünden fazlaca geçerek ilerlemeli", "isTrue": false },
-      { "text": "B) Bekleyip siyah araçtan sonra devam etmeli", "isTrue": true },
-      { "text": "C) Siyah aracın önünü kesip sürücüyü ikaz etmeli", "isTrue": false },
-      { "text": "D) Sağdaki ara yola dönerek yola devam etmeli", "isTrue": false }
-    ],
-    "description": "Güvenli sürüş kuralları gereği, tehlike arz eden veya geçiş üstünlüğü/önceliği olan durumlarda (kontrolsüz kavşak vb. senaryosuna göre) sürücünün diğer aracı beklemesi gerekir."
   },
   {
     "id": 51,
