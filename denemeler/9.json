@@ -107,7 +107,7 @@
     "id": 9,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sürücü, ileride hangi tehlikeyle karşı olabileceğini düşünmelidir",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yola-tasalar-firlamam-levha-sfskfsf4512.png",
     "options": [
       { "text": "İş araçları yollarda görünebilir", "isTrue": false },
       { "text": "Yola yabani hayvan çıkabileceğini", "isTrue": false },
@@ -158,8 +158,8 @@
   {
     "id": 13,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre, kırmızı otomobil sürücüsünün hangisini yapması doğru",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görsele göre, kırmızı otomobil sürücüsünün hangisini yapması doğru",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/mavi-arac-surucusu-neyapmaliasfasf-saf84561.png",
     "options": [
       { "text": "Sola yanaşıp beklemesi", "isTrue": false },
       { "text": "Ayrı şeritte yoluna devam etmesi", "isTrue": false },
@@ -172,7 +172,7 @@
     "id": 14,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sürücü hangi tehlikenin kesinlikle olabileceğini düşünmelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yola-cocuk-firalama-tehlikesi-sdfd8541.png",
     "options": [
       { "text": "Çocuğun araçların önüne çıkabileceğini", "isTrue": true },
       { "text": "Sağ taraftaki aracın yola çıkabileceğini", "isTrue": false },
@@ -260,19 +260,6 @@
     "description": "Belediyeler sorumlu oldukları yollarda tüm işaretleme ve levhalandırma işlemlerinden sorumludur."
   },
   {
-    "id": 21,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Trafik işaretlerine uymama\nII. Kavşaklarda geçiş önceliğine uymama\nIII. Sağa dönerken geniş açıyla dönme\nIV. Araç ışıklarını gerekli yerlerde kullanmama\n\nKırmızı renkli otomobil sürücüsü, numaralanmış trafik kuralı ihlallerinden hangilerini yapmıştır?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "I ve II", "isTrue": false },
-      { "text": "II ve IV", "isTrue": false },
-      { "text": "I, II ve IV", "isTrue": true },
-      { "text": "I, II, III ve IV", "isTrue": false }
-    ],
-    "description": "Video/görsel içerikli soru."
-  },
-  {
     "id": 22,
     "category": "Trafik Adabı",
     "question": "Hangisi trafikteki iletişimle ilgili değildir?",
@@ -328,7 +315,7 @@
     "id": 26,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Kırmızı ışıkta geçmek\nII. Girişi olmayan yola girmek\nIII. İlk geçiş hakkı kuralına uymamak\n\nVideodaki otomobil sürücüsü, numaralanmış kural ihlallerinden hangilerini yapmıştır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecisi-olmayan-yol-hatalar-sdfsd45fs.mp4",
     "options": [
       { "text": "I ve II", "isTrue": false },
       { "text": "I ve III", "isTrue": false },
