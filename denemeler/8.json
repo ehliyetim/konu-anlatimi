@@ -312,6 +312,19 @@
     "description": "Tümsek şeklindeki levha, yolda kasis (hendek/tümsek) olduğunu bildirir."
   },
   {
+    "id": 25,
+    "category": "Trafik ve Çevre Bilgisi",
+    "question": "I. Mavi otomobil sürücüsü şerit ihlali yapmaktadır.\nII. Kırmızı otomobil sürücüsü ters şeritten gelmektedir.\nIII. Mavi otomobil sürücüsü, araç ışıklarını gerekli yerde kullanmaktadır.\nGörsele göre numaralanmış ifadelerden hangileri kesinlikle doğrudur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-gecis-mavi-araba-asfsf8451fs.png",
+    "options": [
+      { "text": "A) Yalnız I", "isTrue": true },
+      { "text": "B) I ve III", "isTrue": false },
+      { "text": "C) II ve III", "isTrue": false },
+      { "text": "D) I, II ve III", "isTrue": false }
+    ],
+    "description": "Görselde  mavi aracın iki şeridi ortaladığı (şerit ihlali yaptığı) görülmektedir."
+  },
+  {
     "id": 26,
     "category": "Trafik Adabı",
     "question": "Öfkeli sürücülerin trafikteki olumsuz davranışlarının sebeplerini ve bunların diğer sürücülere etkilerinin incelenmesine ne ad verilir?",
