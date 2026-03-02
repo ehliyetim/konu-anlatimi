@@ -236,15 +236,15 @@
   {
     "id": 19,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücünün hangisini yapması doğrudur? (Video/Görsel içerik)",
-    "image_url": "https://random-url.com/image_intersection_video.png",
+    "question": "Şekilde bir yolda 1. ve 2. durum gösterilmektedir,bunlara göre hangisi kesinlikle söylenir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-araba-hatanedir-sdfsd52.png",
     "options": [
-      { "text": "A) Yeşil ışığın yanmasını beklemek", "isTrue": false },
-      { "text": "B) Kavşağı derhal boşaltmak", "isTrue": true },
-      { "text": "C) Dörtlü ikazı açarak beklemek", "isTrue": false },
-      { "text": "D) Geriye hemen dönmek", "isTrue": false }
+      { "text": "A) Otobüs sürücüsü kendisi için belirlenmemiş bir şeritte durur","isTrue": false },
+      { "text": "B) Kırmızı otobüs sürücüsü şerit ihlali yaptığı", "isTrue": true },
+      { "text": "C) Mavi araç sürücüsünün geçiş kolaylığı sağlamadığı ", "isTrue": false },
+      { "text": "D) Gri araç sürücüsünün takip mesafesine uymadığı", "isTrue": false }
     ],
-    "description": "Kavşak içine girilmişse ve trafik akışı değişmişse, trafiği engellememek adına kavşak güvenli bir şekilde terk edilmelidir."
+    "description": "Kırmızı araç hatalı bir geçiş yapmaktır.Diğer şıklar doğrudur"
   },
   {
     "id": 20,
@@ -276,7 +276,7 @@
     "id": 22,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Evcil hayvan çıkabileceğini\nII. Öndeki kamyonun ani fren yapabileceğini\nIII. İleride trafik kontrolünün yapılacağını\nSürücü hangilerini olabileceğini düşünmelidir?",
-    "image_url": "https://random-url.com/image_video_context_22.png",
+    "image_url": "inek-cikabilir-kamyon-dikkat-sdgsd5221.png",
     "options": [
       { "text": "A) I ve II", "isTrue": true },
       { "text": "B) I ve III", "isTrue": false },
@@ -288,8 +288,8 @@
   {
     "id": 23,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Motosiklet sürücüsü için hangisi söylenebilir? (Video içerikli soru)",
-    "image_url": "https://random-url.com/motorcycle_danger_video.png",
+    "question": "Motosiklet sürücüsü için hangisi söylenebilir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/motosiklet-surucu-napiyon-ksafs94512s.mp4",
     "options": [
       { "text": "A) Motosiklet olduğu için araçların arasından geçebileceği", "isTrue": false },
       { "text": "B) Trafik sıkışıklığını azalttığı", "isTrue": false },
@@ -636,19 +636,6 @@
     "description": "Belediyeler, kendi sınırları içerisindeki yolların bakımından, işaretlemesinden ve trafik eğitim parkları kurmaktan sorumludur."
   },
   {
-    "id": 50,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Sürücünün hangisini yapması doğrudur? (Video içerikli soru)",
-    "image_url": "https://random-url.com/video_frame_highway.png",
-    "options": [
-      { "text": "A) Aynı hızda devam etmesi", "isTrue": true },
-      { "text": "B) Hızını artırması", "isTrue": false },
-      { "text": "C) Hemen sağ şeride geçmesi", "isTrue": false },
-      { "text": "D) Öndeki aracı uyararak hızlanmasını istemesi", "isTrue": false }
-    ],
-    "description": "Görseldeki trafik akışına ve yol durumuna göre sürücünün güvenli takip mesafesini koruyarak aynı hızda devam etmesi en doğru ve güvenli davranıştır."
-  },
-  {
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aksine bir işaret yoksa yerleşim yeri dışındaki bölünmüş kara yolunda, şekildeki 1 numaralı aracın azami (en yüksek) hızı saatte kaç kilometredir?",
@@ -726,19 +713,7 @@
     ],
     "description": "Uzuv kopması veya durdurulamayan büyük kanamalarda, kan akışını tamamen kesmek için tek kemik üzerine uygulanan sıkma yöntemine turnike denir."
   },
-  {
-    "id": 57,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre numaralanmış ifadelerden hangileri doğrudur?\nI. Bordo renkli araç sürücüsü yaya geçidini ihlal etmiştir.\nII. Mavi araç sürücüsü kırmızı ışık ihlali yapmıştır.\nIII. Gri araç sürücüsü kırmızı ışık ihlali yapmıştır.",
-    "image_url": "https://random-url.com/traffic_light_violation_video.png",
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": true }
-    ],
-    "description": "Video karesindeki trafik durumuna göre tüm araçların ışık ve yaya geçidi kurallarına uymadığı tespit edilmiştir."
-  },
+
   {
     "id": 58,
     "category": "Trafik Adabı",
