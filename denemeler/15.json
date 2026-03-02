@@ -198,7 +198,7 @@
     "id": 17,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki görselde önündeki aracı geçmek için sinyal yakan araba gösterilmektedir buna göre sürücü ne yapmalıdır?",
-    "image_url": "gorus-acisi-kotu-nereyegeciyon-dsf845.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gorus-acisi-kotu-nereyegeciyon-dsf845.png",
     "options": [
       { "text": "A) Sesli uyarı aracı ile ikaz ederek öndeki aracın sağa yanaşıp durmasını sağlamalı", "isTrue": false },
       { "text": "B) Görüş açısı netleşene kadar öndeki aracı takip etmeli", "isTrue": true },
@@ -641,7 +641,7 @@
     "id": 52,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Şekildeki resimde kırmızı araç için birinci ve ikinci durum verilmiştir.Buna göre Kırmızı araç sürücüsü hangi trafik kuralını ihlal etmiştir?",
-    "image_url": "kirmizi-araba-hatali-yolver-dgd541.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-araba-hatali-yolver-dgd541.png",
     "options": [
       { "text": "A) Şerit takip", "isTrue": false },
       { "text": "B) Araç ışıklarını gerekli yerde kullanma", "isTrue": false },
