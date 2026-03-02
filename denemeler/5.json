@@ -210,8 +210,8 @@
   {
     "id": 17,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki beyaz otomobil sürücüsünün yapabileceği davranışlarla ilgili hangisi doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görseldeki beyaz otomobil sürücüsü ileride sağa dönecek,sinyal lambasını yakıyor ve ilerliyor, aşağıdaki davranışlardan hangisini yaparsa doğru olur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/bisikletli-yol-ona-yolver-sfsd84512.png",
     "options": [
       { "text": "Hızlanarak bisikletten önce dönüş yapması", "isTrue": false },
       { "text": "Dönmekten vazgeçip karşı yoldan devam etmesi", "isTrue": false },
@@ -471,7 +471,7 @@
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Hızını azaltması\nII. Sol şeride geçmesi\nIII. Dikkatini artırması\nIV. Dörtlü ikaz ışıklarını yakması\nVideodaki sürücünün numaralanmış ifadelerden hangilerini yapması doğru olur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/inek-cikabilir-sorusu.png",
     "options": [
       { "text": "I ve III", "isTrue": true },
       { "text": "I ve IV", "isTrue": false },
@@ -705,7 +705,7 @@
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videodaki durumda sürücünün nasıl hareket etmesi gerekir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "yayalara-gecis-hakki-ver-esseksfsdf45.png",
     "options": [
       { "text": "Hızını azaltarak yoluna devam etmesi", "isTrue": false },
       { "text": "Yolun sol tarafına yaklaşarak ilerlemesi", "isTrue": false },
