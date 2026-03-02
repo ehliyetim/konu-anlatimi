@@ -276,7 +276,7 @@
     "id": 22,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Evcil hayvan çıkabileceğini\nII. Öndeki kamyonun ani fren yapabileceğini\nIII. İleride trafik kontrolünün yapılacağını\nSürücü hangilerini olabileceğini düşünmelidir?",
-    "image_url": "inek-cikabilir-kamyon-dikkat-sdgsd5221.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/inek-cikabilir-kamyon-dikkat-sdgsd5221.png",
     "options": [
       { "text": "A) I ve II", "isTrue": true },
       { "text": "B) I ve III", "isTrue": false },
