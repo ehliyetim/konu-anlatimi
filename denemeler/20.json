@@ -286,19 +286,6 @@
     "description": "Öndeki araç sağından geçilmez, sollama soldan yapılır."
   },
   {
-    "id": 23,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki trafik sıkışıklığının sebebi hangisidir?",
-    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/https://random-url.com/image.png",
-    "options": [
-      { "text": "Beyaz minibüs sürücüsünün geçiş hakkı kuralını ihlal etmesi", "isTrue": false },
-      { "text": "Siyah araç sürücüsünün dikkatsiz olması", "isTrue": true },
-      { "text": "Siyah araç sürücüsünün dönüş kurallarına uymaması", "isTrue": false },
-      { "text": "Hatalı park etmiş araçların geçişi zorlaştırması", "isTrue": false }
-    ],
-    "description": "Görseldeki (videodaki) duruma göre siyah aracın dikkatsizliği sorulmaktadır."
-  },
-  {
     "id": 24,
     "category": "Trafik Adabı",
     "question": "Yolda kalmış bir sürücünün aracına zincir takan bir sürücünün bu davranışı hangi temel değere örnektir?",
@@ -353,8 +340,8 @@
   {
     "id": 28,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki olumsuz durumun en önemli sebebi hangisidir?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Görselde bir duruma ait iki resim verilmiştir,buna göre  olumsuz durumun yani siyah arabanın yola direkt çıkması ve şoförün son anda fark etmesinin en önemli sebebi hangisidir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-sofor-yanlis-oark-etmis-sdgsd8451.png",
     "options": [
       { "text": "Siyah otomobil sürücüsünün sağa dönüş yapmaması", "isTrue": false },
       { "text": "Yoldaki trafik yoğunluğunun fazla olması", "isTrue": false },
