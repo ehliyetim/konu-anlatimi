@@ -1,17 +1,5 @@
 [
-  {
-    "id": 1,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/video_frame.png",
-    "options": [
-      { "text": "A) Motosikletçi en sağdan sürmeli", "isTrue": false },
-      { "text": "B) Motosiklet sürücüsünün geçme yapan araca yol vermediği", "isTrue": false },
-      { "text": "C) Siyah otomobil sürücüsünün hatalı geçme yaptığı", "isTrue": true },
-      { "text": "D) Trafik yavaş ilerlediğinden, siyah otomobil sürücüsünün sağ şeritten geçmek zorunda kaldığı", "isTrue": false }
-    ],
-    "description": "Videodaki trafik akışında siyah otomobilin kurallara aykırı bir şekilde şerit değiştirerek veya hatalı sollama yaparak trafiği tehlikeye attığı görülmektedir."
-  },
+
   {
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
@@ -94,7 +82,7 @@
     "id": 8,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre araç sürücüsünün hangisini yapması yanlış olur?",
-    "image_url": "https://random-url.com/video_frame_2.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yabani-hayvan-cikabiliri-levha-dsgd5412.png",
     "options": [
       { "text": "A) Hızını azaltması", "isTrue": false },
       { "text": "B) Takip mesafesini azaltması", "isTrue": true },
@@ -415,19 +403,7 @@
     ],
     "description": "Yolun bakımsızlığı, kaldırımlar ve uyarı işaretleri çevre faktörüdür. Ancak eski ve yetersiz araçların kullanılması 'araç faktörü'ne girer."
   },
-  {
-    "id": 33,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. U dönüşü yapmak yasaktır kuralı\nII. Geçiş hakkı\nIII. Şerit takip kuralı\n\nVideoya göre, trafik kurallarından hangileri ihlal edilmiştir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) I ve II", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": true },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
-    ],
-    "description": "Soru videolu bir soruya dayandığı için görsel analiz gerektirir, ancak doğru cevap I ve III (U dönüşü yasağı ve şerit takip kuralı ihlali) olarak belirtilmiştir."
-  },
+
   {
     "id": 34,
     "category": "İlkyardım",
@@ -756,8 +732,8 @@
   {
     "id": 59,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Karşıdan gelen araçların hatalı geçme yapabileceğini\nII. Yola yabani hayvan çıkabileceğini\nIII. Trafik denetimi yapılabileceğini\nIV. Kaza yapmış veya arızalanmış araçların olabileceğini\n\nVideodaki sürücü, yolun devamı ile ilgili verilen tehlikeli durumlardan hangilerinin olabileceğini dikkate almalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "I. Karşıdan gelen araçların hatalı geçme yapabileceğini\nII. Yola yabani hayvan çıkabileceğini\nIII. Trafik denetimi yapılabileceğini\nIV. Kaza yapmış veya arızalanmış araçların olabileceğini\nGörsele göre sürücü, yolun devamı ile ilgili verilen tehlikeli durumlardan hangilerinin olabileceğini dikkate almalıdır?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yabani-hayvan-cikabiliri-levha-dsgd5412.png",
     "options": [
       { "text": "A) I ve III", "isTrue": false },
       { "text": "B) II ve III", "isTrue": false },
