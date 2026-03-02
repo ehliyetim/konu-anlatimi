@@ -510,7 +510,7 @@
     "id": 40,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre, kırmızı otomobil sürücüsü numaralandırılmış hatalardan hangilerini yapmaktadır?\nI. Kırmızı ışıkta geçmektedir.\nII. Sağdan gelen yeşil araca ilk geçiş hakkını vermemektedir.\nIII. Girişi olmayan yol bölümüne girmektedir.",
-    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ters-yon-gecis-video-asfsa512.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/ters-yon-gecis-video-asfsa512.mp4",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": true },
