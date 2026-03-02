@@ -406,7 +406,7 @@
     "id": 32,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videoya göre araç sürücüsü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hararetvideosu-sdfsd4512dsf5.mp4",
     "options": [
       { "text": "Öndeki aracı geçmek", "isTrue": false },
       { "text": "Aniden durmak", "isTrue": false },
@@ -549,7 +549,7 @@
     "id": 43,
     "category": "Trafik Adabı",
     "question": "Sürücü hangisini yapsaydı trafik adabına uygun davranış olurdu?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yasli-adam-geciyor-bekle-lawwwwwsfsdkfsd51.mp4",
     "options": [
       { "text": "Korna çalarak yayayı uyarsaydı", "isTrue": false },
       { "text": "Araçtan inerek yayayı hızlıca karşıya geçseydi", "isTrue": false },
