@@ -342,7 +342,7 @@
     "id": 28,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Sürücü, kamyonu geçtikten sonra hangi tehlikenin olabileceğini düşünmelidir?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kamyon-nerde-hatali-yandan-ruzgar45sdf.png",
     "options": [
       { "text": "A) Öndeki kamyonun sola geçebileceğini", "isTrue": false },
       { "text": "B) Geçen kamyonun ani fren yapabileceğini", "isTrue": false },
@@ -508,19 +508,6 @@
     "description": "Bayılan birinin bilinci tam açık olmadığı için ağızdan sıvı verilmez (boğulma riski); beyne kan gitmesi için şok pozisyonu (II) verilir ve hayati fonksiyonları (III) izlenir."
   },
   {
-    "id": 41,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoda sağa dönüş yapan siyah otomobil sürücüsü, hangisini kesinlikle yapmıştır?",
-    "image_url": "https://random-url.com/video_frame.png",
-    "options": [
-      { "text": "A) Dönüş sinyalini vermeden dönmüştür", "isTrue": false },
-      { "text": "B) Döneceği yöne uygun şeride zamanında girmemiştir", "isTrue": true },
-      { "text": "C) Aracı, yol ve hava şartları gerektirdiği şekilde kullanır", "isTrue": false },
-      { "text": "D) Öndeki araçla takip mesafesine uymamıştır", "isTrue": false }
-    ],
-    "description": "Sürücü sağa döneceği halde en sağ şeride geçmek yerine orta şeritten dönüş yaparak şerit izleme kurallarını ihlal etmiştir."
-  },
-  {
     "id": 42,
     "category": "Araç Tekniği",
     "question": "Akünün elektrolit seviyesi azalmış ise ne ilave edilir?",
@@ -640,8 +627,8 @@
   {
     "id": 51,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Geçiş hakkı sürücüye aittir.\nII. Sağdan gelen kamyon şoförü geçiş hakkını kullanmalıdır.\nIII. Sürücü, sağdan gelen kamyon şoförüne öncelik verirse trafik adabına uygun davranmış olur.\nVideodaki araçların karşılaşmasıyla ilgili numaralanmış ifadelerden hangileri doğrudur?",
-    "image_url": "https://random-url.com/video_frame.png",
+    "question": "I. Geçiş hakkı sürücüye aittir.\nII. Sağdan gelen kamyon şoförü geçiş hakkını kullanmalıdır.\nIII. Sürücü, sağdan gelen kamyon şoförüne öncelik verirse trafik adabına uygun davranmış olur.\nGörselde bir bölgede iki farklı resim verilmiştir bu durumda ikinci durumda  araçların karşılaşmasıyla ilgili numaralanmış ifadelerden hangileri doğrudur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/surucu-ne-yapmali-ehliyet-kamyon54sdfs5d1.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) I ve II", "isTrue": false },
