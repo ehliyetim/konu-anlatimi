@@ -52,19 +52,6 @@
     "description": "Tablodaki verilere bakıldığında, 2013 ve 2014 yıllarında trafik kazalarındaki en yüksek kusur oranının açık ara farkla sürücülere ait olduğu görülmektedir."
   },
   {
-    "id": 5,
-    "category": "Trafik Adabı",
-    "question": "Videodaki sürücü, siyah minibüsün niçin durduğunu düşünmelidir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Yolcu indirdiğinden", "isTrue": false },
-      { "text": "B) Arızalandığından", "isTrue": false },
-      { "text": "C) Karşıdan karşıya bir yaya geçtiğinden", "isTrue": true },
-      { "text": "D) Trafik kontrolü yapıldığından", "isTrue": false }
-    ],
-    "description": "Trafikte aniden duran araçların önünden yaya geçebileceği her zaman varsayılmalı ve buna göre önlem alınarak yavaşlanmalıdır."
-  },
-  {
     "id": 6,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Aralıklı olarak yanıp sönen kırmızı ışıkta sürücü ne yapmalıdır?",
@@ -180,20 +167,20 @@
       { "text": "D) I, II ve III", "isTrue": true }
     ],
     "description": "Aracın bakımını yaptırmamak, yanlış lastik seçmek ve hatalı vites kullanımı sürücü kontrolünde olan ve yakıt tüketimini artıran insana bağlı faktörlerdir."
-  },
-  {
+  }, {
     "id": 15,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Mavi araç sürücüsü, şerit ihlali yapmaktadır. II. Araç ışıkları uygun yerlerde kullanılmamıştır. III. Trafiğin olması gereğinden yavaş ilerlemektedir. IV. Mavi otomobil sürücüsü trafiği tehlikeye sokmaktadır. Videoya göre numaralandırılmış ifadelerden hangileri doğrudur?",
-    "image_url": "https://random-url.com/image.png",
+    "category": "Trafik Adabı",
+    "question": "Videoya göre hangisi doğru olur??",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/video-sari-beyaz-siyah-sdf541.mp4",
     "options": [
-      { "text": "A) Yalnız I", "isTrue": false },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) I, II ve IV", "isTrue": true },
-      { "text": "D) I, II, III ve IV", "isTrue": false }
+      { "text": "A) Beyaz otomobil sürücüsünün beklemesi", "isTrue": true },
+      { "text": "B) Sarı otomobil sürücüsünün hızlanması", "isTrue": false },
+      { "text": "C) Siyah otomobil sürücüsünün sol şeride geçmesi", "isTrue": false },
+      { "text": "D) Siyah otomobil sürücüsünün beyaz otomobil sürücüsüne ilk geçiş hakkını vermesi", "isTrue": false }
     ],
-    "description": "Görseldeki (videodaki) mavi araç, şerit çizgilerini ihlal etmekte, ışık kullanım kurallarına uymamakta ve bu davranışlarıyla genel trafik güvenliğini tehlikeye atmaktadır."
+    "description": "Beyaz araba en son geçmeli"
   },
+
   {
     "id": 16,
     "category": "Araç Tekniği",
@@ -210,8 +197,8 @@
   {
     "id": 17,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre sürücü ne yapmalıdır?",
-    "image_url": "https://random-url.com/image.png",
+    "question": "Şekildeki görselde önündeki aracı geçmek için sinyal yakan araba gösterilmektedir buna göre sürücü ne yapmalıdır?",
+    "image_url": "gorus-acisi-kotu-nereyegeciyon-dsf845.png",
     "options": [
       { "text": "A) Sesli uyarı aracı ile ikaz ederek öndeki aracın sağa yanaşıp durmasını sağlamalı", "isTrue": false },
       { "text": "B) Görüş açısı netleşene kadar öndeki aracı takip etmeli", "isTrue": true },
@@ -419,7 +406,7 @@
     "id": 33,
     "category": "Trafik Adabı",
     "question": "Kırmızı araç sürücüsü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/traffic_video_thumbnail_1.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/gecis-ve-hiz-sorusu.png",
     "options": [
       { "text": "A) En az 50 km/saat hızla yoluna devam etmeli.", "isTrue": false },
       { "text": "B) Hızını artırarak kamyondan önce geçmelidir.", "isTrue": false },
@@ -428,19 +415,7 @@
     ],
     "description": "Güvenli bir trafik akışı için ana yoldaki veya geçiş önceliği olan araçlara, özellikle videodaki gibi bir durumda yol vermek nezaket ve kural gereğidir."
   },
-  {
-    "id": 34,
-    "category": "Trafik Adabı",
-    "question": "Videodaki motosiklet sürücüsünün trafikteki hareketleriyle ilgili hangisi söylenemez?",
-    "image_url": "https://random-url.com/traffic_video_thumbnail_2.png",
-    "options": [
-      { "text": "A) Araç ışıklarının uygun yerlerde kullanılmaktadır", "isTrue": false },
-      { "text": "B) Dönüş yapacağı yöne uygun taraftan gitmektedir.", "isTrue": true },
-      { "text": "C) Trafik ışık ve levhalarına uygun hareket etmektedir.", "isTrue": false },
-      { "text": "D) Başka araçların geçiş haklarını engellemektedir.", "isTrue": false }
-    ],
-    "description": "Görseldeki (videodaki) işaretli doğru cevaba göre sürücünün dönüş yapacağı yöne uygun konum almadığı belirtilmektedir."
-  },
+ 
   {
     "id": 35,
     "category": "Araç Tekniği",
@@ -484,7 +459,7 @@
     "id": 38,
     "category": "Trafik Adabı",
     "question": "Videodaki sürücünün hangisini yapması doğru olur?",
-    "image_url": "https://random-url.com/image.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hararetvideosu-sdfsd4512dsf5.mp4",
     "options": [
       { "text": "A) Öndeki aracı geçmek", "isTrue": false },
       { "text": "B) Trafik kurallarına uymak ve derhal durmak", "isTrue": true },
@@ -665,8 +640,8 @@
   {
     "id": 52,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Kırmızı araç sürücüsü hangi trafik kuralını ihlal etmiştir?",
-    "image_url": "https://random-url.com/image_52.png",
+    "question": "Şekildeki resimde kırmızı araç için birinci ve ikinci durum verilmiştir.Buna göre Kırmızı araç sürücüsü hangi trafik kuralını ihlal etmiştir?",
+    "image_url": "kirmizi-araba-hatali-yolver-dgd541.png",
     "options": [
       { "text": "A) Şerit takip", "isTrue": false },
       { "text": "B) Araç ışıklarını gerekli yerde kullanma", "isTrue": false },
@@ -752,19 +727,6 @@
       { "text": "D) Hizmetin devamı süresince koruma araçları ile korunan araçlar", "isTrue": false }
     ],
     "description": "Toplu taşıma araçlarının trafikte geçiş üstünlüğü yoktur; bu hak ambulans, itfaiye ve polis gibi acil durum araçlarına tanınmıştır."
-  },
-  {
-    "id": 59,
-    "category": "Trafik Adabı",
-    "question": "Videodaki sürücülerin hareketleriyle ilgili hangisi kesinlikle söylenir?",
-    "image_url": "https://random-url.com/video_thumbnail_59.png",
-    "options": [
-      { "text": "A) Mavi araç sürücüsü araç ışıklarını doğru yerde ve zamanda kullandığı", "isTrue": false },
-      { "text": "B) Mavi otomobil sürücüsünün, önündeki aracı takip mesafesi yetersiz olduğu", "isTrue": false },
-      { "text": "C) Kırmızı araç sürücüsünün hareketlerini doğru olduğu", "isTrue": false },
-      { "text": "D) Kırmızı aracın sürücüsünün hareketleri trafiği tehlikeye sokmadığı", "isTrue": true }
-    ],
-    "description": "Görseldeki işaretli şıkka göre, kırmızı araç sürücüsünün manevralarının trafik güvenliğini bozmadığı tespit edilmiştir."
   },
   {
     "id": 60,
