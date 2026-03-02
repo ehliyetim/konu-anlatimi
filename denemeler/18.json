@@ -15,8 +15,8 @@
   {
     "id": 2,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki tehlikeli durum, sürücülerin hangi kuralı ihlal etmeleri sonucunda oluşmuştur?",
-    "image_url": "https://random-url.com/video_thumbnail.png",
+    "question": "Görseldeki tehlikeli durum, sürücülerin hangi kuralı ihlal etmeleri sonucunda oluşmuştur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/serit-takip-hatasi-asfasf64s5af12as.mp4",
     "options": [
       { "text": "A) Geçme kuralı", "isTrue": false },
       { "text": "B) Şerit takip kuralı", "isTrue": false },
@@ -80,8 +80,8 @@
   {
     "id": 7,
     "category": "Trafik Adabı",
-    "question": "Videoya göre, mavi araç sürücüsü hangisini yaparsa doğru davranmış olur?",
-    "image_url": "https://random-url.com/tram_video.png",
+    "question": "Görsele göre, mavi araç sürücüsü hangisini yaparsa doğru davranmış olur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yolcular-tramvaya-gidecek-dikkatsdf41.png",
     "options": [
       { "text": "A) Trafik ışığı yeşil olduğu için yoluna devam ederse", "isTrue": false },
       { "text": "B) Tramvaya yetişmek isteyenlerin yola çıkabileceğini düşünerek hızını iyice azaltırsa", "isTrue": true },
@@ -262,15 +262,15 @@
   {
     "id": 21,
     "category": "Araç Tekniği",
-    "question": "Videodan uyarı ışığı sürücüye neyi bildirmektedir?",
-    "image_url": "https://random-url.com/dashboard_warning_video.png",
+    "question": "Görseldeki uyarı ışığı sürücüye neyi bildirmektedir?",
+    "image_url": "motor-ariza-uyari-isigi-sdfsd5412.png",
     "options": [
       { "text": "A) Lastik hava basıncının düşük olduğunu", "isTrue": false },
       { "text": "B) Motor soğutma suyu sıcaklığı aşırı yükseliyor", "isTrue": false },
       { "text": "C) Motorda bir arıza meydana geldiğini", "isTrue": true },
       { "text": "D) Motor yağ basıncının düştüğünü", "isTrue": false }
     ],
-    "description": "Gösterge panelindeki motor simgesi (genellikle sarı renkli), motor yönetim sisteminde veya emisyon sisteminde bir arıza olduğunu bildirir."
+    "description": "Gösterge panelindeki motor simgesi, motor yönetim sisteminde veya emisyon sisteminde bir arıza olduğunu bildirir."
   },
   {
     "id": 22,
@@ -522,8 +522,8 @@
   {
     "id": 41,
     "category": "Trafik Adabı",
-    "question": "I. Trafik adabına\nII. Empati duygusuna\nIII. Sorumsuzluğa\nVideoya göre, tanker sürücüsünün davranışı numaralanmış ifadelerden hangilerine uygundur?",
-    "image_url": "https://random-url.com/tanker_video.png",
+    "question": "I. Trafik adabına\nII. Empati duygusuna\nIII. Sorumsuzluğa\nGörseldeki durumda tanker sürücüsü ani sollama yaptığı için kaza meydana gelmiştir buna göre, tanker sürücüsünün davranışı numaralanmış ifadelerden hangilerine uygundur?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/tanker_hatali-ani-sollama-asf5Sa.png",
     "options": [
       { "text": "A) Yalnız I", "isTrue": false },
       { "text": "B) Yalnız II", "isTrue": false },
@@ -583,19 +583,6 @@
       { "text": "D) Kamu hakkının", "isTrue": true }
     ],
     "description": "Belirli bir yayaya karşı yapılan kural ihlali doğrudan o kişinin hakkını (kişi hakkı) ve geçiş hakkını ihlaldir. Kamu hakkı genelde topluma veya kamu malına verilen zararı ifade eder."
-  },
-  {
-    "id": 46,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki tehlikeli durumun meydana gelmesinin sebebi nedir?",
-    "image_url": "https://random-url.com/overtaking_video.png",
-    "options": [
-      { "text": "A) Kamyonun geçmeyi engellemesi", "isTrue": false },
-      { "text": "B) Beyaz otomobilin geçme kuralına uymaması", "isTrue": false },
-      { "text": "C) Geçme sonrası erken şerit değiştirilmesi", "isTrue": true },
-      { "text": "D) Otomobillerin hız kurallarına uymamaları", "isTrue": false }
-    ],
-    "description": "Sollama yapan aracın, geçtiği aracı dikiz aynasında tam olarak görmeden sağ şeride (erken) geçmesi tehlikeli bir durumdur."
   },
   {
     "id": 47,
@@ -678,15 +665,15 @@
   {
     "id": 53,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre sürücü nasıl davranmalıdır?",
-    "image_url": "https://random-url.com/hazard_video.png",
+    "question": "Görselde bir araca ait durumlar gösterilmiştir,Buna göre sürücü nasıl davranmalıdır?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kapi-aciliyor-dikkat-sfsd8451.png",
     "options": [
       { "text": "A) Korna çalıp yoluna devam etmeli", "isTrue": false },
       { "text": "B) Derhal sol şeride geçmek", "isTrue": false },
       { "text": "C) Dörtlü ikaz ışıkları yakarak durmak", "isTrue": true },
       { "text": "D) Sol şeritte otomobili durdurmak", "isTrue": false }
     ],
-    "description": "Ön tarafta bir tehlike veya kaza durumu sezildiğinde güvenli bir şekilde yavaşlayıp, arkadaki araçları uyarmak için dörtlü ikaz lambaları yakılarak durulmalıdır."
+    "description": "Kapı aniden açıldığı için herhangi bir tehlike olmaması adına durmalı ve dörtlüleri yakmalıdır."
   },
  {
     "id": 54,
