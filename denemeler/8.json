@@ -312,19 +312,6 @@
     "description": "Tümsek şeklindeki levha, yolda kasis (hendek/tümsek) olduğunu bildirir."
   },
   {
-    "id": 25,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Mavi otomobil sürücüsü şerit ihlali yapmaktadır.\nII. Kırmızı otomobil sürücüsü ters şeritten gelmektedir.\nIII. Mavi otomobil sürücüsü, araç ışıklarını gerekli yerde kullanmaktadır.\n\nVideoya göre numaralanmış ifadelerden hangileri kesinlikle doğrudur?",
-    "image_url": "https://random-url.com/image_25.png",
-    "options": [
-      { "text": "A) Yalnız I", "isTrue": true },
-      { "text": "B) I ve III", "isTrue": false },
-      { "text": "C) II ve III", "isTrue": false },
-      { "text": "D) I, II ve III", "isTrue": false }
-    ],
-    "description": "Görselde  mavi aracın iki şeridi ortaladığı (şerit ihlali yaptığı) görülmektedir."
-  },
-  {
     "id": 26,
     "category": "Trafik Adabı",
     "question": "Öfkeli sürücülerin trafikteki olumsuz davranışlarının sebeplerini ve bunların diğer sürücülere etkilerinin incelenmesine ne ad verilir?",
@@ -692,11 +679,11 @@
     "id": 54,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Videodaki tehlikeli durumun oluşmasına hangisinin sebep olduğu kesinlikle söylenebilir?",
-    "image_url": "https://random-url.com/video_icon.png",
+    "image_url": "meb-sfsfsd-5sd21fsd5f21dsf512sdf.png",
     "options": [
       { "text": "A) Kaza hava şartlarından kaynaklandı", "isTrue": false },
-      { "text": "B) Sürücülerin takip mesafesine uymamaları", "isTrue": true },
-      { "text": "C) Mavi araç sürücüsünün hatalı geçiş yapması", "isTrue": false },
+      { "text": "B) Sürücülerin takip mesafesine uymamaları", "isTrue": false },
+      { "text": "C) Mavi araç sürücüsünün hatalı geçiş yapması", "isTrue": true },
       { "text": "D) Beyaz minibüs sürücüsünün ani fren yapması", "isTrue": false }
     ],
     "description": "Zincirleme kazaların ve arkadan çarpmaların en temel sebebi, güvenli takip mesafesi kuralına uyulmamasıdır."
@@ -718,7 +705,7 @@
     "id": 56,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "Trafik işaretlerine göre hangi renkteki geçiş hakkı kuralına uymamıştır?",
-    "image_url": "https://random-url.com/video_icon.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/kirmizi-araba-hatali-yolver-dgd541.png",
     "options": [
       { "text": "A) Kırmızı", "isTrue": true },
       { "text": "B) Sarı", "isTrue": false },
@@ -822,7 +809,7 @@
     "id": 64,
     "category": "Trafik ve Çevre Bilgisi",
     "question": "I. Şerit takibi\nII. Araç geçme\nIII. Araç ışıklarını gerekli yerde kullanma\nVideoya göre, trafik kurallarından hangileri ihlal edilmiştir?",
-    "image_url": "https://random-url.com/video_icon.png",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-gecis-safasf512saf5as.mp4",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": false },
