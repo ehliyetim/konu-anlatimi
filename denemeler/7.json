@@ -548,8 +548,8 @@
   {
     "id": 43,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Verilen videoya göre sürücünün numaralandırılmış ifadelerden hangilerini yapması doğrudur?\nI. Her an bir iş makinesi ile karşılaşabileceğini düşünmesi\nII. Trafiği tıkamamak için hızlanarak geçmeye çalışması\nIII. Yavaş ve dikkatli şekilde yoluna devam etmesi\nIV. Arkadan gelen araçlara yol vermesi",
-    "image_url": "https://random-url.com/video-sorusu-id43.png",
+    "question": "Verilen görsellere göre sürücünün numaralandırılmış ifadelerden hangilerini yapması doğrudur?\nI. Her an bir iş makinesi ile karşılaşabileceğini düşünmesi\nII. Trafiği tıkamamak için hızlanarak geçmeye çalışması\nIII. Yavaş ve dikkatli şekilde yoluna devam etmesi\nIV. Arkadan gelen araçlara yol vermesi",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/surucu-ne-yapmali-ehliyet-kamyon54sdfs5d1.png",
     "options": [
       { "text": "A) I ve II", "isTrue": false },
       { "text": "B) I ve III", "isTrue": true },
@@ -561,15 +561,15 @@
   {
     "id": 44,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre hangisi kesinlikle söylenemez?",
-    "image_url": "https://random-url.com/video-sorusu-id44.png",
+    "question": "Görsele göre hangisi kesinlikle söylenemez?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/hatali-gecis-mavi-araba-asfsf8451fs.png",
     "options": [
       { "text": "A) Mavi araç sürücüsünün araç ışıklarını kullanmadığı", "isTrue": false },
-      { "text": "B) Kırmızı otomobil sürücüsünün doğru şeritten geldiği", "isTrue": true },
+      { "text": "B) Beyaz araba sürücüsünün uykusuz olduğu", "isTrue": false },
       { "text": "C) Mavi araç sürücüsünün hatalı geçme yaptığı", "isTrue": false },
-      { "text": "D) Beyaz aracın, mavi otomobil sürücüsünün geçişini zorlaştırdığı", "isTrue": false }
+      { "text": "D) Mavi aracın kurallara göre hareket ettiği", "isTrue": true }
     ],
-    "description": "Videodaki trafik akışına göre kırmızı otomobilin şerit ihlali yaptığı veya yanlış konumlandığı görülmektedir, bu yüzden doğru şeritten geldiği söylenemez."
+    "description": "Görsele trafik akışına göre mavi otomobilin şerit ihlali yaptığı veya yanlış konumlandığı görülmektedir, bu yüzden doğru şeritten geldiği söylenemez."
   },
   {
     "id": 45,
