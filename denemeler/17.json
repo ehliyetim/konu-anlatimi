@@ -81,7 +81,7 @@
   {
     "id": 8,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videoya göre araç sürücüsünün hangisini yapması yanlış olur?",
+    "question": "Görsele göre araç sürücüsünün hangisini yapması yanlış olur?",
     "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yabani-hayvan-cikabiliri-levha-dsgd5412.png",
     "options": [
       { "text": "A) Hızını azaltması", "isTrue": false },
