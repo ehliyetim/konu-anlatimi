@@ -114,7 +114,7 @@
       { "text": "Yola taş yuvarlanmış olabileceğini", "isTrue": true },
       { "text": "Yolda tehlikeli kasisler olabileceğini", "isTrue": false }
     ],
-    "description": "Videolu sorunun cevabında, dağlık yolda yola taş düşme tehlikesi vurgulanmıştır."
+    "description": "Levha bunu söyler."
   },
   {
     "id": 10,
@@ -179,7 +179,7 @@
       { "text": "Dikiz aynasında görülen aracın hatalı sollama yapabileceğini", "isTrue": false },
       { "text": "Park halindeki siyah otomobilin yola çıkabileceğini", "isTrue": false }
     ],
-    "description": "Videolu sorularda kaldırımda oynayan veya bekleyen çocuklar her zaman ani bir tehlike (yola fırlama) riski taşır."
+    "description": "Görselde kaldırımda yola doğru koşan çocuk var sorularda kaldırımda oynayan veya bekleyen çocuklar her zaman ani bir tehlike (yola fırlama) riski taşır."
   },
   {
     "id": 15,
@@ -322,7 +322,7 @@
       { "text": "II ve III", "isTrue": false },
       { "text": "I, II ve III", "isTrue": true }
     ],
-    "description": "Video/görsel içerikli soru."
+    "description": "Hepsini yapıyor"
   },
   {
     "id": 27,
