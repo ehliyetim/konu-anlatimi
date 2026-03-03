@@ -181,19 +181,6 @@
     "description": "Geçme yasağı olan yerlerde sollama yapmak kural ihlali ötesinde bir asli kusurdur."
   },
   {
-    "id": 15,
-    "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki kırmızı otomobil sürücüsü hangisini düşünmelidir?",
-    "image_url": "https://random-url.com/image.png",
-    "options": [
-      { "text": "A) Karşı yönden başka bir araç gelebilir", "isTrue": true },
-      { "text": "B) Virajı dönerken en sol şeridi kullanmaması gerekir", "isTrue": false },
-      { "text": "C) Kamyonun orta şeride geçeceğini", "isTrue": false },
-      { "text": "D) Orta şeridi kullanmasının yanlış olduğunu", "isTrue": false }
-    ],
-    "description": "Virajlı ve görüşü kısıtlı yollarda her zaman karşıdan bir araç gelme ihtimali gözetilmelidir."
-  },
-  {
     "id": 16,
     "category": "Trafik Adabı",
     "question": "Trafikteki bir aracın,\nI. Sinyal vermeden aniden yola çıkması,\nII. Makas atarak önden veya arkadan ilerlemesi,\nIII. Kurallara uygun şekilde park yapması\ngibi durumlarından hangileri sürücülerin trafikte öfke duygusunu ortaya çıkarmaktadır?",
