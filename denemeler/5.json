@@ -470,7 +470,7 @@
   {
     "id": 37,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "I. Hızını azaltması\nII. Sol şeride geçmesi\nIII. Dikkatini artırması\nIV. Dörtlü ikaz ışıklarını yakması\nVideodaki sürücünün numaralanmış ifadelerden hangilerini yapması doğru olur?",
+    "question": "I. Hızını azaltması\nII. Sol şeride geçmesi\nIII. Dikkatini artırması\nIV. Dörtlü ikaz ışıklarını yakması\nGörseldeki sürücünün numaralanmış ifadelerden hangilerini yapması doğru olur?",
     "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/inek-cikabilir-sorusu.png",
     "options": [
       { "text": "I ve III", "isTrue": true },
@@ -704,8 +704,8 @@
   {
     "id": 55,
     "category": "Trafik ve Çevre Bilgisi",
-    "question": "Videodaki durumda sürücünün nasıl hareket etmesi gerekir?",
-    "image_url": "yayalara-gecis-hakki-ver-esseksfsdf45.png",
+    "question": "Görseldeki durumda sürücünün nasıl hareket etmesi gerekir?",
+    "image_url": "https://ehliyetim.github.io/fotos-img/img-fotos/yayalara-gecis-hakki-ver-esseksfsdf45.png",
     "options": [
       { "text": "Hızını azaltarak yoluna devam etmesi", "isTrue": false },
       { "text": "Yolun sol tarafına yaklaşarak ilerlemesi", "isTrue": false },
